@@ -1,47 +1,51 @@
 ---
 lab:
-    title: 'Explorer Azure Policy'
-    module: 'Module 4, leçon 5 : Décrire les fonctionnalités des solutions de conformité Microsoft : Décrire Azure Policy'
+  title: Explorer Azure Policy.
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893803"
 ---
+# <a name="lab-explore-azure-policy"></a>Labo : Explorer Azure Policy.
 
-
-# Labo : Explorer Azure Policy
-
-## Scénario du labo
-Azure Policy aide à appliquer des normes organisationnelles et à évaluer la conformité à grande échelle. Azure Policy évalue les ressources dans Azure en comparant les propriétés de ces ressources aux règles d’entreprise. Dans ce labo, vous allez commencer par Explorer la page d’arrivée d’Azure Policy. Ensuite, vous allez créer une stratégie et en étudier les effets.
+## <a name="lab-scenario"></a>Scénario du labo
+Azure Policy aide à appliquer des normes organisationnelles et à évaluer la conformité à grande échelle. Azure Policy évalue les ressources dans Azure en comparant les propriétés de ces ressources aux règles d’entreprise. Dans ce labo, vous allez commencer par découvrir la page d’arrivée d’Azure Policy. Ensuite, vous allez créer une stratégie et en étudier les effets.
 
 
 **Durée estimée** : 20-25 minutes
 
-#### Tâche 1 : Découvrez l’essentiel de la page Azure Policy.
+#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>Tâche 1 : Découvrez l’essentiel de la page Azure Policy.
 
 1. Ouvrez Microsoft Edge. Saisissez **portal.microsoft.com** dans la barre d’adresse.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
-    1. Dans la fenêtre de connexion, saisissez **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
+    1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
     
-    1. Saisissez le mot de passe d’administrateur qui doit vous être fourni par votre fournisseur d’hébergement de labo. Sélectionnez **Se connecter**.
+    1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
 
 1. Vous vous trouvez maintenant dans le Portail Azure.  Dans la zone de recherche (la barre bleue en haut de la page près de l’intitulé « Microsoft Azure »), saisissez **stratégie**, puis sélectionnez **Stratégie** dans les résultats de recherche. La page d’accueil correspondante s’ouvre et vous donne accès à un tableau de bord.  L’étendue des informations que vous voyez correspond au pass Azure que vous utilisez dans le cadre de ce labo.   Prenez note des informations disponibles sur le tableau de bord.
 
-1. Un élément, appelé ASC Default, (ASC représentant Azure Security Center, désormais rebaptisé Microsoft Defender pour le cloud), dont le champ d’application est Pass Azure - Parrainage.   Sélectionnez **ASC Default**.
+1. Il y a un élément, appelé ASC par défaut (ASC fait référence à Azure Security Center, qui est maintenant appelé Microsoft Defender pour le cloud) dont l’étendue est Pass Azure - Parrainage.   Sélectionnez **ASC Default**.
 
-1. En haut de la page, sous Éléments principaux, vous en trouverez le nom et la description, ainsi que d’autres informations importantes.  Lisez la description (positionnez le curseur de votre souris dessus). REMARQUE : Le champ Description fait référence à Azure Security Center, qui a été rebaptisé Microsoft Defender pour le cloud.
+1. En haut de la page, sous Éléments principaux, vous en trouverez le nom et la description, ainsi que d’autres informations importantes.  Lisez la description (positionnez le curseur de votre souris dessus). REMARQUE : Le champ de description fait référence à Azure Security Center, qui a été rebaptisé Microsoft Defender pour le cloud.
 
 1. Vous constaterez que les informations fournies par le tableau de bord restent à jour afin de refléter l’élément sélectionné, à savoir la définition d’initiative d’ASC Default.  Rappel : une définition d’initiative est une collection de définitions de stratégie qui sont spécialement conçues pour atteindre un objectif global particulier. Vous pouvez afficher les informations par groupe, par stratégie, par ressource non conforme ou par événement.
 
-1. Quittez la page ASC et revenez sur la page d’accueil des stratégies en cliquant sur le **X** affiché en haut à droite de la page.
+1. Quittez la page ASC et revenez à la page d’accueil de la stratégie en sélectionnant le **X** dans le coin supérieur droit de la fenêtre.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Prise en main**.  Différentes options sont disponibles, qui permettent notamment de parcourir les stratégies intégrées et de les attribuer à grande échelle. Vous pouvez fournir à votre environnement des définitions de stratégies personnalisées, recommander l’affectation de stratégies, etc.
+1. Dans le volet de navigation situé à gauche, sélectionnez **Prise en main**.  Différentes options sont disponibles, qui permettent notamment de parcourir les stratégies intégrées et de les attribuer à grande échelle. Vous pouvez fournir à votre environnement des définitions de stratégies personnalisées, recommander l’affectation de stratégies, etc.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Conformité**.  Comme sur la page d’aperçu, vous trouverez l’état de conformité des stratégies mentionnées et/ou des initiatives.  Sur la page de Conformité à la stratégie, vous pouvez également attribuer une stratégie ou une initiative (cet exercice vous sera proposé lors de la prochaine tâche).
+1. Dans le volet de navigation situé à gauche, sélectionnez **Conformité**.  Comme sur la page d’aperçu, vous trouverez l’état de conformité des stratégies mentionnées et/ou des initiatives.  Sur la page de Conformité à la stratégie, vous pouvez également attribuer une stratégie ou une initiative (cet exercice vous sera proposé lors de la prochaine tâche).
 
-1. Dans le volet de navigation de gauche, sélectionnez **Correction**.  Cette page liste les stratégies qui comportent des ressources non conformes.  Si vous en sélectionnez une, vous pouvez déclencher la création d’une tâche corrective.  
+1. Dans le volet de navigation situé à gauche, sélectionnez **Correction**.  Cette page liste les stratégies qui comportent des ressources non conformes.  Si vous en sélectionnez une, vous pouvez déclencher la création d’une tâche corrective.  
 
-1. Dans le volet de navigation de gauche, sous l’édition, sélectionnez **Devoirs**,  qui reprend la stratégie et/ou les devoirs d’initiative en cours. Vous pouvez aussi en créer de nouveaux.  Nous reviendrons à cette opération lors de la tâche suivante.  
+1. Dans le volet de navigation situé à gauche, sous l’édition, sélectionnez **Devoirs**,  qui reprend la stratégie et/ou les devoirs d’initiative en cours. Vous pouvez aussi en créer de nouveaux.  Nous reviendrons à cette opération lors de la tâche suivante.  
 
-1. Dans le volet de navigation de gauche, sélectionnez **Définitions**,  puis **Auditer les machines avec des paramètres de sécurité de mot de passe non sécurisés**.  Cette définition d’initiative comporte de nombreuses stratégies.  Pour vous familiariser avec les définitions de stratégies, sélectionnez **Audit des machines Windows qui n’ont pas l’antériorité maximale du mot de passe définie sur 70 jours**.  À l’ouverture de la page, la définition de la stratégie apparaît avec une structure JSON (Java Script Object Notation).   Le texte en rouge vous montre les parties de la définition qui caractérisent le nom d’affichage, la description, les paramètres, les règles de la stratégie, etc. NE TOUCHEZ À RIEN.  
+1. Dans le volet de navigation situé à gauche, sélectionnez **Définitions**,  puis **Machines d’audit au mot de passe non sécurisé**.  Cette définition d’initiative comporte de nombreuses stratégies.  Pour vous familiariser avec les définitions de stratégies, sélectionnez **Audit des machines Windows qui n’ont pas l’antériorité maximale du mot de passe définie sur 70 jours**.  À l’ouverture de la page, la définition de la stratégie apparaît avec une structure JSON (Java Script Object Notation).   Le texte en rouge vous montre les parties de la définition qui caractérisent le nom d’affichage, la description, les paramètres, les règles de la stratégie, etc. NE TOUCHEZ À RIEN.  
 
 1. Quittez la page Définition de la stratégie grâce au **X** dans le coin supérieur droit.
 
@@ -49,11 +53,11 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. Conservez cet onglet (Stratégie - Microsoft Azure) en vue de la prochaine tâche.
 
-#### Tâche 2 :  Dans cette tâche, vous allez créer une simple affectation de stratégie consistant à demander un indicateur sur les groupes de ressources.
+#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>Tâche 2 :  Dans cette tâche, vous allez créer une simple affectation de stratégie consistant à demander un indicateur sur les groupes de ressources.
 
 1. Ouvrez l’onglet Stratégie - Microsoft Azure.
 
-1. Dans le volet de navigation de gauche, sous Création, sélectionnez **Affectations**.
+1. Dans le volet de navigation gauche, sous Création, sélectionnez **Affectations**.
 
 1. Sélectionnez **Affecter une stratégie** en haut de la page.
 
@@ -75,7 +79,7 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. Vous vous trouvez désormais sur la page d’accueil des services Azure.  Ne fermez pas cette page, car vous en aurez besoin lors de la prochaine activité.
 
-#### Tâche 3 :  Dans cette tâche, vous allez constater les effets de l’affectation de la stratégie Azure en créant un groupe de ressources dans Azure, sans indicateur. Vous allez ensuite pouvoir mettre à jour ce groupe afin d’y inclure un indicateur.  Remarque : il faut parfois attendre jusqu’à 30 minutes avant que la stratégie créée lors de la tâche précédente prenne effet, bien que cela reste rare.
+#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>Tâche 3 :  Dans cette tâche, vous allez constater les effets de l’affectation de la stratégie Azure en créant un groupe de ressources dans Azure, sans indicateur. Vous allez ensuite pouvoir mettre à jour ce groupe afin d’y inclure un indicateur.  Remarque : il faut parfois attendre jusqu’à 30 minutes avant que la stratégie créée lors de la tâche précédente prenne effet, bien que cela reste rare.
 
 1. Ouvrez l’onglet Accueil - Microsoft Azure.
 
@@ -83,11 +87,11 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. Sélectionnez **+ Créer** en haut à gauche de la page.
 
-1. Dans l'onglet Informations de base de l’option Créer un groupe de ressources, l’onglet Abonnement indique Pass Azure - Parrainage : ne le modifiez pas.
+1. Dans l’onglet De base de l’option Créer un groupe de ressources, l’onglet Abonnement indique Pass Azure - Parrainage : ne le modifiez pas.
 
 1. Saisissez **SC900-Labos** dans le champ Groupe de ressources.
 
-1. Laissez le paramètre Région défini par défaut, puis sélectionnez **Suivant : Balises**.
+1. Laissez le paramètre Région défini par défaut, puis sélectionnez **Suivant : Étiquettes**.
 
 1. Ne remplissez pas les champs Nom ni Valeur de la balise.  LAISSEZ-LES VIDES, puis cliquez sur **Vérifier + créer**.
 
@@ -99,7 +103,7 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. Dans la fenêtre Créer un groupe de ressources, cliquez sur **<Précédent**.
 
-1. Vous êtes revenu à la page des Balises pour la création d’un groupe de ressources.  Dans le champ Nom, saisissez Environnement. Dans le champ Valeur, saisissez **SC900-Labos**, puis cliquez sur **Suivant : Vérifier + créer >**.
+1. Vous êtes revenu à la page des Balises pour la création d’un groupe de ressources.  Dans le champ Nom, saisissez Environnement. Dans le champ Valeur, saisissez **SC900-Labos**, puis cliquez sur **Suivant : Vérifier + créer >** .
 
 1. Vérifiez la balise et sélectionnez **Créer**.
 
@@ -113,6 +117,6 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
     1. Un message s’affiche pour vous demander de confirmer la suppression de l’affectation.  Sélectionnez Oui.
 
 
-#### Révision
+#### <a name="review"></a>Révision
 
-Dans ce labo, vous avez parcouru la page d'accueil' d’Azure Policy. Ensuite, vous avez suivi le processus de création d’une stratégie et en avez étudié les effets.
+Dans ce labo, vous avez parcouru la page d’arrivée d’Azure Policy. Ensuite, vous avez suivi le processus de création d’une stratégie et en avez étudié les effets.

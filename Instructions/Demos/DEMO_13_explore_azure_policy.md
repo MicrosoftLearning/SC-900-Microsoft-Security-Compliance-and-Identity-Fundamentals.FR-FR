@@ -1,16 +1,20 @@
 ---
 Demo:
-    title: 'Azure Policy'
-    module: 'Module 4, leçon 5 : Décrire les fonctionnalités des solutions de conformité Microsoft : Décrire Azure Policy'
+  title: Azure Policy
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: 898e2d2ae228baf6acbffd7301fcbdf4a6a2dba5
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894069"
 ---
+# <a name="demo-azure-policy"></a>Démonstration : Azure Policy
 
-
-# Démo : Azure Policy
-
-### Scénario de la démonstration
+### <a name="demo-scenario"></a>Scénario de la démonstration
 Cette démonstration vous accompagnera tout au long du processus de définition d’une stratégie Azure et vous permettra de réaliser l’impact de cette stratégie.
 
-#### Partie 1 de la démonstration : Créez une stratégie afin d’exiger une balise sur un groupe de ressources (indique les étapes de création d’une stratégie à partir d’un modèle).
+#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>Partie 1 de la démonstration : Créez une stratégie afin d’exiger une balise sur un groupe de ressources (indique les étapes de création d’une stratégie à partir d’un modèle).
 
 1. Ouvrez Microsoft Edge. Saisissez **portal.microsoft.com** dans la barre d’adresse.  Vous devriez déjà être connecté ; si ce n’est pas le cas, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
@@ -18,7 +22,7 @@ Cette démonstration vous accompagnera tout au long du processus de définition 
 
 1. Vous avez désormais sous les yeux la présentation de la page Stratégie. Prenez note des informations disponibles sur le tableau de bord.
 
-1. Dans le volet de navigation gauche, sous Création, sélectionnez **Affectations**.  Vous remarquerez qu’il existe déjà une affectation de stratégie. Cliquez sur **ASC par défaut**.  Révision du champ Description. REMARQUE : Le champ Description fait référence à Azure Security Center, qui a été rebaptisé Microsoft Defender pour le cloud.  Revenez à la page des affectations de stratégies en cliquant sur le **X** en haut à droite de la page.
+1. Dans le volet de navigation gauche, sous Création, sélectionnez **Affectations**.  Vous remarquerez qu’il existe déjà une affectation de stratégie. Cliquez sur **ASC par défaut**.  Vérifiez le champ Description. REMARQUE : Le champ de description fait référence à Azure Security Center, qui a été rebaptisé Microsoft Defender pour le cloud.  Revenez à la page des affectations de stratégies en cliquant sur le **X** en haut à droite de la page.
 
 1. Sélectionnez **Affecter une stratégie** en haut de la page.
 
@@ -32,7 +36,7 @@ Cette démonstration vous accompagnera tout au long du processus de définition 
 
 1. Dans le champ Nom de la balise, saisissez **Environnement** (les groupes de ressources exigeront une balise Environnement), puis cliquez sur **Suivant**.  
 
-1. Dans l’onglet Correction, lisez la description, mais ne modifiez pas les paramètres. Cliquez sur **Suivant**.
+1. Dans l’onglet Correction, lisez la description, mais ne modifiez pas les paramètres. Sélectionnez **Suivant**.
 
 1. Un message de non-conformité s’affiche : saisissez **Une balise d’environnement est nécessaire**, puis cliquez sur **Suivant**. Remarque : ce message apparaîtra comme motif de non-conformité pour les groupes de ressources sans balise Environnement créés avant l’affectation de la stratégie.  Après la mise en place de cette stratégie, la création de groupes de ressources sans balise d’environnement sera refusée.
 
@@ -42,7 +46,7 @@ Cette démonstration vous accompagnera tout au long du processus de définition 
 
 1. Vous vous trouvez désormais sur la page d’accueil des services Azure.  Ne fermez pas cette page, car vous en aurez besoin lors de la prochaine activité.
 
-#### Partie 2 de la démonstration :  Montrez l’impact de la stratégie en créant un groupe de ressources sans balise, puis ajoutez-lui-en une.
+#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>Partie 2 de la démonstration :  Montrez l’impact de la stratégie en créant un groupe de ressources sans balise, puis ajoutez-lui-en une.
 
 1. Sélectionnez **Groupes de ressources** en haut de la page, sous l’intitulé « Services Azure ». Si l’option n’apparaît pas dans la liste, saisissez Groupe de ressources dans la barre de recherche et sélectionnez-la depuis cette zone.
 
@@ -52,7 +56,7 @@ Cette démonstration vous accompagnera tout au long du processus de définition 
 
 1. Saisissez **SC900-Labos** dans le champ Groupe de ressources.
 
-1. Laissez le paramètre Région défini par défaut, puis sélectionnez **Suivant : Balises**.
+1. Laissez le paramètre Région défini par défaut, puis sélectionnez **Suivant : Étiquettes**.
 
 1. Ne remplissez pas les champs Nom ni Valeur de la balise.  LAISSEZ-LES VIDES, puis cliquez sur **Vérifier + créer**.
 
@@ -64,12 +68,12 @@ Cette démonstration vous accompagnera tout au long du processus de définition 
 
 1. Dans la fenêtre Créer un groupe de ressources, cliquez sur **<Précédent**.
 
-1. Vous êtes revenu à la page des Balises pour la création d’un groupe de ressources.  Dans le champ Nom, saisissez Environnement. Dans le champ Valeur, saisissez **SC900-Labos**, puis cliquez sur **Suivant : Vérifier + créer >**.
+1. Vous êtes revenu à la page des Balises pour la création d’un groupe de ressources.  Dans le champ Nom, saisissez Environnement. Dans le champ Valeur, saisissez **SC900-Labos**, puis cliquez sur **Suivant : Vérifier + créer >** .
 
 1. Vérifiez la balise et sélectionnez **Créer**.
 
 1. Le groupe de ressources apparaît dans la liste.  La balise a été indiquée dans le groupe de ressources : par conséquent, la condition incluse dans la stratégie Azure a été remplie.  Le groupe de ressources est conforme à la stratégie.
 
-#### Révision
+#### <a name="review"></a>Révision
 
 Dans cette démonstration, vous avez montré le processus de définition d’une stratégie Azure ainsi que l’impact de cette stratégie.

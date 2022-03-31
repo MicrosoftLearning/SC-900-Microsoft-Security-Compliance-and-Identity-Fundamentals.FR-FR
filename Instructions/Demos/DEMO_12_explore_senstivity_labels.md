@@ -1,23 +1,27 @@
 ---
 Demo:
-    title: 'Étiquettes de confidentialité dans Microsoft 365'
-    module: 'Module 4, leçon 2 : Décrire les fonctionnalités des solutions de conformité Microsoft : Décrire les fonctionnalités de protection et de gouvernance des informations de Microsoft 365'
+  title: Étiquettes de confidentialité dans Microsoft 365
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894072"
 ---
+# <a name="demo-sensitivity-labels-in-microsoft-365"></a>Démonstration : Étiquettes de confidentialité dans Microsoft 365
 
-
-# Démonstration : Étiquettes de confidentialité dans Microsoft 365
-
-### Scénario de la démonstration
+### <a name="demo-scenario"></a>Scénario de la démonstration
 Lors de cette démonstration, vous présenterez les fonctionnalités des étiquettes de confidentialité.  Vous expliquerez les paramètres des étiquettes de confidentialité existantes qui ont été créées et la stratégie correspondante pour publier l’étiquette.   Ensuite, vous verrez comment appliquer une étiquette et l’effet de celle-ci, depuis la perspective d’un utilisateur.
 
 
-#### Partie 1 de la démonstration : Lors de cette démonstration, vous présentez les paramètres d’une étiquette de confidentialité existante et la stratégie correspondante pour la publier.
+#### <a name="demo-part-1-in-this-demo-you-show-the-settings-for-an-existing-sensitivity-label-and-the-corresponding-policy-to-publish-the-label"></a>Partie 1 de la démonstration : Lors de cette démonstration, vous présentez les paramètres d’une étiquette de confidentialité existante et la stratégie correspondante pour la publier.
 
 1. Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
-    1. Dans la fenêtre de connexion, saisissez **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
-    1. Saisissez le mot de passe d’administrateur qui doit vous être fourni par votre fournisseur d’hébergement de labo. Sélectionnez **Se connecter**.
+    1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
+    1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez ainsi à la page du Centre d’administration Microsoft 365.
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
@@ -26,7 +30,7 @@ Lors de cette démonstration, vous présenterez les fonctionnalités des étique
 
 1. Dans le volet de navigation à gauche du Centre de conformité Microsoft 365, sélectionnez **Tout afficher**.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Protection des données**.
+1. Dans le volet de navigation à gauche, sélectionnez **Protection des données**.
 
 1. La zone d’informations jaune indique que votre organisation n’a pas activé la capacité à traiter du contenu dans des fichiers Office en ligne qui disposent d’étiquettes de confidentialité chiffrées appliquées et qui sont enregistrées dans OneDrive et SharePoint.  Sélectionnez Activer maintenant.  Une fois activé, il peut y avoir un délai avant que le paramètre ne soit propagé à travers le système.
 
@@ -64,16 +68,16 @@ Lors de cette démonstration, vous présenterez les fonctionnalités des étique
 
     1. La dernière option de configuration consiste à nommer votre stratégie.  Ne modifiez pas les paramètres.  Sélectionnez **Annuler** en bas de la page pour quitter la configuration de la stratégie et retourner à la page de protection des données.
 
-1. Depuis la page de protection des données, sélectionnez l’étiquetage automatique.  Il n’y a pas de stratégie d’étiquetage automatique configurée.  Ne modifiez pas les paramètres.  Si vous vous demandez pourquoi il n’y a pas de stratégie ici, alors que la configuration d’étiquette est définie sur étiquetage automatique pour les fichiers et les e-mails, revenez aux étapes où vous avez parcouru les paramètres de configuration d’étiquette. Passez en revue les descriptions et les zones d’informations associées à l’étiquetage automatique pour les fichiers et les e-mails.  Astuce :  Dans l’onglet d’étiquetage automatique pour le labo de confidentialité, il est indiqué :  « Afin d’appliquer automatiquement cette étiquette aux fichiers qui sont déjà enregistrés (dans SharePoint ou OneDrive) ou aux e-mails qui ont déjà été traités par Exchange, vous devez créer une stratégie d’étiquetage automatique. »
+1. Depuis la page de protection des données, sélectionnez l’étiquetage automatique.  Il n’y a pas de stratégie d’étiquetage automatique configurée.  Ne modifiez pas les paramètres.  Si vous vous demandez pourquoi il n’y a pas de stratégie ici, alors que la configuration d’étiquette est définie sur étiquetage automatique pour les fichiers et les e-mails, revenez aux étapes où vous avez parcouru les paramètres de configuration d’étiquette. Passez en revue les descriptions et les zones d’informations associées à l’étiquetage automatique pour les fichiers et les e-mails.  Conseil :  Dans l’onglet d’étiquetage automatique pour le labo de confidentialité, il est indiqué :  « Afin d’appliquer automatiquement cette étiquette aux fichiers qui sont déjà enregistrés (dans SharePoint ou OneDrive) ou aux e-mails qui ont déjà été traités par Exchange, vous devez créer une stratégie d’étiquetage automatique. »
 
-1. Dans le volet de navigation de gauche, sélectionnez Accueil pour retourner au Centre de conformité Microsoft 365.
+1. Dans le volet de navigation à gauche, sélectionnez Accueil pour retourner au Centre de conformité Microsoft 365.
 
 1. Laissez cette page ouverte, vous en aurez besoin pour la tâche suivante.
 
 
-#### Partie 2 de la démonstration :  Lors de cette étape, vous présenterez le processus d’application d’une étiquette depuis la perspective d’un utilisateur (dans ce cas-ci, l’utilisateur est l’administrateur) et afficherez le marquage de contenu qui est généré par l’étiquette.
+#### <a name="demo-part-2--in-this-step-you-will-show-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>Partie 2 de la démonstration :  Lors de cette étape, vous présenterez le processus d’application d’une étiquette depuis la perspective d’un utilisateur (dans ce cas-ci, l’utilisateur est l’administrateur) et afficherez le marquage de contenu qui est généré par l’étiquette.
 
-1. Depuis la page d’accueil du Centre de conformité Microsoft 365, sélectionnez **l’icône du lanceur d’applications** à côté de Contoso Electronics. **Effectuez un clic droit sur l’icône Word** et sélectionnez **Ouvrir dans un nouvel onglet**.  
+1. Sur la page d’accueil du Centre de conformité Microsoft 365, sélectionnez l’icône **Lanceur d’application**, à côté de l’indication Contoso Electronics. **cliquez avec le bouton droit sur l’icône Word**  et sélectionnez **Ouvrir dans un nouvel onglet**.  
 
 1. Sélectionnez **+ Nouveau document**, puis saisissez du texte sur la page.  Sur la barre bleue en haut de la page, sélectionnez la flèche vers le bas à côté de DocumentXX - Enregistré et, dans la barre du nom du fichier, saisissez **Étiquette de test**.
 
@@ -85,13 +89,13 @@ Lors de cette démonstration, vous présenterez les fonctionnalités des étique
 
 1. Fermez les onglets Microsoft Word qui sont ouverts dans votre navigateur pour quitter Word.
 
-#### Partie 3 de la démonstration (facultative) : En plus du marquage de contenu, le paramètre de protection d’étiquette a été défini pour le chiffrement. Grâce à la configuration des autorisations qui ont été accordées pour cette étiquette, les membres du groupe responsable des finances peuvent co-éditer les documents qui disposent de cette étiquette et les utilisateurs dans le locataire Contoso peuvent les voir (ou n’importe quel document ou e-mail qui dispose de cette étiquette).  Dans cette section, vous enverrez ce document à une adresse e-mail à laquelle vous avez accès (par exemple une adresse personnelle ou votre e-mail Microsoft) et qui ne fait PAS partie du domaine WWLxZZZZ.OnMicrosoft.com. Voyez ensuite ce qu’il se passe quand vous essayez d’ouvrir la pièce jointe.  
+#### <a name="demo-part-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view-or-any-documentemail-with-the-label-applied--in-this-section-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-or-your-microsoft-email-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>Partie 3 de la démonstration (facultative) : En plus du marquage de contenu, le paramètre de protection d’étiquette a été défini pour le chiffrement. Grâce à la configuration des autorisations qui ont été accordées pour cette étiquette, les membres du groupe responsable des finances peuvent co-éditer les documents qui disposent de cette étiquette et les utilisateurs dans le locataire Contoso peuvent les voir (ou n’importe quel document ou e-mail qui dispose de cette étiquette).  Dans cette section, vous enverrez ce document à une adresse e-mail à laquelle vous avez accès (par exemple une adresse personnelle ou votre e-mail Microsoft) et qui ne fait PAS partie du domaine WWLxZZZZ.OnMicrosoft.com. Voyez ensuite ce qu’il se passe quand vous essayez d’ouvrir la pièce jointe.  
 
-1. Depuis la page d’accueil du Centre de conformité Microsoft 365, sélectionnez **l’icône du lanceur d’applications** à côté de Contoso Electronics. **Effectuez un clic droit sur l’icône Outlook** et sélectionnez **Ouvrir dans un nouvel onglet**.
+1. Sur la page d’accueil du Centre de conformité Microsoft 365, sélectionnez l’icône **Lanceur d’application**, à côté de l’indication Contoso Electronics. **cliquez avec le bouton droit sur l’icône Outlook** et sélectionnez **Ouvrir dans un nouvel onglet**.
 
 1. En haut à gauche de l’écran, sélectionnez **Nouveau message**.  Saisissez une adresse e-mail à laquelle vous avez accès et qui ne fait pas partie du domaine WWLxZZZZ.OnMicrosoft.com et saisissez **Test** dans la ligne d’objet.
 
-1. Sélectionnez **Joindre**.
+1. Sélectionnez **Attacher**.
 
 1. Sélectionnez **Parcourir les emplacements cloud**.
 
@@ -102,5 +106,5 @@ Lors de cette démonstration, vous présenterez les fonctionnalités des étique
 1. Fermez les onglets de votre navigateur.
 
 
-#### Révision
+#### <a name="review"></a>Révision
 Lors de cette démonstration, vous avez présenté les étiquettes de confidentialité.  Vous avez présenté les paramètres des étiquettes de confidentialité existantes qui avaient déjà été créées et la stratégie correspondante pour publier l’étiquette. Ensuite, vous avez présenté comment appliquer une étiquette et l’effet de celle-ci, depuis la perspective d’un utilisateur.

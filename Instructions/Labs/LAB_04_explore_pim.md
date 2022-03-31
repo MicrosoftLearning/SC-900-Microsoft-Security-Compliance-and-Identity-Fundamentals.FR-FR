@@ -1,24 +1,28 @@
-﻿---
-lab:
-    title: 'Découvrir la gouvernance des identités dans Azure AD avec Privileged Identity Management'
-    module: 'Module 2, leçon 4 : Décrire les fonctionnalités de gouvernance et de protection des identités d’Azure AD : Décrire Azure Identity Protection'
 ---
+lab:
+  title: 'Découvrir la gouvernance des identités dans Azure AD avec Privileged Identity Management '
+  module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
+ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894008"
+---
+# <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Labo : Découvrir la gouvernance des identités dans Azure AD avec Privileged Identity Management
 
-
-# Labo : Découvrir la gouvernance des identités dans Azure AD avec Privileged Identity Management
-
-## Scénario du labo
+## <a name="lab-scenario"></a>Scénario du labo
 Dans ce labo, vous allez découvrir certaines fonctionnalités de base de Privileged Identity Management (PIM). PIM nécessite Azure AD Premium P2.  Dans ce labo, en tant qu’administrateur, vous allez configurer l’un de vos utilisateurs, Dominic Saucier, avec un rôle Administrateur d’utilisateurs Azure AD, à l’aide de Privileged Identity Management (PIM).   Les privilèges d’administrateur d’utilisateurs permettront à Dominic de créer des utilisateurs et des groupes, de gérer les licences, etc.  À la fois administrateur et utilisateur, Dominic doit avoir accès aux licences Azure AD Premium P2.
 
 **Durée estimée** : 30-45 minutes
 
-#### Tâche 1 : Dans cette tâche, en tant qu’administrateur, vous réinitialiserez le mot de passe de l’utilisateur Dominic Saucier. Cette étape est nécessaire pour pouvoir se connecter initialement en tant qu’utilisateur dans les tâches ultérieures.
+#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-diego-siciliani-this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>Tâche 1 : Dans cette tâche, en tant qu’administrateur, vous réinitialiserez le mot de passe de l’utilisateur Dominic Saucier. Cette étape est nécessaire pour pouvoir se connecter initialement en tant qu’utilisateur dans les tâches ultérieures.
 
 1. Ouvrez Microsoft Edge.  Dans la barre d’adresse, saisissez **portal.azure.com**.
 
 2. Connectez-vous avec vos informations d’identification d’administrateur.
-    1. Dans la fenêtre de connexion, saisissez **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
-    1. Saisissez le mot de passe d’administrateur qui doit vous être fourni par votre fournisseur d’hébergement de labo. Sélectionnez **Se connecter**.
+    1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
+    1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
 
 3. Sélectionnez **Azure Active Directory**.  
@@ -27,7 +31,7 @@ Dans ce labo, vous allez découvrir certaines fonctionnalités de base de Privil
 
 5. Sélectionnez **Dominic Saucier** dans la liste des utilisateurs.
 
-6. Sélectionnez **Réinitialiser le mot de passe** en haut de la page. Comme vous ne vous êtes jamais connecté en tant que Dominic, vous ne connaissez pas son mot de passe et devrez le réinitialiser.
+6. Sélectionnez **Réinitialiser le mot de passe**  en haut de la page. Comme vous ne vous êtes jamais connecté en tant que Dominic, vous ne connaissez pas son mot de passe et devrez le réinitialiser.
 
 7. À l’ouverture de la fenêtre de réinitialisation du mot de passe, sélectionnez **Réinitialiser le mot de passe**.  IMPORTANT : notez le nouveau mot de passe. Vous en aurez besoin pour vous connecter en tant qu’utilisateur lors d’une tâche ultérieure.
 
@@ -40,7 +44,7 @@ Dans ce labo, vous allez découvrir certaines fonctionnalités de base de Privil
 11. Laissez la page du navigateur ouverte. Vous l’utiliserez dans les tâches ultérieures.
 
 
-#### Tâche 2 : Dans cette tâche, en tant qu’administrateur, vous allez affecter un rôle Azure AD à Dominic dans Privileged Identity Management.
+#### <a name="task-2-in-this-task-you-as-the-admin-will-assign-diego-an-azure-ad-role-in-privileged-identity-management"></a>Tâche 2 : Dans cette tâche, en tant qu’administrateur, vous allez affecter un rôle Azure AD à Dominic dans Privileged Identity Management.
 
 1. Accédez à l’onglet du navigateur ouvert intitulé Contoso - Microsoft Azure.   Si vous avez fermé l’onglet du navigateur, ouvrez Microsoft Edge. Dans la barre d’adresse, saisissez portal.azure.com, connectez-vous avec vos informations d’identification d’administrateur, puis sélectionnez Azure Active Directory.  
 
@@ -76,18 +80,18 @@ Dans ce labo, vous allez découvrir certaines fonctionnalités de base de Privil
 
 17. En haut de la page, sélectionnez **Paramètres**.
 
-18. Différentes options sont disponibles dans les détails relatifs à l’Administrateur d’utilisateurs du paramètre Rôle.  Notez que le paramètre « Exiger une justification lors de l’activation » est défini sur oui, tout comme le paramètre « Exiger Azure MFA lors de l’activation ».  Ces deux paramètres apparaîtront dans la tâche suivante, lorsque Dominic activera le rôle.  Notez également que le paramètre « Demander une approbation pour activer ce rôle » est défini sur Non. Conservez les valeurs par défaut de tous les paramètres.  Fermez la page en sélectionnant le **X** dans le coin supérieur droit de l’écran.
+18. Différentes options sont disponibles dans les détails relatifs à l’Administrateur d’utilisateurs du paramètre Rôle.  Notez que le paramètre « Exiger une justification lors de l’activation » est défini sur oui, tout comme le paramètre « Exiger Azure MFA lors de l’activation ».  Ces deux paramètres apparaîtront dans la tâche suivante, lorsque Dominic activera le rôle.  Notez également que l’autorisation « Exiger une approbation pour l’activation » est définie sur Non.  Réinitialise les paramètres à leurs valeurs par défaut.  Fermez la page en sélectionnant le **X** dans le coin supérieur droit de l’écran.
 
 19. Déconnectez-vous en cliquant sur l’icône d’utilisateur à côté de l’adresse e-mail, dans le coin supérieur droit de l’écran, et en sélectionnant **Se déconnecter**. Ensuite, fermez toutes les fenêtres de navigation.
 
 
-#### Tâche 3 : Tâche 3 :  Dans cette tâche, vous adopterez le rôle de Dominic Saucier et vous vous connecterez au portail Azure. Ainsi, vous accéderez à la fonctionnalité Privileged Identity Management d’Azure Active Directory afin d’activer votre affectation d’Administrateur d’utilisateurs.  Une fois activée, vous apporterez quelques modifications à la configuration d’un utilisateur existant. Remarque : Pour cette tâche, vous devez avoir un accès immédiat à un appareil mobile qui vous permet de recevoir des SMS.
+#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Tâche 3 : Tâche 3 :  Dans cette tâche, vous adopterez le rôle de Dominic Saucier et vous vous connecterez au portail Azure. Ainsi, vous accéderez à la fonctionnalité Privileged Identity Management d’Azure Active Directory afin d’activer votre affectation d’Administrateur d’utilisateurs.  Une fois activée, vous apporterez quelques modifications à la configuration d’un utilisateur existant. Remarque : Pour cette tâche, vous devez avoir un accès immédiat à un appareil mobile qui vous permet de recevoir des SMS.
 
 1. Ouvrez Microsoft Edge.  Dans la barre d’adresse du navigateur, saisissez **portal.azure.com**.
 
 1. Connectez-vous en tant que Dominic Saucier.
-    1. Dans la fenêtre de connexion, saisissez **DominicS@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
-    1. Saisissez le mot de passe temporaire que vous avez noté lors de la tâche précédente et sélectionnez **Se connecter**. Sélectionnez **Se connecter**.
+    1. Dans la fenêtre de connexion, entrez **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
+    1. Saisissez le mot de passe temporaire que vous avez noté lors de la tâche précédente et sélectionnez **Se connecter**.  Sélectionnez **Connexion**.
     1. Le mot de passe que vous avez saisi n’étant qu’un mot de passe temporaire, vous devez maintenant le mettre à jour. Saisissez le mot de passe actuel.  Pour les champs du nouveau mot de passe et de confirmation du mot de passe, saisissez **SC900-Lab**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
 
@@ -100,17 +104,17 @@ Dans ce labo, vous allez découvrir certaines fonctionnalités de base de Privil
 1. Vous verrez une icône d’avertissement indiquant Vérification supplémentaire requise.  Sélectionnez **Cliquer pour continuer**.  Rappelez-vous que les paramètres PIM pour le rôle Administrateur d’utilisateurs nécessitent une authentification multifacteur.  De plus, comme les coordonnées de Dominic n’ont pas été configurées au préalable pour l’utilisation de la MFA (méthodes d’authentification), il doit enregistrer ses informations afin de pouvoir l’utiliser.  Même s’il doit procéder à une MFA chaque fois qu’il se connecte en tant qu’administrateur d’utilisateurs, pendant la période d’affectation, le processus d’inscription MFA n’est requis qu’une seule fois.
 1. Une notification vous indique que des informations supplémentaires sont nécessaires. Sélectionnez **Suivant**.
 1. Saisissez votre mot de passe, **SC900-Lab**.
-1. Dans le coin inférieur gauche de la fenêtre de Microsoft Authenticator, sélectionnez **Je veux configurer une autre méthode.**.
+1. Dans le coin inférieur gauche de la fenêtre de Microsoft Authenticator, sélectionnez **Je veux configurer une autre méthode.** .
 1. Vous êtes invité à Choisir une autre méthode.  À côté de la mention Application d’authentification, sélectionnez la flèche vers le bas.   Sélectionnez **Téléphone**, puis **Confirmer**.
 1. Vous êtes invité à saisir le numéro de téléphone que vous souhaitez utiliser. Assurez-vous que l’indicatif du pays de votre numéro de téléphone est exact.  Saisissez votre numéro de téléphone, assurez-vous que l’option **Envoyez-moi un code par SMS** est sélectionnée, puis sélectionnez **Suivant**.
 1. Saisissez le code à 6 chiffres que vous avez reçu sur votre téléphone et sélectionnez **Suivant**. 
 1. Une notification vous indique que votre téléphone a été inscrit. Sélectionnez **Suivant**, puis **Terminé**.
-1. Un message vous demande si vous souhaitez rester connecté. Sélectionnez **Oui**.
+1. Un message vous demande si vous souhaitez rester connecté.  Sélectionnez **Oui**.
 1. La fenêtre Activer Administrateur d’utilisateurs apparaît.  Vous devez saisir la raison de l’activation.  Dans la zone qui s’affiche, saisissez la raison de votre choix (500 caractères maximum), puis sélectionnez **Activer**.
 1. Le statut (3 étapes de progression) s’affiche au fil du traitement de l’activation.
-1. Une fois l’activation terminée, vous êtes renvoyé à Mes rôles. | La page Rôles Azure AD indique que vous venez d’activer un rôle.  Sélectionnez **Cliquer ici** pour consulter vos rôles actifs.  Si vous remarquez que l’heure de fin est différente de celle qui a été configurée à l’origine, sélectionnez la touche d’actualisation en haut de la page (l’actualisation peut prendre quelques minutes). 
+1. Une fois l’activation terminée, vous revenez à la page Mes rôles | Rôles Azure AD, où vous verrez une notification vous indiquant que vous venez d’activer un rôle.  Sélectionnez **Cliquer ici** pour consulter vos rôles actifs.  Si vous remarquez que l’heure de fin est différente de celle qui a été configurée à l’origine, sélectionnez la touche d’actualisation en haut de la page (l’actualisation peut prendre quelques minutes). 
 1. Fermez la fenêtre en sélectionnant le **X** dans le coin supérieur droit de l’écran.
-1. Fermez la fenêtre de démarrage rapide de | Privileged Identity Management en sélectionnant le **X** dans le coin supérieur droit de l’écran.
+1. Fermez la fenêtre Privileged Identity Management | Démarrage rapide en sélectionnant le **X** dans le coin supérieur droit de l’écran.
 1. Fermez la fenêtre Identity Governance en sélectionnant le **X** dans le coin supérieur droit de l’écran.
 1. Vous vous trouvez maintenant sur la page Contoso Azure Active Directory.  En tant qu’administrateur d’utilisateurs Azure AD, vous pouvez créer des utilisateurs et des groupes, de gérer les licences, etc.   Dans le volet de navigation de gauche, sélectionnez **Utilisateurs**.
 1. Dans la liste des utilisateurs, sélectionnez **Bernadette Plourde**.
@@ -122,5 +126,5 @@ Dans ce labo, vous allez découvrir certaines fonctionnalités de base de Privil
 1. Déconnectez-vous en cliquant sur l’icône d’utilisateur à côté de l’adresse e-mail, dans le coin supérieur droit de l’écran, et en sélectionnant **Se déconnecter**. Ensuite, fermez toutes les fenêtres de navigation.
 1. La durée du rôle Administrateur d’utilisateurs est limitée à la durée qui a été configurée.
 
-#### Révision
+#### <a name="review"></a>Révision
 Dans ce labo, vous avez découvert PIM.  En tant qu’administrateur, vous avez configuré les privilèges d’administrateur d’utilisateurs de Dominic pour une durée déterminée.  Ensuite, vous avez adopté le rôle de Dominic et avez suivi le processus d’activation des privilèges d’administrateur d’utilisateurs et de configuration des paramètres utilisateur.  Rappelez-vous que PIM nécessite des licences Azure AD Premium P2.

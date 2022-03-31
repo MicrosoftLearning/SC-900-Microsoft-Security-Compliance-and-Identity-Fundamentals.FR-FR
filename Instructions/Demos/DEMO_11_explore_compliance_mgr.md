@@ -1,18 +1,22 @@
 ---
 Demo:
-    title: 'Découvrir le Centre de conformité Microsoft 365 et le Gestionnaire de conformité'
-    module: 'Module 4, leçon 1 : Décrire les fonctionnalités des solutions de conformité Microsoft : Décrire les fonctionnalités de gestion de la conformité de Microsoft'
+  title: Découvrir le Centre de conformité Microsoft 365 et le Gestionnaire de conformité
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
+ms.openlocfilehash: 1a1b11d8ff967f2c18af43eb77e1d74add032556
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894077"
 ---
+# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Démonstration : Découvrir le Centre de conformité Microsoft 365 et le Gestionnaire de conformité
 
+## <a name="demo-scenario"></a>Scénario de la démonstration
+Cette démonstration vous permettra de présenter la page d’accueil du Centre de conformité Microsoft 365 ainsi que les manières dont les fonctionnalités du Gestionnaire de conformité aident les organisations à améliorer leur situation de sécurité.
 
-# Démonstration : Découvrir le Centre de conformité Microsoft 365 et le Gestionnaire de conformité
+## <a name="instructions"></a>Instructions
 
-## Scénario de la démonstration
-Cette démonstration vous permettra de présenter la page d’accueil du Centre de conformité Microsoft 365 ainsi que les manières dont les fonctionnalités du Gestionnaire de conformité permettent aux organisations d’améliorer leur état de sécurité.
-
-## Instructions
-
-#### Partie 1 de la démonstration : Présentez la page d’accueil du Centre de conformité Microsoft 365 et montrez comment personnaliser l’affichage des cartes et du volet de navigation.
+#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>Partie 1 de la démonstration : Présentez la page d’accueil du Centre de conformité Microsoft 365 et montrez comment personnaliser l’affichage des cartes et du volet de navigation.
 
 1. Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse. Vous devriez déjà être connecté en tant qu’administrateur.  Si ce n’est pas le cas, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
@@ -30,15 +34,15 @@ Cette démonstration vous permettra de présenter la page d’accueil du Centre 
 
 1. Vous pouvez ajouter des cartes en cliquant sur **+ Ajouter des cartes**.  La fenêtre d’ajout de cartes à votre page d’accueil s’ouvre.  Survolez la carte du Catalogue des solutions affichée dans la fenêtre à l’aide de votre curseur et déplacez-la vers la zone de votre écran d’accueil à l’emplacement souhaité.
 
-1. Dans le volet de navigation gauche de la page d’accueil du Centre de conformité Microsoft 365, prenez note des éléments répertoriés sous Solutions.  Si seul le Catalogue s’affiche, cliquez sur **[… Tout afficher]** dans le volet de navigation gauche.  Vous remarquerez que toutes les solutions supplémentaires apparaissent sous la section des solutions.  
+1. Dans le volet de navigation gauche de la page d’accueil du Centre de conformité Microsoft 365, prenez note des éléments répertoriés sous Solutions.  Si seul le Catalogue s’affiche, cliquez sur **… Afficher tout** dans le volet de navigation gauche.  Vous remarquerez que toutes les solutions supplémentaires apparaissent sous la section des solutions.  
 
 1. En tant qu’administrateur de conformité, vous souhaitez peut-être qu’un certain ensemble de solutions que vous gérez pour votre organisation soit répertorié en permanence dans le volet de navigation.  Pour personnaliser vos préférences, sélectionnez **Personnaliser la navigation**.  
 
-1. Dans la fenêtre Personnaliser votre volet de navigation, sélectionnez les éléments que vous souhaitez afficher et annulez la sélection des éléments que vous ne souhaitez pas afficher.  Cliquez sur **Enregistrer** en bas de la fenêtre.  Vous remarquerez que la section des solutions du volet de navigation a été mise à jour.
+1. Dans la fenêtre Personnaliser votre volet de navigation, sélectionnez les éléments que vous souhaitez voir affichés et annulez la sélection des éléments que vous ne souhaitez pas voir affichés.  Cliquez sur **Enregistrer** en bas de la fenêtre.  Vous remarquerez que la section des solutions du volet de navigation a été mise à jour.
 
 1. Laissez cet onglet du navigateur ouvert.
 
-#### Partie 2 de la démonstration : Découvrez la situation de sécurité de votre organisation par l’intermédiaire du Gestionnaire de conformité.
+#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>Partie 2 de la démonstration : Découvrez la situation de sécurité de votre organisation par l’intermédiaire du Gestionnaire de conformité.
 
 1. Sélectionnez **Gestionnaire de conformité** dans le volet de navigation gauche du Centre de conformité Microsoft 365.  Vous pouvez aussi sélectionnez Gestionnaire de conformité dans la barre de titre de la carte Gestionnaire de conformité.
 
@@ -60,9 +64,9 @@ Cette démonstration vous permettra de présenter la page d’accueil du Centre 
 
 1. Sélectionnez **Modèles d’évaluation** en haut de la page.  Cette page répertorie les modèles disponibles. Vous pouvez créer des évaluations pour votre organisation à l’aide d’un modèle existant, ou vous pouvez en créer un nouveau.
 
-1. Sélectionnez **ISO/IEC27001:2013** dans la liste des modèles inclus. Cliquez sur **+ Créer une évaluation** en haut à droite de la page.  Vous remarquerez que seules deux étapes se trouvent sur le côté gauche de l’écran pour créer une évaluation à partir du modèle.  Sélectionnez Annuler en bas de la page,
+1. Sélectionnez **ISO/IEC27001:2013** dans la liste des modèles inclus. Cliquez sur **+ Créer une évaluation** en haut à droite de la page.  Vous remarquerez que seules deux étapes se trouvent sur le côté gauche de l’écran pour créer une évaluation à partir du modèle.  Sélectionnez Annuler en bas de la page.
 
 1. Dans le volet de navigation gauche, cliquez sur **Accueil** pour revenir à la page d’accueil du Centre de conformité Microsoft 365.  Gardez cette page du navigateur ouverte pour la prochaine démonstration.
 
-#### Révision
-Cette démonstration vous a permis de présenter la page d’accueil du Centre de conformité Microsoft 365 ainsi que les manières dont les fonctionnalités du Gestionnaire de conformité permettent aux organisations d’améliorer leur état de sécurité.
+#### <a name="review"></a>Révision
+Cette démonstration vous a permis de présenter la page d’accueil du Centre de conformité Microsoft 365 ainsi que les manières dont les fonctionnalités du Gestionnaire de conformité aident les organisations à améliorer leur situation de sécurité.

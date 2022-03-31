@@ -1,12 +1,17 @@
-﻿---
-lab:
-    title: 'Découvrir Azure Active Directory'
-    module: 'Module 2, leçon 1 : Décrire les fonctionnalités des solutions de gestion des accès et des identités Microsoft : Découvrir les services et les types d’identités Azure AD'
 ---
+lab:
+  title: Découvrir Azure Active Directory
+  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
+ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894021"
+---
+# <a name="lab-explore-azure-active-directory"></a>Labo : Découvrir Azure Active Directory
 
-# Labo : Découvrir Azure Active Directory
-
-## Scénario du labo
+## <a name="lab-scenario"></a>Scénario du labo
 
 Dans ce labo, vous accéderez à Azure Active Directory.  En plus, vous créerez un utilisateur et configurerez les différents paramètres, y compris l’ajout de licences.  
 
@@ -14,15 +19,15 @@ Dans ce labo, vous accéderez à Azure Active Directory.  En plus, vous créerez
 
 **Durée estimée** : 10-15 minutes
 
-#### Tâche 1 :  En tant qu’abonné à Microsoft 365, vous utilisez déjà Azure AD.  Lors de cette tâche, vous accéderez à Azure AD via le portail d’administration Microsoft 365 et via le portail Azure.
+#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>Tâche 1 :  En tant qu’abonné à Microsoft 365, vous utilisez déjà Azure AD.  Lors de cette tâche, vous accéderez à Azure AD via le portail d’administration Microsoft 365 et via le portail Azure.
 
 1. Ouvrez Microsoft Edge.
 
 2. Dans la barre d’adresse, saisissez **admin.microsoft.com** pour accéder au Centre d’administration Microsoft 365.
 
 3. Connectez-vous avec vos informations d’identification d’administrateur. 
-    1. Dans la fenêtre de connexion, saisissez **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
-    1. Saisissez le mot de passe d’administrateur qui doit vous être fourni par votre fournisseur d’hébergement de labo. Sélectionnez **Se connecter**.
+    1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
+    1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
 
 4. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
@@ -40,7 +45,7 @@ Dans ce labo, vous accéderez à Azure Active Directory.  En plus, vous créerez
 10. Gardez cet onglet de navigation ouvert pour la tâche suivante.
 
 
-#### Tâche 2 :  Lors de cette tâche, vous apprendrez comment créer un nouvel utilisateur dans Azure Active Directory et vous découvrirez certains services qui peuvent être gérés au niveau de l’utilisateur.
+#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>Tâche 2 :  Lors de cette tâche, vous apprendrez comment créer un nouvel utilisateur dans Azure Active Directory et vous découvrirez certains services qui peuvent être gérés au niveau de l’utilisateur.
 
 1. Accédez à l’onglet Contoso - Microsoft Azure ouvert dans votre navigateur. Si vous avez fermé l’onglet, ouvrez une page du navigateur et saisissez portal.azure.com dans la barre d’adresse. Ensuite, sélectionnez Azure Active Directory.  Vous devriez être connecté en tant qu’administrateur dans le portail Azure : si ce n’est pas le cas, reconnectez-vous.
 
@@ -86,7 +91,7 @@ Dans ce labo, vous accéderez à Azure Active Directory.  En plus, vous créerez
 
 11. Depuis la liste d’utilisateurs, sélectionnez l’utilisateur que vous venez de créer, **Sara Perez**.  La page du profil s’ouvre.
 
-12. Le volet de navigation à gauche affiche les différentes options qui peuvent être configurées pour l’utilisateur.  Sélectionnez **Groupes**.  C’est ici que vous pouvez voir des informations supplémentaires concernant le groupe.  Vérifiez que le groupe Opérations apparaît dans la liste (l’affectation de groupe peut prendre quelques minutes à s’afficher).  Remarque :  vous verrez également le groupe Consoto, bien que nous n’ayons affecté qu’un groupe lors de la création de l’utilisateur.  C’est le résultat d’une stratégie préconfigurée dans le locataire qui affecte automatiquement les nouveaux utilisateurs au groupe Contoso.
+12. Le volet de navigation à gauche affiche les différentes options qui peuvent être configurées pour l’utilisateur.  Sélectionnez **Groupes**.  C’est ici que vous pouvez voir des informations supplémentaires concernant le groupe.  Vérifiez que le groupe Opérations apparaît dans la liste (l’affectation de groupe peut prendre quelques minutes à s’afficher).  Remarque : vous verrez également le groupe Contoso, bien que nous n’ayons affecté qu’un groupe lors de la création de l’utilisateur.  C’est le résultat d’une stratégie préconfigurée dans le locataire qui affecte automatiquement les nouveaux utilisateurs au groupe Contoso.
 
 13. Dans le volet de navigation gauche, sélectionnez **Licences**.  Notez qu’il n’y a pas d’affectation de licence trouvée pour cet utilisateur.  
 
@@ -98,25 +103,25 @@ Dans ce labo, vous accéderez à Azure Active Directory.  En plus, vous créerez
 
 17. Sélectionnez **l’icône Actualiser** en haut de la page pour confirmer les affectations de licence.
 
-18. Revenez à la page de vue d’ensemble Azure Active Directory Contoso, en sélectionnant **Contoso** en haut à gauche de l’écran (la barre de navigation), au-dessus de Sara Perez. | Licences.
+18. Revenez à la page de vue d’ensemble Azure Active Directory Contoso, en sélectionnant **Contoso** en haut à gauche de l’écran (la barre de navigation), au-dessus de Sara Perez | Licenses.
 
 19. Vous avez créé et configuré un utilisateur dans Azure Active Directory.
 
-20.	Déconnectez-vous de tous les onglets de navigation en cliquant sur l’icône d’utilisateur à côté de l’adresse e-mail en haut à droite de l’écran. Ensuite, fermez toutes les fenêtres de navigation.
+20. Déconnectez-vous de tous les onglets de navigation en cliquant sur l’icône d’utilisateur à côté de l’adresse e-mail en haut à droite de l’écran. Ensuite, fermez toutes les fenêtres de navigation.
 
-#### Tâche 3 :  Lors de cette tâche, vous vous connecterez pour la première fois en tant que Sara Perez.
+#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>Tâche 3 :  Lors de cette tâche, vous vous connecterez pour la première fois en tant que Sara Perez.
 
 1. Ouvrez Microsoft Edge.
 
 2. Dans la barre d’adresse, saisissez **login.microsoft.com**.
 
-3. Connectez-vous en tant que **sara@WWLxZZZZZ.onmicrosoft.com** (ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo).
+3. Connectez-vous en tant que **sara@WWLxZZZZZ.onmicrosoft.com** , (où ZZZZZZ est votre ID de locataire unique fourni par votre fournisseur d’hébergement lab).
 
 4. Saisissez le mot de passe temporaire **Naja8996**.
 
 5. Vous êtes maintenant invité à mettre à jour votre mot de passe. Dans le champ Mot de passe actuel, saisissez **Naja8996**.
 
-6. Dans le champ Nouveau mot de passe, saisissez **SC900-Lab**.  Dans le champ Confirmer le mot de passe, saisissez SC900-Lab, puis sélectionnez Se connecter. Remarque : en général, il est recommandé d’utiliser un mot de passe plus sécurisé. Ce mot de passe est choisi par commodité et uniquement pour les besoins de ce labo.
+6. Dans le champ Nouveau mot de passe, saisissez **SC900-Lab**.  Dans le champ Confirmer le mot de passe, saisissez SC900-Lab, puis sélectionnez Se connecter.  Remarque : en général, il est recommandé d’utiliser un mot de passe plus sécurisé. Ce mot de passe est choisi par commodité et uniquement pour les besoins de ce labo.
 
 7. Vous devez maintenant être connecté à Microsoft 365.
 
@@ -124,7 +129,7 @@ Dans ce labo, vous accéderez à Azure Active Directory.  En plus, vous créerez
 
 
 
-#### Révision
+#### <a name="review"></a>Révision
 Dans ce labo, vous avez commencé votre découverte d’Azure AD. Puisque les abonnés à Microsoft 365 utilisent automatiquement Azure AD, vous avez découvert que vous accédez aux fonctionnalités et aux services d’Azure AD via le portail d’administration Microsoft 365 ou le portail Azure.  Choisissez l’approche que vous préférez pour accéder au même endroit.  Vous avez vu le processus de création d’un nouvel utilisateur et les différents paramètres qui peuvent être configurés, y compris les groupes auxquels l’utilisateur peut être affecté, la disponibilité des rôles et l’affectation de licences d’utilisateur.
 
 

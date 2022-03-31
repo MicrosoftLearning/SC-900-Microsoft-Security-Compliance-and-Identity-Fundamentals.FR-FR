@@ -1,20 +1,24 @@
 ---
 Demo:
-    title: 'Accès conditionnel dans Azure Active Directory'
-    module: 'Module 2, leçon 3 : Décrire les fonctionnalités des solutions de gestion des accès et des identités Microsoft : Découvrir les fonctionnalités de gestion des accès d’Azure AD'
+  title: Accès conditionnel Azure Active Directory
+  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
+ms.openlocfilehash: b3fd1d1f73c7f807c7a72b258762579bdf0184ac
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894152"
 ---
+# <a name="demo-azure-active-directory-conditional-access"></a>Démonstration : Accès conditionnel dans Azure Active Directory
 
-
-# Démonstration : Accès conditionnel dans Azure Active Directory
-
-### Scénario de la démonstration
+### <a name="demo-scenario"></a>Scénario de la démonstration
 Cette démonstration vous permettra de parcourir les diverses options disponibles pour la création d’une stratégie d’accès conditionnel.
 
 1. Accédez à l’onglet **Contoso - Microsoft Azure** ouvert dans votre navigateur. Si vous avez fermé l’onglet, ouvrez une page du navigateur et saisissez portal.azure.com dans la barre d’adresse. Ensuite, sélectionnez Azure Active Directory. Vous devriez être connecté en tant qu’administrateur dans le portail Azure : si ce n’est pas le cas, reconnectez-vous.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Sécurité**.
+1. Dans le volet de navigation gauche, sélectionnez **Sécurité**.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Accès conditionnel**.
+1. Dans le volet de navigation gauche, sélectionnez **Accès conditionnel**.
 
 1. L’écran des stratégies d’accès conditionnel s’affiche. Toutes les stratégies d’accès conditionnel sont répertoriées ici. Sélectionnez **+ Nouvelle stratégie** pour afficher les paramètres associés à l’accès conditionnel.
 
@@ -27,10 +31,10 @@ Cette démonstration vous permettra de parcourir les diverses options disponible
         1. Sélectionnez les paramètres disponibles pour l’onglet Inclure et expliquez-les. Sous l’onglet **Inclure**, sélectionnez **Sélectionner des applications**.  Une fenêtre s’ouvre, dans laquelle vous pouvez faire votre choix parmi une liste d’applications.  Ne sélectionnez rien ; fermez cette fenêtre en cliquant sur le **X** en haut à droite de la fenêtre. Revenez à votre choix et sélectionnez **Aucun** pour supprimer l’erreur.
         1. Ensuite, sélectionnez les paramètres disponibles pour l’onglet **Exclure** et expliquez-les.  Ici aussi, vous pouvez sélectionner des applications spécifiques à exclure.
     1. **Conditions** - Survolez l’icône d’information près de l’intitulé « Conditions » avec votre curseur et expliquez que cette option définit le moment où s’appliquera la stratégie. Sélectionnez **0 conditions sélectionnées**. Expliquez les différents « signaux » répertoriés.   Sélectionnez quelques-unes des options en cliquant d’abord sur l’icône d’information afin de la définir, puis en cliquant sur **Non configuré** pour l’élément en particulier afin de montrer les diverses options.
-        1. **Risque de l’utilisateur** - Un risque de l’utilisateur reflète la probabilité qu’une identité ou un compte donné soit compromis. Ces risques sont calculés hors ligne à l’aide des sources de renseignement sur les menaces internes et externes de Microsoft.
+        1. **Risque de l’utilisateur** - Un risque de l’utilisateur reflète la probabilité qu’une identité ou un compte donné soit compromis. Ces risques sont calculés hors connexion à l’aide de sources d’informations sur les menaces internes et externes de Microsoft.
         1. **Risque de connexion** - Un risque de connexion reflète la probabilité qu’une requête d’authentification donnée soit rejetée par le propriétaire de l’identité. Par exemple, lorsque la connexion est établie depuis une adresse IP anonyme ou au cours d’un voyage atypique.
         1. **Plateforme d’appareil** - La plateforme à partir de laquelle l’utilisateur se connecte. Par exemple, « iOS ».
-        1. **Emplacement** - L’emplacement (déterminé selon la plage d’adresses IP) à partir duquel l’utilisateur se connecte.
+        1. **Emplacement** - L’emplacement (déterminé selon la plage d’adresses IP) à partir duquel l’utilisateur se connecte
         1. **Applications client** - Le logiciel dont se sert l’utilisateur pour accéder à l’application cloud. Par exemple, « Navigateur ».
 
 1. **Contrôles d’accès** - Pour en revenir à l’analogie des stratégies d’accès conditionnel aux instructions conditionnelles, les contrôles d’accès sont analogues à l’instruction « then ».
@@ -43,6 +47,6 @@ Cette démonstration vous permettra de parcourir les diverses options disponible
 
 1. Gardez cette page du navigateur ouverte pour la démonstration suivante.
 
-### Révision
+### <a name="review"></a>Révision
 
 Cette démonstration vous a permis de parcourir les diverses options disponibles pour la création d’une stratégie d’accès conditionnel.
