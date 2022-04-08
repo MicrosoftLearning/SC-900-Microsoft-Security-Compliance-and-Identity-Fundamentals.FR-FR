@@ -2,12 +2,12 @@
 lab:
   title: 'Découvrir la gouvernance des identités dans Azure AD avec Privileged Identity Management '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894008"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489233"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Labo : Découvrir la gouvernance des identités dans Azure AD avec Privileged Identity Management
 
@@ -50,9 +50,9 @@ Dans ce labo, vous allez découvrir certaines fonctionnalités de base de Privil
 
 2. Dans le volet de navigation de gauche, sélectionnez **Identity Governance**.
 
-3. Dans la fenêtre principale, assurez-vous que la section **Prise en main** est soulignée, puis sélectionnez **Gérer les affectations de rôle** à droite au centre de l’écran.  Vous pouvez également sélectionner **Rôles Azure AD** dans le volet de navigation de gauche, sous Privileged Identity Management.
+3. Dans le volet de navigation de gauche, sous Privileged Identity Management, sélectionnez **Rôles Azure AD**.
 
-4. Vous vous trouvez maintenant dans la fenêtre de démarrage rapide de Privileged Identity Management.  Sélectionnez **Gérer l’accès**.
+4. Vous vous trouvez maintenant dans la fenêtre de démarrage rapide de Privileged Identity Management.  Sélectionnez **Gérer**.
 
 5. Vous vous trouvez maintenant sur la page Rôles de Contoso.  Dans la barre de recherche en haut de la page, saisissez **Utilisateur**.  Dans les résultats de la recherche, sélectionnez **Administrateur d’utilisateurs**.
 
@@ -85,7 +85,7 @@ Dans ce labo, vous allez découvrir certaines fonctionnalités de base de Privil
 19. Déconnectez-vous en cliquant sur l’icône d’utilisateur à côté de l’adresse e-mail, dans le coin supérieur droit de l’écran, et en sélectionnant **Se déconnecter**. Ensuite, fermez toutes les fenêtres de navigation.
 
 
-#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Tâche 3 : Tâche 3 :  Dans cette tâche, vous adopterez le rôle de Dominic Saucier et vous vous connecterez au portail Azure. Ainsi, vous accéderez à la fonctionnalité Privileged Identity Management d’Azure Active Directory afin d’activer votre affectation d’Administrateur d’utilisateurs.  Une fois activée, vous apporterez quelques modifications à la configuration d’un utilisateur existant. Remarque : Pour cette tâche, vous devez avoir un accès immédiat à un appareil mobile qui vous permet de recevoir des SMS.
+#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Tâche 3 : Dans cette tâche, vous adopterez le rôle de Dominic Saucier et vous vous connecterez au portail Azure. Ainsi, vous accéderez à la fonctionnalité Privileged Identity Management d’Azure Active Directory afin d’activer votre affectation d’Administrateur d’utilisateurs.  Une fois activée, vous apporterez quelques modifications à la configuration d’un utilisateur existant. Remarque : Pour cette tâche, vous devez avoir un accès immédiat à un appareil mobile qui vous permet de recevoir des SMS.
 
 1. Ouvrez Microsoft Edge.  Dans la barre d’adresse du navigateur, saisissez **portal.azure.com**.
 
