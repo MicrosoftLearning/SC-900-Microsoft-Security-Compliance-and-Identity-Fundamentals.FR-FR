@@ -1,13 +1,13 @@
 ---
 lab:
   title: Découvrir les étiquettes de confidentialité dans Microsoft 365
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: f2d18ddf6554ce7c3b1d9c328333512782289a0a
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: ab8d44cf92697deb200bf968a1865d328025984b
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893797"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614444"
 ---
 # <a name="lab-explore-sensitivity-labels-in-microsoft-365"></a>Labo : Découvrir les étiquettes de confidentialité dans Microsoft 365
 
