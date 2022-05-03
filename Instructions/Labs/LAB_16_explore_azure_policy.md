@@ -1,13 +1,13 @@
 ---
 lab:
   title: Explorer Azure Policy.
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893803"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614420"
 ---
 # <a name="lab-explore-azure-policy"></a>Labo : Explorer Azure Policy.
 
@@ -33,7 +33,7 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. En haut de la page, sous Éléments principaux, vous en trouverez le nom et la description, ainsi que d’autres informations importantes.  Lisez la description (positionnez le curseur de votre souris dessus). REMARQUE : Le champ de description fait référence à Azure Security Center, qui a été rebaptisé Microsoft Defender pour le cloud.
 
-1. Vous constaterez que les informations fournies par le tableau de bord restent à jour afin de refléter l’élément sélectionné, à savoir la définition d’initiative d’ASC Default.  Rappel : une définition d’initiative est une collection de définitions de stratégie qui sont spécialement conçues pour atteindre un objectif global particulier. Vous pouvez afficher les informations par groupe, par stratégie, par ressource non conforme ou par événement.
+1. Vous constaterez que les informations fournies par le tableau de bord restent à jour afin de refléter l’élément sélectionné, à savoir ASC Default. Cet élément ASC Default est la définition de l’initiative Benchmark de sécurité Azure.  Rappel : une définition d’initiative est une collection de définitions de stratégie qui sont spécialement conçues pour atteindre un objectif global particulier. Vous pouvez afficher les informations par groupe, par stratégie, par ressource non conforme ou par événement.
 
 1. Quittez la page ASC et revenez à la page d’accueil de la stratégie en sélectionnant le **X** dans le coin supérieur droit de la fenêtre.
 
@@ -69,7 +69,9 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. Prenez note du nom d’affectation par défaut.  Conservez le même nom et cliquez sur **Suivant** en bas de la page.
 
-1. Dans le champ Nom de l’indicateur, saisissez **Environnement** avant d’utiliser le bouton **Suivant**.  
+1. Dans le champ Nom de l’indicateur, saisissez **Environnement** avant d’utiliser le bouton **Suivant**. 
+
+1. Conservez les paramètres de correction par défaut, puis sélectionnez **Suivant**. 
 
 1. Un message de non-conformité s’affiche : saisissez **Une balise d’environnement est nécessaire**, puis cliquez sur **Suivant**. Remarque : ce message apparaîtra comme motif de non-conformité pour les groupes de ressources sans balise Environnement créés avant l’affectation de la stratégie.  Après la mise en place de cette stratégie, la création de groupes de ressources sans balise d’environnement sera refusée.
 
@@ -97,11 +99,13 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. Un message indiquant que la requête est validée s’affiche (le nom et la valeur de la balise ne sont pas exigés dans l’assistant) : cliquez ensuite sur **Créer**.
 
-1. Un message d’échec s’affichera en haut de l’écran : « Échec de la création du groupe de ressources. Afficher les détails de l’erreur ».  Cliquez sur **Afficher les détails de l’erreur**. La condition faisant partie de la stratégie Azure n’a pas été remplie ; par conséquent, la création du groupe de ressources a été bloquée pour cause de non-conformité. Remarque : Si le message d’échec n’apparaît pas et que le groupe de ressources a été créé, la stratégie n’est pas encore entrée en application.  Accédez à la page Stratégie de la stratégie que vous avez créée au cours de l’activité précédente : une fois la stratégie entrée en application, vous verrez que la ressource n’est pas conforme.  La page des détails inclura le message de non-conformité.
+1. Un message d’échec s’affichera en haut de l’écran : « Échec de la création du groupe de ressources. Afficher les détails de l’erreur ».  Cliquez sur **Afficher les détails de l’erreur**. La condition faisant partie de la stratégie Azure n’a pas été remplie ; par conséquent, la création du groupe de ressources a été bloquée pour cause de non-conformité. 
+
+    Remarque : Si le message d’échec n’apparaît pas et que le groupe de ressources a été créé, la stratégie n’est pas encore entrée en application.  Accédez à la page Stratégie de la stratégie que vous avez créée au cours de l’activité précédente : une fois la stratégie entrée en application, vous verrez que la ressource n’est pas conforme.  La page des détails inclura le message de non-conformité. Si vous obtenez l’erreur, les étapes suivantes montrent comment corriger le déploiement.
 
 1. Le récapitulatif de l’erreur affiche le type d’erreur « La ressource « SC900-Labos » a été interdite par la stratégie. »  Fermez cette fenêtre en cliquant sur le **X** en haut à gauche de l’écran.
 
-1. Dans la fenêtre Créer un groupe de ressources, cliquez sur **<Précédent**.
+1. Dans la fenêtre Créer un groupe de ressources, sélectionnez **Précédent**.
 
 1. Vous êtes revenu à la page des Balises pour la création d’un groupe de ressources.  Dans le champ Nom, saisissez Environnement. Dans le champ Valeur, saisissez **SC900-Labos**, puis cliquez sur **Suivant : Vérifier + créer >** .
 

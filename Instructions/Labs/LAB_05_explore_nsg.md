@@ -2,12 +2,12 @@
 lab:
   title: Découvrir les groupes de sécurité réseau Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 6921230c178c08c8a6868de49f2f0673a72127fc
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: b140c437202af133f02d8e615795a97f634aca96
+ms.sourcegitcommit: 89f5fbd1e9c70e30108daa8fbeb65ebd9947bf1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019269"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "141605422"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Labo : Explorer les groupes de sécurité réseau Azure
 
@@ -27,19 +27,20 @@ Dans ce labo, vous allez découvrir la fonction des groupes de sécurité résea
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
 1. Dans le coin supérieur gauche de l’écran, en regard de la mention Microsoft Azure, sélectionnez l’icône de menu Afficher le portail (les trois lignes horizontales également appelées icône Hamburger), puis sélectionnez **Tous les services**.  
 1. Dans la fenêtre principale, sous Recommandés, sélectionnez Machines virtuelles.  Si aucune machine virtuelle ne figure dans la liste, saisissez-la dans la barre de recherche, puis sélectionnez-la dans les résultats de la recherche.
-1. Dans le coin supérieur gauche de la page, sélectionnez **+ Créer** puis **+ Machine virtuelle**.
+1. Dans le coin supérieur gauche de la page, sélectionnez **+ Créer** puis **Machine virtuelle Azure**.
 1. Sous l’onglet Informations de base, remplissez les informations suivantes (laissez les paramètres par défaut pour les éléments non répertoriés) :
     1. Abonnement : vérifiez que le paramètre par défaut est Pass Azure - Parrainage.
 
     1. Groupe de ressources : sélectionnez **Créer nouveau** puis, dans le champ Nom, entrez **LabsSC900**, puis sélectionnez **OK**.
     1. Nom des machines virtuelles : entrez **SC900-WinVM**.
-    1. Image : dans la liste déroulante, sélectionnez **Windows 10 Professionnel, Version 20H2 – Gen 1**.
-    1. Taille : sélectionnez **Afficher toutes les tailles** dans la liste déroulante, sélectionnez **B2s**, puis cliquez sur **Sélectionner** dans le bas de la page.
-    1. Nom d’utilisateur :  Entrez un nom d’utilisateur de votre choix.  Prenez-en note, car vous en aurez besoin pour accéder à la machine virtuelle.
-    1. Mot de passe :  Entrez un mot de passe de votre choix.  Prenez-en note, car vous en aurez besoin pour accéder à la machine virtuelle.
-    1. Ports de trafic entrant publics : sélectionnez **Aucun**.
-    1. Licences : sélectionnez **Je confirme disposer d’une licence Windows 10 éligible avec des droits d’hébergement multilocataire** pour faire apparaître une coche dans la case.
-    1. Sélectionnez **Suivant : Disques**. 
+    1. Région : si le champ Région n’est pas prérempli, sélectionnez la région la plus proche de votre emplacement.
+    3. Image : dans la liste déroulante, sélectionnez **Windows 10 Professionnel, Version 20H2 – Gen 1**.
+    4. Taille : sélectionnez **Afficher toutes les tailles** dans la liste déroulante, sélectionnez **B2s**, puis cliquez sur **Sélectionner** dans le bas de la page.
+    5. Nom d’utilisateur :  Entrez un nom d’utilisateur de votre choix.  Prenez-en note, car vous en aurez besoin pour accéder à la machine virtuelle.
+    6. Mot de passe :  Entrez un mot de passe de votre choix.  Prenez-en note, car vous en aurez besoin pour accéder à la machine virtuelle.
+    7. Ports de trafic entrant publics : sélectionnez **Aucun**.
+    8. Licences : sélectionnez **Je confirme disposer d’une licence Windows 10 éligible avec des droits d’hébergement multilocataire** pour faire apparaître une coche dans la case.
+    9. Sélectionnez **Suivant : Disques**. 
 1. Vous êtes à présent au niveau de l’onglet Disques pour la configuration de la machine virtuelle.  Conservez tous les paramètres par défaut et sélectionnez **Suivant : Mise en réseau >** .
 1. Vous êtes à présent au niveau de l’onglet Mise en réseau pour la configuration de la machine virtuelle.  Remplissez les informations suivantes (pour tous les éléments non répertoriés, laissez les paramètres par défaut) :
     1. Groupe de sécurité réseau de la carte réseau : sélectionnez **Aucun**.  Remarque : La raison pour laquelle vous sélectionnez Aucun à cette étape est que nous voulons suivre les étapes de configuration d’un groupe de sécurité réseau à partir de zéro, ces étapes étant couvertes dans les tâches suivantes.
