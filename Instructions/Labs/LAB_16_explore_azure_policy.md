@@ -2,28 +2,30 @@
 lab:
   title: Explorer Azure Policy.
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614420"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557516"
 ---
 # <a name="lab-explore-azure-policy"></a>Labo : Explorer Azure Policy.
 
 ## <a name="lab-scenario"></a>Scénario du labo
-Azure Policy aide à appliquer des normes organisationnelles et à évaluer la conformité à grande échelle. Azure Policy évalue les ressources dans Azure en comparant les propriétés de ces ressources aux règles d’entreprise. Dans ce labo, vous allez commencer par découvrir la page d’arrivée d’Azure Policy. Ensuite, vous allez créer une stratégie et en étudier les effets.
 
+Azure Policy aide à appliquer des normes organisationnelles et à évaluer la conformité à grande échelle. Azure Policy évalue les ressources dans Azure en comparant les propriétés de ces ressources aux règles d’entreprise. Dans ce labo, vous allez commencer par découvrir la page d’arrivée d’Azure Policy. Ensuite, vous allez créer une stratégie et en étudier les effets.
 
 **Durée estimée** : 20-25 minutes
 
-#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>Tâche 1 : Découvrez l’essentiel de la page Azure Policy.
+### <a name="task-1"></a>Tâche 1
+
+Découvrez l’essentiel de la page Azure Policy.
 
 1. Ouvrez Microsoft Edge. Saisissez **portal.microsoft.com** dans la barre d’adresse.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
-    
+
     1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
 
@@ -53,7 +55,9 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. Conservez cet onglet (Stratégie - Microsoft Azure) en vue de la prochaine tâche.
 
-#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>Tâche 2 :  Dans cette tâche, vous allez créer une simple affectation de stratégie consistant à demander un indicateur sur les groupes de ressources.
+### <a name="task-2"></a>Tâche 2
+
+Dans cette tâche, vous allez créer une simple affectation de stratégie consistant à demander un indicateur sur les groupes de ressources.
 
 1. Ouvrez l’onglet Stratégie - Microsoft Azure.
 
@@ -69,9 +73,9 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. Prenez note du nom d’affectation par défaut.  Conservez le même nom et cliquez sur **Suivant** en bas de la page.
 
-1. Dans le champ Nom de l’indicateur, saisissez **Environnement** avant d’utiliser le bouton **Suivant**. 
+1. Dans le champ Nom de l’indicateur, saisissez **Environnement** avant d’utiliser le bouton **Suivant**.
 
-1. Conservez les paramètres de correction par défaut, puis sélectionnez **Suivant**. 
+1. Conservez les paramètres de correction par défaut, puis sélectionnez **Suivant**.
 
 1. Un message de non-conformité s’affiche : saisissez **Une balise d’environnement est nécessaire**, puis cliquez sur **Suivant**. Remarque : ce message apparaîtra comme motif de non-conformité pour les groupes de ressources sans balise Environnement créés avant l’affectation de la stratégie.  Après la mise en place de cette stratégie, la création de groupes de ressources sans balise d’environnement sera refusée.
 
@@ -81,7 +85,9 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. Vous vous trouvez désormais sur la page d’accueil des services Azure.  Ne fermez pas cette page, car vous en aurez besoin lors de la prochaine activité.
 
-#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>Tâche 3 :  Dans cette tâche, vous allez constater les effets de l’affectation de la stratégie Azure en créant un groupe de ressources dans Azure, sans indicateur. Vous allez ensuite pouvoir mettre à jour ce groupe afin d’y inclure un indicateur.  Remarque : il faut parfois attendre jusqu’à 30 minutes avant que la stratégie créée lors de la tâche précédente prenne effet, bien que cela reste rare.
+### <a name="task-3"></a>Tâche 3
+
+Dans cette tâche, vous allez constater les effets de l’affectation de la stratégie Azure en créant un groupe de ressources dans Azure, sans indicateur. Vous allez ensuite pouvoir mettre à jour ce groupe afin d’y inclure un indicateur.  Remarque : il faut parfois attendre jusqu’à 30 minutes avant que la stratégie créée lors de la tâche précédente prenne effet, bien que cela reste rare.
 
 1. Ouvrez l’onglet Accueil - Microsoft Azure.
 
@@ -99,7 +105,7 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. Un message indiquant que la requête est validée s’affiche (le nom et la valeur de la balise ne sont pas exigés dans l’assistant) : cliquez ensuite sur **Créer**.
 
-1. Un message d’échec s’affichera en haut de l’écran : « Échec de la création du groupe de ressources. Afficher les détails de l’erreur ».  Cliquez sur **Afficher les détails de l’erreur**. La condition faisant partie de la stratégie Azure n’a pas été remplie ; par conséquent, la création du groupe de ressources a été bloquée pour cause de non-conformité. 
+1. Un message d’échec s’affichera en haut de l’écran : « Échec de la création du groupe de ressources. Afficher les détails de l’erreur ».  Cliquez sur **Afficher les détails de l’erreur**. La condition faisant partie de la stratégie Azure n’a pas été remplie ; par conséquent, la création du groupe de ressources a été bloquée pour cause de non-conformité.
 
     Remarque : Si le message d’échec n’apparaît pas et que le groupe de ressources a été créé, la stratégie n’est pas encore entrée en application.  Accédez à la page Stratégie de la stratégie que vous avez créée au cours de l’activité précédente : une fois la stratégie entrée en application, vous verrez que la ressource n’est pas conforme.  La page des détails inclura le message de non-conformité. Si vous obtenez l’erreur, les étapes suivantes montrent comment corriger le déploiement.
 
@@ -115,12 +121,11 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 1. Avant de le quitter, supprimez la stratégie Azure.
     1. Dans le coin supérieur gauche, sélectionnez Accueil pour revenir à la page d’accueil d’Azure.
-    
+
     1. En dessous des Services Azure, sélectionnez Stratégie Azure.
     1. Au milieu de la page se trouve une liste des affectations de stratégie ou d’initiative Azure.  À côté de celle consistant à demander un indicateur sur les groupes de ressources, les points de suspension vous permettent de sélectionner Supprimer l’affectation.
     1. Un message s’affiche pour vous demander de confirmer la suppression de l’affectation.  Sélectionnez Oui.
 
-
-#### <a name="review"></a>Révision
+### <a name="review"></a>Révision
 
 Dans ce labo, vous avez parcouru la page d’arrivée d’Azure Policy. Ensuite, vous avez suivi le processus de création d’une stratégie et en avez étudié les effets.

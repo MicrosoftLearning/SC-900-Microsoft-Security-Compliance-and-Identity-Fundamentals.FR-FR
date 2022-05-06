@@ -2,23 +2,26 @@
 lab:
   title: 'Explorer Microsoft Defender pour les applications cloud '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: aa360b3d9e604e384cc5b040ef747425af76e13b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893997"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557569"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Labo : Explorer Microsoft Defender pour les applications cloud
 
 ## <a name="lab-scenario"></a>Scénario du labo
-Dans ce labo, vous allez découvrir les possibilités offertes par Microsoft Defender pour le cloud.  Vous allez parcourir les informations disponibles sur le tableau de bord de Cloud Discovery, ainsi que les possibilités offertes pour examiner les résultats et contrôler l’impact sur votre organisation par le biais de politiques.  Remarque :  Une organisation doit avoir une licence pour utiliser Microsoft Defender pour le cloud, qui est un service d’abonnement basé sur l’utilisateur. 
+
+Dans ce labo, vous allez découvrir les possibilités offertes par Microsoft Defender pour le cloud.  Vous allez parcourir les informations disponibles sur le tableau de bord de Cloud Discovery, ainsi que les possibilités offertes pour examiner les résultats et contrôler l’impact sur votre organisation par le biais de politiques.  Remarque :  Une organisation doit avoir une licence pour utiliser Microsoft Defender pour le cloud, qui est un service d’abonnement basé sur l’utilisateur.
 
 **Durée estimée** : 15-20 minutes
 
-#### <a name="task-1-explore-cloud-discovery"></a>Tâche 1 : Découvrez Cloud Discovery.
+### <a name="task-1"></a>Tâche 1
 
-1.  Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse.
+Découvrez Cloud Discovery.
+
+1. Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
@@ -50,7 +53,9 @@ Dans ce labo, vous allez découvrir les possibilités offertes par Microsoft Def
 
 1. Laissez cette page ouverte, vous en aurez besoin pour la tâche suivante.
 
-#### <a name="task-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Tâche 2 : Découvrez les manières d’examiner les activités enregistrées.
+### <a name="task-2"></a>Tâche 2
+
+Découvrez les manières d’examiner les activités enregistrées.
 
 1. Dans le volet de navigation à gauche, sous Examiner, sélectionnez **Journal d’activité**.  C’est ici que vous verrez toutes les activités de vos applications connectées.   Comme vous avez déjà connecté le connecteur Office 365, vous devriez voir quelques données. Une fois connecté à une application à l’aide du connecteur d’applications, Cloud App Security analyse toutes les activités passées (la période d’analyse rétroactive varie par application). Cloud App Security est ensuite mis à jour en continu avec les nouvelles activités.  
 
@@ -66,14 +71,16 @@ Dans ce labo, vous allez découvrir les possibilités offertes par Microsoft Def
 
 1. Laissez cette page ouverte, vous en aurez besoin pour la tâche suivante.
 
+### <a name="task-3"></a>Tâche 3
 
-#### <a name="task-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Tâche 3 : Lors de cette tâche, vous découvrirez les pages de stratégies et d’alertes dans Microsoft Defender pour le cloud.
+Lors de cette tâche, vous découvrirez les pages de stratégies et d’alertes dans Microsoft Defender pour le cloud.
 
-1. Dans le volet de navigation gauche, sélectionnez la touche de direction bas en regard de **Contrôle**, puis choisissez **Stratégies**.  Les stratégies répertoriées fournissent des informations sur le nombre d’alertes générées par la stratégie, la gravité, etc. La sélection de n’importe quelle ligne, par exemple **Connexion risquée**, offre la possibilité de modifier la stratégie. Sélectionnez **Annuler** en bas de la page. 
+1. Dans le volet de navigation gauche, sélectionnez la touche de direction bas en regard de **Contrôle**, puis choisissez **Stratégies**.  Les stratégies répertoriées fournissent des informations sur le nombre d’alertes générées par la stratégie, la gravité, etc. La sélection de n’importe quelle ligne, par exemple **Connexion risquée**, offre la possibilité de modifier la stratégie. Sélectionnez **Annuler** en bas de la page.
 
 1. Dans le volet de navigation à gauche, sélectionnez **Alertes**.  Si des alertes sont présentes, sélectionnez un élément de la liste d’alertes. Examinez les informations fournies.  En haut à droite de la fenêtre, sélectionnez **Fermer l’alerte** afin d’afficher les options pour fermer l’alerte.  
 
 1. Fermez la fenêtre du navigateur.
 
-#### <a name="review"></a>Révision
+### <a name="review"></a>Révision
+
 Dans ce labo, vous avez découvert les possibilités offertes par Microsoft Defender pour le cloud.  Vous avez parcouru les informations disponibles sur le tableau de bord de Cloud Discovery, ainsi que les possibilités offertes pour examiner les résultats et contrôler l’impact sur votre organisation par le biais de politiques.

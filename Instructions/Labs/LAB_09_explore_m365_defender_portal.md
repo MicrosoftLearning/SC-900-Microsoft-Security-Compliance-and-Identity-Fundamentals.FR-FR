@@ -2,28 +2,30 @@
 lab:
   title: Découvrir le portail Microsoft 365 Defender
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c3b666c86b361f7d33c6ae7f3639b7b015d8fa30
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614408"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557144"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Labo : Découvrir le portail Microsoft 365 Defender
 
 ## <a name="lab-scenario"></a>Scénario du labo
-Ce labo va vous présenter le portail Microsoft 365 Defender grâce au contenu affiché sur la page d’arrivée. Vous découvrirez également les options du volet de navigation. Celles-ci permettent d’accéder rapidement aux fonctionnalités qui font partie de la solution de détection et de réponse étendues (XDR) de Microsoft : Microsoft Defender pour point de terminaison et Microsoft Defender pour Office 365 (messagerie et collaboration).  Enfin, vous découvrirez comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.
 
+Ce labo va vous présenter le portail Microsoft 365 Defender grâce au contenu affiché sur la page d’arrivée. Vous découvrirez également les options du volet de navigation. Celles-ci permettent d’accéder rapidement aux fonctionnalités qui font partie de la solution de détection et de réponse étendues (XDR) de Microsoft : Microsoft Defender pour point de terminaison et Microsoft Defender pour Office 365 (messagerie et collaboration).  Enfin, vous découvrirez comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.
 
 **Durée estimée** : 10-15 minutes
 
-#### <a name="task-1--explore-the-microsoft-365-defender-landing-page"></a>Tâche 1 :  Découvrez la page d’arrivée de Microsoft 365 Defender.
+### <a name="task-1"></a>Tâche 1
+
+Découvrez la page d’arrivée de Microsoft 365 Defender.
 
 1. Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
-   
+
     1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez ainsi à la page du Centre d’administration Microsoft 365.
 
@@ -43,7 +45,9 @@ Ce labo va vous présenter le portail Microsoft 365 Defender grâce au contenu 
 
 1. En sélectionnant le titre d’une carte, vous accédez à des informations complémentaires pour ce sujet. Vous découvrirez cette opération lors de la tâche suivante.  Gardez la fenêtre de navigation ouverte.
 
-#### <a name="task-2-in-this-task-you-will-explore-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Tâche 2 : Cette tâche va vous présenter comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.
+### <a name="task-2"></a>Tâche 2
+
+Cette tâche va vous présenter comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.
 
 1. Depuis la page d’accueil du portail Microsoft 365 Defender, sélectionnez **Niveau de sécurité Microsoft**, à partir de la barre de titre de la carte (le texte deviendra bleu).  Vous pouvez aussi sélectionner **Niveau de sécurité** depuis le volet de navigation à gauche.
 
@@ -63,5 +67,6 @@ Ce labo va vous présenter le portail Microsoft 365 Defender grâce au contenu 
 
 1. Fermez la page du navigateur.
 
-#### <a name="review"></a>Révision
+### <a name="review"></a>Révision
+
 Dans ce labo, vous avez découvert le portail Microsoft 365 Defender en parcourant le contenu affiché sur la page d’accueil, vous avez parcouru les options du volet de navigation qui fournissent un accès rapide aux fonctionnalités qui font partie de la solution de détection et de réponse étendues (XDR) de Microsoft, de Microsoft Defender pour point de terminaison et de Microsoft Defender pour Office 365 (messagerie et collaboration).  Enfin, vous avez découvert comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.

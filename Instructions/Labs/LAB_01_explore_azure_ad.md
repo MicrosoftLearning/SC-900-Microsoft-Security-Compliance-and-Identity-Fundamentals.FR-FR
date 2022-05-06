@@ -2,12 +2,12 @@
 lab:
   title: Découvrir Azure Active Directory
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894021"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557288"
 ---
 # <a name="lab-explore-azure-active-directory"></a>Labo : Découvrir Azure Active Directory
 
@@ -15,17 +15,17 @@ ms.locfileid: "137894021"
 
 Dans ce labo, vous accéderez à Azure Active Directory.  En plus, vous créerez un utilisateur et configurerez les différents paramètres, y compris l’ajout de licences.  
 
-
-
 **Durée estimée** : 10-15 minutes
 
-#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>Tâche 1 :  En tant qu’abonné à Microsoft 365, vous utilisez déjà Azure AD.  Lors de cette tâche, vous accéderez à Azure AD via le portail d’administration Microsoft 365 et via le portail Azure.
+### <a name="task-1"></a>Tâche 1
+
+En tant qu’abonné à Microsoft 365, vous utilisez déjà Azure AD.  Lors de cette tâche, vous accéderez à Azure AD via le portail d’administration Microsoft 365 et via le portail Azure.
 
 1. Ouvrez Microsoft Edge.
 
 2. Dans la barre d’adresse, saisissez **admin.microsoft.com** pour accéder au Centre d’administration Microsoft 365.
 
-3. Connectez-vous avec vos informations d’identification d’administrateur. 
+3. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
     1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
@@ -44,8 +44,9 @@ Dans ce labo, vous accéderez à Azure Active Directory.  En plus, vous créerez
 
 10. Gardez cet onglet de navigation ouvert pour la tâche suivante.
 
+### <a name="task-2"></a>Tâche 2
 
-#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>Tâche 2 :  Lors de cette tâche, vous apprendrez comment créer un nouvel utilisateur dans Azure Active Directory et vous découvrirez certains services qui peuvent être gérés au niveau de l’utilisateur.
+Lors de cette tâche, vous apprendrez comment créer un nouvel utilisateur dans Azure Active Directory et vous découvrirez certains services qui peuvent être gérés au niveau de l’utilisateur.
 
 1. Accédez à l’onglet Contoso - Microsoft Azure ouvert dans votre navigateur. Si vous avez fermé l’onglet, ouvrez une page du navigateur et saisissez portal.azure.com dans la barre d’adresse. Ensuite, sélectionnez Azure Active Directory.  Vous devriez être connecté en tant qu’administrateur dans le portail Azure : si ce n’est pas le cas, reconnectez-vous.
 
@@ -109,7 +110,9 @@ Dans ce labo, vous accéderez à Azure Active Directory.  En plus, vous créerez
 
 20. Déconnectez-vous de tous les onglets de navigation en cliquant sur l’icône d’utilisateur à côté de l’adresse e-mail en haut à droite de l’écran. Ensuite, fermez toutes les fenêtres de navigation.
 
-#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>Tâche 3 :  Lors de cette tâche, vous vous connecterez pour la première fois en tant que Sara Perez.
+### <a name="task-3"></a>Tâche 3
+
+Lors de cette tâche, vous vous connecterez pour la première fois en tant que Sara Perez.
 
 1. Ouvrez Microsoft Edge.
 
@@ -127,9 +130,6 @@ Dans ce labo, vous accéderez à Azure Active Directory.  En plus, vous créerez
 
 8. **Déconnectez-vous** de tous les onglets de navigation en cliquant sur l’icône d’utilisateur à côté de l’adresse e-mail en haut à droite de l’écran. Ensuite, fermez toutes les fenêtres de navigation.
 
+### <a name="review"></a>Révision
 
-
-#### <a name="review"></a>Révision
 Dans ce labo, vous avez commencé votre découverte d’Azure AD. Puisque les abonnés à Microsoft 365 utilisent automatiquement Azure AD, vous avez découvert que vous accédez aux fonctionnalités et aux services d’Azure AD via le portail d’administration Microsoft 365 ou le portail Azure.  Choisissez l’approche que vous préférez pour accéder au même endroit.  Vous avez vu le processus de création d’un nouvel utilisateur et les différents paramètres qui peuvent être configurés, y compris les groupes auxquels l’utilisateur peut être affecté, la disponibilité des rôles et l’affectation de licences d’utilisateur.
-
-

@@ -2,16 +2,16 @@
 Demo:
   title: Réinitialisation de mot de passe en libre-service dans Azure Active Directory
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894149"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557216"
 ---
 # <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>Démonstration : Réinitialisation de mot de passe en libre-service (SSPR) dans Azure Active Directory
 
-### <a name="demo-scenario"></a>Scénario de la démonstration
+## <a name="demo-scenario"></a>Scénario de la démonstration
 
 Cette démonstration vous permettra de parcourir les divers paramètres associés à l’activation de la réinitialisation de mot de passe en libre-service.
 
@@ -40,7 +40,6 @@ Cette démonstration vous permettra de parcourir les divers paramètres associé
 
 1. Gardez cette page du navigateur ouverte pour la démonstration suivante.
 
-#### <a name="review"></a>Révision
+### <a name="review"></a>Révision
 
-Dans cette démonstration, vous avez montré les paramètres associés à la réinitialisation de mot de passe en libre-service. 
-
+Dans cette démonstration, vous avez montré les paramètres associés à la réinitialisation de mot de passe en libre-service.
