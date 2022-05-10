@@ -2,12 +2,12 @@
 lab:
   title: Découvrir l’authentification Azure AD avec réinitialisation de mot de passe en libre-service
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 7a9ae15dda8636c3323afacc0f92fc630485cc64
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ceaf7c5695abc9b7a7c179f6e5a1580b22af3016
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894016"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489269"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Labo : Découvrir l’authentification Azure AD avec réinitialisation de mot de passe en libre-service
 
@@ -99,7 +99,7 @@ Dans ce labo, vous allez suivre le processus d’activation de la réinitialisat
 
 4. Comme il s’agit de votre première connexion en tant qu’Annette Varieur, vous serez invité à réinitialiser votre mot de passe.  Saisissez votre ancien mot de passe.  Saisissez **SC900-Lab** comme nouveau mot de passe. Saisissez **SC900-Lab** dans le champ de confirmation du mot de passe.  Sélectionnez **Connexion**.  Remarque : nous utilisons ce mot de passe uniquement pour les besoins du labo. La meilleure pratique consiste à saisir un mot de passe plus sûr.
 
-5. Une fenêtre contextuelle s’affiche pour indiquer que d’autres informations sont nécessaires.  La configuration requiert que les membres du groupe SSPRSecurityUsers s’inscrivent lorsqu’ils se connectent.  Sélectionnez le bouton **Suivant**.  Remarque :  Les administrateurs peuvent directement configurer les méthodes d’authentification lorsqu’ils ajoutent un utilisateur, plutôt que de demander aux utilisateurs de s’inscrire eux-mêmes. Pour ce faire, les administrateurs doivent connaître et définir les numéros de téléphone et les adresses e-mail dont se servent les utilisateurs pour effectuer la réinitialisation de mot de passe en libre-service, et réinitialiser le mot de passe d’un utilisateur.
+5. Une fenêtre contextuelle s’affiche pour indiquer que d’autres informations sont nécessaires.  La configuration demande que les membres du groupe SSPRSecurityGroupUsers s’inscrivent lorsqu’ils se connectent.  Sélectionnez le bouton **Suivant**.  Remarque :  Les administrateurs peuvent directement configurer les méthodes d’authentification lorsqu’ils ajoutent un utilisateur, plutôt que de demander aux utilisateurs de s’inscrire eux-mêmes. Pour ce faire, les administrateurs doivent connaître et définir les numéros de téléphone et les adresses e-mail dont se servent les utilisateurs pour effectuer la réinitialisation de mot de passe en libre-service, et réinitialiser le mot de passe d’un utilisateur.
 
 6. La page « Sécuriser votre compte » s’ouvre.  La fenêtre qui s’affiche concerne la méthode d’authentification par téléphone. Si vous ne disposez pas d’un appareil mobile permettant de recevoir des SMS, passez à l’étape suivante.  Vous êtes invité à saisir un numéro de téléphone. Assurez-vous que l’option **Envoyez-moi un code par SMS** est activée.   Saisissez le numéro de téléphone sur lequel vous pouvez recevoir un code par SMS et appuyez sur le **bouton Suivant**.  Une nouvelle fenêtre s’ouvre indiquant qu’un code vient d’être envoyé au téléphone que vous avez saisi.  Saisissez le code reçu et sélectionnez **Suivant**. Une fenêtre s’ouvre indiquant Opération réussie et votre méthode de connexion par défaut.  Sélectionnez **Terminé**.  
 

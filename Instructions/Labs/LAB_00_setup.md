@@ -1,28 +1,27 @@
 ---
 lab:
   title: Programme d’installation
-ms.openlocfilehash: f39a5d0193ff23baa3a9c177a712c0ed9bf54ec6
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 5e141b2b29f43e4de741a94e06ef10dbe6cd78e3
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557302"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489245"
 ---
 # <a name="lab-setup"></a>Labo : Installation
 
-## <a name="lab-scenario"></a>Scénario du labo
+### <a name="lab-scenario"></a>Scénario du labo
 
 Lors de ce labo, vous utiliserez votre Pass Azure avec les mêmes informations d’identification que votre locataire Microsoft 365.  Vous bénéficiez ainsi d’une expérience plus fluide lorsque vous basculez entre Microsoft 365 et Azure. Pour cette configuration, vous autoriserez aussi la fonction de journal d’audit dans votre locataire Microsoft 365, car cela peut prendre du temps à faire effet. Microsoft 365 utilise les journaux d’audit pour les informations concernant les utilisateurs, les activités identifiées dans les stratégies et les informations concernant les analyses.
 
 **Durée estimée** : 5-10 minutes
 
-### <a name="setup-part-1---redeem-azure-pass"></a>Partie 1 de la configuration - Utiliser un Pass Azure
-
+#### <a name="setup-part-1---redeem-azure-pass"></a>Partie 1 de la configuration - Utiliser un Pass Azure
 Lors de cette tâche de configuration, vous utiliserez votre Pass Azure avec les mêmes informations d’identification que votre locataire Microsoft 365.  Vous bénéficiez ainsi d’une expérience plus fluide lorsque vous basculez entre Microsoft 365 et Azure.
 
 1. Si vous avez des fenêtres de navigation ouvertes, il est recommandé de fermer tous les navigateurs.
 
-1. Effectuez un clic droit sur l’icône Microsoft Edge et sélectionnez **Nouvelle fenêtre InPrivate** pour ouvrir une nouvelle session de navigation InPrivate.
+1. Effectuez un clic droit sur l’icône Microsoft Edge et sélectionnez **Nouvelle fenêtre InPrivate** pour ouvrir une nouvelle session de navigation InPrivate. Autres 
 
 1. Dans la barre d’adresse, saisissez **www.microsoftazurepass.com**.  
 
@@ -39,8 +38,7 @@ Lors de cette tâche de configuration, vous utiliserez votre Pass Azure avec les
 
 1. Laissez l’onglet de la page d’accueil du portail Azure ouvert. Vous y reviendrez lors de la démonstration suivante.
 
-### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Partie 2 de la configuration - Activer le journal d’audit de Microsoft 365
-
+#### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Partie 2 de la configuration - Activer le journal d’audit de Microsoft 365
 Lors de cette tâche de configuration, vous activerez la fonction de journal d’audit dans Microsoft 365.  Bien que la documentation indique que le journal d’audit est activé par défaut, la plupart des locataires de labo n’ont pas cette fonctionnalité activée. Il peut se passer plusieurs heures avant que l’activation ne fasse effet.  Il est utile d’activer cette fonctionnalité, car Microsoft 365 utilise les journaux d’audit pour les informations concernant les utilisateurs, les activités identifiées dans les stratégies et les informations concernant les analyses.
 
 1. Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse.
@@ -62,6 +60,6 @@ Lors de cette tâche de configuration, vous activerez la fonction de journal d�
 
 1. Retournez à la page d’accueil du Centre de conformité Microsoft 365 en sélectionnant **Accueil** depuis le volet de navigation à gauche.
 
-### <a name="review"></a>Révision
+#### <a name="review"></a>Révision
 
 Lors de cette configuration, vous avez utilisé votre Pass Azure avec les mêmes informations d’identification que votre locataire Microsoft 365.  Vous avez aussi activé la fonction de journal d’audit dans Microsoft 365.
