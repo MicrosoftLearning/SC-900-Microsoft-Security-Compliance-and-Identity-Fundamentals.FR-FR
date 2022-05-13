@@ -2,19 +2,22 @@
 Demo:
   title: Portail Microsoft 365 Defender
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5c556556a182328414d27ab91de82224845a145c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 19e4de67b0c63d0afdd318d98fedb4e230675730
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614360"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557307"
 ---
 # <a name="demo-the-microsoft-365-defender-portal"></a>Démonstration : Portail Microsoft 365 Defender
 
-### <a name="demo-scenario"></a>Scénario de la démonstration
+## <a name="demo-scenario"></a>Scénario de la démonstration
+
 Dans cette démonstration, vous présenterez le fonctionnement du portail Microsoft 365 Defender en parcourant le contenu affiché sur la page d’arrivée. Vous allez également parcourir les options du volet de navigation. Celles-ci permettent d’accéder rapidement aux fonctionnalités qui font partie de la solution de détection et de réponse étendues (XDR) de Microsoft : Microsoft Defender pour point de terminaison et Microsoft Defender pour Office 365 (messagerie et collaboration).  Enfin, vous présenterez comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.
 
-#### <a name="demo-part-1--explore-the-microsoft-365-defender-landing-page"></a>Partie 1 de la démonstration :  Découvrez la page d’arrivée de Microsoft 365 Defender.
+### <a name="demo-part-1"></a>Partie 1 de la démonstration
+
+Découvrez la page d’arrivée de Microsoft 365 Defender.
 
 1. Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse.  Vous devriez déjà être connecté en tant qu’administrateur.  Si ce n’est pas le cas, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
@@ -36,7 +39,9 @@ Dans cette démonstration, vous présenterez le fonctionnement du portail Micros
 
 1. En sélectionnant le titre d’une carte, vous accédez à des informations complémentaires pour ce sujet. Vous découvrirez cette opération lors de la tâche suivante.  Gardez la fenêtre de navigation ouverte.
 
-#### <a name="demo-part-2-in-this-part-of-the-demo-you-will-show-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Partie 2 de la démonstration : Dans cette partie de la démonstration, vous présenterez comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.
+### <a name="demo-part-2"></a>Partie 2 de la démonstration
+
+Dans cette partie de la démonstration, vous présenterez comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.
 
 1. Depuis la page d’accueil du portail Microsoft 365 Defender, sélectionnez **Niveau de sécurité Microsoft**, à partir de la barre de titre de la carte (le texte deviendra bleu).  Vous pouvez aussi sélectionner **Niveau de sécurité** depuis le volet de navigation à gauche.
 
@@ -56,6 +61,6 @@ Dans cette démonstration, vous présenterez le fonctionnement du portail Micros
 
 1. Fermez la page du navigateur.
 
-#### <a name="review"></a>Révision
+### <a name="review"></a>Révision
 
 Dans cette démonstration, vous avez découvert le portail Microsoft 365 Defender en parcourant le contenu affiché sur la page d’accueil, vous avez parcouru les options du volet de navigation qui fournissent un accès rapide aux fonctionnalités qui font partie de la solution de détection et de réponse étendues (XDR) de Microsoft, de Microsoft Defender pour point de terminaison et de Microsoft Defender pour Office 365 (messagerie et collaboration).  Enfin, vous avez présenté comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.

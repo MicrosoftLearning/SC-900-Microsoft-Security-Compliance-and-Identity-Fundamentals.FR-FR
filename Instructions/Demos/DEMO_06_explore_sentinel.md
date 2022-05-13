@@ -2,19 +2,20 @@
 Demo:
   title: Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 15788d59891cea9ae5c3117e9c79c7bc60bc2806
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614432"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557324"
 ---
-# <a name="demo-microsoft-sentinel"></a>Démonstration : Microsoft Sentinel 
+# <a name="demo-microsoft-sentinel"></a>Démonstration : Microsoft Sentinel
 
-### <a name="demo-scenario"></a>Scénario de la démonstration
+## <a name="demo-scenario"></a>Scénario de la démonstration
+
 Lors de cette démonstration, vous présenterez le processus de création d’une instance Microsoft Sentinel.  Vous définirez également les autorisations pour assurer l’accès aux ressources qui vont être déployées pour prendre en charge Microsoft Sentinel.  Une fois cette configuration de base effectuée, vous allez suivre les étapes de connexion de Microsoft Sentinel à vos sources de données et de création d’un classeur pour surveiller et visualiser vos données.  Enfin, vous allez afficher certaines des autres options disponibles, notamment l’analytique intégrée pour être informé de tout ce qui est suspect, la fonctionnalité d’automatisation, etc.
 
-#### <a name="pre-demo-setup--create-an-microsoft-sentinel-instance"></a>Configuration avant la démonstration :  Créer une instance Microsoft Sentinel
+### <a name="pre-demo-setup--create-an-microsoft-sentinel-instance"></a>Configuration avant la démonstration :  Créer une instance Microsoft Sentinel
 
 1. Ouvrez l’onglet du navigateur intitulé **Accueil-Microsoft Azure**.  Si vous avez fermé l’onglet, ouvrez une page du navigateur et saisissez portal.azure.com dans la barre d’adresse. Ensuite, reconnectez-vous.
 
@@ -41,11 +42,13 @@ Lors de cette démonstration, vous présenterez le processus de création d’un
 
 1. Laissez cette page ouverte, vous en aurez besoin pour la tâche suivante.
 
-#### <a name="demo-part-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>Partie 2 de la démonstration :  Avec la création de l’instance Microsoft Sentinel, vous voudrez vous assurer que vous avez les accès nécessaires aux ressources qui sont déployées pour prendre en charge Microsoft Sentinel.  
+### <a name="demo-part-2"></a>Partie 2 de la démonstration
+
+Avec la création de l’instance Microsoft Sentinel, vous voudrez vous assurer que vous avez les accès nécessaires aux ressources qui sont déployées pour prendre en charge Microsoft Sentinel.  
 
 1. Dans la barre de recherche, dans la barre bleue en haut de la page à côté de là où il est indiqué Microsoft Azure, saisissez **groupes de ressources** puis sélectionnez **Groupes de ressources** à partir des résultats de la echerche. Assigner le rôle pour le niveau de groupe de ressources garantira que le rôle s’applique à toutes les ressources qui sont déployées pour prendre en charge Microsoft Sentinel.
 
-1. Depuis la page des groupes de ressources, sélectionnez le groupe de ressources que vous avez créé avec Microsoft Sentinel, **SC900-Sentinel-RG**. 
+1. Depuis la page des groupes de ressources, sélectionnez le groupe de ressources que vous avez créé avec Microsoft Sentinel, **SC900-Sentinel-RG**.
 
 1. Depuis la page SC900-Sentinel-RG, sélectionnez **Contrôle d’accès (IAM)** dans le volet de navigation à gauche.
 
@@ -53,14 +56,16 @@ Lors de cette démonstration, vous présenterez le processus de création d’un
 
     1. Depuis la page Contrôle d’accès, sélectionnez **+Ajouter**, puis **Ajouter une attribution de rôle**.
 
-    1. La fenêtre d’attribution de rôle s’ouvre.  Dans la barre de recherche, saisissez **Microsoft Sentinel** pour afficher les quatre rôles associés à Microsoft Sentinel. 
+    1. La fenêtre d’attribution de rôle s’ouvre.  Dans la barre de recherche, saisissez **Microsoft Sentinel** pour afficher les quatre rôles associés à Microsoft Sentinel.
     1. Dans l’un des rôles répertoriés, sélectionnez **afficher** pour afficher les détails de ce rôle.  Nous recommandons d’attribuer le privilège minimum nécessaire pour ce rôle.  
 
     1. Fermez la fenêtre en cliquant sur le **X** en haut à droite de la fenêtre.
 
 1. Dans la page de contrôle d’accès, fermez la fenêtre en sélectionnant **X** en haut à droite de la fenêtre.
 
-#### <a name="demo-part-3--in-this-part-of-the-demo-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>Partie 3 de la démonstration :  Dans cette partie de la démonstration, vous expliquerez le processus pour connecter Microsoft Sentinel à votre source de données pour commencer à collecter des données.
+### <a name="demo-part-3"></a>Partie 3 de la démonstration
+
+Dans cette partie de la démonstration, vous expliquerez le processus pour connecter Microsoft Sentinel à votre source de données pour commencer à collecter des données.
 
 1. Dans la barre de recherche, dans la barre bleue en haut de la page à côté de là où il est indiqué Microsoft Azure, saisissez **Sentinel** puis sélectionnez **Microsoft Sentinel** à partir des résultats de la recherche.
 
@@ -82,7 +87,9 @@ Lors de cette démonstration, vous présenterez le processus de création d’un
 
 1. Laissez cette page ouverte, vous en aurez besoin pour la tâche suivante.
 
-#### <a name="demo-part-4--in-this-part-of-the-demo-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>Partie 4 de la démonstration :  Dans cette partie de la démonstration, vous allez parcourir le processus de configuration d’un classeur pour Office 365, pour visualiser et surveiller vos données.
+### <a name="demo-part-4"></a>Partie 4 de la démonstration
+
+Dans cette partie de la démonstration, vous allez parcourir le processus de configuration d’un classeur pour Office 365, pour visualiser et surveiller vos données.
 
 1. Dans le volet de navigation à gauche, sélectionnez **Classeurs**.
 
@@ -94,7 +101,9 @@ Lors de cette démonstration, vous présenterez le processus de création d’un
 
 1. En haut à gauche de la page Classeurs, au-dessus de Classeurs, sélectionnez **Microsoft Sentinel**. Cette opération vous renvoie à la page Vue d’ensemble.
 
-#### <a name="demo-part-5--in-this-part-of-the-demo-you-will-show-some-of-the-options-available-in-sentinel"></a>Partie 5 de la démonstration :  Dans cette partie de la démonstration, vous allez afficher certaines des options disponibles dans Sentinel.
+### <a name="demo-part-5"></a>Partie 5 de la démonstration
+
+Dans cette partie de la démonstration, vous allez afficher certaines des options disponibles dans Sentinel.
 
 1. Dans le volet de navigation gauche, sélectionnez **Hunting** (Repérage).  Sous l’onglet **requêtes**, qui est sélectionné (souligné), sélectionnez une requête dans la liste.  Une fois qu’une requête est sélectionnée, notez les informations fournies sur cette requête, y compris le code de la requête, ainsi que l’option permettant d’exécuter la requête et d’afficher les résultats.  Ne sélectionnez rien.
 
@@ -112,7 +121,9 @@ Lors de cette démonstration, vous présenterez le processus de création d’un
 
 1. Dans le coin supérieur gauche de la fenêtre, juste en dessous de la barre bleue, sélectionnez **Accueil** pour revenir à la page d’accueil du portail Azure.
 
-#### <a name="task-6-post-course-delivery-tear-down-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-demo-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>Tâche 6 : Désactivation de livraison après cours. Microsoft Sentinel est facturé en fonction du volume de données ingérées pour l’analyse dans Microsoft Sentinel. Bien que la quantité de données ingérées dans le cadre de cette démonstration soit minime, nous vous recommandons de supprimer le groupe de ressources Microsoft Sentinel quand vous avez fini de découvrir les fonctionnalités de Microsoft Sentinel.
+### <a name="task-6"></a>Tâche 6
+
+Désactivation de livraison après cours. Microsoft Sentinel est facturé en fonction du volume de données ingérées pour l’analyse dans Microsoft Sentinel. Bien que la quantité de données ingérées dans le cadre de cette démonstration soit minime, nous vous recommandons de supprimer le groupe de ressources Microsoft Sentinel quand vous avez fini de découvrir les fonctionnalités de Microsoft Sentinel.
 
 1. Depuis la page Microsoft Sentinel, en haut à gauche, où il est indiqué Microsoft Sentinel, sélectionnez **Tous les services**.
 
@@ -122,8 +133,8 @@ Lors de cette démonstration, vous présenterez le processus de création d’un
 
 4. En haut au centre de la page, sélectionnez **Supprimer le groupe de ressources**.  Passez en revue l’avertissement.  Saisissez le nom du groupe de ressources, **SC900-ResourceGroup**, puis sélectionnez **Supprimer** en bas de la page.  La suppression du groupe de ressources prend plusieurs minutes.
 
-5. Une fois que vous avez vérifié que le groupe de ressources est bien supprimé, fermez la page de navigation. 
+5. Une fois que vous avez vérifié que le groupe de ressources est bien supprimé, fermez la page de navigation.
 
-#### <a name="review"></a>Révision
+### <a name="review"></a>Révision
 
 Dans cette démonstration, vous avez parcouru les étapes de connexion de Microsoft Sentinel à des sources de données, vous avez configuré un classeur et parcouru plusieurs options disponibles dans Microsoft Sentinel.

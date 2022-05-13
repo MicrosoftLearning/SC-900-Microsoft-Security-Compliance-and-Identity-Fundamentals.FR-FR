@@ -2,12 +2,12 @@
 lab:
   title: Découvrir les offres du Portail d’approbation de services
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: e26a0d4eaaaabba7027215db53c3ebd0ccb0ad6c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614192"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557204"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>Labo : Découvrir les offres du Portail d’approbation de services
 
@@ -17,12 +17,13 @@ Dans ce labo, vous allez découvrir les fonctionnalités et le contenu disponibl
 
 **Durée estimée** : 10-15 minutes
 
+### <a name="task-1"></a>Tâche 1
 
-#### <a name="task-1-in-this-task-you-will-explore-the-service-trust-portal-and-the-different-types-of-content-available-you-will-learn-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>Tâche 1 : Dans cette tâche, vous allez découvrir le Portail d’approbation de services et les différents types de contenu qu’il propose. Vous allez apprendre à accéder aux rapports, mais aussi à les enregistrer dans votre bibliothèque. 
+Dans cette tâche, vous allez découvrir le Portail d’approbation de services et les différents types de contenu qu’il propose. Vous allez apprendre à accéder aux rapports, mais aussi à les enregistrer dans votre bibliothèque.
 
 1. Ouvrez Microsoft Edge.
 
-1. Dans la barre d’adresse, entrez **https://aka.ms/STP** .  Cela vous mènera à la page d’arrivée du Portail d’approbation de services. Le Portail d’approbation de services contient les détails concernant l’implémentation par Microsoft des contrôles et des processus qui protègent nos services cloud et les données client qu’ils contiennent. 
+1. Dans la barre d’adresse, entrez **aka.ms/STP**.  Cela vous mènera à la page d’arrivée du Portail d’approbation de services. Le Portail d’approbation de services contient les détails concernant l’implémentation par Microsoft des contrôles et des processus qui protègent nos services cloud et les données client qu’ils contiennent.
 
 1. Pour accéder à certaines ressources du Portail d’approbation de services, vous devez vous connecter en tant qu’utilisateur vérifié avec votre compte de services cloud Microsoft et lire et accepter le contrat de non-divulgation de Microsoft pour les documents de conformité. Dans le coin supérieur droit de la page d’accueil du portail Service Trust, l’option de connexion s’affiche.  **Connectez-vous** à l’aide de vos informations d’identification d’administrateur et, si vous y êtes invité, sélectionnez **Accepter** pour accepter l’accord de non-divulgation de Microsoft pour les documents de conformité.
 
@@ -46,7 +47,9 @@ Dans ce labo, vous allez découvrir les fonctionnalités et le contenu disponibl
 
 1. Vous pouvez sélectionner plusieurs catégories,  y compris les rapports d’évaluation GRC, les guides de conformité, etc.  Comme lors de la tâche précédente, vous pouvez filtrer la liste des documents affichés et sélectionner les documents que vous voulez télécharger ou enregistrer dans votre bibliothèque.
 
-#### <a name="task-2-in-this-task-you-will-visit-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>Tâche 2 : Dans cette tâche, vous allez consulter le Centre de gestion de la confidentialité, ainsi que les six principes clés de la protection des données personnelles de Microsoft.
+### <a name="task-2"></a>Tâche 2
+
+Dans cette tâche, vous allez consulter le Centre de gestion de la confidentialité, ainsi que les six principes clés de la protection des données personnelles de Microsoft.
 
 1. En haut de la page Portail d’approbation de services, sélectionnez **Centre de gestion de la confidentialité**, puis **Accueil**. Cela ouvre un nouvel onglet dans votre navigateur qui vous emmène au Centre de gestion de la confidentialité où se trouvent plus d’informations concernant la sécurité, la conformité et la confidentialité dans Microsoft Cloud.
 
@@ -60,6 +63,6 @@ Dans ce labo, vous allez découvrir les fonctionnalités et le contenu disponibl
 
 1. Fermez vos fenêtres de navigation pour quitter le Portail d’approbation de services et le Centre de gestion de la confidentialité.
 
-#### <a name="review"></a>Révision
+### <a name="review"></a>Révision
 
 Dans ce labo, vous avez découvert certaines des options offertes sur le Portail d’approbation de services. Vous avez aussi appris à accéder aux rapports et à utiliser Ma bibliothèque pour enregistrer des documents à examiner plus tard.  En plus, vous vous êtes rendu sur le Centre de gestion de la confidentialité pour accéder aux principes de confidentialité de Microsoft et les lire.

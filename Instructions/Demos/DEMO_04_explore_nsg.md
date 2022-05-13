@@ -2,20 +2,21 @@
 Demo:
   title: Groupes de sécurité réseau Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 878316bb32c23e57550dddda1312af270a2fe078
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019281"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557527"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Démonstration : Groupes de sécurité réseau Azure
 
-### <a name="demo-scenario"></a>Scénario de la démonstration
+## <a name="demo-scenario"></a>Scénario de la démonstration
+
 Dans cette démonstration, vous présenterez les fonctionnalités d’un groupe de sécurité réseau dans Azure.  Afin de préparer la démonstration, vous créerez une machine virtuelle sans groupe de sécurité réseau. Vous créerez également un groupe de sécurité réseau sans interface ou sous-réseau associé.  Lors de cette démonstration, vous présenterez les règles de trafic entrant et sortant pour le groupe de sécurité réseau. Vous expliquerez ensuite comment attribuer l’interface virtuelle au groupe de sécurité réseau.  Après la configuration, vous testerez la connexion à la machine virtuelle à l’aide des règles de groupe de sécurité réseau par défaut, ainsi que les règles que vous créerez.
   
+### <a name="pre-demo-setup-part-1"></a>Configuration à faire avant la démonstration, partie 1
 
-#### <a name="pre-demo-setup-part-1"></a>Configuration à faire avant la démonstration, partie 1
  Il vous est recommandé en tant qu’instructeur d’effectuer ces actions **AVANT** l’heure de classe, car la création d’une machine virtuelle peut prendre plusieurs minutes. Lors de cette configuration, vous créez une machine virtuelle Windows 10.
 
 1. Ouvrez l’onglet **Accueil - Microsoft Azure** dans votre navigateur.  Si vous avez fermé l’onglet, ouvrez une page du navigateur et saisissez portal.azure.com dans la barre d’adresse. Ensuite, reconnectez-vous.
@@ -62,7 +63,8 @@ Dans cette démonstration, vous présenterez les fonctionnalités d’un groupe 
 
 1. Vous êtes de retour sur la page SC900-WinVM dans le portail Azure.  Laissez cet onglet de navigateur ouvert pour la tâche suivante.
 
-#### <a name="pre-demo-setup-part-2"></a>Configuration à faire avant la démonstration, partie 2
+### <a name="pre-demo-setup-part-2"></a>Configuration à faire avant la démonstration, partie 2
+
 Créez un groupe de sécurité réseau, mais n’assignez PAS l’interface du réseau de la machine virtuelle à ce groupe de sécurité réseau.  
 
 1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur.
@@ -80,7 +82,8 @@ Créez un groupe de sécurité réseau, mais n’assignez PAS l’interface du r
 
 1. Une fois le déploiement terminé, sélectionnez **Accéder à la ressource** et assurez-vous que tout est correct.  Par défaut, il doit y avoir 3 règles de trafic entrant, 3 règles de trafic sortant et aucun sous-réseau et interface associé au groupe de sécurité réseau.  Retournez à la page **d’accueil** du portail Azure.  
 
-#### <a name="demo"></a>Démonstration
+### <a name="demo"></a>Démonstration
+
 Montrez les paramètres pour un groupe de sécurité réseau.  Dans ce cas-ci, vous montrerez les fonctionnalités pour un groupe de sécurité réseau existant (celui que vous avez créé dans la configuration ci-dessus), qui n’a pas encore été attribué à une interface de machine virtuelle. Vous présenterez le processus pour associer une interface au groupe de sécurité réseau et le processus pour créer des règles de trafic entrant et sortant.
 
 1. Ouvrez l’onglet du navigateur intitulé **Accueil-Microsoft Azure**.  Si vous avez fermé l’onglet, ouvrez une page du navigateur et saisissez portal.azure.com dans la barre d’adresse. Ensuite, reconnectez-vous.
@@ -143,13 +146,14 @@ Montrez les paramètres pour un groupe de sécurité réseau.  Dans ce cas-ci, v
 
 1. Testez maintenant la règle de groupe de sécurité réseau du trafic sortant.
     1. Ouvrez le navigateur Edge dans la machine virtuelle.
-    1. Entrez **https://www.bing.com** . La page ne doit pas s’afficher. Remarque : si vous pouvez vous connecter à Internet et que vous avez vérifié que tous les paramètres de la règle de trafic sortant ont été correctement définis, c’est probablement car il faut quelques minutes pour que la règle prenne effet. Patientez quelques minutes, puis réessayez.
+    1. Entrez **www.bing.com**. La page ne doit pas s’afficher. Remarque : si vous pouvez vous connecter à Internet et que vous avez vérifié que tous les paramètres de la règle de trafic sortant ont été correctement définis, c’est probablement car il faut quelques minutes pour que la règle prenne effet. Patientez quelques minutes, puis réessayez.
 
 1. Fermez la connexion au bureau à distance en sélectionnant le **X** en haut au centre de la page où l’adresse IP est affichée. Une fenêtre contextuelle indique que Votre session à distance sera déconnectée. Sélectionnez **OK**.
 
 1. Revenez à la page d’accueil du portail Azure en sélectionnant **Microsoft Azure** sur la barre bleue en haut de la page.
 
-#### <a name="tear-down"></a>Destruction
+### <a name="tear-down"></a>Destruction
+
 **IMPORTANT** : Lors de cette tâche, vous supprimerez le groupe de ressources et l’ensemble des ressources qu’il contient.   C’est important afin d’éviter des charges supplémentaires.
 
 1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur.

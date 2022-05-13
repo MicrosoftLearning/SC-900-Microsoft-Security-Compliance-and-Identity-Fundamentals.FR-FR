@@ -2,23 +2,26 @@
 lab:
   title: Découvrir les groupes de sécurité réseau Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: b140c437202af133f02d8e615795a97f634aca96
-ms.sourcegitcommit: 89f5fbd1e9c70e30108daa8fbeb65ebd9947bf1a
+ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "141605422"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557504"
 ---
-# <a name="lab-explore-azure-network-security-groups-nsgs"></a>Labo : Explorer les groupes de sécurité réseau Azure
+# <a name="lab-explore-azure-network-security-groups-nsgs"></a>Labo : Découvrir les groupes de sécurité réseau Azure
 
 ## <a name="lab-scenario"></a>Scénario du labo
+
 Dans ce labo, vous allez découvrir la fonction des groupes de sécurité réseau dans Azure.  Pour ce faire, vous devez créer la machine virtuelle sans groupe de sécurité réseau.  Sans groupe de sécurité réseau permettant de filtrer le trafic, tous les ports de la machine virtuelle sont exposés à l’Internet public.  Vous suivrez ensuite le processus de création d’un groupe de sécurité réseau et d’affectation de l’interface de la machine virtuelle à ce groupe de sécurité réseau.  Après la configuration, vous testerez la connexion à la machine virtuelle à l’aide des règles de groupe de sécurité réseau par défaut, ainsi que les règles que vous créerez.
   
-
 **Durée estimée** : 15-20 minutes
 
-#### <a name="task-1--in-this-task-you-will-create-a-windows-10-virtual-machine"></a>Tâche 1 :  Dans cette tâche, vous allez créer une machine virtuelle Windows 10.    
-1.  Ouvrez Microsoft Edge.  Dans la barre d’adresse, saisissez **portal.azure.com**.
+### <a name="task-1"></a>Tâche 1
+
+Dans cette tâche, vous allez créer une machine virtuelle Windows 10.
+
+1. Ouvrez Microsoft Edge.  Dans la barre d’adresse, saisissez **portal.azure.com**.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
@@ -34,13 +37,13 @@ Dans ce labo, vous allez découvrir la fonction des groupes de sécurité résea
     1. Groupe de ressources : sélectionnez **Créer nouveau** puis, dans le champ Nom, entrez **LabsSC900**, puis sélectionnez **OK**.
     1. Nom des machines virtuelles : entrez **SC900-WinVM**.
     1. Région : si le champ Région n’est pas prérempli, sélectionnez la région la plus proche de votre emplacement.
-    3. Image : dans la liste déroulante, sélectionnez **Windows 10 Professionnel, Version 20H2 – Gen 1**.
-    4. Taille : sélectionnez **Afficher toutes les tailles** dans la liste déroulante, sélectionnez **B2s**, puis cliquez sur **Sélectionner** dans le bas de la page.
-    5. Nom d’utilisateur :  Entrez un nom d’utilisateur de votre choix.  Prenez-en note, car vous en aurez besoin pour accéder à la machine virtuelle.
-    6. Mot de passe :  Entrez un mot de passe de votre choix.  Prenez-en note, car vous en aurez besoin pour accéder à la machine virtuelle.
-    7. Ports de trafic entrant publics : sélectionnez **Aucun**.
-    8. Licences : sélectionnez **Je confirme disposer d’une licence Windows 10 éligible avec des droits d’hébergement multilocataire** pour faire apparaître une coche dans la case.
-    9. Sélectionnez **Suivant : Disques**. 
+    1. Image : dans la liste déroulante, sélectionnez **Windows 10 Professionnel, Version 20H2 – Gen 1**.
+    1. Taille : sélectionnez **Afficher toutes les tailles** dans la liste déroulante, sélectionnez **B2s**, puis cliquez sur **Sélectionner** dans le bas de la page.
+    1. Nom d’utilisateur :  Entrez un nom d’utilisateur de votre choix.  Prenez-en note, car vous en aurez besoin pour accéder à la machine virtuelle.
+    1. Mot de passe :  Entrez un mot de passe de votre choix.  Prenez-en note, car vous en aurez besoin pour accéder à la machine virtuelle.
+    1. Ports de trafic entrant publics : sélectionnez **Aucun**.
+    1. Licences : sélectionnez **Je confirme disposer d’une licence Windows 10 éligible avec des droits d’hébergement multilocataire** pour faire apparaître une coche dans la case.
+    1. Sélectionnez **Suivant : Disques**.
 1. Vous êtes à présent au niveau de l’onglet Disques pour la configuration de la machine virtuelle.  Conservez tous les paramètres par défaut et sélectionnez **Suivant : Mise en réseau >** .
 1. Vous êtes à présent au niveau de l’onglet Mise en réseau pour la configuration de la machine virtuelle.  Remplissez les informations suivantes (pour tous les éléments non répertoriés, laissez les paramètres par défaut) :
     1. Groupe de sécurité réseau de la carte réseau : sélectionnez **Aucun**.  Remarque : La raison pour laquelle vous sélectionnez Aucun à cette étape est que nous voulons suivre les étapes de configuration d’un groupe de sécurité réseau à partir de zéro, ces étapes étant couvertes dans les tâches suivantes.
@@ -52,17 +55,19 @@ Dans ce labo, vous allez découvrir la fonction des groupes de sécurité résea
 1. Vérifiez la configuration de votre machine virtuelle.  Quelques points à noter : Cette machine virtuelle dispose d’une adresse IP publique et d’aucun groupe de sécurité réseau de la carte réseau.  En ce qui concerne la sécurité, la machine virtuelle est exposée.  Nous verrons cela dans une tâche ultérieure. Sélectionnez Créer.  Le déploiement de la machine virtuelle peut prendre plusieurs minutes.
 1. Notez le nom de l’interface du réseau, **sc900-winvmXXX** (les XXX seront spécifiques à l’interface du réseau de votre machine virtuelle).
 1. Une fois le déploiement de la machine virtuelle effectué, sélectionnez **Accéder à la ressource**.
-1. Vous êtes à présent sur la page SC900-WinVM.  Notez l’adresse IP publique. 
+1. Vous êtes à présent sur la page SC900-WinVM.  Notez l’adresse IP publique.
 1. En haut de la page, sélectionnez **Se connecter** puis, dans la liste déroulante, sélectionnez **RDP**.
-1. Vérifiez que l’adresse IP est paramétrée sur Adresse IP publique, conservez le numéro de port par défaut et sélectionnez **Télécharger le fichier DRP**. 
-1. Ouvrez le fichier téléchargé et sélectionnez **Se connecter**. 
+1. Vérifiez que l’adresse IP est paramétrée sur Adresse IP publique, conservez le numéro de port par défaut et sélectionnez **Télécharger le fichier DRP**.
+1. Ouvrez le fichier téléchargé et sélectionnez **Se connecter**.
 1. Vous serez invité à saisir vos informations d’identification.  Entrez le nom d’utilisateur et le mot de passe que vous avez utilisés quand vous avez créé la machine virtuelle.
 1. Une fenêtre de connexion de bureau à distance s’ouvre et indique que l’identité de l’ordinateur distant ne peut pas être vérifiée.  Voulez-vous quand même vous connecter ?  Sélectionnez **Oui**.
-1. Vous êtes maintenant connecté à la machine virtuelle que vous venez de créer. Suivez les instructions pour effectuer la configuration de Windows. Bien que vous vous soyez connecté à la machine virtuelle via RDP et un port RDP couramment utilisé, cette machine virtuelle a tous les ports ouverts et rien ne filtre le trafic. 
+1. Vous êtes maintenant connecté à la machine virtuelle que vous venez de créer. Suivez les instructions pour effectuer la configuration de Windows. Bien que vous vous soyez connecté à la machine virtuelle via RDP et un port RDP couramment utilisé, cette machine virtuelle a tous les ports ouverts et rien ne filtre le trafic.
 1. Fermez la connexion au bureau à distance en sélectionnant le **X** en haut au centre de la page où l’adresse IP est affichée.  Une fenêtre contextuelle indique que Votre session à distance sera déconnectée. Sélectionnez **OK**.
 1. Vous êtes de retour sur la page SC900-WinVM dans le portail Azure.  Laissez cet onglet de navigateur ouvert pour la tâche suivante.
 
-#### <a name="task-2--create-a-network-security-group-and-assign-the-network-interface-of-the-vm-to-that-nsg"></a>Tâche 2 :  Créez un groupe de sécurité réseau et affectez l’interface réseau de la machine virtuelle à ce groupe de sécurité réseau.
+### <a name="task-2"></a>Tâche 2
+
+Créez un groupe de sécurité réseau et affectez l’interface réseau de la machine virtuelle à ce groupe de sécurité réseau.
 
 1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur.
 
@@ -90,7 +95,9 @@ Dans ce labo, vous allez découvrir la fonction des groupes de sécurité résea
 1. Ouvrez le fichier téléchargé et sélectionnez **Se connecter**.
 1. Après une tentative de connexion de quelques secondes, vous verrez le message d’échec qui indique que le bureau à distance ne peut pas se connecter à l’ordinateur distant.  Sélectionnez **OK**.
 
-#### <a name="task-3-in-this-task-you-will-create-a-nsg-rule-to-allow-inbound-traffic-using-rdp-on-port-3389--you-will-then-test-that-rule-by-attempting-to-connect-to-the-vm-using-rdp"></a>Tâche 3 : dans cette tâche, vous allez créer une règle de groupe de sécurité réseau pour autoriser le trafic entrant à l’aide de RDP sur le port 3389.  Vous testerez ensuite cette règle en tentant de vous connecter à la machine virtuelle à l’aide de RDP. 
+### <a name="task-3"></a>Tâche 3
+
+Dans cette tâche, vous allez créer une règle de groupe de sécurité réseau pour autoriser le trafic entrant en utilisant RDP sur le port 3389.  Vous testerez ensuite cette règle en tentant de vous connecter à la machine virtuelle à l’aide de RDP.
 
 1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur.
 
@@ -115,10 +122,12 @@ Dans ce labo, vous allez découvrir la fonction des groupes de sécurité résea
 1. Vous êtes maintenant connecté à la machine virtuelle. Dans le cas présent, vous avez pu vous connecter à la machine virtuelle, car la règle de trafic entrant que vous avez créée autorise le trafic entrant vers la machine virtuelle via RDP.
 1. Gardez la machine virtuelle ouverte. Vous l’utiliserez pour la tâche suivante.
 
-#### <a name="task-4--the-default-outbound-rules-for-nsg-allow-outbound-internet-traffic-so-you-will-validate-that-you-can-connect-to-the-internet--you-will-then-go-through-the-process-of-creating-a-custom-outbound-rule-to-block-outgoing-internet-traffic-and-test-that-rule"></a>Tâche 4 :  Les règles de trafic sortant par défaut de groupe de sécurité réseau autorisent le trafic Internet sortant, ce qui vous permettra de vérifier que vous pouvez vous connecter à Internet.  Vous allez ensuite créer une règle de trafic sortant personnalisée pour bloquer le trafic Internet sortant et tester cette règle.
+### <a name="task-4"></a>Tâche 4
+
+Les règles de trafic sortant par défaut de groupe de sécurité réseau autorisent le trafic Internet sortant, ce qui vous permettra de vérifier que vous pouvez vous connecter à Internet.  Vous allez ensuite créer une règle de trafic sortant personnalisée pour bloquer le trafic Internet sortant et tester cette règle.
 
 1. Dans la machine virtuelle, sélectionnez **Edge** pour ouvrir le navigateur.  
-1. Entrez **https://www.bing.com** dans la barre d’adresse du navigateur et vérifiez que vous êtes en mesure de vous connecter au moteur de recherche.
+1. Entrez **www.bing.com** dans la barre d’adresse du navigateur et confirmez que vous pouvez vous connecter au moteur de recherche.
 1. Fermez le navigateur de votre machine virtuelle, mais gardez la machine virtuelle ouverte. Vous l’utiliserez dans les étapes ultérieures.
 1. Revenez au portail Azure et ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur.
 1. Dans le volet de navigation à gauche, sous Paramètres, sélectionnez **Mise en réseau**.
@@ -138,11 +147,13 @@ Dans ce labo, vous allez découvrir la fonction des groupes de sécurité résea
 1. Sélectionnez **Ajouter**
 1. Une fois que la règle est créée, elle apparaîtra dans la liste des règles de trafic sortant.  Elle apparaît dans la liste, mais son application prendra quelques minutes (attendez quelques minutes avant de passer aux étapes suivantes).  
 1. Revenez à votre machine virtuelle
-1. Ouvrez le navigateur Edge sur votre machine virtuelle et entrez **https://www.bing.com** .  La page ne doit pas s’afficher.  Remarque : si vous pouvez vous connecter à Internet et que vous avez vérifié que tous les paramètres de la règle de trafic sortant ont été correctement définis, c’est probablement car il faut quelques minutes pour que la règle prenne effet.  Fermez le navigateur, patientez quelques minutes, puis réessayez.
+1. Ouvrez le navigateur Edge dans votre machine virtuelle et entrez **www.bing.com**. La page ne doit pas s’afficher.  Remarque : si vous pouvez vous connecter à Internet et que vous avez vérifié que tous les paramètres de la règle de trafic sortant ont été correctement définis, c’est probablement car il faut quelques minutes pour que la règle prenne effet.  Fermez le navigateur, patientez quelques minutes, puis réessayez.
 1. Fermez la connexion au bureau à distance en sélectionnant le **X** en haut au centre de la page où l’adresse IP est affichée.  Une fenêtre contextuelle indique que Votre session à distance sera déconnectée. Sélectionnez **OK**.
 1. Dans cette tâche, vous avez configuré une règle de trafic sortant dans votre groupe de sécurité réseau pour bloquer le trafic Internet sortant.
 
-#### <a name="task-5--important-in-this-task-you-will-delete-the-resource-group-and-all-the-resources-it-contains---this-is-important-to-avoid-additional-charges"></a>Tâche 5 :  IMPORTANT : Lors de cette tâche, vous supprimerez le groupe de ressources et l’ensemble des ressources qu’il contient.   C’est important afin d’éviter des charges supplémentaires.
+### <a name="task-5"></a>Tâche 5
+
+**IMPORTANT** : Lors de cette tâche, vous supprimerez le groupe de ressources et l’ensemble des ressources qu’il contient.   C’est important afin d’éviter des charges supplémentaires.
 
 1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur.
 
@@ -153,6 +164,6 @@ Dans ce labo, vous allez découvrir la fonction des groupes de sécurité résea
 1. Dans la fenêtre qui s’ouvre, saisissez le nom du groupe de ressources, **LabsSC900**, pour confirmer la suppression du groupe de ressources et de toutes ses ressources, puis sélectionnez **Supprimer** au bas de la page.
 1. La suppression de toutes les ressources et du groupe de ressources peut prendre quelques minutes.
 
-#### <a name="review"></a>Révision
+### <a name="review"></a>Révision
 
 Dans ce labo, vous avez suivi le processus de configuration d’une machine virtuelle avec et sans groupe de sécurité réseau et vu l’impact des règles de groupe de sécurité réseau par défaut.  Vous avez également suivi le processus de création des règles de groupe de sécurité réseau.

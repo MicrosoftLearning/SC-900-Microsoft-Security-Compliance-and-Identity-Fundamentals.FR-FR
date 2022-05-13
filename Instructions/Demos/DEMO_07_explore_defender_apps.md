@@ -2,19 +2,20 @@
 Demo:
   title: 'Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894093"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557168"
 ---
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>Démonstration : Microsoft Defender pour applications cloud
 
-### <a name="demo-scenario"></a>Scénario de la démonstration
+## <a name="demo-scenario"></a>Scénario de la démonstration
+
 Dans cette démonstration, vous présenterez les possibilités de Microsoft Defender pour le cloud.  Vous guiderez le participant à travers les informations disponibles sur le tableau de bord de Cloud Discovery et vous lui montrerez les fonctionnalités disponibles pour examiner les résultats et contrôler l’impact sur votre organisation par le biais de stratégies.  Remarque :  Une organisation doit avoir une licence pour utiliser Microsoft Defender pour le cloud, qui est un service d’abonnement basé sur l’utilisateur.  
 
-#### <a name="demo-part-1-explore-cloud-discovery"></a>Partie 1 de la démonstration : Découvrez Cloud Discovery.
+### <a name="demo-part-1-explore-cloud-discovery"></a>Partie 1 de la démonstration : Explorer Cloud Discovery
 
 1. Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse.  Vous devriez déjà être connecté en tant qu’administrateur.  Si ce n’est pas le cas, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
@@ -54,7 +55,9 @@ Dans cette démonstration, vous présenterez les possibilités de Microsoft Defe
 
 1. Laissez cette page ouverte, vous en aurez besoin pour la tâche suivante.
 
-#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Partie 2 de la démonstration : Découvrez les manières d’examiner les activités enregistrées.
+### <a name="demo-part-2"></a>Partie 2 de la démonstration
+
+Découvrez les manières d’examiner les activités enregistrées.
 
 1. Dans le volet de navigation à gauche, sous **Examiner**, sélectionnez **Journal d’activité**.  C’est ici que vous verrez toutes les activités de vos applications connectées.   Comme vous avez déjà connecté le connecteur Office 365, vous devriez voir quelques données. Une fois connecté à une application à l’aide du connecteur d’applications, Cloud App Security analyse toutes les activités passées (la période d’analyse rétroactive varie par application). Cloud App Security est ensuite mis à jour en continu avec les nouvelles activités.  
 
@@ -66,8 +69,9 @@ Dans cette démonstration, vous présenterez les possibilités de Microsoft Defe
 
 1. Laissez cette page ouverte, vous en aurez besoin pour la tâche suivante.
 
+### <a name="demo-part-3"></a>Partie 3 de la démonstration
 
-#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Partie 3 de la démonstration : Lors de cette tâche, vous découvrirez les pages de stratégies et d’alertes dans Microsoft Defender pour le cloud.
+Dans cette tâche, vous allez explorer les pages de stratégies et d’alertes dans Microsoft Defender pour les applications cloud.
 
 1. Dans le volet de navigation à gauche, sous Contrôle, sélectionnez **Stratégies**.  Les stratégies répertoriées fournissent des informations sur le nombre d’alertes générées par la stratégie, la gravité, etc. La sélection de n’importe quelle rubrique fournit des informations plus détaillées sur la stratégie. À partir de la liste, sélectionnez l’élément **Connexion risquée**.  
 
@@ -75,5 +79,6 @@ Dans cette démonstration, vous présenterez les possibilités de Microsoft Defe
 
 1. Fermez la fenêtre du navigateur.
 
-#### <a name="review"></a>Révision
+### <a name="review"></a>Révision
+
 Dans cette démonstration, vous avez découvert les possibilités des applications Microsoft Defender pour le cloud.  Vous avez présenté les informations disponibles sur le tableau de bord de Cloud Discovery ainsi que les fonctionnalités disponibles pour examiner les résultats et contrôler l’impact sur votre organisation par le biais de stratégies.

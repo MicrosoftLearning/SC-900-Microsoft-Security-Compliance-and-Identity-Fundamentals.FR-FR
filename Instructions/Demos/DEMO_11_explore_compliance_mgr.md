@@ -1,28 +1,29 @@
 ---
 Demo:
-  title: Découvrir le Centre de conformité Microsoft 365 et le Gestionnaire de conformité
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
-ms.openlocfilehash: 32c4783d9a909bfd8099750b994ab5a05718c198
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
+ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614204"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557240"
 ---
-# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Démonstration : Découvrir le Centre de conformité Microsoft 365 et le Gestionnaire de conformité
+# <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Démonstration : Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité
 
 ## <a name="demo-scenario"></a>Scénario de la démonstration
-Cette démonstration vous permettra de présenter la page d’accueil du Centre de conformité Microsoft 365 ainsi que les manières dont les fonctionnalités du Gestionnaire de conformité aident les organisations à améliorer leur situation de sécurité.
 
-## <a name="instructions"></a>Instructions
+Dans cette démonstration, vous allez découvrir la page d’accueil du portail de conformité Microsoft Purview et voir comment les fonctionnalités du Gestionnaire de conformité peuvent aider les organisations à améliorer leur posture de conformité.
 
-#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>Partie 1 de la démonstration : Présentez la page d’accueil du Centre de conformité Microsoft 365 et montrez comment personnaliser l’affichage des cartes et du volet de navigation.
+### <a name="demo-part-1"></a>Partie 1 de la démonstration
+
+Découvrez la page d’accueil du portail de conformité Microsoft Purview, puis apprenez à personnaliser l’apparence de la carte et le volet de navigation.
 
 1. Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse. Vous devriez déjà être connecté en tant qu’administrateur.  Si ce n’est pas le cas, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
 
-1. Sous les Centres d’administration, sélectionnez **Conformité**.  Le navigateur ouvre une nouvelle page : il s’agit de la page d’accueil du Centre de conformité Microsoft 365.  
+1. Sous les Centres d’administration, sélectionnez **Conformité**.  Le navigateur ouvre une nouvelle page. Il s’agit de la page d’accueil du portail de conformité Microsoft Purview.  
 
 1. Sur cette page, la section réservée aux cartes vous permet de connaître d’un coup d’œil la situation de sécurité de votre organisation, les solutions disponibles pour celle-ci, etc.
 
@@ -34,7 +35,7 @@ Cette démonstration vous permettra de présenter la page d’accueil du Centre 
 
 1. Vous pouvez ajouter des cartes en cliquant sur **+ Ajouter des cartes**.  La fenêtre d’ajout de cartes à votre page d’accueil s’ouvre.  Survolez la carte du Catalogue des solutions affichée dans la fenêtre à l’aide de votre curseur et déplacez-la vers la zone de votre écran d’accueil à l’emplacement souhaité.
 
-1. Dans le volet de navigation gauche de la page d’accueil du Centre de conformité Microsoft 365, prenez note des éléments répertoriés sous Solutions.  Si seul le Catalogue s’affiche, cliquez sur **… Afficher tout** dans le volet de navigation gauche.  Vous remarquerez que toutes les solutions supplémentaires apparaissent sous la section des solutions.  
+1. Dans le volet de navigation de gauche de la page d’accueil du portail de conformité Microsoft Purview, prenez note des éléments répertoriés sous Solutions.  Si seul le Catalogue s’affiche, cliquez sur **… Afficher tout** dans le volet de navigation gauche.  Vous remarquerez que toutes les solutions supplémentaires apparaissent sous la section des solutions.  
 
 1. En tant qu’administrateur de conformité, vous souhaitez peut-être qu’un certain ensemble de solutions que vous gérez pour votre organisation soit répertorié en permanence dans le volet de navigation.  Pour personnaliser vos préférences, sélectionnez **Personnaliser la navigation**.  
 
@@ -42,9 +43,11 @@ Cette démonstration vous permettra de présenter la page d’accueil du Centre 
 
 1. Laissez cet onglet du navigateur ouvert.
 
-#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>Partie 2 de la démonstration : Découvrez la situation de sécurité de votre organisation par l’intermédiaire du Gestionnaire de conformité.
+### <a name="demo-part-2"></a>Partie 2 de la démonstration
 
-1. Sélectionnez **Gestionnaire de conformité** dans le volet de navigation gauche du Centre de conformité Microsoft 365.  Vous pouvez aussi sélectionnez Gestionnaire de conformité dans la barre de titre de la carte Gestionnaire de conformité.
+Découvrez la situation de sécurité de votre organisation par l’intermédiaire du Gestionnaire de conformité.
+
+1. Dans le volet de navigation situé à gauche du portail de conformité Microsoft Purview, sélectionnez **Gestionnaire de conformité**.  Vous pouvez aussi sélectionnez Gestionnaire de conformité dans la barre de titre de la carte Gestionnaire de conformité.
 
 1. Vérifiez qu’**Aperçu** est bien sélectionné (souligné) en haut de la page du Gestionnaire de conformité. Faites défiler vers le bas pour consulter l’ensemble des informations disponibles sur la page.  Les informations de cette page comprennent votre score de conformité sous forme de pourcentage. Il est calculé d’après les points que vous avez accumulés et ceux accumulés par la gestion de Microsoft.   Vous verrez les principales actions d’amélioration, les solutions qui influent sur votre score ainsi que le score de conformité répartis selon des catégories ou des évaluations.
 
@@ -66,7 +69,8 @@ Cette démonstration vous permettra de présenter la page d’accueil du Centre 
 
 1. Sélectionnez **ISO/IEC27001:2013** dans la liste des modèles inclus. Cliquez sur **+ Créer une évaluation** en haut à droite de la page.  Vous remarquerez que seules deux étapes se trouvent sur le côté gauche de l’écran pour créer une évaluation à partir du modèle.  Sélectionnez Annuler en bas de la page.
 
-1. Dans le volet de navigation gauche, cliquez sur **Accueil** pour revenir à la page d’accueil du Centre de conformité Microsoft 365.  Gardez cette page du navigateur ouverte pour la prochaine démonstration.
+1. Dans le volet de navigation de gauche, sélectionnez **Accueil** pour revenir à la page d’accueil du portail de conformité Microsoft Purview.  Gardez cette page du navigateur ouverte pour la prochaine démonstration.
 
-#### <a name="review"></a>Révision
-Cette démonstration vous a permis de présenter la page d’accueil du Centre de conformité Microsoft 365 ainsi que les manières dont les fonctionnalités du Gestionnaire de conformité aident les organisations à améliorer leur situation de sécurité.
+### <a name="review"></a>Révision
+
+Dans cette démonstration, vous avez découvert la page d’accueil du portail de conformité Microsoft Purview et vu comment les fonctionnalités du Gestionnaire de conformité peuvent aider les organisations à améliorer leur posture de conformité.

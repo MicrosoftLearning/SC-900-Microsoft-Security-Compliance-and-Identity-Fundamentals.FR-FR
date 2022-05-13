@@ -2,21 +2,24 @@
 lab:
   title: Explorer la gestion des accès dans Azure AD avec l’accès conditionnel
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 23b0cfcc4c26a2f8561ae1793a176e94e064f627
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489256"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557275"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Labo : Découvrir la gestion de l’accès conditionnel dans Azure AD
 
 ## <a name="lab-scenario"></a>Scénario du labo
+
 Dans ce labo, vous découvrirez l’authentification multifacteur (MFA) à accès conditionnel du point de vue d’un administrateur et d’un utilisateur.  En tant qu’administrateur, vous allez créer une stratégie exigeant que les utilisateurs passent par une authentification multifacteur lorsqu’ils accèdent à une application de gestion Microsoft Azure basée sur le cloud.  Du point de vue de l’utilisateur, vous verrez l’impact de la stratégie d’accès conditionnel, y compris le processus d’inscription MFA.
 
 **Durée estimée** : 10-15 minutes
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-debra-berger--this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>Tâche 1 : Dans cette tâche, en tant qu’administrateur, vous réinitialiserez le mot de passe de l’utilisateur Charline Berger.  Cette étape est nécessaire pour pouvoir se connecter initialement en tant qu’utilisateur dans les tâches ultérieures.
+### <a name="task-1"></a>Tâche 1
+
+Dans cette tâche, en tant qu’administrateur, vous réinitialiserez le mot de passe de l’utilisateur Charline Berger.  Cette étape est nécessaire pour pouvoir se connecter initialement en tant qu’utilisateur dans les tâches ultérieures.
 
 1. Ouvrez Microsoft Edge.  Dans la barre d’adresse, saisissez **portal.azure.com**.
 
@@ -41,8 +44,9 @@ Dans ce labo, vous découvrirez l’authentification multifacteur (MFA) à accè
 
 10. Gardez cette fenêtre ouverte.
 
+### <a name="task-2"></a>Tâche 2
 
-#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-creating-a-conditional-access-policy-in-azure-ad"></a>Tâche 2 :  Dans cette tâche, vous allez suivre le processus de création d’une stratégie d’accès conditionnel dans Azure AD.
+Dans cette tâche, vous allez suivre le processus de création d’une stratégie d’accès conditionnel dans Azure AD.
 
 1. Ouvrez l’onglet du navigateur intitulé Contoso - Microsoft Azure.   Si vous avez fermé l’onglet du navigateur, ouvrez Microsoft Edge. Dans la barre d’adresse, saisissez portal.azure.com, connectez-vous avec vos informations d’identification d’administrateur, puis sélectionnez Azure Active Directory.  
 
@@ -60,7 +64,7 @@ Dans ce labo, vous découvrirez l’authentification multifacteur (MFA) à accè
 
 8. Sélectionnez l’option pour **Sélectionner des utilisateurs et des groupes** et sélectionnez **Utilisateurs et groupes**.  La fenêtre Sélectionner des utilisateurs et des groupes s’ouvre.  
 
-9. Dans la barre de recherche, saisissez **Charline**.  Sélectionnez **Charline Berger** sous la barre de recherche, puis appuyez sur le bouton **Sélectionner** au bas de la page.  Remarque : attribuer la stratégie aux utilisateurs d’un groupe est une pratique courante.  Dans ce labo, nous allons attribuer la stratégie à un utilisateur spécifique afin de gagner du temps. 
+9. Dans la barre de recherche, saisissez **Charline**.  Sélectionnez **Charline Berger** sous la barre de recherche, puis appuyez sur le bouton **Sélectionner** au bas de la page.  Remarque : attribuer la stratégie aux utilisateurs d’un groupe est une pratique courante.  Dans ce labo, nous allons attribuer la stratégie à un utilisateur spécifique afin de gagner du temps.
 
 10. Sous Applications ou actions cloud, sélectionnez **Aucune application ou action cloud sélectionnée**.
 
@@ -80,9 +84,11 @@ Dans ce labo, vous découvrirez l’authentification multifacteur (MFA) à accè
 
 18. Déconnectez-vous d’Azure et fermez la fenêtre du navigateur.
 
-#### <a name="task-3-in-this-task-you-will-see-the-impact-of-the-conditional-access-policy-from-the-perspective-of-the-user-debra-berger-you-will-start-first-by-signing-in-to-an-application-that-is-not-included-in-the-conditional-access-policy--then-you-will-repeat-the-process-for-an-application-that-is-included-in-the-conditional-access-policy--recall-that-the-policy-requires-the-user-to-go-through-mfa-when-accessing-a-microsoft-azure-management-application--to-use-mfa-the-user-must-first-register-the-authentication-method-that-will-be-used-for-mfa-for-example-a-code-sent-to-a-mobile-device-or-an-authenticator-application"></a>Tâche 3 : Dans cette tâche, vous verrez l’impact de la stratégie d’accès conditionnel du point de vue de l’utilisateur, Charline Berger. Vous commencerez par vous connecter à une application qui n’est pas incluse dans la stratégie d’accès conditionnel.  Ensuite, vous répéterez le processus pour une application qui est incluse dans la stratégie d’accès conditionnel.  Rappelez-vous que la stratégie exige que l’utilisateur passe par une MFA lorsqu’il accède à une application de gestion Microsoft Azure.  Pour utiliser une MFA, l’utilisateur doit d’abord enregistrer la méthode d’authentification qui sera utilisée comme MFA, par exemple un code envoyé à un appareil mobile ou une application d’authentification.
+### <a name="task-3"></a>Tâche 3
 
-1. Ouvrez Microsoft Edge.  Dans la barre d’adresse du navigateur, entrez **https://login.microsoftonline.com/** .
+Dans cette tâche, vous verrez l’impact de la stratégie d’accès conditionnel du point de vue de l’utilisateur, Charline Berger. Vous commencerez par vous connecter à une application qui n’est pas incluse dans la stratégie d’accès conditionnel.  Ensuite, vous répéterez le processus pour une application qui est incluse dans la stratégie d’accès conditionnel.  Rappelez-vous que la stratégie exige que l’utilisateur passe par une MFA lorsqu’il accède à une application de gestion Microsoft Azure.  Pour utiliser une MFA, l’utilisateur doit d’abord enregistrer la méthode d’authentification qui sera utilisée comme MFA, par exemple un code envoyé à un appareil mobile ou une application d’authentification.
+
+1. Ouvrez Microsoft Edge.  Dans la barre d’adresse du navigateur, entrez **login.microsoftonline.com/** .
 
 1. Connectez-vous en tant que Charline Berger.
     1. Dans la fenêtre de connexion, entrez **DebraB@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
@@ -92,7 +98,7 @@ Dans ce labo, vous découvrirez l’authentification multifacteur (MFA) à accè
 
 1. Vous devriez être connecté à votre compte Microsoft 365.  Aucune MFA n’était nécessaire pour cette application, car elle ne fait pas partie de la stratégie.
 
-1. Vous allez maintenant tenter de vous connecter à une application qui répond aux critères d’une MFA.  Ouvrez Microsoft Edge et, dans la barre d’adresses, entrez https://portal.azure.com.
+1. Vous allez maintenant tenter de vous connecter à une application qui répond aux critères d’une MFA.  Ouvrez Microsoft Edge et dans la barre d’adresse, entrez **portal.azure.com**.
 
 1. Une fenêtre indiquant que des informations supplémentaires sont nécessaires s’affiche.  Sélectionnez **Suivant**.  Notez que cela va lancer le processus d’inscription MFA, car vous accédez pour la première fois à l’application cloud qui a été identifiée dans la stratégie d’accès conditionnel.  Ce processus d’inscription ne doit être effectué qu’une seule fois.   L’administrateur peut configurer la méthode d’authentification à utiliser pour éviter que l’utilisateur ne doive suivre le processus d’inscription.
 
@@ -110,5 +116,6 @@ Dans ce labo, vous découvrirez l’authentification multifacteur (MFA) à accè
 
 1. Déconnectez-vous en cliquant sur l’icône d’utilisateur à côté de l’adresse e-mail, dans le coin supérieur droit de l’écran, et en sélectionnant Se déconnecter. Ensuite, fermez toutes les fenêtres de navigation.
 
-#### <a name="review"></a>Révision
+### <a name="review"></a>Révision
+
 Dans ce labo, vous avez suivi le processus de configuration d’une stratégie d’accès conditionnel, qui exige que les utilisateurs passent par une MFA lorsqu’ils accèdent à l’application cloud de gestion Microsoft Azure.  Ensuite, en tant qu’utilisateur, vous avez suivi le processus d’inscription MFA et vu l’impact de la stratégie d’accès conditionnel exigeant l’utilisation d’une MFA pour accéder au portail Azure.

@@ -2,19 +2,22 @@
 Demo:
   title: Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614180"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557132"
 ---
 # <a name="demo-azure-policy"></a>Démonstration : Azure Policy
 
-### <a name="demo-scenario"></a>Scénario de la démonstration
+## <a name="demo-scenario"></a>Scénario de la démonstration
+
 Cette démonstration vous accompagnera tout au long du processus de définition d’une stratégie Azure et vous permettra de réaliser l’impact de cette stratégie.
 
-#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>Partie 1 de la démonstration : Créez une stratégie afin d’exiger une balise sur un groupe de ressources (indique les étapes de création d’une stratégie à partir d’un modèle).
+### <a name="demo-part-1"></a>Partie 1 de la démonstration
+
+Créez une stratégie afin d’exiger une balise sur un groupe de ressources (indique les étapes de création d’une stratégie à partir d’un modèle).
 
 1. Ouvrez Microsoft Edge. Saisissez **portal.microsoft.com** dans la barre d’adresse.  Vous devriez déjà être connecté ; si ce n’est pas le cas, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
@@ -46,7 +49,9 @@ Cette démonstration vous accompagnera tout au long du processus de définition 
 
 1. Vous vous trouvez désormais sur la page d’accueil des services Azure.  Ne fermez pas cette page, car vous en aurez besoin lors de la prochaine activité.
 
-#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>Partie 2 de la démonstration :  Montrez l’impact de la stratégie en créant un groupe de ressources sans balise, puis ajoutez-lui-en une.
+### <a name="demo-part-2"></a>Partie 2 de la démonstration
+
+Montrez l’impact de la stratégie en créant un groupe de ressources sans balise, puis ajoutez-lui-en une.
 
 1. Sélectionnez **Groupes de ressources** en haut de la page, sous l’intitulé « Services Azure ». Si l’option n’apparaît pas dans la liste, saisissez Groupe de ressources dans la barre de recherche et sélectionnez-la depuis cette zone.
 
@@ -74,6 +79,6 @@ Cette démonstration vous accompagnera tout au long du processus de définition 
 
 1. Le groupe de ressources apparaît dans la liste.  La balise a été indiquée dans le groupe de ressources : par conséquent, la condition incluse dans la stratégie Azure a été remplie.  Le groupe de ressources est conforme à la stratégie.
 
-#### <a name="review"></a>Révision
+### <a name="review"></a>Révision
 
 Dans cette démonstration, vous avez montré le processus de définition d’une stratégie Azure ainsi que l’impact de cette stratégie.
