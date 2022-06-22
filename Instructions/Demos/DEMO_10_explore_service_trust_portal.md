@@ -2,18 +2,18 @@
 Demo:
   title: Portail d’approbation de services
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 79190b5422352e204adad1f0799789181d2d4408
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1921bf877f96a8c4a3fae0b3966977bbc38588a5
+ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557483"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "146381238"
 ---
 # <a name="demo-service-trust-portal"></a>Démonstration : Portail d’approbation de services
 
 ## <a name="demo-scenario"></a>Scénario de la démonstration
 
-Lors de cette démonstration, vous présenterez les fonctionnalités et le contenu disponible à partir du Portail d’approbation de services. Les étapes pour accéder aux six principes clés sur la confidentialité, à partir du Centre de la gestion de la confidentialité, sont également incluses dans ce cours en tant qu’option à montrer.
+Lors de cette démonstration, vous présenterez les fonctionnalités et le contenu disponible à partir du Portail d’approbation de services. Vous accéderez également au Centre de confidentialité pour afficher les informations sur la confidentialité chez Microsoft.
 
 ### <a name="demo-part-1"></a>Partie 1 de la démonstration
 
@@ -47,20 +47,14 @@ Lors de cette partie, vous présenterez à l’apprenant les différents types d
 
 ### <a name="demo-part-2-optional"></a>Partie 2 de la démonstration (facultative)
 
-Dans cette partie de la démonstration, vous présenterez le Centre de gestion de la confidentialité et naviguerez vers les six principes fondamentaux de Microsoft en matière de confidentialité.
+Dans cette partie de la démonstration, vous présentez le Centre de confidentialité et accédez aux informations qui décrivent la confidentialité chez Microsoft.
 
-1. En haut de la page Portail d’approbation de services, sélectionnez **Centre de gestion de la confidentialité**, puis **Accueil**. Cela ouvre un nouvel onglet dans votre navigateur qui vous emmène au Centre de gestion de la confidentialité où se trouvent plus d’informations concernant la sécurité, la conformité et la confidentialité dans Microsoft Cloud.
+1. En haut de la page Portail d’approbation de services, sélectionnez **Centre de gestion de la confidentialité**, puis **Accueil**. Cela ouvre un nouvel onglet dans votre navigateur et vous accédez au Centre de confidentialité où vous pouvez trouver plus d’informations, notamment concernant la sécurité et de nombreux autres sujets.  
 
-1. En haut de la page, sélectionnez **Confidentialité**, puis **Ressources**.
-
-1. Sélectionnez **Ressources supplémentaires sur la confidentialité**.
-
-1. Sélectionnez **La confidentialité chez Microsoft**.
-
-1. Examinez les six principes fondamentaux sur la confidentialité.
+1. Vous trouverez des informations sur l’engagement de Microsoft avec vous.  À partir de là, sélectionnez **En savoir plus sur la confidentialité Microsoft**.  Faites défiler la page et découvrez les différents liens pour en savoir plus sur la confidentialité chez Microsoft.
 
 1. Fermez vos fenêtres de navigation pour quitter le Portail d’approbation de services et le Centre de gestion de la confidentialité.
 
 ### <a name="review"></a>Révision
 
-Lors de cette démonstration, vous avez découvert certaines des options disponibles sous le Portail d’approbation de services, comment accéder aux rapports d’audit pour les services Microsoft Cloud et comment utiliser Ma bibliothèque pour enregistrer des documents afin de les consulter plus tard.  En plus, vous vous êtes rendu sur le Centre de gestion de la confidentialité pour accéder aux principes de confidentialité de Microsoft et les lire.
+Lors de cette démonstration, vous avez découvert certaines des options disponibles sous le Portail d’approbation de services, comment accéder aux rapports d’audit pour les services Microsoft Cloud et comment utiliser Ma bibliothèque pour enregistrer des documents afin de les consulter plus tard.  En outre, vous avez consulté le Centre de confidentialité pour accéder aux informations sur la confidentialité chez Microsoft et les passer en revue.
