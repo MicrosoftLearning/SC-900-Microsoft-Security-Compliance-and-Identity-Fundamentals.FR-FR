@@ -2,12 +2,12 @@
 lab:
   title: Explorer Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 72d9f0c32e7c8f48b9c6fdb3468a000a9006b6ba
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557156"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542577"
 ---
 # <a name="lab-explore-microsoft-sentinel"></a>Labo : Explorer Microsoft Sentinel
 
@@ -135,7 +135,7 @@ Microsoft Sentinel est facturé en fonction du volume de données ingérées pou
 
 3. Sur la page des groupes de ressources, sélectionnez celui que vous avez créé avec Microsoft Sentinel, **SC900-ResourceGroup**.
 
-4. En haut au centre de la page, sélectionnez **Supprimer le groupe de ressources**.  Passez en revue l’avertissement.  Saisissez le nom du groupe de ressources, **SC900-ResourceGroup**, puis sélectionnez **Supprimer** en bas de la page.  La suppression du groupe de ressources prend plusieurs minutes.
+4. En haut au centre de la page, sélectionnez **Supprimer le groupe de ressources**.  Passez en revue l’avertissement.  Entrez le nom du groupe de ressources, **SC900-ResourceGroup**, puis sélectionnez **Supprimer** en bas de la page.  La suppression du groupe de ressources prend plusieurs minutes.
 
 5. Une fois que vous avez vérifié que le groupe de ressources est bien supprimé, fermez la page de navigation.
 

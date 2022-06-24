@@ -1,18 +1,19 @@
 ---
 Pre-Demo Setup:
   title: Configuration de la démonstration
-ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
+ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557252"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "146458322"
 ---
-# <a name="pre-demo-setup"></a>Configuration avant la démonstration
+## <a name="pre-demo-setup"></a>Configuration avant la démonstration
+Cette installation se compose de deux tâches distinctes.  La première tâche s’applique et est recommandée seulement si votre environnement lab inclut l’utilisation d’un Pass Azure. La deuxième tâche est axée sur l’activation du journal d’audit Microsoft et s’applique et est recommandée, que votre environnement utilise un Pass Azure ou non.
 
-## <a name="setup-part-1---redeem-azure-pass"></a>Partie 1 de la configuration - Utiliser un Pass Azure
+### <a name="setup-part-1---redeem-azure-pass"></a>Partie 1 de la configuration - Utiliser un Pass Azure
 
-Lors de cette tâche de configuration, vous utiliserez votre Pass Azure avec les mêmes informations d’identification que votre locataire Microsoft 365.  Vous bénéficiez ainsi d’une expérience plus fluide lorsque vous basculez entre Microsoft 365 et Azure.
+Cette tâche s’applique et est recommandée seulement si l’environnement de démo que vous utilisez inclut un Pass Azure. Dans cette tâche, vous allez utiliser votre Pass Azure avec les mêmes informations d’identification que votre locataire Microsoft 365.  Vous bénéficiez ainsi d’une expérience plus fluide lorsque vous basculez entre Microsoft 365 et Azure.
 
 1. Si vous avez des fenêtres de navigation ouvertes, il est recommandé de fermer tous les navigateurs.
 

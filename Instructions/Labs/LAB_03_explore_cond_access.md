@@ -2,12 +2,12 @@
 lab:
   title: Explorer la gestion des accès dans Azure AD avec l’accès conditionnel
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c8e9f8eb6e0d3609adc7ed5ea7f4d18ebfa33c4b
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557275"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542601"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Labo : Découvrir la gestion de l’accès conditionnel dans Azure AD
 
@@ -28,7 +28,7 @@ Dans cette tâche, en tant qu’administrateur, vous réinitialiserez le mot de 
     1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
 
-3. Sélectionnez **Azure Active Directory**.  
+3. Dans le coin supérieur gauche de l’écran, à côté de là où Microsoft Azure est indiqué, sélectionnez l’icône de menu Afficher le portail (les trois lignes horizontales également appelées « icône hamburger ») puis, dans le volet de navigation gauche, sous Favoris, sélectionnez Azure Active Directory. S’il n’est pas répertorié sous Favoris, dans la zone de recherche, entrez Azure Active Directory, puis dans la liste des résultats, sélectionnez **Azure Active Directory**.
 
 4. Dans le volet de navigation de gauche, sélectionnez **Utilisateurs**.
 
