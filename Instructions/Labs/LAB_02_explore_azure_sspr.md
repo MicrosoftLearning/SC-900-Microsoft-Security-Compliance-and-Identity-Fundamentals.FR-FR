@@ -2,12 +2,12 @@
 lab:
   title: Découvrir l’authentification Azure AD avec réinitialisation de mot de passe en libre-service
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: f1bd0a494cc5486e13a03cf1e8829d38a28451ab
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557468"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542649"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Labo : Découvrir l’authentification Azure AD avec réinitialisation de mot de passe en libre-service
 
@@ -97,7 +97,7 @@ Dans cette tâche, vous adopterez le rôle de l’utilisateur, Annette Varieur, 
 2. Dans la barre d’adresse, saisissez **login.microsoftonline.com**.
 
 3. Connectez-vous en tant qu’Annette Varieur.
-    1. Dans la fenêtre de connexion, entrez **AdedleV@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
+    1. Dans la fenêtre de connexion, entrez **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
     1. Saisissez le mot de passe que vous avez noté lors de la tâche précédente. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
 

@@ -2,12 +2,12 @@
 lab:
   title: Explorer Azure Policy.
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557516"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542589"
 ---
 # <a name="lab-explore-azure-policy"></a>Labo : Explorer Azure Policy.
 
@@ -21,7 +21,7 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 Découvrez l’essentiel de la page Azure Policy.
 
-1. Ouvrez Microsoft Edge. Saisissez **portal.microsoft.com** dans la barre d’adresse.
+1. Ouvrez Microsoft Edge. Dans la barre d’adresse, saisissez **portal.azure.com**.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
