@@ -2,12 +2,12 @@
 Demo:
   title: Groupes de sécurité réseau Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: a136022cd3458d513011b10c408827d33fbc8caa
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557527"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741853"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Démonstration : Groupes de sécurité réseau Azure
 
@@ -152,9 +152,9 @@ Montrez les paramètres pour un groupe de sécurité réseau.  Dans ce cas-ci, v
 
 1. Revenez à la page d’accueil du portail Azure en sélectionnant **Microsoft Azure** sur la barre bleue en haut de la page.
 
-### <a name="tear-down"></a>Destruction
+### <a name="post-course-delivery-tear-down"></a>Opérations de suppression après le cours
 
-**IMPORTANT** : Lors de cette tâche, vous supprimerez le groupe de ressources et l’ensemble des ressources qu’il contient.   C’est important afin d’éviter des charges supplémentaires.
+Les machines virtuelles sont des ressources facturées, et bien que le coût d’exécution des machines virtuelles dans cette démonstration soit minuscule, il est recommandé de supprimer le groupe de ressources contenant la machine virtuelle et les ressources associées à la fin du cours.
 
 1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur.
 

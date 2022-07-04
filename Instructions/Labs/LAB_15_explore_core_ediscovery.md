@@ -2,12 +2,12 @@
 lab:
   title: Explorer le workflow eDiscovery (Standard)
   module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: da37016799bb1343013c1ace901137646c0c856b
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542625"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649967"
 ---
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Labo : Explorer le workflow eDiscovery (Standard)
 
@@ -126,6 +126,8 @@ Une fois la conservation finalisée, vous créerez une requête de recherche.  Q
     1. Dans le second champ, indiquez à quel emplacement vous souhaitez enregistrer le fichier d’exportation, puis sélectionnez **Démarrer**.  À la fin du téléchargement, **fermez** cet onglet.
     1. Cela vous redirige vers la fenêtre « Conservation test - Recherches ventes_Export ».  Sélectionnez **Fermer**.
     1. Vérifiez l’emplacement de votre téléchargement pour vous assurer que l’opération s’est bien déroulée.
+
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 

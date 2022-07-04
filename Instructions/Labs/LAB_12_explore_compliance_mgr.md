@@ -2,12 +2,12 @@
 lab:
   title: Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité
   module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4745dddb860e82ddc05e7c88deb0e0644046e0b5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 4f0c9c57619e1dc8c44ce86b97e4ac9a5488e189
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557486"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741829"
 ---
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Labo : Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité
 
@@ -69,7 +69,7 @@ Découvrez la situation de sécurité de votre organisation par l’intermédiai
 
 1. Sélectionnez **ISO/IEC27001:2013** dans la liste des modèles inclus. Cliquez sur **+ Créer une évaluation** en haut à droite de la page.  Vous remarquerez que seules deux étapes se trouvent sur le côté gauche de l’écran pour créer une évaluation à partir du modèle.  Sélectionnez Annuler en bas de la page.
 
-1. Fermez les onglets de votre navigateur.
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 

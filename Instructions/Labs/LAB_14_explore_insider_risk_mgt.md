@@ -2,12 +2,12 @@
 lab:
   title: Explorer la gestion des risques internes dans Microsoft Purview
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b284151be19a0f9add77ef4c015520c7e4a7f363
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542637"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741877"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Labo : Explorer la gestion des risques internes dans Microsoft Purview
 
@@ -115,6 +115,8 @@ Cette tâche va vous guider dans le processus de création d’une stratégie.
 1. Vous revenez alors à l’onglet Confidentialité de la page de gestion des risques internes.  La stratégie que vous venez de créer s’affiche,  
 
 1. avec un champ « Utilisateurs concernés » qui représente les utilisateurs actuellement concernés par un score de risque.  Cela n’arrive que lorsque la stratégie est déclenchée, raison pour laquelle vous voyez une valeur de 0.  Un administrateur peut régler les paramètres de façon à ce que des scores de risque soient attribués à certaines personnes, selon l’activité détectée par la stratégie sélectionnée ET en priorité sur un événement déclencheur.  Pour ce faire, sélectionnez le cercle vide près du nom de la stratégie pour la choisir, puis sélectionnez **Commencer à noter l’activité des utilisateurs** au-dessus du tableau.  Une fois tous les champs remplis, sélectionnez **Commencer à noter l’activité**.  L’affichage des utilisateurs dans l’onglet correspondant peut prendre jusqu’à 24 heures. Passé ce délai, vous pouvez consulter les activités détectées de chacun dans cet onglet.  En bas de la fenêtre, sélectionnez **Fermer**.
+
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 

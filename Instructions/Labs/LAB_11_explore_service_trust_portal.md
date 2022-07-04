@@ -2,12 +2,12 @@
 lab:
   title: Découvrir les offres du Portail d’approbation de services
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 45086cf1301ce1feb8983f22f05a6cc07e229c4c
-ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
+ms.openlocfilehash: e760110f587b385e4e16f6272443a35a65471774
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "146381226"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649943"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>Labo : Découvrir les offres du Portail d’approbation de services
 
@@ -55,7 +55,7 @@ Dans cette tâche, vous consulterez le Centre de confidentialité et accéderez 
 
 1. Vous trouverez des informations sur l’engagement de Microsoft avec vous.  À partir de là, sélectionnez **En savoir plus sur la confidentialité Microsoft**.  Faites défiler la page et découvrez les différents liens pour en savoir plus sur la confidentialité chez Microsoft.
 
-1. Fermez vos fenêtres de navigation pour quitter le Portail d’approbation de services et le Centre de gestion de la confidentialité.
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 

@@ -2,12 +2,12 @@
 lab:
   title: Découvrir le portail Microsoft 365 Defender
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 5accd8bc5c37450e40dfb73b5f2cf0bb8cb24525
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557144"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649979"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Labo : Découvrir le portail Microsoft 365 Defender
 
@@ -65,7 +65,7 @@ Cette tâche va vous présenter comment le Niveau de sécurité Microsoft permet
 
 1. En haut de la page, sélectionnez **Mesures et tendances**.  Notez les informations disponibles.  En haut à droite de la page, sélectionnez **l’icône de calendrier**.  Vous pouvez réduire l’affichage à une plage de dates personnalisée.  **L’icône de filtre** vous permet de filtrer l’affichage par identité, appareils ou applications.  Fermez la fenêtre et sélectionnez **Accueil** dans le volet de navigation à gauche pour retourner à la page d’accueil de Microsoft 365 Defender.
 
-1. Fermez la page du navigateur.
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 

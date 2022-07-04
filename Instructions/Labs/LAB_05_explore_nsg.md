@@ -2,12 +2,12 @@
 lab:
   title: Découvrir les groupes de sécurité réseau Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 2d5add9ca1efd99cf7e5268a1125f97f20910a07
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557504"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650087"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Labo : Découvrir les groupes de sécurité réseau Azure
 
@@ -151,9 +151,9 @@ Les règles de trafic sortant par défaut de groupe de sécurité réseau autori
 1. Fermez la connexion au bureau à distance en sélectionnant le **X** en haut au centre de la page où l’adresse IP est affichée.  Une fenêtre contextuelle indique que Votre session à distance sera déconnectée. Sélectionnez **OK**.
 1. Dans cette tâche, vous avez configuré une règle de trafic sortant dans votre groupe de sécurité réseau pour bloquer le trafic Internet sortant.
 
-### <a name="task-5"></a>Tâche 5
+### <a name="tear-down"></a>Destruction
 
-**IMPORTANT** : Lors de cette tâche, vous supprimerez le groupe de ressources et l’ensemble des ressources qu’il contient.   C’est important afin d’éviter des charges supplémentaires.
+Les machines virtuelles sont des ressources facturées, et bien que le coût d’exécution des machines virtuelles dans cette démonstration soit minuscule, il est recommandé de supprimer le groupe de ressources contenant la machine virtuelle et les ressources associées à la fin du cours.
 
 1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur.
 
@@ -163,6 +163,7 @@ Les règles de trafic sortant par défaut de groupe de sécurité réseau autori
 1. Dans la partie supérieure centrale de la page LabsSC900, sélectionnez **Supprimer le groupe de ressources**.
 1. Dans la fenêtre qui s’ouvre, saisissez le nom du groupe de ressources, **LabsSC900**, pour confirmer la suppression du groupe de ressources et de toutes ses ressources, puis sélectionnez **Supprimer** au bas de la page.
 1. La suppression de toutes les ressources et du groupe de ressources peut prendre quelques minutes.
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 
