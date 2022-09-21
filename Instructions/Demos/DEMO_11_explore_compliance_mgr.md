@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 3ba29f7d6969a64d594f93c012304bb9e3237582
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 557b2974e32c920172be89f909225d30519b79a0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542613"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892409"
 ---
+<a name="---"></a><!---
+---
+Démonstration : Titre : « Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 2 : Décrire les fonctionnalités de gestion de la conformité dans Microsoft Purview ; Unité 2 : Décrire le portail de conformité Microsoft Purview »
+---
+--->
+
 # <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Démonstration : Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité
+
+Cette démonstration correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
+- Module : Décrire les fonctionnalités de gestion de la conformité dans Microsoft Purview
+- Unité : Décrire le portail de conformité Microsoft Purview
 
 ## <a name="demo-scenario"></a>Scénario de la démonstration
 

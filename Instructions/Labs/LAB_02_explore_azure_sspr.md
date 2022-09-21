@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Découvrir l’authentification Azure AD avec réinitialisation de mot de passe en libre-service
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: f1bd0a494cc5486e13a03cf1e8829d38a28451ab
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542649"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892171"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Découvrir Azure AD Authentication avec réinitialisation de mot de passe en libre-service » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 2 : Décrire les fonctionnalités d’authentification d’Azure AD ; Unité 4 : Décrire la réinitialisation de mot de passe en libre-service (SSPR) dans Azure AD »
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Labo : Découvrir l’authentification Azure AD avec réinitialisation de mot de passe en libre-service
+
+Ce labo correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra
+- Module : Décrire les fonctionnalités d’authentification d’Azure AD
+- Unité : Décrire la réinitialisation de mot de passe en libre-service (SSPR) dans Azure AD
 
 ## <a name="lab-scenario"></a>Scénario du labo
 

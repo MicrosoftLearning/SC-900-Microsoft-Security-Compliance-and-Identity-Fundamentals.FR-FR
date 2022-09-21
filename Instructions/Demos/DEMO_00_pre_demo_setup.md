@@ -1,15 +1,20 @@
 ---
-Pre-Demo Setup:
-  title: Configuration de la démonstration
-ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
-ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "146458322"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892471"
 ---
+<a name="---"></a><!---
+---
+Configuration avant la démonstration : Titre : « Configuration de la démonstration »
+---
+--->
+
 ## <a name="pre-demo-setup"></a>Configuration avant la démonstration
-Cette installation se compose de deux tâches distinctes.  La première tâche s’applique et est recommandée seulement si votre environnement lab inclut l’utilisation d’un Pass Azure. La deuxième tâche est axée sur l’activation du journal d’audit Microsoft et s’applique et est recommandée, que votre environnement utilise un Pass Azure ou non.
+
+Cette installation se compose de deux tâches distinctes.  La première tâche s’applique et est recommandée seulement si votre environnement de démonstration inclut l’utilisation d’un Pass Azure. La deuxième tâche est axée sur l’activation du journal d’audit Microsoft et s’applique et est recommandée, que votre environnement utilise un Pass Azure ou non.
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Partie 1 de la configuration - Utiliser un Pass Azure
 

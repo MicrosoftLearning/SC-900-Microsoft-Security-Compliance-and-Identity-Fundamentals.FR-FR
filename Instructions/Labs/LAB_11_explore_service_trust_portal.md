@@ -1,15 +1,22 @@
 ---
-lab:
-  title: Découvrir les offres du Portail d’approbation de services
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: e760110f587b385e4e16f6272443a35a65471774
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649943"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892687"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Découvrir le Portail d’approbation de services » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 1 : Décrire les fonctionnalités de gestion de la conformité de Microsoft ; Unité 2 : Découvrir le Portail d’approbation de services »
+---
+--->
+
 # <a name="lab-explore-the-service-trust-portal"></a>Labo : Découvrir les offres du Portail d’approbation de services
+
+Ce labo correspond au contenu Learn suivant :
+
+Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft Module : Décrire les fonctionnalités de gestion de la conformité de Microsoft Unité : Découvrir le Portail d’approbation de services
 
 ## <a name="lab-scenario"></a>Scénario du labo
 

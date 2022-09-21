@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 'Explorer Microsoft Defender pour les applications cloud '
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c6b9e816596c74199123b21a9fcb07a5d33a725c
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: ef5c993972dcff57836c8ac045a19903b8c15721
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650063"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892627"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Explorer Microsoft Defender for Cloud Apps » Module : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 4 : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365 ; Unité 5 : Décrire Microsoft Defender for Cloud Apps »
+---
+--->
+
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Labo : Explorer Microsoft Defender pour les applications cloud
+
+Ce labo correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft
+- Module : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365
+- Unité : Décrire Microsoft Defender for Cloud Apps
 
 ## <a name="lab-scenario"></a>Scénario du labo
 

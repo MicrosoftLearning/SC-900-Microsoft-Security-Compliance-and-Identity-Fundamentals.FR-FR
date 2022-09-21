@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Paramètres utilisateur d’Azure Active Directory
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 061dfa556f7e4e00d63c938b52097e0b641fed4f
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: c230a54bb7d4d9cd876aacd4e04185ce674a22db
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741889"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892183"
 ---
-# <a name="demo-azure-active-directory-user-settings"></a>Démonstration : Paramètres utilisateur d’Azure Active Directory
+<a name="---"></a><!---
+---
+Démonstration : Titre : « Découvrir les paramètres utilisateur Azure AD » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 1 : Décrire les services de base et les types d’identités d’Azure AD ; Unité 4 : Décrire les types d’identités Azure AD »
+---
+--->
+
+# <a name="demo-azure-ad-user-settings"></a>Démonstration : Paramètres utilisateur Azure AD
+
+Cette démonstration correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra
+- Module : Décrire les services de base et les types d’identités d’Azure AD
+- Unité : Décrire les types d’identités Azure AD
 
 ## <a name="demo-scenario"></a>Scénario de la démonstration
 

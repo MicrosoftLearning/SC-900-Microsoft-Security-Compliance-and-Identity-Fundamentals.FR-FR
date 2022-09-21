@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorer les étiquettes de confidentialité dans Microsoft Purview
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 65cf71c24e66e5c94fb27a1479693338a3cd7091
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 1bae467c426cba5deb30035c3679409b384637e0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741841"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892650"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Explorer les étiquettes de confidentialité dans Microsoft Purview » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 3 : Décrire la protection des informations et la gestion du cycle de vie des données dans Microsoft Purview ; Unité 4 : Décrire les étiquettes de confidentialité »
+---
+--->
+
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Labo : Explorer les étiquettes de confidentialité dans Microsoft Purview
+
+Ce labo correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
+- Module : Décrire la protection des informations et la gestion de cycle de vie des données dans Microsoft Purview
+- Unité : Décrire les étiquettes de confidentialité
 
 ## <a name="lab-scenario"></a>Scénario du labo
 

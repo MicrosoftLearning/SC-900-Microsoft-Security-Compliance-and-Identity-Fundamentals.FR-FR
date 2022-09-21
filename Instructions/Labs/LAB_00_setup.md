@@ -1,13 +1,17 @@
 ---
-lab:
-  title: Programme d’installation
-ms.openlocfilehash: ccbb76933233296b92dabd0e03fc63a0b51bf139
-ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
+ms.openlocfilehash: cb7b2598e10bff208634a8181ded25b46a0064c2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "146458310"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892231"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Installation »
+---
+--->
+
 # <a name="lab-setup"></a>Labo : Installation
 
 ## <a name="lab-scenario"></a>Scénario du labo

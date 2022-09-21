@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Groupes de sécurité réseau Azure
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 34a08ed5a6edd845087e4ed4b5d94d4f06bc8f89
-ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
+ms.openlocfilehash: ce07082f318bbb7b96e3eac0d8f549795bdf488d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "147695303"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892431"
 ---
+<a name="---"></a><!---
+---
+Démonstration : Titre : « Groupes de sécurité réseau Azure » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 1 : Décrire les fonctionnalités de sécurité de base dans Azure ; Unité 6 : Décrire les groupes de sécurité réseau Azure »
+---
+--->
+
 # <a name="demo-azure-network-security-groups-nsgs"></a>Démonstration : Groupes de sécurité réseau Azure
+
+Cette démonstration correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft
+- Module : Décrire les principales fonctionnalités de sécurité dans Azure
+- Unité : Décrire les groupes de sécurité réseau Azure
 
 ## <a name="demo-scenario"></a>Scénario de la démonstration
 
