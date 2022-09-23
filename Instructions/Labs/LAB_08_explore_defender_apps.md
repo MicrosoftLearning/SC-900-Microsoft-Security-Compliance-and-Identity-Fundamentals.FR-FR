@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 'Explorer Microsoft Defender pour les applications cloud '
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ef5c993972dcff57836c8ac045a19903b8c15721
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557569"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892627"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Explorer Microsoft Defender for Cloud Apps » Module : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 4 : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365 ; Unité 5 : Décrire Microsoft Defender for Cloud Apps »
+---
+--->
+
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Labo : Explorer Microsoft Defender pour les applications cloud
+
+Ce labo correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft
+- Module : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365
+- Unité : Décrire Microsoft Defender for Cloud Apps
 
 ## <a name="lab-scenario"></a>Scénario du labo
 
@@ -79,7 +88,7 @@ Lors de cette tâche, vous découvrirez les pages de stratégies et d’alertes 
 
 1. Dans le volet de navigation à gauche, sélectionnez **Alertes**.  Si des alertes sont présentes, sélectionnez un élément de la liste d’alertes. Examinez les informations fournies.  En haut à droite de la fenêtre, sélectionnez **Fermer l’alerte** afin d’afficher les options pour fermer l’alerte.  
 
-1. Fermez la fenêtre du navigateur.
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 

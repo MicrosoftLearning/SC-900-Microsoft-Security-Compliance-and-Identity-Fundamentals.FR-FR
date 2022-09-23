@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Découvrir l’authentification Azure AD avec réinitialisation de mot de passe en libre-service
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557468"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892171"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Découvrir Azure AD Authentication avec réinitialisation de mot de passe en libre-service » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 2 : Décrire les fonctionnalités d’authentification d’Azure AD ; Unité 4 : Décrire la réinitialisation de mot de passe en libre-service (SSPR) dans Azure AD »
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Labo : Découvrir l’authentification Azure AD avec réinitialisation de mot de passe en libre-service
+
+Ce labo correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra
+- Module : Décrire les fonctionnalités d’authentification d’Azure AD
+- Unité : Décrire la réinitialisation de mot de passe en libre-service (SSPR) dans Azure AD
 
 ## <a name="lab-scenario"></a>Scénario du labo
 
@@ -97,7 +106,7 @@ Dans cette tâche, vous adopterez le rôle de l’utilisateur, Annette Varieur, 
 2. Dans la barre d’adresse, saisissez **login.microsoftonline.com**.
 
 3. Connectez-vous en tant qu’Annette Varieur.
-    1. Dans la fenêtre de connexion, entrez **AdedleV@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
+    1. Dans la fenêtre de connexion, entrez **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
     1. Saisissez le mot de passe que vous avez noté lors de la tâche précédente. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
 

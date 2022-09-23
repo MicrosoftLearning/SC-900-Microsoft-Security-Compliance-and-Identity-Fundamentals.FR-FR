@@ -1,19 +1,26 @@
 ---
-lab:
-  title: Découvrir les offres du Portail d’approbation de services
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557204"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892687"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Découvrir le Portail d’approbation de services » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 1 : Décrire les fonctionnalités de gestion de la conformité de Microsoft ; Unité 2 : Découvrir le Portail d’approbation de services »
+---
+--->
+
 # <a name="lab-explore-the-service-trust-portal"></a>Labo : Découvrir les offres du Portail d’approbation de services
+
+Ce labo correspond au contenu Learn suivant :
+
+Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft Module : Décrire les fonctionnalités de gestion de la conformité de Microsoft Unité : Découvrir le Portail d’approbation de services
 
 ## <a name="lab-scenario"></a>Scénario du labo
 
-Dans ce labo, vous allez découvrir les fonctionnalités et le contenu disponibles sur le Portail d’approbation de services. Vous allez également consulter le Centre de gestion de la confidentialité, ainsi que les six principes clés de la protection des données personnelles.
+Dans ce labo, vous allez découvrir les fonctionnalités et le contenu disponibles sur le Portail d’approbation de services. Vous consulterez également le Centre de confidentialité pour afficher des informations sur la confidentialité chez Microsoft.
 
 **Durée estimée** : 10-15 minutes
 
@@ -49,20 +56,14 @@ Dans cette tâche, vous allez découvrir le Portail d’approbation de services 
 
 ### <a name="task-2"></a>Tâche 2
 
-Dans cette tâche, vous allez consulter le Centre de gestion de la confidentialité, ainsi que les six principes clés de la protection des données personnelles de Microsoft.
+Dans cette tâche, vous consulterez le Centre de confidentialité et accéderez aux informations qui décrivent la confidentialité chez Microsoft.
 
-1. En haut de la page Portail d’approbation de services, sélectionnez **Centre de gestion de la confidentialité**, puis **Accueil**. Cela ouvre un nouvel onglet dans votre navigateur qui vous emmène au Centre de gestion de la confidentialité où se trouvent plus d’informations concernant la sécurité, la conformité et la confidentialité dans Microsoft Cloud.
+1. En haut de la page Portail d’approbation de services, sélectionnez **Centre de gestion de la confidentialité**, puis **Accueil**. Cela ouvre un nouvel onglet dans votre navigateur et vous accédez au Centre de confidentialité où vous pouvez trouver plus d’informations, notamment concernant la sécurité et de nombreux autres sujets.  
 
-1. En haut de la page, sélectionnez **Confidentialité**, puis **Ressources**.
+1. Vous trouverez des informations sur l’engagement de Microsoft avec vous.  À partir de là, sélectionnez **En savoir plus sur la confidentialité Microsoft**.  Faites défiler la page et découvrez les différents liens pour en savoir plus sur la confidentialité chez Microsoft.
 
-1. Sélectionnez **Ressources supplémentaires sur la confidentialité**.
-
-1. Sélectionnez **La confidentialité chez Microsoft**.
-
-1. Examinez les six principes fondamentaux sur la confidentialité.
-
-1. Fermez vos fenêtres de navigation pour quitter le Portail d’approbation de services et le Centre de gestion de la confidentialité.
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 
-Dans ce labo, vous avez découvert certaines des options offertes sur le Portail d’approbation de services. Vous avez aussi appris à accéder aux rapports et à utiliser Ma bibliothèque pour enregistrer des documents à examiner plus tard.  En plus, vous vous êtes rendu sur le Centre de gestion de la confidentialité pour accéder aux principes de confidentialité de Microsoft et les lire.
+Dans ce labo, vous avez découvert certaines des options offertes sur le Portail d’approbation de services. Vous avez aussi appris à accéder aux rapports et à utiliser Ma bibliothèque pour enregistrer des documents à examiner plus tard.  En outre, vous avez consulté le Centre de confidentialité pour accéder aux informations sur la confidentialité chez Microsoft et les passer en revue.

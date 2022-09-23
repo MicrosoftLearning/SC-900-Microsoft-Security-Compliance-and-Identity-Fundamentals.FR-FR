@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorer la gestion des risques internes dans Microsoft Purview
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557540"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892699"
 ---
+<a name="---"></a><!--->
+---
+Labo : Titre : « Explorer la gestion des risques internes dans Microsoft Purview » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 4 : Décrire les fonctionnalités propres aux risques internes de Microsoft Purview ; Unité 2 : Décrire la gestion des risques internes »
+---
+--->
+
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Labo : Explorer la gestion des risques internes dans Microsoft Purview
+
+Ce labo correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
+- Module : Décrire les fonctionnalités propres aux risques internes de Microsoft Purview
+- Unité : Décrire la gestion des risques internes
 
 ## <a name="lab-scenario"></a>Scénario du labo
 
@@ -35,7 +44,7 @@ Dans cette tâche, vous allez jouer le rôle d’administrateur général et acc
 
 1. Dans le volet de navigation situé à gauche du portail de conformité Microsoft Purview, sélectionnez **Autorisations**.
 
-1. Dans la page Autorisations et rôles, sous le portail de conformité, sélectionnez **Rôles**.
+1. Dans la page Autorisations et rôles, sous « Afficher et gérer les rôles utilisés pour effectuer des tâches spécifiques à la solution dans le centre de conformité ». Sélectionnez **Rôles**.
 
 1. Dans le champ, saisissez **Risque interne** avant de sélectionner l’icône de recherche (en forme de loupe).  Notez les nombreux rôles qui s’affichent.  aux niveaux d’accès différents.  Sélectionnez **Gestion des risques internes**.
 
@@ -115,6 +124,8 @@ Cette tâche va vous guider dans le processus de création d’une stratégie.
 1. Vous revenez alors à l’onglet Confidentialité de la page de gestion des risques internes.  La stratégie que vous venez de créer s’affiche,  
 
 1. avec un champ « Utilisateurs concernés » qui représente les utilisateurs actuellement concernés par un score de risque.  Cela n’arrive que lorsque la stratégie est déclenchée, raison pour laquelle vous voyez une valeur de 0.  Un administrateur peut régler les paramètres de façon à ce que des scores de risque soient attribués à certaines personnes, selon l’activité détectée par la stratégie sélectionnée ET en priorité sur un événement déclencheur.  Pour ce faire, sélectionnez le cercle vide près du nom de la stratégie pour la choisir, puis sélectionnez **Commencer à noter l’activité des utilisateurs** au-dessus du tableau.  Une fois tous les champs remplis, sélectionnez **Commencer à noter l’activité**.  L’affichage des utilisateurs dans l’onglet correspondant peut prendre jusqu’à 24 heures. Passé ce délai, vous pouvez consulter les activités détectées de chacun dans cet onglet.  En bas de la fenêtre, sélectionnez **Fermer**.
+
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 

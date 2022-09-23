@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorer Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557156"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892640"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Explorer Microsoft Sentinel » Parcours d’apprentissage/Module/Titre : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 3 : Décrire les fonctionnalités de sécurité de Microsoft Sentinel ; Unité 3 : Décrire la façon dont Microsoft Sentinel fournit une gestion des menaces intégrée »
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>Labo : Explorer Microsoft Sentinel
+
+Ce labo correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft
+- Module : Décrire les fonctionnalités de sécurité de Microsoft Sentinel
+- Unité : Décrire la façon dont Microsoft Sentinel fournit une gestion des menaces intégrée
 
 ## <a name="lab-scenario"></a>Scénario du labo
 
@@ -135,9 +144,9 @@ Microsoft Sentinel est facturé en fonction du volume de données ingérées pou
 
 3. Sur la page des groupes de ressources, sélectionnez celui que vous avez créé avec Microsoft Sentinel, **SC900-ResourceGroup**.
 
-4. En haut au centre de la page, sélectionnez **Supprimer le groupe de ressources**.  Passez en revue l’avertissement.  Saisissez le nom du groupe de ressources, **SC900-ResourceGroup**, puis sélectionnez **Supprimer** en bas de la page.  La suppression du groupe de ressources prend plusieurs minutes.
+4. En haut au centre de la page, sélectionnez **Supprimer le groupe de ressources**.  Passez en revue l’avertissement.  Entrez le nom du groupe de ressources, **SC900-ResourceGroup**, puis sélectionnez **Supprimer** en bas de la page.  La suppression du groupe de ressources prend plusieurs minutes.
 
-5. Une fois que vous avez vérifié que le groupe de ressources est bien supprimé, fermez la page de navigation.
+5. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 

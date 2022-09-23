@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d58cd38338d81136cf0b9b474137354269507e6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557324"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892387"
 ---
+<a name="---"></a><!---
+---
+Démonstration : Titre : « Microsoft Sentinel » Parcours d’apprentissage/Module/Titre : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 3 : Décrire les fonctionnalités de sécurité de Microsoft Sentinel ; Unité 3 : Décrire la façon dont Microsoft Sentinel fournit une gestion des menaces intégrée »
+---
+--->
+
 # <a name="demo-microsoft-sentinel"></a>Démonstration : Microsoft Sentinel
+
+Cette démonstration correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft
+- Module : Décrire les fonctionnalités de sécurité de Microsoft Sentinel
+- Unité : Décrire la façon dont Microsoft Sentinel fournit une gestion des menaces intégrée
 
 ## <a name="demo-scenario"></a>Scénario de la démonstration
 
@@ -121,9 +130,9 @@ Dans cette partie de la démonstration, vous allez afficher certaines des option
 
 1. Dans le coin supérieur gauche de la fenêtre, juste en dessous de la barre bleue, sélectionnez **Accueil** pour revenir à la page d’accueil du portail Azure.
 
-### <a name="task-6"></a>Tâche 6
+### <a name="post-course-delivery-tear-down"></a>Opérations de suppression après le cours
 
-Désactivation de livraison après cours. Microsoft Sentinel est facturé en fonction du volume de données ingérées pour l’analyse dans Microsoft Sentinel. Bien que la quantité de données ingérées dans le cadre de cette démonstration soit minime, nous vous recommandons de supprimer le groupe de ressources Microsoft Sentinel quand vous avez fini de découvrir les fonctionnalités de Microsoft Sentinel.
+Microsoft Sentinel est facturé en fonction du volume de données ingérées pour l’analyse dans Microsoft Sentinel. Bien que la quantité de données ingérées dans le cadre de cette démonstration soit minime, il est recommandé de supprimer le groupe de ressources Microsoft Sentinel quand vous avez terminé le cours.
 
 1. Depuis la page Microsoft Sentinel, en haut à gauche, où il est indiqué Microsoft Sentinel, sélectionnez **Tous les services**.
 
@@ -131,7 +140,7 @@ Désactivation de livraison après cours. Microsoft Sentinel est facturé en fon
 
 3. Sur la page des groupes de ressources, sélectionnez celui que vous avez créé avec Microsoft Sentinel, **SC900-ResourceGroup**.
 
-4. En haut au centre de la page, sélectionnez **Supprimer le groupe de ressources**.  Passez en revue l’avertissement.  Saisissez le nom du groupe de ressources, **SC900-ResourceGroup**, puis sélectionnez **Supprimer** en bas de la page.  La suppression du groupe de ressources prend plusieurs minutes.
+4. En haut au centre de la page, sélectionnez **Supprimer le groupe de ressources**.  Passez en revue l’avertissement.  Entrez le nom du groupe de ressources, **SC900-ResourceGroup**, puis sélectionnez **Supprimer** en bas de la page.  La suppression du groupe de ressources prend plusieurs minutes.
 
 5. Une fois que vous avez vérifié que le groupe de ressources est bien supprimé, fermez la page de navigation.
 

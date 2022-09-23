@@ -1,19 +1,28 @@
 ---
-Demo:
-  title: Étiquettes de confidentialité dans Microsoft Purview
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 190ba104d08f47bf1bddfbd262b76c9e6aa8581c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 7f6827f55ddc30dac37ab7da750a9331477650f1
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557192"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892422"
 ---
+<a name="---"></a><!---
+---
+Démonstration : Titre : « Étiquettes de confidentialité dans Microsoft Purview » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 3 : Décrire la protection des informations et la gestion du cycle de vie des données dans Microsoft Purview ; Unité 4 : Décrire les étiquettes de confidentialité »
+---
+--->
+
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Démonstration : Étiquettes de confidentialité dans Microsoft Purview
+
+Cette démonstration correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
+- Module : Décrire la protection des informations et la gestion de cycle de vie des données dans Microsoft Purview
+- Unité : Décrire les étiquettes de confidentialité
 
 ## <a name="demo-scenario"></a>Scénario de la démonstration
 
-Lors de cette démonstration, vous présenterez les fonctionnalités des étiquettes de confidentialité.  Vous expliquerez les paramètres des étiquettes de confidentialité existantes qui ont été créées et la stratégie correspondante pour publier l’étiquette.   Ensuite, vous verrez comment appliquer une étiquette et l’effet de celle-ci, depuis la perspective d’un utilisateur.
+Lors de cette démonstration, vous présenterez les fonctionnalités des étiquettes de confidentialité.  Vous expliquerez les paramètres des étiquettes de confidentialité existantes qui ont été créées et la stratégie correspondante pour publier l’étiquette.   Ensuite, vous verrez comment appliquer une étiquette et l’effet de celle-ci, depuis la perspective d’un utilisateur.  **REMARQUE** : La première fois que vous utilisez Word en ligne avec votre locataire Microsoft 365, l’option Sensibilité peut apparaître sur le ruban au bout de 15 minutes.  Les présentateurs doivent exécuter la partie 2 de la démonstration avant la classe afin que le délai soit suffisant pour que l’option s’affiche.
 
 ### <a name="demo-part-1"></a>Partie 1 de la démonstration
 

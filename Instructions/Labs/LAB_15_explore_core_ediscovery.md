@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorer le workflow eDiscovery (Standard)
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557600"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892661"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Explorer le workflow eDiscovery (Standard) » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités de conformité Microsoft ; Module 5 : Décrire les fonctionnalités d’eDiscovery et d’audit de Microsoft Purview ; Unité 2 : Décrire les solutions eDiscovery dans Microsoft 365 »
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Labo : Explorer le workflow eDiscovery (Standard)
+
+Ce labo correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
+- Module : Décrire les fonctionnalités eDiscovery et d’audit de Microsoft Purview
+- Unité : Décrire les solutions eDiscovery dans Microsoft 365
 
 ## <a name="lab-scenario"></a>Scénario du labo
 
@@ -115,7 +124,7 @@ Une fois la conservation finalisée, vous créerez une requête de recherche.  Q
 
 1. En bas de la page, sélectionnez **Actions**.  Examinez les options disponibles, puis sélectionnez **Exporter des résultats**.
 
-    1. Dans la fenêtre qui s’affiche, conservez les paramètres par défaut et choisissez **Exporter** en bas de la page. Cela vous redirige automatiquement vers la fenêtre « Conservation test - Recherches ventes », que vous pouvez **fermer** grâce au bouton en bas.
+    1. Dans la fenêtre qui s’affiche, conservez les paramètres par défaut et choisissez **Exporter** en bas de la page. Cela vous redirige automatiquement vers la fenêtre « Conservation test - Recherches ventes », Sélectionnez **fermer** en bas de la page.
 
     1. En haut de la page SC900-Dossier test, sélectionnez **Exportations**,
     1. puis **Conservation test - Recherches ventes_Export**.
@@ -126,6 +135,8 @@ Une fois la conservation finalisée, vous créerez une requête de recherche.  Q
     1. Dans le second champ, indiquez à quel emplacement vous souhaitez enregistrer le fichier d’exportation, puis sélectionnez **Démarrer**.  À la fin du téléchargement, **fermez** cet onglet.
     1. Cela vous redirige vers la fenêtre « Conservation test - Recherches ventes_Export ».  Sélectionnez **Fermer**.
     1. Vérifiez l’emplacement de votre téléchargement pour vous assurer que l’opération s’est bien déroulée.
+
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 

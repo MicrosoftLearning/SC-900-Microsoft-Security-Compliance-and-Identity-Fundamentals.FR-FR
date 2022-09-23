@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Groupes de sécurité réseau Azure
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ce07082f318bbb7b96e3eac0d8f549795bdf488d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557527"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892431"
 ---
+<a name="---"></a><!---
+---
+Démonstration : Titre : « Groupes de sécurité réseau Azure » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 1 : Décrire les fonctionnalités de sécurité de base dans Azure ; Unité 6 : Décrire les groupes de sécurité réseau Azure »
+---
+--->
+
 # <a name="demo-azure-network-security-groups-nsgs"></a>Démonstration : Groupes de sécurité réseau Azure
+
+Cette démonstration correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft
+- Module : Décrire les principales fonctionnalités de sécurité dans Azure
+- Unité : Décrire les groupes de sécurité réseau Azure
 
 ## <a name="demo-scenario"></a>Scénario de la démonstration
 
@@ -31,37 +40,24 @@ Dans cette démonstration, vous présenterez les fonctionnalités d’un groupe 
     1. **Nom des machines virtuelles** : entrez **SC900-WinVM**.
     1. **Région** : laissez la valeur par défaut.
     1. **Options de disponibilité** : vérifiez de bien sélectionner **Aucune redondance d’infrastructure requise**.  REMARQUE : il est très important que les options de disponibilité soient paramétrées sur Aucune redondance d’infrastructure requise. Dans le cas contraire, la démonstration ne fonctionnera pas comme prévu.  Disposer d’une option de disponibilité nécessite un groupe de sécurité réseau et nous créons volontairement une machine virtuelle sans groupe de sécurité réseau.
-    1. **Image** : dans la liste déroulante, sélectionnez **Windows 10 Professionnel, Version 20H2 – Gen 1**.
+    1. **Image** : dans la liste déroulante, sélectionnez **Windows 10 Professionnel, version 21H2 – Gen 2**.
     1. **Taille** : sélectionnez **Afficher toutes les tailles** dans le menu déroulant et sélectionnez **B2s**, puis cliquez sur **Sélectionner** dans le bas de la page.
     1. **Nom d’utilisateur** :  Entrez un nom d’utilisateur de votre choix.  Prenez-en note, car vous en aurez besoin pour accéder à la machine virtuelle.
     1. **Mot de passe** :  Entrez un mot de passe de votre choix.  Prenez-en note, car vous en aurez besoin pour accéder à la machine virtuelle.
-    1. **Ports de trafic entrant publics** : vous pouvez laisser le paramètre par défaut (ce que vous sélectionnez ici n’a pas d’importance, car les paramètres du réseau vont remplacer ce que vous faites ici).
+    1. **Ports de trafic entrant publics** : laissez la valeur par défaut **Autoriser les ports sélectionnés**.
+    1. **Sélectionnez les ports entrants** : laissez la valeur par défaut **RDP 3389**
     1. **Licences** : sélectionnez **Je confirme disposer d’une licence Windows 10 éligible avec des droits d’hébergement multilocataire** pour faire apparaître une coche dans la case.
     1. Sélectionnez **Suivant : Disques**.
 
 1. Vous êtes à présent au niveau de l’onglet Disques pour la configuration de la machine virtuelle.  Conservez tous les paramètres par défaut et sélectionnez **Suivant : Mise en réseau >** .
+1. Vous êtes à présent au niveau de l’onglet Mise en réseau pour la configuration de la machine virtuelle.  Pour l’option du groupe de sécurité réseau de la carte réseau, sélectionnez **Aucun**. Laissez les valeurs par défaut pour tous les autres paramètres.
+1. En bas de la page, sélectionnez **Suivant : Vérifier + Créer>** . Une fois la validation réussie, sélectionnez **Créer**. Le déploiement de la machine virtuelle peut prendre plusieurs minutes.
+1. Une fois le déploiement de la machine virtuelle effectué, sélectionnez **Accéder à la ressource**.
+1. Vous êtes à présent sur la page SC900-WinVM.
+1. En haut de la page, sélectionnez **Se connecter** puis, dans la liste déroulante, sélectionnez **RDP**.
+1. Notez que le prérequis concernant le port n’est pas respecté.  Pour satisfaire au prérequis, une règle de sécurité réseau de trafic entrant avec le port de destination 3389 utilisé par le protocole RDP doit être configurée.  Vous effectuerez cette opération dans la prochaine étape quand vous allez créer un groupe de sécurité réseau.
+1. Laissez cet onglet de navigateur ouvert.
 
-1. Vous êtes à présent au niveau de l’onglet Mise en réseau pour la configuration de la machine virtuelle.  Remplissez les informations suivantes (pour tous les éléments non répertoriés, laissez les paramètres par défaut) :
-    1. Groupe de sécurité réseau de la carte réseau : sélectionnez **Aucun**.  Remarque : en sélectionnant Aucun, vous vous assurez que la carte réseau n’a pas de groupe de sécurité réseau.  Lors d’une tâche ultérieure de la démonstration, vous créerez un groupe de sécurité réseau et attribuerez la carte réseau de la machine virtuelle au groupe de sécurité réseau que vous avez créé.
-    1. Puisque les autres paramètres de la machine virtuelle seront conservés par défaut, continuez et sélectionnez Suivant : **Vérifier + créer>** .
-
-1. Vérifiez la configuration de votre machine virtuelle.  Quelques points à noter : Cette machine virtuelle dispose d’une adresse IP publique et d’aucun groupe de sécurité réseau de la carte réseau.  En ce qui concerne la sécurité, la machine virtuelle est exposée.  Nous verrons cela dans une tâche ultérieure. Sélectionnez **Create** (Créer).  Le déploiement de la machine virtuelle peut prendre plusieurs minutes.
-
-1. Notez le nom de l’interface du réseau, **sc900-winvmXXX** (les XXX seront spécifiques à l’interface du réseau de votre machine virtuelle).
-
-1. Une fois le déploiement de la machine virtuelle effectué, sélectionnez **Accéder à la ressource**.  Vous êtes à présent sur la page SC900-WinVM.  Notez l’adresse IP publique.
-
-1. Dans le volet de navigation à gauche, sélectionnez **Mise en réseau** et notez l’interface du réseau, **sc900-winvmXXX** (les XXX seront spécifiques à l’interface du réseau de votre machine virtuelle).  Il ne doit pas y avoir de règle de trafic entrant ou sortant associée à l’interface.  
-
-1. En haut de la page, sélectionnez **Connecter**, car il est important de vérifier que vous pouvez vous connecter à la machine virtuelle.
-    1. En haut de la page, vérifiez que **RDP** est sélectionné (souligné).
-    1. Vérifiez que l’adresse IP est paramétrée sur Adresse IP publique, conservez le numéro de port par défaut et sélectionnez **Télécharger le fichier DRP**.
-    1. **Ouvrez** le fichier téléchargé et sélectionnez **Connecter** dans la fenêtre qui apparaît.
-    1. Une fenêtre s’ouvre et vous demande vos informations d’identification. Si la fenêtre par défaut vous demande un code confidentiel, sélectionnez **Plus de choix**, puis **Utiliser un autre compte**.   Vous serez invité à saisir vos informations d’identification.  Entrez le nom d’utilisateur et le mot de passe que vous avez utilisés quand vous avez créé la machine virtuelle.
-    1. Une fenêtre de connexion de bureau à distance s’ouvre et indique que l’identité de l’ordinateur distant ne peut pas être vérifiée.  Voulez-vous quand même vous connecter ?  Sélectionnez **Oui**.
-    1. Vous êtes maintenant connecté à la machine virtuelle que vous venez de créer. Terminez la configuration de Windows. Bien que vous vous soyez connecté à la machine virtuelle via RDP et un port RDP couramment utilisé, cette machine virtuelle a tous les ports ouverts et rien ne filtre le trafic.  Fermez la connexion au bureau à distance en sélectionnant le **X** en haut au centre de la page où l’adresse IP est affichée.  Une fenêtre contextuelle indique que Votre session à distance sera déconnectée. Sélectionnez **OK**.
-
-1. Vous êtes de retour sur la page SC900-WinVM dans le portail Azure.  Laissez cet onglet de navigateur ouvert pour la tâche suivante.
 
 ### <a name="pre-demo-setup-part-2"></a>Configuration à faire avant la démonstration, partie 2
 
@@ -77,7 +73,7 @@ Créez un groupe de sécurité réseau, mais n’assignez PAS l’interface du r
     1. Abonnement :  Pass Azure - Parrainage
     1. Groupe de ressources :  **LabsSC900-RG**
     1. Nom :  **NSG-SC900**
-    1. Région : conservez la valeur par défaut **(USA) USA Est**
+    1. Région : laissez la valeur par défaut
     1. Sélectionnez **Examiner et créer** puis sélectionnez **Créer**.
 
 1. Une fois le déploiement terminé, sélectionnez **Accéder à la ressource** et assurez-vous que tout est correct.  Par défaut, il doit y avoir 3 règles de trafic entrant, 3 règles de trafic sortant et aucun sous-réseau et interface associé au groupe de sécurité réseau.  Retournez à la page **d’accueil** du portail Azure.  
@@ -102,14 +98,10 @@ Montrez les paramètres pour un groupe de sécurité réseau.  Dans ce cas-ci, v
     1. Dans la barre de recherche, en haut de la page, saisissez **Virtual Machines**, puis sélectionnez-le.
     1. Sur la page Machines virtuelles, sélectionnez **SC900-WinVM**.
     1. En haut de la page SC900-WinVM, sélectionnez **Connecter**, puis **RDP**.
-    1. Vérifiez que l’adresse IP est paramétrée sur Adresse IP publique, conservez le numéro de port par défaut et sélectionnez **Télécharger le fichier DRP**.
-    1. **Ouvrez** le fichier téléchargé et sélectionnez **Connecter**.
-    1. Après une tentative de connexion de quelques secondes, vous verrez le message d’échec qui indique que le bureau à distance ne peut pas se connecter à l’ordinateur distant. Sélectionnez **OK**.
+    1. Notez que le prérequis concernant le port n’est pas respecté.  Pour satisfaire au prérequis, une règle de sécurité réseau de trafic entrant avec le port de destination 3389 utilisé par le protocole RDP doit être configurée.  
 
-1. Maintenant que vous avez montré l’effet des règles de trafic entrant par défaut du groupe de sécurité réseau, vous souhaitez créer une nouvelle règle pour autoriser le trafic RDP entrant.  Expliquez que vous ne pouvez pas supprimer les règles par défaut existantes, vous ne pouvez qu’en créer de nouvelles avec une plus haute priorité.
-    1. Dans le volet de navigation à gauche, sous Paramètres, sélectionnez **Mise en réseau**.  Vous êtes sur la page de mise en réseau de la machine virtuelle. Bien que vous puissiez créer ici une règle de trafic entrant et une règle de trafic sortant, revenez à la page des groupes de sécurité réseau. Après tout, la démonstration concerne le groupe de sécurité réseau.  Sélectionnez **NSG-SC900**. Il s’agit du lien au milieu de la fenêtre.
-
-1. Vous êtes à présent sur la page de vue d’ensemble du groupe de sécurité réseau.  Remarquez les informations à propos du groupe de sécurité réseau. Sur la page des groupes de sécurité réseau, à partir du volet de navigation à gauche, sous paramètres, sélectionnez **Règles de sécurité de trafic** entrant, puis **+ Ajouter** en haut de la page. Sur la page Ajouter une règle de sécurité de trafic, parlez des différents paramètres. Il est recommandé de créer une règle pour autoriser le trafic RDP entrant, avec les paramètres suivants :
+1. Vous souhaitez maintenant créer une règle pour autoriser le trafic RDP entrant.  Expliquez que vous ne pouvez pas supprimer les règles par défaut existantes, vous ne pouvez qu’en créer de nouvelles avec une plus haute priorité. Dans le volet de navigation à gauche, sous Paramètres, sélectionnez **Mise en réseau**.  Vous vous trouvez dans la page de mise en réseau de la machine virtuelle.
+1. Vérifiez que l’onglet **Règles de port de trafic entrant** est sélectionné (souligné), puis sélectionnez **Ajouter une règle de port de trafic entrant** pour créer la règle en vue d’autoriser le trafic RDP entrant, avec les paramètres suivants :
     1. Source : **Any**
     1. Plages de ports sources : **\***
     1. Destination : **Any**
@@ -120,7 +112,7 @@ Montrez les paramètres pour un groupe de sécurité réseau.  Dans ce cas-ci, v
     1. Sélectionnez **Ajouter**
     1. Une fois que la règle est créée, elle apparaîtra dans la liste des règles de trafic entrant.
 
-1. Penchez-vous à présent sur les **Règles de sécurité de trafic sortant**.  Sélectionnez **+ Ajouter** en haut de la page et parlez des différents paramètres.  Je recommande de créer la règle. Les paramètres ci-dessous créent une règle pour refuser le trafic Internet sortant :
+1. Sélectionnez ensuite l’onglet **Règles de port de trafic sortant** et passez en revue les règles par défaut.  Sélectionnez **Ajouter une règle de port de trafic sortant** en haut de la page et traitez les différents paramètres.  Je recommande de créer la règle. Les paramètres ci-dessous créent une règle pour refuser le trafic Internet sortant :
     1. Source : **Any**
     1. Plages de ports sources : **\***
     1. Destination : **Balise du service**
@@ -134,7 +126,7 @@ Montrez les paramètres pour un groupe de sécurité réseau.  Dans ce cas-ci, v
     1. Sélectionnez **Ajouter**
     1. Une fois que la règle est créée, elle apparaîtra dans la liste des règles de trafic sortant.
 
-1. Revenez maintenant à votre machine virtuelle et testez les règles.  En haut de la page, sélectionnez **SC900-VM**, au-dessus des règles de sécurité de trafic sortant.
+1. Revenez maintenant à votre machine virtuelle et testez les règles.  En haut de la page, sélectionnez **SC900-VM**.
 
 1. Testez la règle de trafic entrant en vérifiant que vous pouvez vous connecter à la machine virtuelle à l’aide du RDP.
     1. Sélectionnez **Connecter** dans le volet de navigation à gauche.
@@ -152,9 +144,9 @@ Montrez les paramètres pour un groupe de sécurité réseau.  Dans ce cas-ci, v
 
 1. Revenez à la page d’accueil du portail Azure en sélectionnant **Microsoft Azure** sur la barre bleue en haut de la page.
 
-### <a name="tear-down"></a>Destruction
+### <a name="post-course-delivery-tear-down"></a>Opérations de suppression après le cours
 
-**IMPORTANT** : Lors de cette tâche, vous supprimerez le groupe de ressources et l’ensemble des ressources qu’il contient.   C’est important afin d’éviter des charges supplémentaires.
+Les machines virtuelles sont des ressources facturées, et bien que le coût d’exécution des machines virtuelles dans cette démonstration soit minuscule, il est recommandé de supprimer le groupe de ressources contenant la machine virtuelle et les ressources associées à la fin du cours.
 
 1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur.
 

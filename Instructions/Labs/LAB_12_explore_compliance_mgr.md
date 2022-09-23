@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4745dddb860e82ddc05e7c88deb0e0644046e0b5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d3268c28c1dc2335f0554caf801abe11b6ae0d2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557486"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892375"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 2 : Décrire les fonctionnalités de gestion de la conformité dans Microsoft Purview ; Unité 2 : Décrire le portail de conformité Microsoft Purview »
+---
+--->
+
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Labo : Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité
+
+Ce labo correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
+- Module : Décrire les fonctionnalités de gestion de la conformité dans Microsoft Purview
+- Unité : Décrire le portail de conformité Microsoft Purview
 
 ## <a name="lab-scenario"></a>Scénario du labo
 
@@ -69,7 +78,7 @@ Découvrez la situation de sécurité de votre organisation par l’intermédiai
 
 1. Sélectionnez **ISO/IEC27001:2013** dans la liste des modèles inclus. Cliquez sur **+ Créer une évaluation** en haut à droite de la page.  Vous remarquerez que seules deux étapes se trouvent sur le côté gauche de l’écran pour créer une évaluation à partir du modèle.  Sélectionnez Annuler en bas de la page.
 
-1. Fermez les onglets de votre navigateur.
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 

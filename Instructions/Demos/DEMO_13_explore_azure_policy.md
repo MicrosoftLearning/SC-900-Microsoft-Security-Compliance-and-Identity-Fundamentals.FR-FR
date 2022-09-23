@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 61ec82b1a7015371a60df61c5a6e5af39cdd9fd6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557132"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892207"
 ---
+<a name="---"></a><!---
+---
+Démonstration : Titre : « Azure Policy » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 6 : Décrire les fonctionnalités de gouvernance des ressources dans Azure ; Unité 2 : Décrire Azure Policy »
+---
+--->
+
 # <a name="demo-azure-policy"></a>Démonstration : Azure Policy
+
+Cette démonstration correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
+- Module : Décrire les fonctionnalités de gouvernance des ressources dans Azure
+- Unité : Décrire Azure Policy
 
 ## <a name="demo-scenario"></a>Scénario de la démonstration
 
@@ -19,7 +28,7 @@ Cette démonstration vous accompagnera tout au long du processus de définition 
 
 Créez une stratégie afin d’exiger une balise sur un groupe de ressources (indique les étapes de création d’une stratégie à partir d’un modèle).
 
-1. Ouvrez Microsoft Edge. Saisissez **portal.microsoft.com** dans la barre d’adresse.  Vous devriez déjà être connecté ; si ce n’est pas le cas, connectez-vous à l’aide de vos informations d’identification d’administrateur.
+1. Ouvrez Microsoft Edge. Dans la barre d’adresse, saisissez **portal.azure.com**.  Vous devriez déjà être connecté ; si ce n’est pas le cas, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
 1. Dans la zone de recherche (la barre bleue en haut de la page près de l’intitulé « Microsoft Azure »), saisissez **stratégie**, puis sélectionnez **Stratégie** dans les résultats de recherche.
 

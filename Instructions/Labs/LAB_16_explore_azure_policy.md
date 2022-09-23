@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorer Azure Policy.
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557516"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892147"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Découvrir Azure Policy » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 6 : Décrire les fonctionnalités de gouvernance des ressources dans Azure ; Unité 2 : Décrire Azure Policy »
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>Labo : Explorer Azure Policy.
+
+Ce labo correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
+- Module : Décrire les fonctionnalités de gouvernance des ressources dans Azure
+- Unité : Décrire Azure Policy
 
 ## <a name="lab-scenario"></a>Scénario du labo
 
@@ -21,7 +30,7 @@ Azure Policy aide à appliquer des normes organisationnelles et à évaluer la c
 
 Découvrez l’essentiel de la page Azure Policy.
 
-1. Ouvrez Microsoft Edge. Saisissez **portal.microsoft.com** dans la barre d’adresse.
+1. Ouvrez Microsoft Edge. Dans la barre d’adresse, saisissez **portal.azure.com**.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
@@ -125,6 +134,8 @@ Dans cette tâche, vous allez constater les effets de l’affectation de la stra
     1. En dessous des Services Azure, sélectionnez Stratégie Azure.
     1. Au milieu de la page se trouve une liste des affectations de stratégie ou d’initiative Azure.  À côté de celle consistant à demander un indicateur sur les groupes de ressources, les points de suspension vous permettent de sélectionner Supprimer l’affectation.
     1. Un message s’affiche pour vous demander de confirmer la suppression de l’affectation.  Sélectionnez Oui.
+
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 

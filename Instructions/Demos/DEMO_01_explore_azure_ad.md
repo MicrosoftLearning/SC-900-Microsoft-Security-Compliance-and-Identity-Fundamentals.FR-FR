@@ -1,23 +1,41 @@
 ---
-Demo:
-  title: Paramètres utilisateur d’Azure Active Directory
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: eb1ffc50ce90922dced58726c39879edfc74fb5b
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c230a54bb7d4d9cd876aacd4e04185ce674a22db
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557179"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892183"
 ---
-# <a name="demo-azure-active-directory-user-settings"></a>Démonstration : Paramètres utilisateur d’Azure Active Directory
+<a name="---"></a><!---
+---
+Démonstration : Titre : « Découvrir les paramètres utilisateur Azure AD » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 1 : Décrire les services de base et les types d’identités d’Azure AD ; Unité 4 : Décrire les types d’identités Azure AD »
+---
+--->
+
+# <a name="demo-azure-ad-user-settings"></a>Démonstration : Paramètres utilisateur Azure AD
+
+Cette démonstration correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra
+- Module : Décrire les services de base et les types d’identités d’Azure AD
+- Unité : Décrire les types d’identités Azure AD
 
 ## <a name="demo-scenario"></a>Scénario de la démonstration
 
-Dans cette démonstration, vous accéderez à Azure Active Directory et parcourrez les différents paramètres pour un utilisateur existant.
+Dans cette démonstration, vous accéderez à Azure Active Directory et parcourrez les différents paramètres pour un utilisateur existant.  REMARQUE à l’attention du présentateur :  Cette démonstration accède à Azure AD via le locataire Microsoft 365. Une autre option à montrer aux participants est l’accès à Azure AD via le portail Azure. L’objectif d’accéder au portail Microsoft 365 est de montrer que Microsoft 365 inclut l’accès à Azure AD.
 
-1. Accédez à l’onglet **Accueil - Microsoft Azure** ouvert dans votre navigateur.  Si vous avez fermé l’onglet, lancez Microsoft Edge et saisissez portal.azure.com dans la barre d’adresse. Connectez-vous ensuite à l’aide des mêmes informations d’identification d’administrateur que votre locataire Microsoft 365.
+1. Ouvrez Microsoft Edge.
 
-1. La page de destination du portail Azure affiche les services Azure. Cliquez sur **Azure Active Directory**. S’il n’apparaît pas immédiatement, saisissez « Azure Active Directory » dans la zone de recherche près de l’intitulé « Microsoft Azure ».  Vous pouvez également montrer comment y accéder par l’intermédiaire de l’icône de menu pour afficher le portail (les trois lignes horizontales, également appelées menu à tiroir, dans la barre bleue en haut de la page) qui se situe à gauche de l’intitulé « Microsoft Azure ».
+1. Dans la barre d’adresse, saisissez **admin.microsoft.com** pour accéder au Centre d’administration Microsoft 365.
+
+1. Connectez-vous avec vos informations d’identification d’administrateur.
+    1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
+    1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
+    1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
+
+1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
+
+1. Sous les centres d’administration, sélectionnez **Azure Active Directory** (vous devrez peut-être faire défiler la page).  Une nouvelle page de navigation s’ouvre sur la page Mon tableau de bord du Centre d’administration Azure Active Directory. Depuis les fenêtres principales du tableau de bord, vous verrez plusieurs vignettes, y compris la vignette de l’identité de l’organisation (Contoso, le locataire et l’édition Azure AD), une vignette pour les utilisateurs et groupes, etc.
 
 1. Dans le volet de navigation de gauche, sélectionnez **Utilisateurs**. Vous remarquerez que votre locataire est déjà configuré avec des utilisateurs.
 

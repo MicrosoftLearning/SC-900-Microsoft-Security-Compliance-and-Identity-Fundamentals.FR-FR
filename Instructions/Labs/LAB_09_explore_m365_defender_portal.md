@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Découvrir le portail Microsoft 365 Defender
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c22aadb543f4501b74be9a6d12da3af3b63b632f
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557144"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892675"
 ---
+<a name="---"></a><!---
+---
+Labo : Titre : « Découvrir le portail Microsoft 365 Defender » Module : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 4 : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365 ; Unité 7 : Décrire le portail Microsoft 365 Defender »
+---
+--->
+
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Labo : Découvrir le portail Microsoft 365 Defender
+
+Ce labo correspond au contenu Learn suivant :
+
+- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft
+- Module : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365
+- Unité : Décrire le portail Microsoft 365 Defender
 
 ## <a name="lab-scenario"></a>Scénario du labo
 
@@ -65,7 +74,7 @@ Cette tâche va vous présenter comment le Niveau de sécurité Microsoft permet
 
 1. En haut de la page, sélectionnez **Mesures et tendances**.  Notez les informations disponibles.  En haut à droite de la page, sélectionnez **l’icône de calendrier**.  Vous pouvez réduire l’affichage à une plage de dates personnalisée.  **L’icône de filtre** vous permet de filtrer l’affichage par identité, appareils ou applications.  Fermez la fenêtre et sélectionnez **Accueil** dans le volet de navigation à gauche pour retourner à la page d’accueil de Microsoft 365 Defender.
 
-1. Fermez la page du navigateur.
+1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 
