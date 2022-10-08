@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cb7b2598e10bff208634a8181ded25b46a0064c2
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 2c2c0be64f8f19dcae5ef6066bb7f8518057a6a3
+ms.sourcegitcommit: 7974f6f09e9b092b73c6f7aee26d636aaefe5bfa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892231"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "148010599"
 ---
 <a name="---"></a><!---
 ---
@@ -19,6 +19,8 @@ Labo : Titre : « Installation »
 Ce labo d’installation se compose de deux tâches distinctes.  La première tâche s’applique et est recommandée seulement si votre environnement lab inclut l’utilisation d’un Pass Azure. La deuxième tâche est axée sur l’activation du journal d’audit Microsoft et s’applique et est recommandée, que votre environnement utilise un Pass Azure ou non.
 
 **Durée estimée** : 5-10 minutes
+
+
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Partie 1 de la configuration - Utiliser un Pass Azure
 
