@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
+ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892171"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "148118958"
 ---
 <a name="---"></a><!---
 ---
@@ -148,7 +148,7 @@ Dans cette tâche, vous adopterez le rôle de l’utilisateur, Annette Varieur, 
 
 11. Dans la zone d’informations Choisir un compte, sélectionnez **AdeleV@WWLxZZZZZZ.onmicrosoft.com** , saisissez votre nouveau mot de passe, puis appuyez sur le bouton **Se connecter**.  Si vous êtes invité à rester connecté. Sélectionnez **Non**.
 
-12. Vous devez maintenant vous trouver dans le portail Azure.
+12. Vous devez maintenant vous trouver dans le portail Office.
 
 13. Déconnectez-vous en cliquant sur l’icône d’utilisateur à côté de l’adresse e-mail, dans le coin supérieur droit de l’écran, et en sélectionnant **Se déconnecter**. Ensuite, fermez toutes les fenêtres du navigateur.
 
