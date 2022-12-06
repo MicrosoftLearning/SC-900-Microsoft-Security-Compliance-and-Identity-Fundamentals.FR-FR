@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: b9577dbed15e45986a20f4caf0f233c8e6fe4a4a
-ms.sourcegitcommit: e95df9b6b0cd4511c64832583e414ce7745cd29e
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "148022687"
----
 <a name="---"></a><!---
 ---
 Démonstration : Titre : « Accès conditionnel Azure AD » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 3 : Décrire les fonctionnalités de gestion des accès d’Azure AD ; Unité 2 : Décrire l’accès conditionnel dans Azure AD »
