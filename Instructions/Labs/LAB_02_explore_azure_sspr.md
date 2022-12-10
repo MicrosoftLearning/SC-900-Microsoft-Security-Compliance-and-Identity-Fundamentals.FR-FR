@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
-ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "148118958"
----
 <a name="---"></a><!---
 ---
 Labo : Titre : « Découvrir Azure AD Authentication avec réinitialisation de mot de passe en libre-service » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 2 : Décrire les fonctionnalités d’authentification d’Azure AD ; Unité 4 : Décrire la réinitialisation de mot de passe en libre-service (SSPR) dans Azure AD »
