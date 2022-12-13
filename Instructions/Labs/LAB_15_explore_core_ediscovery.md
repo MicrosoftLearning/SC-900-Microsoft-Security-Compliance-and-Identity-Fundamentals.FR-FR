@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892661"
----
 <a name="---"></a><!---
 ---
 Labo : Titre : « Explorer le workflow eDiscovery (Standard) » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités de conformité Microsoft ; Module 5 : Décrire les fonctionnalités d’eDiscovery et d’audit de Microsoft Purview ; Unité 2 : Décrire les solutions eDiscovery dans Microsoft 365 »
@@ -22,20 +14,20 @@ Ce labo correspond au contenu Learn suivant :
 
 ## <a name="lab-scenario"></a>Scénario du labo
 
-Dans ce labo, vous allez apprendre à configurer eDiscovery et découvrir le workflow d’eDiscovery (Standard) en créant une conservation eDiscovery et une requête de recherche, puis en exportant les résultats de cette recherche.  Remarque :  Pour obtenir une licence eDiscovery (Standard), l’organisation doit disposer de l’abonnement approprié et d’une licence par utilisateur. Si vous ne savez pas quelles licences prennent en charge eDiscovery (Standard), consultez [Bien démarrer avec eDiscovery (Standard) dans Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+Dans ce labo, vous suivez les étapes nécessaires pour configurer eDiscovery, notamment configurer les autorisations de rôle, créer un cas eDiscovery, créer une conservation eDiscovery et créer une requête de recherche.  Remarque :  Pour obtenir une licence eDiscovery (Standard), l’organisation doit disposer de l’abonnement approprié et d’une licence par utilisateur. Si vous ne savez pas quelles licences prennent en charge eDiscovery (Standard), consultez [Bien démarrer avec eDiscovery (Standard) dans Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
-**Durée estimée** : 20-25 minutes
+**Durée estimée** : 25-30 minutes
 
 ### <a name="task-1"></a>Tâche 1
 
 Pour accéder à eDiscovery (Standard) ou être ajouté en tant que membre d’un cas eDiscovery, les autorisations appropriées doivent être accordées à l’utilisateur. Dans cette tâche, vous allez jouer le rôle d’administrateur et ajouter des utilisateurs spécifiques en tant que membres du groupe de rôles Gestionnaire eDiscovery.
 
- Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse.
+ Ouvrez Microsoft Edge. Dans la barre d’adresses, entrez **admin.microsoft.com**.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
-    1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
+    1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par le fournisseur d’hébergement de votre labo), puis sélectionnez **Suivant**.
 
-    1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
+    1. Entrez le mot de passe d’administrateur qui vous a été communiqué par le fournisseur d’hébergement de votre labo. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez ainsi à la page du Centre d’administration Microsoft 365.
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
@@ -44,23 +36,23 @@ Pour accéder à eDiscovery (Standard) ou être ajouté en tant que membre d’u
 
 1. Dans le volet de navigation de gauche, sélectionnez **Autorisations**.
 
-1. Dans la page Autorisations et rôles, sous le portail de conformité, sélectionnez **Rôles**.
+1. Dans la page Autorisations et rôles, sous Solutions Microsoft Purview, sélectionnez **Rôles**.
 
 1. Dans le champ de recherche, entrez **eDiscovery**, puis sélectionnez l’icône de recherche (en forme de loupe).  Sélectionnez **Gestionnaire eDiscovery**.
 
-1. Dans la fenêtre qui s’affiche, vous pouvez voir deux sous-groupes, Gestionnaire eDiscovery et Administrateur eDiscovery.  Lisez leurs descriptions.  Pour ce labo, nous allons ajouter des membres au sous-groupe Administrateur eDiscovery. Sélectionnez **Modifier** à côté d’Administrateur eDiscovery.  Nous recommandons d’attribuer le privilège minimum pour le rôle des utilisateurs.
+1. Dans la fenêtre qui s’ouvre, vous pouvez voir deux sous-groupes, Gestionnaire eDiscovery et Administrateur eDiscovery.  Lisez leurs descriptions.  Pour ce labo, nous ajoutons des membres au sous-groupe Administrateur eDiscovery. Sélectionnez **Modifier** à côté d’Administrateur eDiscovery.  Nous recommandons d’attribuer le privilège minimum pour le rôle des utilisateurs.
 
 1. Pour ajouter des membres à ce groupe de rôles, assurez-vous de vous trouver dans l’onglet **Sélectionner un administrateur eDiscovery**, puis choisissez l’option du même nom.
 
 1. Sélectionnez **+ Ajouter** en haut de la page.
 
-1. Dans la liste des noms, sélectionnez **Administrateur MOD**, **Megan Bowen**, puis **Ajouter** et **Terminé** en bas de la page.
+1. Dans la liste des noms, sélectionnez **Administrateur MOD** et **Megan Bowen**, puis sélectionnez **Ajouter** en bas de la page et **Terminé**.
 
-1. Après avoir vérifié que les membres ajoutés ne comportent aucune erreur, sélectionnez **Enregistrer**.
+1. Vérifiez que les membres ajoutés sont corrects et sélectionnez **Enregistrer**.
 
 1. En bas de la fenêtre eDiscovery, sélectionnez **Fermer**.
 
-1. Conservez cet onglet ouvert pour l’utiliser lors de la prochaine tâche.
+1. Gardez cet onglet ouvert, car vous l’utilisez dans la prochaine tâche.
 
 ### <a name="task-2"></a>Tâche 2
 
@@ -78,11 +70,11 @@ Dans cette tâche, vous allez jouer le rôle d’Administrateur eDiscovery (admi
 
 1. Puisque vous l’avez créé et que vous disposez des privilèges d’Administrateur eDiscovery, vous pouvez commencer à travailler dessus.  
 
-1. Conservez cet onglet ouvert pour l’utiliser lors de la prochaine tâche.
+1. Gardez cet onglet ouvert, car vous l’utilisez dans la tâche suivante.
 
 ### <a name="task-3"></a>Tâche 3
 
-Maintenant que votre dossier eDiscovery (Standard) est créé, vous pouvez commencer à travailler dessus.  Dans cette tâche, vous allez y associer une conservation eDiscovery,  plus particulièrement pour la boîte aux lettres Exchange d’Adele Vance.
+Maintenant que vous avez créé un cas eDiscovery (Standard), vous pouvez commencer à l’utiliser.  Dans cette tâche, vous créez une conservation eDiscovery pour le cas que vous avez créé.  En particulier, vous créez une conservation pour la boîte aux lettres Exchange d’Adele Vance.
 
 1. Ouvrez l’onglet eDiscovery (Standard) dans votre navigateur.
 
@@ -90,25 +82,27 @@ Maintenant que votre dossier eDiscovery (Standard) est créé, vous pouvez comme
 
 1. Sur la page d’accueil du dossier, sélectionnez l’onglet **Conservation**, puis **+ Créer**.
 
-1. Dans le champ Nom, saisissez **Conservation test** avant d’utiliser le bouton Suivant.
+1. Dans le champ Nom, entrez **Conservation test** et sélectionnez **Suivant**.
 
-1. Dans la page Choisir les emplacements, sélectionnez le bouton bascule en regard de **Boîtes aux lettres Exchange** pour définir l’état sur **Activé**, puis sélectionnez **Choisir les utilisateurs, groupes ou équipes**.  Dans la zone de recherche, saisissez **Adele**, puis appuyez sur Entrée. Sélectionnez **Adele Vance** dans les résultats de recherche, puis Choisir et enfin **Terminé**.
+1. Dans la page Choisir les emplacements, sélectionnez le bouton bascule à côté de **Boîtes aux lettres Exchange** pour définir l’état sur **Activé**.  
+
+1. Sélectionnez maintenant **Choisir des utilisateurs, des groupes ou des équipes**.  Dans la zone de recherche, saisissez **Adele**, puis appuyez sur Entrée. Dans les résultats de recherche, sélectionnez **Adele Vance**, puis **Terminé**.
 
 1. Sur la page Choisir l’emplacement, sélectionnez **Suivant**.  Dans le cadre du labo, cette conservation ne contiendra aucun autre emplacement.
 
-1. La page des Conditions de requête vous permet de créer une conservation à partir de mots clés ou de conditions spécifiques. Sélectionnez **+ Conditions** pour afficher les options disponibles.  Sélectionnez **Suivant**. Sans conditions, la conservation conserve tout le contenu à l’emplacement prévu.
+1. La page Conditions de requête vous permet de créer une conservation à partir de mots clés ou de conditions spécifiques. Sélectionnez **+ Ajouter une condition** pour voir les options disponibles.  Sélectionnez **Suivant**. Sans conditions, la conservation conserve tout le contenu à l’emplacement prévu.
 
 1. Vérifiez les paramètres avant de sélectionner **Envoyer**. Après un moment, vous pouvez utiliser le bouton **Terminé**.  La Conservation test apparaît maintenant dans la liste.  Si vous ne la voyez pas tout de suite, pensez à **Actualiser**.
 
-1. Conservez cet onglet ouvert pour l’utiliser lors de la prochaine tâche.
+1. Gardez cet onglet ouvert, car vous l’utilisez dans la tâche suivante.
 
 ### <a name="task-4"></a>Tâche 4
 
-Une fois la conservation finalisée, vous créerez une requête de recherche.  Quand vous aurez terminé, vous exporterez et téléchargerez les résultats pour les étudier plus tard.   Remarque :  Les recherches associées à un dossier eDiscovery (Standard) ne sont pas listées dans la page de recherche de contenu du portail de conformité Microsoft Purview. Elles apparaissent seulement dans la page des recherches du dossier eDiscovery (Standard) associé.
+Une fois la conservation en place, vous créez une requête de recherche.  Quand votre recherche est terminée, eDiscovery prend en charge des actions, comme l’exportation et le téléchargement des résultats pour investigation ultérieure.   Remarque :  Les recherches associées à un dossier eDiscovery (Standard) ne sont pas listées dans la page de recherche de contenu du portail de conformité Microsoft Purview. Elles apparaissent seulement dans la page des recherches du dossier eDiscovery (Standard) associé.
 
-1. Ouvrez l’onglet du dossier test SC900.
+1. Ouvrez l’onglet du Cas de test SC900 dans votre navigateur.
 
-1. Sur la page Conservations du dossier, sélectionnez **Recherches**,
+1. Dans la page Cas de test SC900, sélectionnez **Recherches**.
 
 1. puis **+ Nouvelle recherche** sur la page suivante.
 
@@ -120,24 +114,12 @@ Une fois la conservation finalisée, vous créerez une requête de recherche.  Q
 
 1. Vérifiez les paramètres avant de sélectionner **Envoyer**. Après un moment, vous pouvez utiliser le bouton **Terminé**.  La recherche apparaît dans la liste.  Si vous ne la voyez pas tout de suite, pensez à **Actualiser**.
 
-1. Dans la fenêtre des Recherches, sélectionnez celle que vous venez de créer, **Conservation test - Recherches ventes**.  Une fenêtre s’affiche, dans laquelle l’onglet Résumé est ouvert.  Une fois la recherche terminée, l’état indique que celle-ci est terminée.  Si c’est bien le cas, s’affiche alors un onglet  **Statistiques de recherche** que vous devez sélectionner. Déroulez ensuite le menu près du Contenu de la recherche.  Vous pouvez également afficher plus d’informations sur le rapport de condition et les emplacements principaux.  
+1. Dans la fenêtre Recherches, sélectionnez celle que vous avez créée, **Conservation test - Recherches ventes**.  Une fenêtre s’affiche, dans laquelle l’onglet Résumé est ouvert.  Une fois la recherche terminée, l’état indique que celle-ci est terminée.  Vous voyez un onglet Statistiques de recherche (sinon, la recherche est peut-être encore en cours et peut prendre encore quelques minutes).  **Statistiques de recherche** que vous devez sélectionner. Déroulez ensuite le menu près du Contenu de la recherche.  Vous pouvez également afficher plus d’informations sur le rapport de condition et les emplacements principaux.  
 
-1. En bas de la page, sélectionnez **Actions**.  Examinez les options disponibles, puis sélectionnez **Exporter des résultats**.
-
-    1. Dans la fenêtre qui s’affiche, conservez les paramètres par défaut et choisissez **Exporter** en bas de la page. Cela vous redirige automatiquement vers la fenêtre « Conservation test - Recherches ventes », Sélectionnez **fermer** en bas de la page.
-
-    1. En haut de la page SC900-Dossier test, sélectionnez **Exportations**,
-    1. puis **Conservation test - Recherches ventes_Export**.
-    1. Dans la fenêtre qui s’ouvre, une clé d’exportation s’affiche. Sélectionnez **Copier dans le presse-papiers**.
-    1. En haut, sélectionnez **Télécharger les résultats**. Une nouvelle page s’ouvre en même temps qu’une fenêtre contextuelle qui vous demande si vous voulez ouvrir ce fichier. Choisissez **Ouvrir**.
-    1. Si vous réalisez cette action pour la première fois, il vous sera demandé d’installer l’outil d’exportation eDiscovery de Microsoft Office 365.  Sélectionnez **Installer**.
-    1. Une fois cette opération terminée, l’outil d’exportation eDiscovery s’ouvre.  Dans le premier champ, collez la clé d’exportation que vous avez copiée précédemment (Ctrl + V sur votre clavier, ou clic droit puis coller avec votre souris).
-    1. Dans le second champ, indiquez à quel emplacement vous souhaitez enregistrer le fichier d’exportation, puis sélectionnez **Démarrer**.  À la fin du téléchargement, **fermez** cet onglet.
-    1. Cela vous redirige vers la fenêtre « Conservation test - Recherches ventes_Export ».  Sélectionnez **Fermer**.
-    1. Vérifiez l’emplacement de votre téléchargement pour vous assurer que l’opération s’est bien déroulée.
+1. En bas de la page, sélectionnez **Actions**.  Notez les options disponibles qui comprennent des options d’exportation (les options d’exportation ne peuvent pas être sélectionnées à partir de la plateforme lab fournie par l’hébergeur de labo autorisé, mais sont disponibles dans un environnement de production et considérées comme faisant partie du workflow standard). Sélectionnez **Fermer**.
 
 1. Fermez tous les onglets ouverts du navigateur.
 
 ### <a name="review"></a>Révision
 
-Dans ce labo, vous avez appris les bases d’eDiscovery (Standard), notamment la configuration des autorisations pour chaque rôle et la création d’un dossier eDiscovery.  Ce dernier vous a permis de découvrir le workflow d’eDiscovery (Standard). Vous avez créé une conservation eDiscovery et une requête de recherche, avant d’exporter les résultats de cette recherche afin de les examiner plus tard.
+Dans ce labo, vous avez suivi les étapes nécessaires pour bien démarrer avec eDiscovery (Standard), notamment la configuration des autorisations de rôle pour eDiscovery et la création d’un cas eDiscovery.  Ce dernier vous a permis de suivre les éléments du workflow eDiscovery (Standard) en créant une conservation eDiscovery et une requête de recherche.

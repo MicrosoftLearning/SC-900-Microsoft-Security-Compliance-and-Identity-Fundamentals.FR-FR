@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 2ea64f800931ec99ace8cd3ec349573a0931899e
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892615"
----
 <a name="---"></a><!---
 ---
 Démonstration : Titre : « Microsoft Defender for Cloud Apps » Module : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 4 : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365 ; Unité 5 : Décrire Microsoft Defender for Cloud Apps »
@@ -22,11 +14,11 @@ Cette démonstration correspond au contenu Learn suivant :
 
 ## <a name="demo-scenario"></a>Scénario de la démonstration
 
-Dans cette démonstration, vous présenterez les possibilités de Microsoft Defender pour le cloud.  Vous guiderez le participant à travers les informations disponibles sur le tableau de bord de Cloud Discovery et vous lui montrerez les fonctionnalités disponibles pour examiner les résultats et contrôler l’impact sur votre organisation par le biais de stratégies.  Remarque :  Une organisation doit avoir une licence pour utiliser Microsoft Defender pour le cloud, qui est un service d’abonnement basé sur l’utilisateur.  
+Dans cette démonstration, vous allez présenter les fonctionnalités de Microsoft Defender for Cloud Apps.  Vous présenterez à l’apprenant les informations contenues dans le tableau de bord Cloud Discovery, le catalogue d’applications cloud, les fonctionnalités disponibles pour investiguer les résultats avec le journal d’activité et les fichiers ainsi que les façons de contrôler l’impact sur votre organisation au moyen de stratégies.  Remarque : Une organisation doit disposer d’une licence pour utiliser Microsoft Defender for Cloud Apps, qui est un service par abonnement basé sur l’utilisateur.  
 
 ### <a name="demo-part-1-explore-cloud-discovery"></a>Partie 1 de la démonstration : Explorer Cloud Discovery
 
-1. Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse.  Vous devriez déjà être connecté en tant qu’administrateur.  Si ce n’est pas le cas, connectez-vous à l’aide de vos informations d’identification d’administrateur.
+1. Ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **admin.microsoft.com**.  Vous devriez déjà être connecté en tant qu’administrateur.  Si ce n’est pas le cas, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.  Parlez du fait que l’on peut accéder aux différents centres d’administration Microsoft 365 à partir d’ici.
 
@@ -34,60 +26,60 @@ Dans cette démonstration, vous présenterez les possibilités de Microsoft Defe
 
 1. Si c’est la première fois que vous vous rendez sur le portail Microsoft 365 Defender, il se peut qu’une fenêtre contextuelle s’ouvre et vous propose de faire le tour du portail.  Fermez-la.
 
-1. En bas du volet de navigation à gauche de la page Microsoft 365 Defender, sélectionnez **Autres ressources**.
+1. Dans le panneau de navigation de gauche, sélectionnez **Applications cloud** pour développer la liste, puis sélectionnez **Cloud Discovery**. Vous accédez alors à la vue Tableau de bord.  Parlez des informations disponibles dans le tableau de bord. À partir de la vue du tableau de bord, vous pouvez sélectionner différents onglets en haut de la page.  Parcourez chaque onglet en haut de la page.
+    
+1. Sélectionnez **Applications découvertes**. La fenêtre des applications découvertes fournit un affichage plus détaillé des applications découvertes, y compris le score de risque, le nombre d’utilisateurs, etc. 
+    1. À partir de n’importe quel élément de la liste, sélectionnez les **points de suspension** dans la colonne d’actions du tableau.  Notez les différentes options disponibles, y compris la possibilité d’identifier une application comme approuvée et non approuvée.  Sélectionnez à nouveau les points de suspension pour fermer la boîte d’actions.
+    1. Sélectionner un élément de ligne spécifique ouvre une page de détails pour cette application spécifique.  Sélectionnez un élément dans la liste.  Sélectionnez l’onglet **Utilisation de l’application cloud** pour l’élément sélectionné afin d’afficher des informations plus détaillées : **Utilisation**, **Utilisateurs**, **Adresses IP**, **Alertes**, etc. Quand vous avez terminé d’explorer la page des détails, sélectionnez **Cloud Discovery** dans la barre de navigation en haut de la page pour revenir à la page des applications découvertes.  Si vous sélectionnez Cloud Discovery dans le panneau de navigation de gauche, vous revenez à la vue du tableau de bord.
+    1. En haut de la page, sélectionnez l’onglet **Adresses IP**. Ici, vous trouverez des données comme le nombre de transactions, la quantité de trafic et les quantités de données chargées par adresse IP.  Notez que vous pouvez également filtrer par adresse IP spécifique ou exporter les données pour de plus amples analyses.
+    1. En haut de la page, sélectionnez **Utilisateurs**.  Il s’agit des mêmes informations que celles obtenues quand vous sélectionnez Adresses IP, mais elles sont cette fois classées par utilisateur.  Ici aussi vous filtrez par utilisateur spécifique et exportez les données pour de plus amples analyses.
 
-1. Sur la carte **Applications Microsoft Defender pour le cloud**, sélectionnez **Ouvrir**.  Une nouvelle page de navigation s’ouvre sur le tableau de bord de la sécurité des applications cloud.  Notez les cartes d’informations disponibles.  Il est possible que vous ne voyiez pas d’informations sur les cartes, car il s’agit d’un environnement locataire de labo préconfiguré qui n’a pas été utilisé de manière active.  
+1. Un point important à souligner est que les informations fournies dans la page Cloud Discovery et les onglets associés sont basées soit sur des rapports instantanés issus de journaux de trafic que vous chargez manuellement à partir de vos pare-feux et proxys, soit sur des rapports continus qui analysent tous les journaux transférés à partir de votre réseau avec Cloud App Security.  Pour voir où ces options sont configurées, sélectionnez **Actions** en haut à droite de la page.
+    1. Sélectionnez la première option, **Créer un rapport d’instantané Cloud Discovery**, puis sélectionnez **Suivant**. Vous saisissez ici les détails demandés et chargez les journaux de trafic afin de générer et charger un rapport.  Sélectionnez **Quitter** et, si vous êtes invité à confirmer, sélectionnez à nouveau **Quitter**.  Les données que vous voyez pour votre locataire de labo proviennent d’un rapport instantané. Vous pouvez voir cette information en haut de la fenêtre Cloud Discovery.
+    1. Pour voir l’option pour les rapports continus, sélectionnez **Actions** en haut à droite de la page, puis **Configurer le chargement automatique** dans la liste déroulante.  Il n’y a pas de sources de données connectées, mais c’est ici que vous en ajouteriez une. Sélectionnez **Ajouter une source de données**, puis sélectionnez la flèche déroulante dans le champ **Sélectionner une appliance** pour voir les types d’appliances que vous pouvez connecter en tant que source de données.  Sélectionnez **Annuler** pour quitter la page.
+    1. Dans le panneau de navigation de gauche, sélectionnez **Cloud Discovery** pour revenir à la page Cloud Discovery.
 
-1. Dans le volet de navigation à gauche, sélectionnez **Découvrir**, puis, à partir de la liste déroulante, sélectionnez **Tableau de bord de Cloud Discovery**.  Le tableau de bord inclut une vue d’ensemble des applications découvertes, des catégories d’application, des niveaux de risque, etc.  
+1. Avec Microsoft 365 Defender for Cloud Apps, vous pouvez vous connecter directement aux applications en configurant des connecteurs d’application qui vous fourniront plus de visibilité et de contrôle sur vos applications cloud.  Il est important de rappeler qu’il faut consulter la documentation pour connaître les prérequis relatifs à la connexion de connecteurs d’application spécifiques. En haut à droite de l’écran, sélectionnez **Actions**, puis **Paramètres Cloud Discovery**.  Sur le côté gauche de l’écran, sous Applications connectées, sélectionnez **Connecteurs d’application**.  
+    1. Dans la page Applications connectées, sélectionnez *Office 365** dans la liste pour voir des informations détaillées. Si Office 365 affiche une erreur de connexion, c’est probablement parce que l’audit n’est pas activé.  Si l’audit est activé, accédez aux trois points verticaux à droite de l’élément de ligne, puis sélectionnez **Modifier les paramètres**.  Pour vous reconnecter, sélectionnez **Connecter Office 365** en bas de la page. La page doit maintenant indiquer qu’Office 365 est connecté. Sélectionnez **Terminé**.  L’état est pour l’instant accompagné d’un signe d’avertissement jaune, ce qui signifie qu’il n’y a pas d’état récent.  La mise à jour de l’état prend un certain temps. En effet, la période d’analyse rétroactive varie d’une application à l’autre et les locataires de labo peuvent rencontrer des délais plus longs qu’à l’accoutumée (ne vous attendez pas à ce que l’état change pendant la démonstration, car cela peut prendre plusieurs heures).
+    1. Vous allez maintenant configurer un nouveau connecteur d’application.  Sélectionnez **+Connecter une application** et, depuis la liste déroulante, sélectionnez **Microsoft Azure**.  À partir de la fenêtre contextuelle Microsoft Azure, sélectionnez **Connecter Microsoft Azure**, puis **Terminé**.  Vous voyez un état connecté (si ce n’est pas le cas, actualisez le navigateur) ainsi que des informations sur l’analyse des utilisateurs, des données et des activités.  Sélectionnez **Cloud Discovery** dans le panneau de navigation le plus à gauche pour revenir au tableau de bord Cloud Discovery.
 
-    1. En haut de la page de Cloud Discovery, sélectionnez l’onglet **Applications découvertes**.  La fenêtre des applications découvertes fournit un affichage plus détaillé des applications découvertes, y compris le score de risque, le nombre d’utilisateurs, etc.
+1. Laissez cette page ouverte, car vous en aurez besoin pour la partie suivante.
 
-        1. À partir de n’importe quel élément de la liste, sélectionnez les **points de suspension** dans la colonne d’actions du tableau.  Notez les différentes options disponibles, y compris la possibilité d’identifier une application comme approuvée et non approuvée.  Sélectionnez à nouveau les points de suspension pour fermer la boîte d’actions.
+### <a name="demo-part-2---explore-the-cloud-app-catalog"></a>Partie 2 de la démonstration - Explorer le catalogue d’applications cloud
 
-        1. Sélectionner un élément de ligne spécifique ouvre une page de détails pour cette application spécifique.  Sélectionnez un élément dans la liste.  Pour l’élément sélectionné, parcourez chaque onglet en haut de la page de détails :  **Usage**, **Info**, **Adresses IP**, **Utilisateurs** et **Alertes**. Lorsque vous avez fini de découvrir la page de détails, retournez aux applications découvertes en sélectionnant **Applications découvertes** depuis le volet de navigation à gauche.
+Dans cette partie de la démonstration, vous allez présenter les fonctionnalités du catalogue d’applications cloud. Cloud Discovery analyse vos journaux de trafic par rapport au catalogue d’applications cloud Microsoft Defender for Cloud Apps qui contient plus de 31 000 applications cloud. Les applications sont classées et évaluées selon plus de 80 facteurs de risque afin de vous offrir une visibilité en continu de l’utilisation du cloud, du « Shadow IT » et du risque que celui-ci représente pour votre organisation.  
 
-    1. En haut de la page, sélectionnez l’onglet **Adresses IP** (cela revient au même que de sélectionner Adresses IP depuis le volet de navigation à gauche).  Vous trouverez ici des données, y compris le nombre de transactions, la quantité de trafic et les quantités de chargements par adresses IP.  Notez que vous pouvez également filtrer par adresse IP spécifique ou exporter les données pour de plus amples analyses.
+1. Dans le panneau de navigation de gauche, sélectionnez **Catalogue d’applications cloud**.
 
-    1. En haut de la page (ou depuis le volet de navigation à gauche), sélectionnez **Utilisateurs**.  Il s’agit des mêmes informations que quand vous sélectionnez Adresses IP, mais les informations sont cette fois classées par utilisateur.  Ici aussi vous filtrez par utilisateur spécifique et exportez les données pour de plus amples analyses.
+1. Le catalogue d’applications cloud vous permet de choisir les applications qui répondent le mieux aux exigences de sécurité de votre organisation. Les administrateurs peuvent filtrer les applications selon plusieurs critères de base indiqués en haut de la page : application approuvée, non approuvée, sans étiquette, score de risque, facteur de risque de conformité et facteur de risque de sécurité.  Par exemple, le filtrage par facteur de risque de conformité vous permet de rechercher des normes, une certification et une conformité spécifiques auxquelles l’application peut se conformer. Par exemple, les normes HIPAA, ISO 27001, SOC 2 ou PCI-DSS. Sélectionnez **Facteur de risque de conformité** pour voir les options disponibles.  Vous pouvez déplacer les curseurs du score de risque en haut de la page pour affiner votre filtrage. Si vous déplacez le curseur, veillez à le régler sur une plage comprise entre 0 et 10.
 
-1. Les informations fournies dans ces onglets se basent soit sur des rapports instantanés à partir des journaux de trafic que vous avez chargé manuellement depuis vos pare-feux et proxys, soit sur des rapports continus qui analysent tous les journaux qui sont transférés depuis votre réseau à l’aide de la sécurité des applications cloud.  Pour configurer ces options, sélectionnez les **points de suspension** en haut à droite de la page.
+1. Les administrateurs peuvent également rechercher des applications par catégorie.  Par exemple, dans le champ Rechercher une catégorie, entrez **Réseau social**, puis sélectionnez **Réseau social**.  Sélectionnez **Yammer** pour obtenir une vue détaillée.  Pointez votre souris sur les rubriques d’une catégorie donnée pour afficher une icône d’informations que vous pouvez sélectionner pour obtenir plus de détails sur cette rubrique.
 
-    1. Sélectionnez la première option, **Créer un rapport instantané Cloud Discovery**. Vous saisissez ici les détails demandés et chargez les journaux de trafic afin de générer et charger un rapport.  Sélectionnez **Annuler**.  Les données que vous voyez pour votre locataire de labo proviennent d’un rapport instantané. Vous pouvez voir cette information en haut à droite de l’écran.
+1. Laissez cette page ouverte, car vous en aurez besoin pour la tâche suivante.
 
-    1. Afin d’afficher l’option pour les rapports continus, sélectionnez les **points de suspension** en haut à droite de la page et, dans la liste déroulante, sélectionnez **Configurer le chargement automatique**.  Il n’y a pas de sources de données connectées, mais c’est ici que vous en ajouteriez une. Sélectionnez la flèche déroulante vers le bas **Sélectionner une appliance** pour voir les types d’appliances que vous pouvez connecter en tant que source de données.  Sélectionnez **Annuler** pour quitter la page.
+### <a name="demo-part-3---explore-the-activity-log-and-files"></a>Partie 3 de la démonstration - Explorer le journal d’activité et les fichiers
 
-1. Un autre point à souligner est que vous pouvez vous connecter aux applications directement en configurant des connecteurs d’application qui vous fourniront une visibilité et un contrôle plus grand sur vos applications cloud. En haut à gauche de l’écran, sélectionnez **l’icône représentant un engrenage** et, dans la liste déroulante, sélectionnez **Connecteurs d’application**.  
+Explorez les différentes façons d’investiguer les activités enregistrées avec le journal d’activité et les fichiers.
 
-    1. Sur la page des applications connectées, vous devriez voir Office 365 dans la liste avec un statut connecté.  Si Office 365 affiche une erreur de connexion, il est fortement probable qu’Audit ne soit pas activé.
+1. Dans le volet de navigation de gauche, sélectionnez et explorez l’option **Fichiers**. Notez les options de filtrage des données par application, propriétaire, niveau d’accès, type de fichier et stratégie correspondante. Notez également l’option de création d’une stratégie à partir de la recherche et d’exportation des données.
+    1. Sélectionnez **+ Nouvelle stratégie à partir de la recherche**.  Notez comment vous pouvez créer une stratégie basée sur un modèle, sélectionner une gravité et catégorie de stratégie, créer des filtres pour une stratégie, créer des alertes et même envoyer des alertes à Power Automate.  Sélectionnez **Annuler** pour quitter la fenêtre de création de stratégie, puis sélectionnez **Quitter la page**.
 
-    1. Sélectionnez **+Connecter une application** et, depuis la liste déroulante, sélectionnez **Microsoft Azure**.  Depuis la fenêtre contextuelle Microsoft Azure, sélectionnez **Connecter Microsoft Azure**.  Vous verrez le statut connecté ainsi que les informations quand vous analysez les utilisateurs, les données et les activités.  Sélectionnez le bouton **Fermer**.
+1. Dans le panneau de navigation de gauche, sélectionnez **Journal d’activité**. C’est ici que vous verrez toutes les activités de vos applications connectées. Toutefois, étant donné que l’exécution d’analyses rétroactives peut prendre plusieurs heures une fois l’audit activé et que les locataires du labo peuvent rencontrer des délais plus longs qu’à l’accoutumée, il se peut qu’aucune donnée ne soit listée. Notez les options de filtre disponibles et l’option de création d’une stratégie à partir de la recherche.
 
-1. Laissez cette page ouverte, vous en aurez besoin pour la tâche suivante.
+1. Laissez cette page ouverte, car vous en aurez besoin pour la tâche suivante.
 
-### <a name="demo-part-2"></a>Partie 2 de la démonstration
+### <a name="demo-part-4---explore-policies"></a>Partie 4 de la démonstration - Explorer les stratégies
 
-Découvrez les manières d’examiner les activités enregistrées.
+Dans cette partie, vous allez présenter les options disponibles concernant les stratégies dans Microsoft Defender for Cloud Apps.
 
-1. Dans le volet de navigation à gauche, sous **Examiner**, sélectionnez **Journal d’activité**.  C’est ici que vous verrez toutes les activités de vos applications connectées.   Comme vous avez déjà connecté le connecteur Office 365, vous devriez voir quelques données. Une fois connecté à une application à l’aide du connecteur d’applications, Cloud App Security analyse toutes les activités passées (la période d’analyse rétroactive varie par application). Cloud App Security est ensuite mis à jour en continu avec les nouvelles activités.  
+1. Dans le panneau de navigation de gauche, sélectionnez **Stratégies**, puis **Gestion des stratégies**.  Les stratégies répertoriées fournissent des informations sur le nombre d’alertes générées par la stratégie, la gravité, etc. La sélection de n’importe quelle rubrique fournit des informations plus détaillées sur la stratégie. À partir de la liste, sélectionnez l’élément **Connexion risquée**.
+    1. Notez que vous pouvez également créer une stratégie. Sélectionnez **+ Créer une stratégie** pour voir les types de stratégies que vous pouvez créer.  Sélectionnez **Stratégie d’activité** pour voir les différentes options disponibles pour créer la stratégie.  Sélectionnez **Annuler** pour quitter la fenêtre de configuration.
+    1. Notez que vous pouvez également exporter les informations de la stratégie.
 
-1. Sélectionnez un élément pour lequel vous souhaitez afficher plus d’informations détaillées. Remarquez l’option en haut de la page pour ajouter une nouvelle stratégie à partir de la recherche ou exporter les données pour de plus amples analyses.  Sélectionnez **+Nouvelle stratégie à partir de la recherche**.  Notez comment vous pouvez créer une stratégie basée sur un modèle, sélectionner une gravité et catégorie de stratégie, créer des filtres pour une stratégie, créer des alertes et même envoyer des alertes à Power Automate.  Sélectionnez **Annuler** pour quitter la fenêtre de création de stratégie.
-
-1. À partir du volet de navigation à gauche, sélectionnez et découvrez les options de **Fichiers** et notez les options pour filtrer les données, créer une stratégie de fichier et exporter les données.  Sélectionnez et découvrez l’option **utilisateur et comptes**.  Notez les options pour filtrer les données et les exporter.
-
-1. Dans le volet de navigation à gauche, sélectionnez Configuration de la sécurité. Cette page vous fournit des évaluations sur la configuration de la sécurité pour vos comptes Azure, Amazon Web Services (AWS) et Google Cloud Platform (GCP).
-
-1. Laissez cette page ouverte, vous en aurez besoin pour la tâche suivante.
-
-### <a name="demo-part-3"></a>Partie 3 de la démonstration
-
-Dans cette tâche, vous allez explorer les pages de stratégies et d’alertes dans Microsoft Defender pour les applications cloud.
-
-1. Dans le volet de navigation à gauche, sous Contrôle, sélectionnez **Stratégies**.  Les stratégies répertoriées fournissent des informations sur le nombre d’alertes générées par la stratégie, la gravité, etc. La sélection de n’importe quelle rubrique fournit des informations plus détaillées sur la stratégie. À partir de la liste, sélectionnez l’élément **Connexion risquée**.  
-
-1. Dans le volet de navigation à gauche, sélectionnez **Alertes**.  Si des alertes sont présentes, sélectionnez un élément de la liste d’alertes. Examinez les informations fournies.  En haut à droite de la fenêtre, sélectionnez **Fermer l’alerte** afin d’afficher les options pour fermer l’alerte.  
+1. Dans le panneau de navigation de gauche, sélectionnez **Modèles de stratégie**. Pour créer une stratégie à partir de l’un des modèles disponibles, sélectionnez le signe **+** à gauche de l’élément de ligne de modèle.  Examinez les différentes options de configuration de la stratégie.  Cliquez sur **Annuler** pour quitter la page.
 
 1. Fermez la fenêtre du navigateur.
 
 ### <a name="review"></a>Révision
 
-Dans cette démonstration, vous avez découvert les possibilités des applications Microsoft Defender pour le cloud.  Vous avez présenté les informations disponibles sur le tableau de bord de Cloud Discovery ainsi que les fonctionnalités disponibles pour examiner les résultats et contrôler l’impact sur votre organisation par le biais de stratégies.
+Dans cette démonstration, vous avez découvert les possibilités des applications Microsoft Defender pour le cloud.  Vous avez présenté les informations contenues dans le tableau de bord Cloud Discovery, le catalogue d’applications cloud, les fonctionnalités disponibles pour investiguer les résultats avec le journal d’activité et les fichiers ainsi que les façons de contrôler l’impact sur votre organisation au moyen de stratégies.

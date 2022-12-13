@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892471"
----
 <a name="---"></a><!---
 ---
 Configuration avant la démonstration : Titre : « Configuration de la démonstration »
@@ -14,56 +6,33 @@ Configuration avant la démonstration : Titre : « Configuration de la démon
 
 ## <a name="pre-demo-setup"></a>Configuration avant la démonstration
 
-Cette installation se compose de deux tâches distinctes.  La première tâche s’applique et est recommandée seulement si votre environnement de démonstration inclut l’utilisation d’un Pass Azure. La deuxième tâche est axée sur l’activation du journal d’audit Microsoft et s’applique et est recommandée, que votre environnement utilise un Pass Azure ou non.
+Cette configuration consiste à activer le journal d’audit Microsoft.
 
-### <a name="setup-part-1---redeem-azure-pass"></a>Partie 1 de la configuration - Utiliser un Pass Azure
+### <a name="setup---enable-microsoft-365-audit-log"></a>Configuration - Activer le journal d’audit de Microsoft 365
 
-Cette tâche s’applique et est recommandée seulement si l’environnement de démo que vous utilisez inclut un Pass Azure. Dans cette tâche, vous allez utiliser votre Pass Azure avec les mêmes informations d’identification que votre locataire Microsoft 365.  Vous bénéficiez ainsi d’une expérience plus fluide lorsque vous basculez entre Microsoft 365 et Azure.
+Lors de cette tâche de configuration, vous allez activer la fonction de journal d’audit dans Microsoft 365.  Bien que la documentation indique que le journal d’audit est activé par défaut, la plupart des locataires de labo n’ont pas cette fonctionnalité activée. Il peut se passer plusieurs heures avant que l’activation ne prenne effet.  Il est conseillé d’activer cette fonctionnalité, car Microsoft 365 utilise les journaux d’audit pour les insights utilisateur, les activités identifiées dans les stratégies et les insights d’analyse.
 
-1. Si vous avez des fenêtres de navigation ouvertes, il est recommandé de fermer tous les navigateurs.
-
-1. Effectuez un clic droit sur l’icône Microsoft Edge et sélectionnez **Nouvelle fenêtre InPrivate** pour ouvrir une nouvelle session de navigation InPrivate.
-
-1. Dans la barre d’adresse, saisissez **www.microsoftazurepass.com**.  
-
-1. Sélectionnez le bouton **démarrer** pour commencer.
-
-    1. Dans la fenêtre de connexion, entrez l’e-mail **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
-    1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.  Si vous êtes invité à rester connecté, sélectionnez **Oui**.
-    1. Sélectionnez **Confirmer le compte Microsoft** si la bonne adresse e-mail est indiquée.
-    1. Saisissez votre code promo dans la barre du code promo et cliquez sur **Réclamer le code promo**.  
-    1. Sur la page « Votre profil », conservez toutes les informations par défaut, sélectionnez **J’accepte le contrat d’abonnement, les détails de l’offre, et la déclaration de confidentialité**. Sélectionnez ensuite **S’inscrire**.
-    1. Si une fenêtre de sondage s’ouvre, vous pouvez la fermer en sélectionnant le **X** ou y répondre comme il convient avant de sélectionner **Soumettre**.
-
-1. L’activation de votre compte peut prendre plusieurs minutes.  Une fois qu’il est activé, vous êtes redirigé vers la page d’accueil du portail Azure. Une fenêtre Bienvenue dans Microsoft Azure s’ouvre. Sélectionnez **Peut-être plus tard**. Il se peut que la fenêtre contextuelle « Optimisez vos charges de travail en cloud grâce à des recommandations personnalisées » s’ouvre. Sélectionnez le **X** en haut à droite de la fenêtre.
-
-1. Laissez l’onglet de la page d’accueil du portail Azure ouvert. Vous y reviendrez lors de la démonstration suivante.
-
-### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Partie 2 de la configuration - Activer le journal d’audit de Microsoft 365
-
-Lors de cette tâche de configuration, vous activerez la fonction de journal d’audit dans Microsoft 365.  Bien que la documentation indique que le journal d’audit est activé par défaut, la plupart des locataires de labo n’ont pas cette fonctionnalité activée. Il peut se passer plusieurs heures avant que l’activation ne fasse effet.  Il est utile d’activer cette fonctionnalité, car Microsoft 365 utilise les journaux d’audit pour les informations concernant les utilisateurs, les activités identifiées dans les stratégies et les informations concernant les analyses.
-
-1. Ouvrez Microsoft Edge. Saisissez **admin.microsoft.com** dans la barre d’adresse.
+1. Ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **admin.microsoft.com**.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
-    1. Saisissez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
+    1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez ainsi à la page du Centre d’administration Microsoft 365.
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
 
-1. Sous les Centres d’administration, sélectionnez **Conformité**.  Le navigateur ouvre une nouvelle page : il s’agit de la page d’accueil du Centre de conformité Microsoft 365.  
+1. Sous les Centres d’administration, sélectionnez **Conformité**.  Le navigateur ouvre une nouvelle page. Il s’agit de la page d’accueil du portail de conformité Microsoft Purview.  
 
-1. Dans le volet de navigation à gauche du Centre de conformité Microsoft 365, sélectionnez **Tout afficher**.
+1. Dans le volet de navigation situé à gauche du portail de conformité Microsoft Purview, sélectionnez **Tout afficher**.
 
 1. Dans le volet de navigation à gauche, sélectionnez **Audit**.  Remarque : la fonctionnalité d’audit est également accessible depuis la page d’accueil de Microsoft 365 Defender.
 
 1. Vérifiez que l’onglet **Recherche** est sélectionné (souligné).
 
-1. Quand vous arrivez sur la page Audit, attendez 2 à 3 minutes.  Si Audit n’est PAS activé, vous verrez une barre bleue en haut de la page qui indique Commencer à enregistrer les activités des utilisateurs et des administrateurs.  Sélectionnez **Commencer à enregistrer les activités des utilisateurs et des administrateurs**.  Une fois que l’audit est activé, la barre bleue disparaît.  S’il n’y a pas de barre bleue, alors l’audit est déjà activé et aucune autre action n’est nécessaire.
+1. Quand vous arrivez sur la page Audit, attendez 2 à 3 minutes.  Si l’audit n’est PAS activé, vous verrez une barre bleue en haut de la page qui indique de commencer à enregistrer les activités des utilisateurs et des administrateurs.  Sélectionnez **Commencer à enregistrer les activités des utilisateurs et des administrateurs**.  Une fois que l’audit est activé, la barre bleue disparaît.  S’il n’y a pas de barre bleue, alors l’audit est déjà activé et aucune autre action n’est requise.
 
-1. Retournez à la page d’accueil du Centre de conformité Microsoft 365 en sélectionnant **Accueil** depuis le volet de navigation à gauche.
+1. Retournez à la page d’accueil du portail de conformité Microsoft Purview en sélectionnant **Accueil** dans le volet de navigation de gauche.
 
 ### <a name="review"></a>Révision
 
-Lors de cette configuration, vous avez utilisé votre Pass Azure avec les mêmes informations d’identification que votre locataire Microsoft 365.  Vous avez aussi activé la fonction de journal d’audit dans Microsoft 365.
+Dans cette configuration, vous avez activé la fonction de journal d’audit dans Microsoft 365.
