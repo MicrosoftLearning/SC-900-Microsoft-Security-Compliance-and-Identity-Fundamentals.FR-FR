@@ -87,15 +87,15 @@ Dans cette tâche, vous allez suivre le processus de création d’une stratégi
 
 ### <a name="task-3"></a>Tâche 3
 
-Dans cette tâche, vous verrez l’impact de la stratégie d’accès conditionnel du point de vue d’une utilisatrice, Charline Berger. Vous commencerez par vous connecter à une application qui n’est pas incluse dans la stratégie d’accès conditionnel.  Ensuite, vous répéterez le processus pour une application qui est incluse dans la stratégie d’accès conditionnel.  Rappelez-vous que la stratégie exige que l’utilisateur passe par une MFA lorsqu’il accède à une application de gestion Microsoft Azure.  Pour utiliser une MFA, l’utilisateur doit d’abord enregistrer la méthode d’authentification qui sera utilisée comme MFA, par exemple un code envoyé à un appareil mobile ou une application d’authentification.
+Dans cette tâche, vous verrez l’impact de la stratégie d’accès conditionnel du point de vue d’une utilisatrice, Charline Berger. Vous allez commencer par vous connecter à une application qui n’est pas incluse dans la stratégie d’accès conditionnel (le portail Microsoft 365 sur login.microsoftonline.com).  Ensuite, vous répéterez le processus pour une application qui est incluse dans la stratégie d’accès conditionnel (le portail Azure sur portal.azure.com).  Rappelez-vous que la stratégie exige que l’utilisateur passe par une MFA lorsqu’il accède à une application de gestion Microsoft Azure.  Pour utiliser une MFA, l’utilisateur doit d’abord enregistrer la méthode d’authentification qui sera utilisée comme MFA, par exemple un code envoyé à un appareil mobile ou une application d’authentification.
 
-1. Connectez-vous en tant que Charline Berger. 
-    1. Dans la fenêtre de connexion, entrez **DebraB@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
+1. Ouvrez Microsoft Edge.  Dans la barre d’adresse, entrez **login.microsoftonline.com**.
+    1. Connectez-vous en tant que **DebraB@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ est votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
     1. Saisissez le mot de passe que vous avez noté lors de la tâche précédente. Sélectionnez **Connexion**.
     1. Le mot de passe que vous avez fourni, en tant qu’administrateur, pour réinitialiser le mot de passe est temporaire. Vous devez donc changer votre mot de passe (cela ne fait pas partie de la stratégie MFA). Entrez le mot de passe actuel, puis entrez **SC900-Lab** comme nouveau mot de passe. Entrez à nouveau **SC900-Lab** pour confirmer le mot de passe.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.  Vous devriez être connecté à votre compte Microsoft 365. Aucune MFA n’était nécessaire pour cette application, car elle ne fait pas partie de la stratégie.
 
-1. Vous allez maintenant tenter de vous connecter à une application qui remplit les critères d’une MFA. Ouvrez un nouvel onglet dans le portail Microsoft Edge et, dans la barre d’adresse, entrez **portal.azure.com**.
+1. Vous allez maintenant tenter de vous connecter à une application qui remplit les critères d’une MFA. Ouvrez un nouvel onglet de navigateur et entrez **portal.azure.com**.
 
 1. Une fenêtre indiquant que des informations supplémentaires sont requises s’affiche.  Sélectionnez **Suivant**.  Notez que cela va lancer le processus d’inscription à la MFA, car vous accédez pour la première fois à l’application cloud qui a été identifiée dans la stratégie d’accès conditionnel.  Ce processus d’inscription ne doit être effectué qu’une seule fois.   L’administrateur peut configurer la méthode d’authentification à utiliser pour éviter que l’utilisateur ne doive suivre le processus d’inscription.
 
