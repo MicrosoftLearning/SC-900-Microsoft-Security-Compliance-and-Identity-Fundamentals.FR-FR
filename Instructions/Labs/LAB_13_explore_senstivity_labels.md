@@ -22,12 +22,12 @@ Dans ce labo, vous explorez les fonctionnalités des étiquettes de confidential
 
 Dans cette tâche, vous comprenez ce que vous pouvez faire avec les étiquettes de confidentialité en passant en revue les paramètres d’une étiquette de confidentialité existante et la politique correspondante pour la publier.
 
-1. Ouvrez Microsoft Edge. Dans la barre d’adresses, entrez **admin.microsoft.com**.
+1. Ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **admin.microsoft.com**.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
-    1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par le fournisseur d’hébergement de votre labo), puis sélectionnez **Suivant**.
+    1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
 
-    1. Entrez le mot de passe d’administrateur qui vous a été communiqué par le fournisseur d’hébergement de votre labo. Sélectionnez **Connexion**.
+    1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Sélectionnez **Connexion**.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez ainsi à la page du Centre d’administration Microsoft 365.
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
@@ -84,9 +84,9 @@ Dans cette tâche, vous suivez le processus d’application d’une étiquette d
 
 1. Dans la page d’accueil du portail de conformité Microsoft Purview, sélectionnez l’icône **Lanceur d’application**, à côté de l’indication Contoso Electronics. Sélectionnez l’**icône Word**.  
 
-1. Sélectionnez **+ Nouveau document**, puis saisissez du texte sur la page.  En haut de la page, dans la barre bleue, sélectionnez la flèche vers le bas à côté de Document - Enregistré et, dans la zone du nom du fichier, entrez **Test-label** et appuyez sur **Entrer** sur votre clavier.
+1. Sous Créer, sélectionnez **Document vide**, puis entrez du texte sur la page.  En haut de la page, dans la barre bleue, sélectionnez la flèche vers le bas à côté de Document - Enregistré et, dans la zone du nom du fichier, entrez **Test-label** et appuyez sur **Entrer** sur votre clavier.
 
-1. Dans la barre de menus en haut, sélectionnez l’**icône de confidentialité** (icône à droite de l’icône de micro). Si vous ne voyez pas immédiatement cette option, actualisez la page. Dans le menu déroulant, sélectionnez **Confidentiel - Finance**.  
+1. Dans la barre de menus supérieure, sélectionnez **Icône Sensibilité**, l’icône à droite de l’icône en forme de microphone (selon la taille de votre écran, vous devrez peut-être sélectionner les points de suspension, puis la sensibilité). Dans le menu déroulant, sélectionnez **Confidentiel - Finance**.  REMARQUE : si vous ne voyez pas immédiatement l’option Sensibilité, actualisez la page, mais comme il s’agit d’un environnement locataire de labo, les délais peuvent être plus longs que la normale (10 à 15 minutes).
 
 1. Dans la barre de menu supérieure, sélectionnez **Affichage**, puis sélectionnez **Mode lecture**.
 
@@ -100,13 +100,13 @@ Souvenez-vous, dans la première partie de la démo, l’étiquette Confidentiel
 
 1. Dans la page d’accueil du portail de conformité Microsoft Purview, sélectionnez l’icône **Lanceur d’application**, à côté de l’indication Contoso Electronics. Sélectionnez l’**icône Outlook**.
 
-1. En haut à gauche de l’écran, sélectionnez **Nouveau message**.  Saisissez une adresse e-mail à laquelle vous avez accès et qui ne fait pas partie du domaine WWLxZZZZ.OnMicrosoft.com et saisissez **Test** dans la ligne d’objet.
+1. Sélectionnez **Nouveau message** en haut à gauche de l’écran.  Saisissez une adresse e-mail à laquelle vous avez accès et qui ne fait pas partie du domaine WWLxZZZZ.OnMicrosoft.com et saisissez **Test** dans la ligne d’objet.
 
-1. Sélectionnez **Attacher**.
+1. Sélectionnez **Joindre** (icône en forme de trombone).
 
-1. Sélectionnez **Parcourir les emplacements cloud**.
+1. Sélectionnez **OneDrive**.
 
-1. À partir de la liste qui apparaît, sélectionnez le document que vous avez créé et auquel vous avez appliqué l’étiquette **Étiquette de test**. Sélectionnez **Suivant**, puis **Joindre en tant que copie**.  Appuyez sur **Envoyer**.
+1. Vérifiez que l’onglet **Récent** dans le volet de navigation de gauche est sélectionné.  À partir de la liste qui apparaît, sélectionnez le document que vous avez créé et auquel vous avez appliqué l’étiquette **Étiquette de test**. Sélectionnez **Suivant**, puis **Joindre en tant que copie**.  Appuyez sur **Envoyer**.
 
 1. Consultez l’adresse e-mail à laquelle vous avez envoyé le document.  Notez que l’e-mail peut être envoyé directement dans votre dossier Courrier indésirable.  L’e-mail est envoyé, mais quand vous essayez d’ouvrir le fichier Word joint, qui a été étiqueté à l’origine comme Confidentiel - Finance, vous voyez une notification indiquant que vous n’avez pas l’autorisation d’ouvrir le document.
 
