@@ -37,9 +37,11 @@ Dans cette tâche, vous créez une attribution de stratégie de base pour demand
 
 1. Vous commencez dans l’onglet Informations de base.
     1. Pour l’étendue, gardez le paramètre par défaut. Dans cet exemple, l’étendue de la stratégie est l’abonnement Azure fourni par l’hébergeur de labo autorisé (ALH).
-    1. Pour la définition de stratégie, sélectionnez les **points de suspension**.  Une liste des définitions de stratégie disponibles apparaît.  Dans la barre de recherche, entrez **Demander une étiquette**. Sélectionnez **Exige une balise sur les groupes de ressources** dans les résultats de recherche (vous devrez peut-être faire défiler la liste), puis cliquez sur **Sélectionner**.  Remarque : cette stratégie a pour effet de refuser la création de nouveaux groupes de ressources qui ne répondent pas aux exigences.  
+    1. Pour la définition de stratégie, sélectionnez les **points de suspension**.  Une liste des définitions de stratégie disponibles apparaît.  Dans la barre de recherche, entrez **Demander une étiquette**. Sélectionnez **Exiger une balise sur le groupe de ressources** dans les résultats de recherche (vous devrez peut-être faire défiler la liste), puis cliquez sur **Ajouter**.  Remarque : cette stratégie a pour effet de refuser la création de nouveaux groupes de ressources qui ne répondent pas aux exigences.  
     1. Prenez note du nom d’affectation par défaut.  Gardez le nom tel quel.
-    1. Vérifiez que l’option Application de la stratégie est définie sur **Activé** et sélectionnez **Suivant**.
+    1. Assurez-vous que l’option Application de la stratégie est définie sur **Activée**
+
+1. Sélectionnez **Suivant**, puis sélectionnez à nouveau **Suivant** pour passer à l’onglet Paramètres (vous pouvez également sélectionner l’onglet Paramètres directement).
 
 1. Vous êtes maintenant sous l’onglet Paramètres. Dans le champ Nom de l’étiquette, entrez **Environnement**, puis sélectionnez **Suivant**.
 
