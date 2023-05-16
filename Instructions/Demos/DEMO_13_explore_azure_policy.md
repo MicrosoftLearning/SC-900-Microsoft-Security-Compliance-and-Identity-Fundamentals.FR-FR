@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Démonstration : Titre : « Azure Policy » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 6 : Décrire les fonctionnalités de gouvernance des ressources dans Azure ; Unité 2 : Décrire Azure Policy »
+demo:
+  title: 'Azure Policy'
+  module: 'Module 6 : Décrire les fonctionnalités de gouvernance des ressources dans Azure'
 ---
---->
+
+
 
 # <a name="demo-azure-policy"></a>Démonstration : Azure Policy
 

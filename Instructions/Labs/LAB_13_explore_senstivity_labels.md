@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Labo : Titre : « Explorer les étiquettes de confidentialité dans Microsoft Purview » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 3 : Décrire la protection des informations et la gestion du cycle de vie des données dans Microsoft Purview ; Unité 4 : Décrire les étiquettes de confidentialité »
+lab:
+  title: 'Explorer les étiquettes de confidentialité dans Microsoft Purview'
+  module: 'Module 3 : Décrire la protection des informations et la gestion du cycle de vie des données dans Microsoft Purview'
 ---
---->
+
 
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Labo : Explorer les étiquettes de confidentialité dans Microsoft Purview
 

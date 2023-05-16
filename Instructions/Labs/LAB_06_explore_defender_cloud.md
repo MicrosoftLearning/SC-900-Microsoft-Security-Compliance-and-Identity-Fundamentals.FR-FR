@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Labo : Titre : « Explorer Microsoft Defender pour le cloud » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 2 : Décrire les fonctionnalités de gestion de la sécurité d’Azure ; Unité 3 : Décrire Microsoft Defender pour le cloud »
+lab:
+  title: 'Explorer Microsoft Defender pour le cloud'
+  module: 'Module 2 : Décrire les fonctionnalités de gestion de la sécurité d’Azure'
 ---
---->
+
 
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>Labo : Explorer Microsoft Defender pour le cloud
 

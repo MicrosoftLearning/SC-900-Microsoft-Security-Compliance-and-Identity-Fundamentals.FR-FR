@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Labo : Titre : « Découvrir le portail Microsoft 365 Defender » Module : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 4 : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365 ; Unité 7 : Décrire le portail Microsoft 365 Defender »
+lab:
+  title: 'Découvrir le portail Microsoft 365 Defender'
+  module: 'Module 4 : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365'
 ---
---->
+
 
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Labo : Découvrir le portail Microsoft 365 Defender
 

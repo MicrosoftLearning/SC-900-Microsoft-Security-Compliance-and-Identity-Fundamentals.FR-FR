@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Démonstration : Titre : « Microsoft Sentinel » Parcours d’apprentissage/Module/Titre : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 3 : Décrire les fonctionnalités de sécurité de Microsoft Sentinel ; Unité 3 : Décrire la façon dont Microsoft Sentinel fournit une gestion des menaces intégrée »
+demo:
+  title: 'Microsoft Sentinel'
+  module: 'Module 3 : Décrire les fonctionnalités de sécurité de Microsoft Sentinel'
 ---
---->
+
+
 
 # <a name="demo-microsoft-sentinel"></a>Démonstration : Microsoft Sentinel
 

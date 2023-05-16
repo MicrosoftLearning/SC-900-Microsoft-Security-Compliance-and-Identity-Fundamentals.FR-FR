@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Démonstration : Titre : « Étiquettes de confidentialité dans Microsoft Purview » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 3 : Décrire la protection des informations et la gestion du cycle de vie des données dans Microsoft Purview ; Unité 4 : Décrire les étiquettes de confidentialité »
+demo:
+  title: 'Étiquettes de confidentialité dans Microsoft Purview'
+  module: 'Module 3 : Décrire la protection des informations et la gestion du cycle de vie des données dans Microsoft Purview'
 ---
---->
+
+
 
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Démonstration : Étiquettes de confidentialité dans Microsoft Purview
 

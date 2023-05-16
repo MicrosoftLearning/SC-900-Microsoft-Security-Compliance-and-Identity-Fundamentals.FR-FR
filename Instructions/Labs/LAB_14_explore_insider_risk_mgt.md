@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Labo : Titre : « Explorer la gestion des risques internes dans Microsoft Purview » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 4 : Décrire les fonctionnalités propres aux risques internes de Microsoft Purview ; Unité 2 : Décrire la gestion des risques internes »
+lab:
+  title: 'Explorer la gestion des risques internes dans Microsoft Purview'
+  module: 'Module 4 : Décrire les fonctionnalités propres aux risques internes de Microsoft Purview'
 ---
---->
+
 
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Labo : Explorer la gestion des risques internes dans Microsoft Purview
 

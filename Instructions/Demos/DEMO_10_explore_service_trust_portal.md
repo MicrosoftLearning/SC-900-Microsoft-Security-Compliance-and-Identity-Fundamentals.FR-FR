@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Démonstration : Titre : « Portail d’approbation de services » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 1 : Décrire les fonctionnalités de gestion de la conformité de Microsoft ; Unité 2 : Découvrir le Portail d’approbation de services »
+demo:
+  title: 'Portail d’approbation de services'
+  module: 'Module 1 : Décrire les fonctionnalités de gestion de la conformité de Microsoft'
 ---
---->
+
 
 # <a name="demo-service-trust-portal"></a>Démonstration : Portail d’approbation de services
 

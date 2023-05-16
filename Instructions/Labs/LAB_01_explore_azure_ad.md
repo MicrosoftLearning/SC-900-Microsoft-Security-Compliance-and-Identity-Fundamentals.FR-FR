@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Labo : Titre : « Découvrir Azure Active Directory » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 1 : Décrire les services de base et les types d’identités d’Azure AD ; Unité 4 : Décrire les types d’identités Azure AD »
+lab:
+  title: 'Découvrir Azure Active Directory'
+  module: 'Module 1 : Décrire les services de base et les types d’identités d’Azure AD'
 ---
---->
+
+
 
 # <a name="lab-explore-azure-active-directory"></a>Labo : Découvrir Azure Active Directory
 

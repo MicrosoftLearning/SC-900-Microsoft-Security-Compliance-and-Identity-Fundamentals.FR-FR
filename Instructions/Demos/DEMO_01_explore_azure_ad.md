@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Démonstration : Titre : « Découvrir les paramètres utilisateur Azure AD » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 1 : Décrire les services de base et les types d’identités d’Azure AD ; Unité 4 : Décrire les types d’identités Azure AD »
+demo:
+  title: 'Découvrir les paramètres utilisateur Azure AD'
+  module: 'Module 1 : Décrire les services de base et les types d’identités d’Azure AD'
 ---
---->
+
 
 # <a name="demo-azure-ad-user-settings"></a>Démonstration : Paramètres utilisateur Azure AD
 

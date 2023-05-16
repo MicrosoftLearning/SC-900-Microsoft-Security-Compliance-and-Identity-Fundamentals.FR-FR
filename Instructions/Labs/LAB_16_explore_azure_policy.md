@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Labo : Titre : « Découvrir Azure Policy » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 6 : Décrire les fonctionnalités de gouvernance des ressources dans Azure ; Unité 2 : Décrire Azure Policy »
+lab:
+  title: 'Découvrir Azure Policy'
+  module: 'Module 6 : Décrire les fonctionnalités de gouvernance des ressources dans Azure'
 ---
---->
+
 
 # <a name="lab-explore-azure-policy"></a>Labo : Explorer Azure Policy.
 

@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Labo : Titre : « Explorer la gouvernance des identités dans Azure AD avec Privileged Identity Management. « Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 4 : Décrire les fonctionnalités de protection et de gouvernance des identités d’Azure AD ; Unité 4 : Décrire les fonctionnalités de Privileged Identity Management »
+lab:
+  title: 'Explorer la gouvernance des identités dans Azure AD avec Privileged Identity Management'
+  module: 'Module 4 : Décrire les fonctionnalités de protection et de gouvernance des identités d’Azure AD'
 ---
---->
+
 
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Labo : Découvrir la gouvernance des identités dans Azure AD avec Privileged Identity Management
 

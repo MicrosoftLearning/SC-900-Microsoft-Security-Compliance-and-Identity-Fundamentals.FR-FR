@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Labo : Titre : « Découvrir Azure AD Authentication avec réinitialisation de mot de passe en libre-service » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 2 : Décrire les fonctionnalités d’authentification d’Azure AD ; Unité 4 : Décrire la réinitialisation de mot de passe en libre-service (SSPR) dans Azure AD »
+lab:
+  title: 'Découvrir Azure AD Authentication avec réinitialisation de mot de passe en libre-service'
+  module: 'Module 2 : Décrire les fonctionnalités d’authentification d’Azure AD'
 ---
---->
+
 
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Labo : Découvrir l’authentification Azure AD avec réinitialisation de mot de passe en libre-service
 

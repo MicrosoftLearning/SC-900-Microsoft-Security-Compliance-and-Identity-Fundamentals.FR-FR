@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Démonstration : Titre : « Réinitialisation de mot de passe en libre-service Azure AD (SSPR) » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 2 : Décrire les fonctionnalités d’authentification d’Azure AD ; Unité 4 : Décrire la réinitialisation de mot de passe en libre-service (SSPR) dans Azure AD »
+demo:
+  title: 'Réinitialisation de mot de passe en libre-service Azure AD (SSPR)'
+  module: 'Module 2 : Décrire les fonctionnalités d’authentification d’Azure AD'
 ---
---->
+
 
 # <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Démonstration : Réinitialisation de mot de passe en libre-service Azure AD (SSPR)
 
