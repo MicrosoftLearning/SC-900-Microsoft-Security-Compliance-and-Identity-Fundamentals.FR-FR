@@ -1,9 +1,3 @@
----
-lab:
-  title: 'Décrire les fonctionnalités de gestion des accès d’Azure AD'
-  module: 'Module : Décrire les fonctionnalités de gestion des accès d’Azure AD'
----
-
 <a name="---"></a><!---
 ---
 Labo : Parcours d’apprentissage : « Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra » Module : « Décrire les fonctionnalités de gestion des accès d’Azure AD » Unité : « Décrire l’accès conditionnel dans Azure AD »

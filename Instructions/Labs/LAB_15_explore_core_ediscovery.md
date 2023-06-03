@@ -1,10 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Explorer le workflow eDiscovery (Standard)'
-  module: 'Module 5 : Décrire les fonctionnalités d’eDiscovery et d’audit de Microsoft Purview'
+Labo : Titre : « Explorer le workflow eDiscovery (Standard) » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités de conformité Microsoft ; Module 5 : Décrire les fonctionnalités d’eDiscovery et d’audit de Microsoft Purview ; Unité 2 : Décrire les solutions eDiscovery dans Microsoft 365 »
 ---
-
-
+--->
 
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Labo : Explorer le workflow eDiscovery (Standard)
 

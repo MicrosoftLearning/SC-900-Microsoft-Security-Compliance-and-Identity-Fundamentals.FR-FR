@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité'
-  module: 'Module 2 : Décrire les fonctionnalités de gestion de la conformité dans Microsoft Purview'
+Labo : Titre : « Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 2 : Décrire les fonctionnalités de gestion de la conformité dans Microsoft Purview ; Unité 2 : Décrire le portail de conformité Microsoft Purview »
 ---
-
+--->
 
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Labo : Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité
 

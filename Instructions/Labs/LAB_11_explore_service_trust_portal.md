@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Découvrir le Portail d’approbation de services'
-  module: 'Module 1 : Décrire les fonctionnalités de gestion de la conformité de Microsoft'
+Labo : Titre : « Découvrir le Portail d’approbation de services » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 1 : Décrire les fonctionnalités de gestion de la conformité de Microsoft ; Unité 2 : Découvrir le Portail d’approbation de services »
 ---
-
+--->
 
 # <a name="lab-explore-the-service-trust-portal"></a>Labo : Découvrir les offres du Portail d’approbation de services
 

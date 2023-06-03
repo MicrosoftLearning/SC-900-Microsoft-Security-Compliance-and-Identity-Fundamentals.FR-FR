@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Accès conditionnel Azure AD'
-  module: 'Module 3 : Décrire les fonctionnalités de gestion des accès d’Azure AD'
+Démonstration : Titre : « Accès conditionnel Azure AD » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 3 : Décrire les fonctionnalités de gestion des accès d’Azure AD ; Unité 2 : Décrire l’accès conditionnel dans Azure AD »
 ---
-
+--->
 
 # <a name="demo-azure-ad-conditional-access"></a>Démonstration : Accès conditionnel Azure AD
 

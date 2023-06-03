@@ -1,10 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité'
-  module: 'Module 2 : Décrire les fonctionnalités de gestion de la conformité dans Microsoft Purview'
+Démonstration : Titre : « Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 2 : Décrire les fonctionnalités de gestion de la conformité dans Microsoft Purview ; Unité 2 : Décrire le portail de conformité Microsoft Purview »
 ---
-
-
+--->
 
 # <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Démonstration : Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité
 
