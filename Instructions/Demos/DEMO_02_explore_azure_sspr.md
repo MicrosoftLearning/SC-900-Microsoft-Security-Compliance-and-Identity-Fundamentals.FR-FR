@@ -1,24 +1,24 @@
-<a name="---"></a><!---
+<!---
 ---
-Démonstration : Titre : « Réinitialisation de mot de passe en libre-service Azure AD (SSPR) » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 2 : Décrire les fonctionnalités d’authentification d’Azure AD ; Unité 4 : Décrire la réinitialisation de mot de passe en libre-service (SSPR) dans Azure AD »
+Démonstration : Titre : « Réinitialisation de mot de passe en libre-service Microsoft Entra (SSPR) » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités de Microsoft Entra ; Module 2 : Décrire les fonctionnalités d’authentification de Microsoft Entra ID ; Unité 4 : Décrire la réinitialisation de mot de passe en libre-service (SSPR) »
 ---
 --->
 
-# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Démonstration : Réinitialisation de mot de passe en libre-service Azure AD (SSPR)
+# Démonstration : réinitialisation de mot de passe en libre-service (SSPR) Microsoft Entra
 
 Cette démonstration correspond au contenu Learn suivant :
 
-- Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra
-- Module : Décrire les fonctionnalités d’authentification d’Azure AD
-- Unité : Décrire la réinitialisation de mot de passe en libre-service (SSPR) dans Azure AD
+- Parcours d’apprentissage : décrire les fonctionnalités de Microsoft Entra
+- Module : décrire les fonctionnalités d’authentification de Microsoft Entra ID
+- Unité : décrire la réinitialisation du mot de passe en libre-service
 
-## <a name="demo-scenario"></a>Scénario de la démonstration
+## Scénario de la démonstration
 
 Cette démonstration vous permettra de découvrir les divers paramètres associés à l’activation de la réinitialisation de mot de passe en libre-service (SSPR).
 
-1. Accédez à l’onglet Contoso - Microsoft Azure ouvert dans votre navigateur. Si vous avez fermé l’onglet, ouvrez une page du navigateur et saisissez portal.azure.com dans la barre d’adresse. Ensuite, sélectionnez Azure Active Directory. Vous devriez être connecté en tant qu’administrateur dans le portail Azure : si ce n’est pas le cas, reconnectez-vous.
+1. Revenez à l’onglet ouvert du navigateur intitulé « Centre d’administration accueil Microsoft Entra ».  Si vous avez précédemment fermé cet onglet de navigateur, ouvrez Microsoft Edge et connectez-vous à **[entra.microsoft.com](https://entra.microsoft.com)** avec vos informations d’identification d’administrateur Microsoft 365.
 
-1. Dans le volet de navigation de gauche, sélectionnez Réinitialisation de mot de passe.
+1. Dans le volet de navigation gauche, développez **Protection**, puis sélectionnez **Réinitialisation de mot de passe**.
 
 1. L’onglet des propriétés apparaît en surbrillance.  Dans la fenêtre Propriétés, vous remarquerez que SSPR peut être activé pour Aucun, Sélectionné ou Tous.
     1. Survolez l’icône d’information près de l’intitulé « Réinitialisation de mot de passe activée » avec votre curseur. Expliquez que vous pouvez choisir « Sélectionné » pour limiter la réinitialisation de mot de passe à un groupe limité d’utilisateurs, ou encore choisir Aucun ou Tous.
@@ -41,6 +41,6 @@ Cette démonstration vous permettra de découvrir les divers paramètres associ�
 
 1. Gardez cette page du navigateur ouverte pour la démonstration suivante.
 
-### <a name="review"></a>Révision
+### Révision
 
 Dans cette démonstration, vous avez montré les paramètres associés à la réinitialisation de mot de passe en libre-service.

@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Labo : Titre : « Explorer la gestion des risques internes dans Microsoft Purview » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 4 : Décrire les fonctionnalités propres aux risques internes de Microsoft Purview ; Unité 2 : Décrire la gestion des risques internes »
 ---
 --->
 
-# <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Labo : Explorer la gestion des risques internes dans Microsoft Purview
+# Labo : Explorer la gestion des risques internes dans Microsoft Purview
 
 Ce labo correspond au contenu Learn suivant :
 
@@ -12,39 +12,29 @@ Ce labo correspond au contenu Learn suivant :
 - Module : Décrire les fonctionnalités propres aux risques internes de Microsoft Purview
 - Unité : Décrire la gestion des risques internes
 
-## <a name="lab-scenario"></a>Scénario du labo
+## Scénario du labo
 
 Dans ce labo, vous suivez le processus de configuration d’une stratégie des risques internes, ainsi que les prérequis de base pour configurer et utiliser des stratégies de gestion des risques internes.  Remarque : ce labo aborde seulement les questions de configuration de la gestion des risques internes et les options associées à la création d’une stratégie.  Ce labo ne comprend pas de tâche pour déclencher la stratégie, car le nombre d’événements et le temps nécessaires ne sont pas couverts par cet exercice.
 
 **Durée estimée** : 45-60 minutes
 
-### <a name="task-1"></a>Tâche 1
+### Tâche 1
 
 Dans cette tâche, vous allez jouer le rôle d’administrateur général et accorder les autorisations pour la gestion des risques internes.  Plus particulièrement, vous ajoutez des utilisateurs au groupe du rôle Gestion des risques internes pour que les personnes désignées puissent accéder aux fonctionnalités de gestion des risques internes et les gérer.  Les autorisations accordées au groupe de rôles commencent à s’appliquer aux utilisateurs de toute l’organisation sous 30 minutes.
 
-1. Ouvrez Microsoft Edge. Dans la barre d’adresses, entrez **admin.microsoft.com**.
+1. Ouvrez l’onglet du navigateur pour la page d’accueil de Microsoft Purview.  Si vous l’avez précédemment fermé, ouvrez un onglet du navigateur et entrez **https://admin.microsoft.com** . Connectez-vous avec les informations d’identification d’administration du locataire Microsoft 365 fournis par l’hébergeur de labo autorisé (ALH). Dans le volet de navigation gauche du Centre d’administration Microsoft 365, sélectionnez **Tout afficher**, puis **Conformité**.  Le navigateur ouvre une nouvelle page. Il s’agit de la page d’accueil du portail de conformité Microsoft Purview.  
 
-1. Connectez-vous avec vos informations d’identification d’administrateur.
-    1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par le fournisseur d’hébergement de votre labo), puis sélectionnez **Suivant**.
+1. Dans le volet de navigation gauche, développez **Rôles et étendues**, puis sélectionnez **Autorisations**.
 
-    1. Entrez le mot de passe d’administrateur qui vous a été communiqué par le fournisseur d’hébergement de votre labo. Sélectionnez **Connexion**.
-    1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez ainsi à la page du Centre d’administration Microsoft 365.
+1. Sous Solutions Microsoft Purview, sélectionnez **Rôles**.
 
-1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
-
-1. Sous les Centres d’administration, sélectionnez **Conformité**.  Le navigateur ouvre une nouvelle page. Il s’agit de la page d’accueil du portail de conformité Microsoft Purview.  
-
-1. Dans le volet de navigation de gauche du portail de conformité Microsoft Purview, sélectionnez **Autorisations**.
-
-1. Dans la page Autorisations et rôles, sous « Solutions Microsoft Purview », sélectionnez **Rôles**.
-
-1. Dans le champ, saisissez **Risque interne** avant de sélectionner l’icône de recherche (en forme de loupe).  Notez les nombreux rôles qui s’affichent.  aux niveaux d’accès différents.  Sélectionnez **Gestion des risques internes** et passez en revue la description.  Faites défiler jusqu’aux membres et notez qu’Administrateur MOD et Megan Bowen sont listés. En bas de la fenêtre, sélectionnez **Fermer**.
+1. Dans le champ de recherche, tapez **Risque interne**, puis appuyez sur Entrée.  Notez les nombreux rôles qui s’affichent.  aux niveaux d’accès différents.  Sélectionnez **Gestion des risques internes** et passez en revue la description.  Faites défiler jusqu’aux membres et notez qu’Administrateur MOD et Megan Bowen sont listés. Fermez la fenêtre en sélectionnant le **X** en haut à droite de la fenêtre.
 
 1. Dans le volet de navigation de gauche, sélectionnez **Accueil** pour revenir à la page du portail de conformité Microsoft Purview.
 
 1. Gardez cet onglet ouvert, car vous y revenez dans une tâche ultérieure.
 
-### <a name="task-2-skip-if-you-did-the-setup-lab-task-to-enable-the-audit-log"></a>Tâche 2 (IGNOREZ cette étape si vous avez suivi le labo sur la configuration du journal d’audit)
+### Tâche 2 (REMARQUE : IGNOREZ Tâche 2 si vous avez effectué le labo de configuration pour activer le journal d’audit)
 
 La gestion des risques internes utilise les journaux d’audit de Microsoft 365 pour recueillir les commentaires et les activités en provenance des utilisateurs et identifiés dans les stratégies et les résultats d’analyse. Dans cette tâche, vous activez la fonctionnalité de recherche du Journal d’audit. Remarque :  vous devrez peut-être attendre plusieurs heures après l’activation avant de pouvoir renvoyer les résultats lorsque vous effectuez une recherche dans le journal d’audit.  Même s’il vous faut attendre pour pouvoir consulter ce dernier, vous aurez toujours la possibilité de terminer d’autres tâches de ce labo.
 
@@ -52,7 +42,7 @@ La gestion des risques internes utilise les journaux d’audit de Microsoft 365
 
 1. Dans le volet de navigation à gauche, sélectionnez **Audit**.
 
-1. Vérifiez que l’onglet **Recherche** est sélectionné (souligné).
+1. Vérifiez que l’onglet **Nouvelle recherche** est sélectionné (souligné).
 
 1. Quand vous arrivez sur la page Audit, attendez 2 à 3 minutes.  Si l’audit n’est PAS activé, vous voyez une barre bleue en haut de la page indiquant de commencer à enregistrer les activités des utilisateurs et des administrateurs.  Sélectionnez **Commencer à enregistrer les activités des utilisateurs et des administrateurs**.  Une fois que l’audit est activé, la barre bleue disparaît.  S’il n’y a pas de barre bleue, l’audit est déjà activé et aucune autre action n’est nécessaire.
 
@@ -60,7 +50,7 @@ La gestion des risques internes utilise les journaux d’audit de Microsoft 365
 
 1. Gardez cet onglet ouvert, car vous l’utilisez dans la prochaine tâche.
 
-### <a name="task-3"></a>Tâche 3
+### Tâche 3
 
 Dans cette tâche, vous parcourez les paramètres associés à la solution Gestion des risques internes.  Ces paramètres s’appliquent à toutes les stratégies de gestion des risques internes, quel que soit le modèle à partir duquel elles ont été créées.
 
@@ -79,7 +69,7 @@ Dans cette tâche, vous parcourez les paramètres associés à la solution Gesti
 
 1. Gardez cet onglet ouvert, car vous l’utilisez dans la prochaine tâche.
 
-### <a name="task-4"></a>Tâche 4
+### Tâche 4
 
 Dans cette tâche, vous parcourez les paramètres de création d’une stratégie.  L’objectif est d’avoir simplement une idée des diverses options et de la flexibilité du processus de création d’une stratégie.
 
@@ -91,19 +81,21 @@ Dans cette tâche, vous parcourez les paramètres de création d’une stratégi
     1. Nom et description : saisissez un nom, **SC900-InsiderRiskPolicy**, puis sélectionnez **Suivant**.
     1. Utilisateurs et groupes :  passez en revue les informations.  Conservez le paramètre par défaut, **Inclure tous les utilisateurs et groupes**.  Sélectionnez **Suivant**.
     1. Contenu prioritaire : selon la description, les scores de risque sont augmentés pour toute activité qui contient du contenu prioritaire, ce qui augmente les chances de générer une alerte de gravité élevée. Par souci de simplicité, sélectionnez **Je ne veux pas indiquer de contenu prioritaire pour l’instant**, puis sélectionnez **Suivant**.
-    1. Déterminez s’il faut noter uniquement l’activité qui a du contenu prioritaire : gardez le paramètre par défaut **Obtenir des alertes pour toutes les activités**, puis sélectionnez **Suivant**.
     1. Déclencheurs : l’événement déclencheur détermine quand une stratégie doit commencer à attribuer des scores de risque à l’activité d’un utilisateur.  Vous pouvez choisir une stratégie DLP existante ou indiquer que l’utilisateur doit effectuer une activité d’exfiltration. Sélectionnez **L’utilisateur correspond à une stratégie de protection contre la perte de données (DLP)** , puis, dans la liste déroulante, sélectionnez **U.S. Financial Data**. Sélectionnez **Suivant**.
     1. Indicateurs : notez que tous les indicateurs Office que vous avez sélectionnés dans la tâche précédente sont sélectionnés (vous pouvez le voir en sélectionnant la flèche vers le bas à côté d’Indicateurs Office), puis sélectionnez **Suivant**.
     1. Dans la page Options de détection, gardez tous les paramètres par défaut, mais lisez la description associée aux différentes options et pointez sur l’icône d’informations pour obtenir des informations plus détaillées sur un paramètre spécifique.  Sélectionnez **Suivant**.
     1. Dans la page Décider s’il faut utiliser les seuils d’indicateur par défaut ou du client, gardez le paramètre par défaut **Seuils par défaut**, puis sélectionnez **Suivant**.
-    1. Terminer : vérifiez les paramètres avant de sélectionner **Envoyer** et **Terminé**.
+    1. Terminer : passez en revue les paramètres, puis sélectionnez **Envoyer**.
+    1. Passez en revue la description de ce qui se passe ensuite, puis sélectionnez **Terminé**.
 
 1. Vous revenez alors à l’onglet Stratégies de la page Gestion des risques internes.  La stratégie que avez créée est listée.  Si vous ne la voyez pas, sélectionnez l’icône **Actualiser**.
 
 1. En tant qu’administrateur, vous pouvez commencer immédiatement à attribuer des scores de risque aux utilisateurs en fonction de l’activité détectée par les stratégies que vous avez sélectionnées. Cela évite qu’un événement déclencheur (comme une correspondance de stratégie DLP) soit détecté en premier.  L’administrateur sélectionne le carré vide à côté du nom de la stratégie pour la choisir, puis sélectionne **Commencer à noter l’activité des utilisateurs** au-dessus du tableau des stratégies.  Une nouvelle fenêtre s’ouvre et l’administrateur doit remplir les champs disponibles. Laissez les champs vides, car vous ne configurez pas cette option, mais pour avoir plus d’informations sur les raisons de la configurer, sélectionnez **Pourquoi le faire ?** .  Fermez la fenêtre en sélectionnant le **X** en haut à droite de la fenêtre.
 
-1. Fermez tous les onglets ouverts du navigateur.
+1. Dans le volet de navigation de gauche, sélectionnez **Accueil** pour revenir à la page d’accueil du portail de conformité Microsoft Purview.
 
-### <a name="review"></a>Révision
+1. Laissez l’onglet du navigateur ouvert.
+
+### Révision
 
 Ce labo vous a appris à paramétrer une stratégie de risque lié aux menaces internes, ainsi que les prérequis de base pour configurer et utiliser des stratégies de gestion des risques internes.
