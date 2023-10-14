@@ -1,38 +1,38 @@
-<a name="---"></a><!---
+<!---
 ---
-Démonstration : Titre : « Accès conditionnel Azure AD » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 3 : Décrire les fonctionnalités de gestion des accès d’Azure AD ; Unité 2 : Décrire l’accès conditionnel dans Azure AD »
+Démonstration : Titre : « Accès conditionnel Azure AD » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités de Microsoft Entra ; Module 3 : Décrire les fonctionnalités de gestion des accès de Microsoft Entra ID ; Unité 2 : Décrire l’accès conditionnel »
 ---
 --->
 
-# <a name="demo-azure-ad-conditional-access"></a>Démonstration : Accès conditionnel Azure AD
+# Démonstration : accès conditionnel Microsoft Entra
 
 Cette démonstration correspond au contenu Learn suivant :
 
-- Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra
-- Module : Décrire les fonctionnalités de gestion des accès d’Azure AD
-- Unité : Décrire l’accès conditionnel dans Azure AD
+- Parcours d’apprentissage : Décrire les fonctionnalités de Microsoft Entra
+- Module : décrire les fonctionnalités de gestion des accès de Microsoft Entra ID
+- Leçon : décrire l’accès conditionnel
 
-## <a name="demo-scenario"></a>Scénario de la démonstration
+## Scénario de la démonstration
 
 Cette démonstration vous permettra de parcourir les diverses options disponibles pour créer une stratégie d’accès conditionnel.
 
-1. Accédez à l’onglet **Contoso - Microsoft Azure** ouvert dans votre navigateur. Si vous avez fermé l’onglet, ouvrez une page du navigateur et saisissez portal.azure.com dans la barre d’adresse. Ensuite, sélectionnez Azure Active Directory. Vous devriez être connecté en tant qu’administrateur dans le portail Azure : si ce n’est pas le cas, reconnectez-vous.
+1. Revenez à l’onglet ouvert du navigateur intitulé « Centre d’administration accueil Microsoft Entra ».  Si vous avez précédemment fermé cet onglet de navigateur, ouvrez Microsoft Edge et connectez-vous à **[entra.microsoft.com](https://entra.microsoft.com)** avec vos informations d’identification d’administrateur Microsoft 365.
 
-1. Dans le volet de navigation gauche, sélectionnez **Sécurité**.
+1. Dans le volet de navigation gauche, développez **Protection**, puis sélectionnez **Accès conditionnel**.
 
-1. Dans le volet de navigation gauche, sélectionnez **Accès conditionnel**.
+1. La page de présentation de l’accès conditionnel s’affiche.  Ici, vous verrez des vignettes montrant le résumé de la stratégie et les alertes générales.  Dans le volet de navigation de gauche, sélectionnez **Stratégies**.
 
 1. L’écran des stratégies d’accès conditionnel s’affiche. Toutes les stratégies d’accès conditionnel sont répertoriées ici. Sélectionnez **+ Nouvelle stratégie** pour afficher les paramètres associés à l’accès conditionnel.
 
 1. Dans le champ **Nom**, entrez un nom pour la stratégie.
 
 1. Vous remarquerez que plusieurs options sont disponibles sous **Affectations**.  Les stratégies d’accès conditionnel sont analogues aux instructions conditionnelles (si-alors) : les paramètres d’affectations correspondent donc aux instructions « if ».
-    1. **Utilisateurs et groupes** - Survolez l’icône d’information près de l’intitulé « Utilisateurs et groupes » avec votre curseur et expliquez que c’est ici que vous déterminez les utilisateurs et les groupes dans le répertoire auquel la stratégie s’applique. Sélectionnez **0 utilisateurs et groupes sélectionnés**.  L’option pour inclure ou exclure des utilisateurs ou des groupes apparaît. Sélectionnez et expliquez les paramètres disponibles pour l’onglet **Inclure**, puis faites de même pour l’onglet **Exclure**.
-    1. **Applications ou actions cloud** - Survolez l’icône d’information près de l’intitulé « Applications ou actions cloud » avec votre curseur et expliquez que c’est ici que vous définissez les applications utilisées ou les actions effectuées par l’utilisateur pour la stratégie d’accès conditionnel.  Sélectionnez **Pas d’applications cloud, d’actions ni de contextes authentifiés sélectionnés**.
-        1. Cliquez sur la flèche de déroulement dans la zone sous l’intitulé **Sélectionner les éléments auxquels s’applique cette stratégie** et prenez note des options proposées.  Ne modifiez pas le paramètre par défaut, Applications cloud.
-        1. Sélectionnez les paramètres disponibles pour l’onglet Inclure et expliquez-les. Sous l’onglet **Inclure**, sélectionnez **Sélectionner des applications**.  Une fenêtre s’ouvre, dans laquelle vous pouvez faire votre choix dans une liste d’applications.  Ne sélectionnez rien ; fermez cette fenêtre en cliquant sur le **X** en haut à droite de la fenêtre. Revenez à votre choix et sélectionnez **Aucun** pour supprimer l’erreur.
-        1. Ensuite, sélectionnez les paramètres disponibles pour l’onglet **Exclure** et expliquez-les.  Ici aussi, vous pouvez sélectionner des applications spécifiques à exclure.
-    1. **Conditions** - Survolez l’icône d’information près de l’intitulé « Conditions » avec votre curseur et expliquez que cette option définit le moment où s’appliquera la stratégie. Sélectionnez **0 conditions sélectionnées**. Expliquez les différents « signaux » répertoriés.   Sélectionnez quelques-unes des options en cliquant d’abord sur l’icône d’information afin de la définir, puis en cliquant sur **Non configuré** pour l’élément en particulier afin de montrer les diverses options.
+    1. **Utilisateurs** : survolez l’icône d’information près de l’intitulé « Utilisateurs » avec votre curseur et expliquez que c’est ici que vous sélectionnez les identités dans le répertoire auquel la stratégie s’applique, y compris les utilisateurs, les groupes et les principaux de service. Sélectionnez **0 utilisateurs et groupes sélectionnés**.  L’option pour inclure ou exclure des utilisateurs ou des groupes apparaît. Sélectionnez et expliquez les paramètres disponibles pour l’onglet **Inclure**, puis faites de même pour l’onglet **Exclure**.
+    1. **Ressources cibles** : sélectionnez **Ressources cibles**.  Ici, vous contrôlez l’accès en fonction du trafic d’accès réseau, des applications cloud ou des actions spécifiques.  Développez le champ en dessous de l'emplacement où il est indiqué de sélectionner ce à quoi cette stratégie s'applique.  Vous pouvez ici choisir si la stratégie s'applique aux applications cloud, aux actions de l'utilisateur ou au contexte d'authentification.  
+        1. Sélectionnez **Applications cloud**, puis sous l’onglet Inclure, sélectionnez l’option **Sélectionner des applications**, puis sous l’emplacement où il est indiqué **Sélectionner**, sélectionnez **Aucun**, une fenêtre s’ouvrira pour sélectionner une ou plusieurs des applications pour lesquelles la stratégie s’appliquera.
+        1. Fermez la fenêtre Sélectionner des applications cloud en cliquant sur le **X** en haut à droite de la fenêtre.
+        1. Si le temps le permet, vous pouvez choisir de passer en revue les autres options (actions de l'utilisateur et contexte d'authentification) pour voir les options de configuration pour chacune d'entre elles.
+    1. **Conditions** : survolez l’icône d’information près de l’intitulé « Conditions » avec votre curseur et expliquez qu’il s’agit de conditions qui définissent les modalités d’application de la stratégie. Par exemple, ’emplacement. Sélectionnez **0 conditions sélectionnées**. Expliquez les différents « signaux » répertoriés.   Sélectionnez quelques-unes des options en cliquant d’abord sur l’icône d’information afin de la définir, puis en cliquant sur **Non configuré** pour l’élément en particulier afin de montrer les diverses options.
         1. **Risque de l’utilisateur** - Un risque de l’utilisateur reflète la probabilité qu’une identité ou un compte donné soit compromis. Ces risques sont calculés hors connexion à l’aide de sources d’informations sur les menaces internes et externes de Microsoft.
         1. **Risque de connexion** - Un risque de connexion reflète la probabilité qu’une requête d’authentification donnée soit rejetée par le propriétaire de l’identité. Par exemple, lorsque la connexion est établie depuis une adresse IP anonyme ou au cours d’un voyage atypique.
         1. **Plateforme d’appareil** - La plateforme à partir de laquelle l’utilisateur se connecte. Par exemple, « iOS ».
@@ -46,10 +46,10 @@ Cette démonstration vous permettra de parcourir les diverses options disponible
 
 1. Une fois la stratégie configurée, vous pouvez l’activer en sélectionnant **Activée**, puis en cliquant sur le bouton **Créer** pour créer une stratégie.
 
-1. Sélectionnez le **X** en haut à droite de la page pour quitter la stratégie, puis sélectionnez Microsoft Azure sur la barre bleue en haut de la page pour revenir à la page d’accueil du portail Azure.
+1. Sélectionnez le **X** dans le coin supérieur droit de la page pour fermer la stratégie.
 
-1. Gardez cette page du navigateur ouverte pour la démonstration suivante.
+1. Fermez les onglets de votre navigateur.
 
-### <a name="review"></a>Révision
+### Révision
 
 Cette démonstration vous a permis de parcourir les diverses options disponibles pour créer une stratégie d’accès conditionnel.
