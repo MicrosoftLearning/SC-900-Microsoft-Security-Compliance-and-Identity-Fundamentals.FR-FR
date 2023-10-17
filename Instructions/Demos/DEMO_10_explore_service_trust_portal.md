@@ -1,22 +1,22 @@
-<a name="---"></a><!---
+<!---
 ---
-Démonstration : Titre : « Portail d’approbation de services » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 1 : Décrire les fonctionnalités de gestion de la conformité de Microsoft ; Unité 2 : Découvrir le Portail d’approbation de services »
+Démonstration : Titre : « Portail d’approbation de services » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 1 : Décrire le portail d’approbation des services et les fonctionnalités de confidentialité de Microsoft ; Unité 2 : Découvrir le portail d’approbation de services »
 ---
 --->
 
-# <a name="demo-service-trust-portal"></a>Démonstration : Portail d’approbation de services
+# Démonstration : Portail d’approbation de services
 
 Cette démonstration correspond au contenu Learn suivant :
 
 - Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
-- Module : Décrire les fonctionnalités de gestion de la conformité chez Microsoft
+- Module : Décrire le portail d’approbation des services et les fonctionnalités de confidentialité de Microsoft
 - Unité : Découvrir le Portail d’approbation de services
 
-## <a name="demo-scenario"></a>Scénario de la démonstration
+## Scénario de la démonstration
 
 Dans cette démonstration, vous allez présenter les fonctionnalités et le contenu disponible à partir du Portail d’approbation de services. Vous accéderez également au Centre de confidentialité pour afficher les informations sur la confidentialité chez Microsoft.
 
-### <a name="demo-part-1"></a>Partie 1 de la démonstration
+### Partie 1 de la démonstration
 
 Dans cette partie, vous allez montrer à l’apprenant les différents types de contenus disponibles dans le Portail d’approbation de services, comment accéder aux rapports et comment enregistrer les rapports dans la bibliothèque.
 
@@ -44,7 +44,7 @@ Dans cette partie, vous allez montrer à l’apprenant les différents types de 
 
 1. Sélectionnez le lien **Portail d’approbation de services** en haut de la page pour revenir à la page d’accueil du portail.
 
-### <a name="demo-part-2-optional"></a>Partie 2 de la démonstration (facultative)
+### Partie 2 de la démonstration (facultative)
 
 Dans cette partie de la démonstration, vous allez présenter le Centre de gestion de la confidentialité et accéder à des informations qui décrivent la confidentialité chez Microsoft.
 
@@ -54,8 +54,8 @@ Dans cette partie de la démonstration, vous allez présenter le Centre de gesti
 
 1. Un nouvel onglet s’ouvre dans votre navigateur et vous accédez au Centre de gestion de la confidentialité Microsoft où vous pouvez trouver plus d’informations. Explorez le contenu de cette page et parcourez les différents liens.
 
-1. Fermez tous les onglets ouverts du navigateur.
+1. Fermez les onglets ouverts du navigateur pour le portail d’approbation des services et le centre de gestion de la confidentialité.
 
-### <a name="review"></a>Révision
+### Révision
 
 Dans cette démonstration, vous avez exploré certaines des options disponibles sous le Portail d’approbation de services et vu comment utiliser la fonctionnalité Ma bibliothèque pour enregistrer des documents afin de les consulter plus tard.  En outre, vous avez consulté le Centre de confidentialité pour accéder aux informations sur la confidentialité chez Microsoft et les passer en revue.
