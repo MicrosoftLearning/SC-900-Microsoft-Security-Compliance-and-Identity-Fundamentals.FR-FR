@@ -4,7 +4,7 @@ Démonstration : Titre : « Groupes de sécurité réseau Azure » Parcours 
 ---
 --->
 
-# Démonstration : Groupes de sécurité réseau Azure
+# Démo : Groupes de sécurité réseau Azure (NSG)
 
 Cette démonstration correspond au contenu Learn suivant :
 
@@ -12,7 +12,7 @@ Cette démonstration correspond au contenu Learn suivant :
 - Module : Décrire les principales fonctionnalités de sécurité dans Azure
 - Unité : Décrire les groupes de sécurité réseau Azure
 
-## Scénario de la démonstration
+## Scénario de démonstration
 
 Dans cette démonstration, vous allez explorer la fonction des groupes de sécurité réseau dans Azure et appliquer un groupe de sécurité réseau à une machine virtuelle préalablement créée. Vous commencerez par présenter brièvement les informations relatives à la machine virtuelle qui a été précréée par l’hébergeur ALH (Authorized Lab Hoster). Ensuite, à l’aide d’un groupe de sécurité réseau qui a été configuré dans le cadre de la configuration pré-démonstration, vous allez montrer les paramètres essentiels d’un groupe de sécurité réseau et les règles de trafic entrant et sortant par défaut. Vous allez affecter une interface de machine virtuelle au groupe de sécurité réseau, créer une règle RDP pour autoriser la connexion à la machine virtuelle et enfin la tester.
 
@@ -46,27 +46,27 @@ Dans cette partie, vous allez affecter une interface au groupe de sécurité ré
 1. Sélectionnez le groupe de sécurité réseau créé dans le cadre de la configuration pré-démonstration. Si vous ne l’aviez pas créé, faites-le maintenant. Sélectionnez **Créer un groupe de sécurité réseau** et spécifiez les paramètres suivants :
     1. Abonnement : conservez la valeur par défaut (il s’agit de l’abonnement Azure fourni par l’hébergeur de labo autorisé)
     1. Groupe de ressources : **LabsSC900** (le même groupe de ressources que celui utilisé par la machine virtuelle).
-    1. Nom :  **NSG-SC900**
+    1. Nom : **NSG-SC900**
     1. Région : laissez la valeur par défaut.
-    1. Sélectionnez **Examiner et créer** puis sélectionnez **Créer**.
+    1. Sélectionnez **Vérifier + créer**, puis sélectionnez **Créer**.
     1. Une fois que le déploiement est terminé (l’opération est très rapide), sélectionnez **Accéder à la ressource**.
 
 1. En haut de la page, sous la mention Informations de base, vous voyez des informations générales sur le groupe de sécurité réseau que vous avez créé.  Deux points sont à noter : il n’y a pas de règles de sécurité PERSONNALISÉES et il n’y a pas de sous-réseaux ni d’interfaces réseau associés à ce groupe de sécurité réseau.  Il n’y a aucune règle de sécurité personnalisée, mais il y a des règles de trafic entrant et sortant par défaut qui sont incluses avec chaque groupe de sécurité réseau, comme indiqué sur la page.  Passez en revue les règles entrantes et sortantes. Les règles de trafic entrant par défaut refusent tout le trafic entrant qui ne provient pas d’un réseau virtuel ou d’un équilibreur de charge Azure.  Les règles de trafic sortant refusent tout le trafic sortant, à l’exception du trafic entre les réseaux virtuels et du trafic sortant vers Internet.
 
 1. Dans le volet de navigation gauche de la page NSG-SC900, sous Paramètres, sélectionnez **Interfaces réseau**.
     1. Sélectionnez **Associer**.
-    1. Dans le champ de sélection des associations d’interface réseau, sélectionnez la **flèche vers le bas**, sélectionnez **sc900-winvmXXX**, puis sélectionnez **OK** en bas de la fenêtre. Une fois l’interface associée au groupe de sécurité réseau, elle s’affiche dans la liste.
+    1. Dans le champ de sélection des associations d’interface réseau, sélectionnez la **flèche vers le bas**, sélectionnez **sc900-winvmXXX**, puis sélectionnez **OK** en bas de la fenêtre. Une fois que l’interface est associée au NSG, elle apparaît dans la liste.
 
 1. Revenez sur la machine virtuelle en sélectionnant l’onglet du navigateur de la machine virtuelle.  Vous devriez voir qu’un groupe de sécurité réseau est désormais attaché à l’interface de la machine virtuelle.  La table des règles de port de trafic entrant s’affiche. Les règles de trafic entrant par défaut refusent tout le trafic entrant qui ne provient pas d’un réseau virtuel ou d’un équilibreur de charge Azure.  Pour tester cela, vous allez vérifier l’état sur le port RDP 3389.
     1. En haut de la page, sélectionnez **Se connecter**, puis **Vérifier l’accès** pour le port 3389 (RDP). Vous verrez « Non accessible ».  
     1. Bien que vous ne testiez que le port RDP 3389, tout trafic réseau entrant qui ne provient pas d’un autre réseau virtuel ou d’un autre équilibreur de charge est bloqué.  
 
 1. Vous allez maintenant créer une règle pour autoriser le trafic entrant sur le port RDP.  Dans le volet de navigation de gauche, sélectionnez **Réseaux**. La table des règles de port de trafic entrant devrait s’afficher (l’onglet des règles de port de trafic entrant est souligné).  À droite de la page, sélectionnez **Ajouter une règle de port d’entrée**. Un point important à souligner est que vous ne pouvez pas supprimer les règles par défaut. Toutefois, vous pouvez les remplacer en créant des règles dont la priorité est plus élevée. Sur la fenêtre Ajouter une règle de sécurité de trafic entrant, spécifiez les paramètres suivants :
-    1. Source :  **Any**
-    1. Plages de ports sources : **\***
-    1. Destination :  **Any**
-    1. Service :  **RDP**
-    1. Action :  **Autoriser**
+    1. Source : **quelconque**
+    1. Plages de ports sources : **\***
+    1. Destination : **quelconque**
+    1. Service : **RDP**
+    1. Action : **Autoriser**
     1. Priorité : **1000** ; Remarque : les règles avec les nombres les plus petits ont une priorité plus élevée et sont traitées en premier.
     1. Nom : conservez le nom par défaut ou ajoutez votre propre nom descriptif.
     1. Notez la présence du signe d’avertissement en bas de la fenêtre.  Nous utilisons RDP uniquement à des fins de test et pour illustrer les fonctionnalités du groupe de sécurité réseau.
@@ -78,14 +78,14 @@ Dans cette partie, vous allez affecter une interface au groupe de sécurité ré
 
 Avec le groupe de sécurité réseau associé à votre machine virtuelle et la règle RDP créée, vous allez montrer l’impact du groupe de sécurité réseau en testant la connexion RDP à la machine virtuelle.
 
-1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur. 
+1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur. 
 
-1. Sélectionnez **Connecter** dans le volet de navigation à gauche.
+1. Sélectionnez **Se connecter** dans le volet de navigation de gauche.
     1. Vous pouvez simplement sélectionner **Vérifier l’accès**.  L’état devrait indiquer « Accessible ». Si vous avez le temps, vous pouvez également vous connecter à la machine virtuelle en ouvrant une instance Connexion Bureau à distance sur Windows.  Cette option ouvre la machine virtuelle si la connexion à celle-ci réussit.  Voici les étapes ci-dessous :
         1. Dans votre barre de recherche Windows, entrez **Connexion Bureau à distance** et sélectionnez **Ouvrir**.
         1. Dans le champ à côté de l’endroit où il est indiqué **Ordinateur**, entrez l’adresse IP publique de votre machine virtuelle.
         1. Une fois que vous avez entré l’adresse IP, le nom d’utilisateur doit apparaître sous le champ où vous avez entré l’adresse IP. Si ce n’est pas le cas, développez **Afficher les options**, entrez le nom d’utilisateur pour votre machine virtuelle, puis sélectionnez **Se connecter**.
-        1. Une fenêtre de connexion de bureau à distance s’ouvre et indique que l’identité de l’ordinateur distant ne peut pas être vérifiée. Voulez-vous quand même vous connecter ? Sélectionnez **Oui**.
+        1. Une fenêtre de connexion Bureau à distance s’ouvre et indique que L’identité de l’ordinateur distant ne peut pas être vérifiée. Voulez-vous vous connecter quand même ? Sélectionnez **Oui**.
         1. Vous êtes maintenant connecté à la machine virtuelle. Mentionnez à l’apprenant que dans ce cas-ci, vous avez pu vous connecter à la machine virtuelle, car la règle de trafic entrant que vous avez créée autorise le trafic entrant pour la machine virtuelle via RDP.
         1. Réduisez la machine virtuelle en sélectionnant le trait de soulignement **_** dans l’onglet bleu qui affiche l’adresse IP de la machine virtuelle. Vous revenez dans la page SC900-WinVM | Connexion.
 
@@ -105,28 +105,28 @@ Dans cette partie, vous allez montrer les règles de trafic sortant actuelles du
 
 1. Dans le volet de navigation de gauche, sélectionnez **Réseau**.
 
-1. Sélectionnez l’onglet **Règles de port de trafic sortant**. Les règles de trafic sortant par défaut s’affichent.  Notez la règle par défaut « AllowInternetOutBound ». Cette règle autorise l’ensemble du trafic Internet sortant. Vous ne pouvez pas supprimer la règle par défaut, mais vous pouvez la remplacer par une règle de priorité plus élevée. À droite de la page, sélectionnez **Ajouter une règle de port de trafic sortant**.
+1. Sélectionnez l’onglet **Règles de port de trafic sortant**. Les règles de trafic sortant par défaut s’affichent.  Notez la règle par défaut « AllowInternetOutBound ». Cette règle autorise tout le trafic Internet sortant. Vous ne pouvez pas supprimer la règle par défaut, mais vous pouvez la remplacer en créant une règle de priorité plus élevée. À droite de la page, sélectionnez **Ajouter une règle de port de sortie**.
 
-1. Sur la page Ajouter une règle de sécurité de trafic sortant, spécifiez les paramètres suivants :
-    1. Source :  **Any**
+1. Sur la page Ajouter une règle de sécurité de sortie, spécifiez les paramètres suivants :
+    1. Source : **quelconque**
     1. Plages de ports source : **\***
-    1. Destination :  **Balise du service**
-    1. Balise d’identification de destination :  **Internet**
-    1. Service :  **Personnaliser** (conservez la valeur par défaut)
+    1. Destination : **étiquette de service**
+    1. Étiquette de service de destination : **internet**
+    1. Service : **Personnalisé** (conserver la valeur par défaut)
     1. Plages de ports de destination : * (veillez à placer un astérisque dans le champ Plages de ports de destination)
-    1. Protocole : **Any**
+    1. Protocole : **quelconque**
     1. Action : **Deny**
     1. Priorité : **1000**
     1. Nom : conservez le nom par défaut ou ajoutez votre propre nom descriptif.
     1. Sélectionnez **Ajouter**
 
-1. Une fois que la règle est créée, elle apparaîtra dans la liste des règles de trafic sortant.  Elle apparaît dans la liste, mais son application prendra quelques minutes (attendez quelques minutes avant de passer aux étapes suivantes).  
+1. Une fois la règle configurée, elle apparaît dans la liste des règles de sortie.  Bien qu’elle apparaisse dans la liste, il faudra quelques minutes pour qu’elle prenne effet. (Attendez quelques minutes avant de passer aux étapes suivantes).  
 
 1. Revenez dans votre machine virtuelle (l’icône de la machine virtuelle doit s’afficher dans la barre des tâches en bas de la page).
 
-1. Ouvrez le navigateur Microsoft Edge dans votre machine virtuelle et entrez **www.bing.com**. La page ne doit pas s’afficher.  Remarque : Si vous pouvez vous connecter à Internet et que vous avez vérifié que tous les paramètres de la règle de trafic sortant ont été correctement définis, c’est probablement dû au fait qu’il faut quelques minutes pour que la règle prenne effet.  Fermez le navigateur, patientez quelques minutes, puis réessayez.  Remarque : Les abonnements Azure dans l’environnement lab peuvent connaître des délais plus longs que d’habitude.
+1. Ouvrez le navigateur Microsoft Edge dans votre machine virtuelle et entrez **www.bing.com**. La page ne doit pas s’afficher.  Remarque : Si vous pouvez vous connecter à Internet et que vous avez vérifié que tous les paramètres de la règle de trafic sortant ont été correctement définis, c’est probablement dû au fait qu’il faut quelques minutes pour que la règle prenne effet.  Fermez le navigateur, attendez quelques minutes et réessayez.  Remarque : Les abonnements Azure dans l’environnement lab peuvent avoir des délais plus longs que la normale.
 
-1. Fermez la connexion au bureau à distance en sélectionnant le **X** en haut au centre de la page où l’adresse IP est affichée.  Une fenêtre contextuelle s’affiche, indiquant « Votre session à distance sera déconnectée ». Sélectionnez **OK**.
+1. Fermez la connexion bureau à distance en sélectionnant le **X** situé en haut du centre de la page où l’adresse IP est affichée.  Une fenêtre contextuelle s’affiche, indiquant « Votre session à distance sera déconnectée ». Cliquez sur **OK**.
 
 1. Laissez l’onglet Azure ouvert dans votre navigateur pour la prochaine démonstration Azure.
 

@@ -12,7 +12,7 @@ Cette démonstration correspond au contenu Learn suivant :
 - Module : décrire les fonctionnalités d’authentification de Microsoft Entra ID.
 - Unités : décrire les méthodes d'authentification et décrire l'authentification multifacteur.
 
-## Scénario de la démonstration
+## Scénario de démonstration
 
 Dans cette démonstration, vous explorerez les différents paramètres disponibles pour l'authentification dans Microsoft Entra.
 
