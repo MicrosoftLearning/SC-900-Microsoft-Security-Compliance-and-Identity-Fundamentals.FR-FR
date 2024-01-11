@@ -110,7 +110,7 @@ Dans cette tâche, vous adopterez le rôle de l’utilisateur, Sara Perez, et v
 
 1. Un message indiquant que votre mot de passe a été réinitialisé s’affiche à l’écran.  Sélectionnez **Cliquer ici** pour vous connecter avec votre nouveau mot de passe.
 
-1. Dans la zone d’informations Choisir un compte, sélectionnez **sara@WWLxZZZZZZ.onmicrosoft.com**, saisissez votre nouveau mot de passe, puis appuyez sur le bouton **Se connecter**.  Si vous êtes invité à rester connecté, Sélectionnez **Non**.
+1. Dans la zone d’informations Choisir un compte, sélectionnez **sara@WWLxZZZZZZ.onmicrosoft.com**, saisissez votre nouveau mot de passe, puis appuyez sur le bouton **Se connecter**.  Si vous êtes invité à rester connecté, sélectionnez **Non**.
 
 1. Vous devez maintenant vous trouver dans le portail Office.
 

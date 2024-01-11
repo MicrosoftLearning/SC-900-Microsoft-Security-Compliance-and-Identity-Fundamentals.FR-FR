@@ -46,7 +46,7 @@ Découvrez la page d’accueil du portail de conformité Microsoft Purview, puis
 
 Découvrez la situation de votre organisation en matière de conformité grâce au Gestionnaire de conformité.
 
-1. Dans le volet de navigation situé à gauche du portail de conformité Microsoft Purview, sélectionnez **Gestionnaire de conformité**.  Vous pouvez également sélectionner Gestionnaire de conformité dans la barre de titre du gestionnaire de conformité carte.
+1. Dans le volet de navigation situé à gauche du portail de conformité Microsoft Purview, sélectionnez **Gestionnaire de conformité**.  Vous pouvez également sélectionner Gestionnaire de conformité dans la barre de titre de la carte Gestionnaire de conformité.
 
 1. En haut de la page du Gestionnaire de conformité, assurez-vous que l’option **Vue d’ensemble** est sélectionnée (soulignée). Faites défiler vers le bas pour voir toutes les informations disponibles sur la page.  Les informations de cette page comprennent votre score de conformité. Il est calculé d’après les points que vous avez accumulés et ceux accumulés par la gestion de Microsoft.   Vous verrez les principales actions d’amélioration, les solutions qui influent sur votre score ainsi que le score de conformité répartis selon des catégories ou des évaluations.
 
