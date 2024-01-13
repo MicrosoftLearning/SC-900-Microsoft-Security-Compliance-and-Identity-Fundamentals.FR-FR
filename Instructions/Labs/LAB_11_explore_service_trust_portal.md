@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Labo : Titre : « Découvrir le Portail d’approbation de services » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 1 : Décrire les fonctionnalités de gestion de la conformité de Microsoft ; Unité 2 : Découvrir le Portail d’approbation de services »
 ---
 --->
 
-# <a name="lab-explore-the-service-trust-portal"></a>Labo : Découvrir les offres du Portail d’approbation de services
+# Labo : explorer le portail d’approbation de services
 
 Ce labo correspond au contenu Learn suivant :
 
@@ -12,19 +12,19 @@ Ce labo correspond au contenu Learn suivant :
 - Module : Décrire les fonctionnalités de gestion de la conformité chez Microsoft
 - Unité : Découvrir le Portail d’approbation de services
 
-## <a name="lab-scenario"></a>Scénario du labo
+## Scénario du labo
 
 Dans ce labo, vous allez découvrir les fonctionnalités et le contenu disponibles dans le Portail d’approbation de services. Vous consulterez également le Centre de gestion de la confidentialité pour obtenir des informations sur la confidentialité chez Microsoft.
 
-**Durée estimée** : 10-15 minutes
+**Durée estimée** : 10 à 15 minutes
 
-### <a name="task-1"></a>Tâche 1
+### Tâche 1
 
 Dans cette tâche, vous allez découvrir le Portail d’approbation de services et les différents types de contenu qu’il propose. Vous apprendrez également à accéder aux rapports et à les enregistrer dans votre bibliothèque.
 
 1. Ouvrez Microsoft Edge.
 
-1. Dans la barre d’adresse, entrez **aka.ms/STP**. Cela vous mènera à la page d’arrivée du Portail d’approbation de services. Le Portail d’approbation de services contient les détails concernant l’implémentation par Microsoft des contrôles et des processus qui protègent nos services cloud et les données client qu’ils contiennent.
+1. Dans la barre d’adresse, entrez **aka.ms/STP**. Vous accédez ainsi à la page d’accueil du portail d’approbation de service. Le Portail d’approbation de services contient les détails concernant l’implémentation par Microsoft des contrôles et des processus qui protègent nos services cloud et les données client qu’ils contiennent.
 
 1. Pour accéder à certaines ressources du Portail d’approbation de services, vous devez vous connecter en tant qu’utilisateur authentifié avec votre compte de services cloud Microsoft et lire et accepter l’accord de confidentialité Microsoft sur les documents de conformité. Dans le coin supérieur droit de la page d’arrivée du Portail d’approbation de services, vous pouvez voir l’option de connexion.  **Connectez-vous** à l’aide de vos informations d’identification d’administrateur et, si vous y êtes invité, sélectionnez **Accepter** pour accepter l’accord de non-divulgation de Microsoft pour les documents de conformité.
 
@@ -46,7 +46,7 @@ Dans cette tâche, vous allez découvrir le Portail d’approbation de services 
 
 1. Sélectionnez le lien **Portail d’approbation de services** en haut de la page pour revenir à la page d’accueil du portail.
 
-### <a name="task-2"></a>Tâche 2
+### Tâche 2
 
 Dans cette tâche, vous allez consulter le Centre de gestion de la confidentialité et accéder à des informations qui décrivent la confidentialité chez Microsoft.
 
@@ -58,6 +58,6 @@ Dans cette tâche, vous allez consulter le Centre de gestion de la confidentiali
 
 1. Fermez tous les onglets ouverts du navigateur.
 
-### <a name="review"></a>Révision
+### Révision
 
 Dans ce labo, vous avez exploré certaines des options disponibles sous le Portail d’approbation de services et vu comment utiliser la fonctionnalité Ma bibliothèque pour enregistrer des documents afin de les consulter plus tard.  En outre, vous avez consulté le Centre de confidentialité pour accéder aux informations sur la confidentialité chez Microsoft et les passer en revue.
