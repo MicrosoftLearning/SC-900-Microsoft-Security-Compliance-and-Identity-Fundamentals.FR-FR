@@ -84,7 +84,7 @@ Dans cette tâche, vous parcourez les paramètres de création d’une stratégi
     1. Déclencheurs : l’événement déclencheur détermine quand une stratégie doit commencer à attribuer des scores de risque à l’activité d’un utilisateur.  Vous pouvez choisir une stratégie DLP existante ou indiquer que l’utilisateur doit effectuer une activité d’exfiltration. Sélectionnez **L’utilisateur correspond à une stratégie de protection contre la perte de données (DLP)**, puis, dans la liste déroulante, sélectionnez **U.S. Financial Data**. Cliquez sur **Suivant**.
     1. Indicateurs : notez que tous les indicateurs Office que vous avez sélectionnés dans la tâche précédente sont sélectionnés (vous pouvez le voir en sélectionnant la flèche vers le bas à côté d’Indicateurs Office), puis sélectionnez **Suivant**.
     1. Dans la page Options de détection, gardez tous les paramètres par défaut, mais lisez la description associée aux différentes options et pointez sur l’icône d’informations pour obtenir des informations plus détaillées sur un paramètre spécifique.  Cliquez sur **Suivant**.
-    1. Dans la page Décider s’il faut utiliser les seuils d’indicateur par défaut ou du client, gardez le paramètre par défaut **Seuils par défaut**, puis sélectionnez **Suivant**.
+    1. Dans la page Décider s’il faut utiliser les seuils d’indicateur par défaut ou ceux du client, gardez le paramètre par défaut **Appliquer les seuils fournis par Microsoft**, puis sélectionnez **Suivant**.
     1. Terminer : passez en revue les paramètres, puis sélectionnez **Envoyer**.
     1. Passez en revue la description de ce qui se passe ensuite, puis sélectionnez **Terminé**.
 
