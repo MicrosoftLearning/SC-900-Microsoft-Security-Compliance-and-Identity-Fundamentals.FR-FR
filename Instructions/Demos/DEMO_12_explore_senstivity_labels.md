@@ -27,7 +27,7 @@ Dans cette démonstration, vous présentez les paramètres d’une étiquette de
 
 1. Dans le volet de navigation de gauche, sélectionnez **Étiquettes**.
 
-1. Certaines étiquettes ont été préconfigurées dans votre tenant de labo Microsoft 365, pour votre commodité. Sélectionnez l’étiquette nommée **Confidentiel - Finance**.  Une fenêtre s’ouvre et fournit des informations sur cette étiquette.  Notez les paramètres de cette étiquette.  Sélectionnez l’**icône de crayon** en haut de la page pour afficher certains des paramètres de base. Si vous ne voyez pas l’icône de crayon, sélectionnez les points de suspension.
+1. Certaines étiquettes ont été préconfigurées dans votre tenant de labo Microsoft 365, pour votre commodité. Sélectionnez l’étiquette nommée **Confidentiel - Finance**.  Une fenêtre s’ouvre et fournit des informations sur cette étiquette.  Notez les paramètres de cette étiquette.  Sélectionnez **Modifier l’étiquette** (ou l’icône de crayon) en haut de la page pour afficher certains des paramètres de base. Si vous ne voyez pas cette option, sélectionnez les points de suspension.
     1. La procédure de configuration commence par l’attribution d’un nom et d’une description à votre étiquette.  Ne changez rien.  Sélectionnez **Suivant** au bas de la page.
     1. Vérifiez l’étendue de cette étiquette. Ne changez rien.  Sélectionnez **Suivant** au bas de la page.
     1. L’écran suivant vous permet de choisir les paramètres de protection des éléments étiquetés. Cette étiquette est configurée pour prendre en charge le marquage du contenu. Ne changez rien.  Sélectionnez **Suivant** au bas de la page.
@@ -38,9 +38,7 @@ Dans cette démonstration, vous présentez les paramètres d’une étiquette de
 
 1. Dans le volet de navigation de gauche, sélectionnez **Stratégies des étiquettes**.  C’est par le biais des stratégies des étiquettes que les étiquettes de confidentialité peuvent être publiées.  Le tenant Microsoft 365 a été configuré avec certaines stratégies d’étiquette, pour votre commodité.
 
-1. Sélectionnez **Stratégie Confidentiel - Finance**.  Une fenêtre s’ouvre et fournit des informations sur la stratégie. 
-
-1. Sélectionnez **Modifier la stratégie** la stratégie en haut de la fenêtre.  Ici, parcourez les paramètres sans rien changer.
+1. Sélectionnez **Stratégie Confidentiel - Finance**.  Une fenêtre s’ouvre et fournit des informations sur la stratégie. Sélectionnez **Modifier la stratégie** la stratégie en haut de la fenêtre.  Ici, parcourez les paramètres sans rien changer.
     1. Passez en revue la description de « Choisir les étiquettes de confidentialité à publier ».  Notez l’étiquette répertoriée.  Ne modifiez pas les paramètres.  Sélectionnez **Suivant** au bas de la page.
     1. Passez en revue la description de « Attribuer des unités d’administration ». Les unités d’administration sont définies sur le répertoire complet, ne modifiez aucun paramètre. Cliquez sur **Suivant**.  
     1. Passez en revue la description de « Publier pour les utilisateurs et les groupes ».  Notez que cette étiquette est disponible pour tous les utilisateurs.  Ne modifiez pas les paramètres.  Sélectionnez **Suivant** au bas de la page.
@@ -52,7 +50,7 @@ Dans cette démonstration, vous présentez les paramètres d’une étiquette de
     1. La dernière option de configuration consiste à nommer votre stratégie.  Comme vous modifiez la stratégie, le champ de nom est grisé. Sélectionnez **Suivant** en bas de la page.
     1. Vérifiez les paramètres de stratégie. Sélectionnez **Annuler** pour abandonner les modifications et revenir à la page Stratégies d’étiquette.
 
-1. Sur la page Protection des données, sélectionnez Étiquetage automatique. Passez en revue la description. Notez que vous créez des stratégies d’étiquetage automatique pour appliquer automatiquement des étiquettes de confidentialité aux messages électroniques ou aux fichiers OneDrive et SharePoint qui contiennent des informations sensibles. Si des stratégies d’étiquetage automatique sont configurées, sélectionnez-en une et passez en revue les informations de stratégie dans le volet d’informations.  Si aucune stratégie n’est répertoriée, vous pouvez choisir de parcourir les étapes pour en créer une, si le temps le permet.
+1. Depuis le volet de navigation à gauche, dans Protection des données, sélectionnez Étiquetage automatique. Passez en revue la description. Notez que vous créez des stratégies d’étiquetage automatique pour appliquer automatiquement des étiquettes de confidentialité aux messages électroniques ou aux fichiers OneDrive et SharePoint qui contiennent des informations sensibles. Si des stratégies d’étiquetage automatique sont configurées, sélectionnez-en une et passez en revue les informations de stratégie dans le volet d’informations.  Si aucune stratégie n’est répertoriée, vous pouvez choisir de parcourir les étapes pour en créer une, si le temps le permet.
 
 1. Dans le volet de navigation de gauche, sélectionnez Accueil pour revenir au portail de conformité Microsoft Purview.
 
@@ -66,8 +64,8 @@ Dans cette étape, vous présentez le processus d’application d’une étiquet
 
 1. Sélectionnez **Document vierge**, puis saisissez du texte sur la page.  Dans la barre bleue en haut de la page, sélectionnez la flèche vers le bas à côté de Document - Enregistré et, dans la zone du nom du fichier, entrez **Test-label** et appuyez sur la touche **Entrer** de votre clavier.
 
-1. Dans la barre de menus en haut, sélectionnez l’**icône de confidentialité** (icône à droite de l’icône de micro). Si vous ne voyez pas immédiatement cette option, actualisez la page. Dans le menu déroulant, sélectionnez **Confidentiel - Finance**.   REMARQUE : si vous ne voyez pas immédiatement l’option Sensibilité, actualisez la page, mais comme il s’agit d’un environnement locataire de labo, les délais peuvent être plus longs que la normale (10 à 15 minutes).
-1. 
+1. À l’extrême droite de la barre de menus supérieure (également appelée ruban), vous trouverez une flèche vers le bas. Sélectionnez-la, puis **Ruban classique**.  Cela facilite l’identification de l’icône de confidentialité. Sélectionnez **Sensibilité** en regard de l’icône du micro. À partir du menu déroulant, sélectionnez **Confidentiel – Finance**.  
+
 1. Dans la barre de menu supérieure, sélectionnez **Affichage**, puis **Mode lecture**.
 
 1. Remarquez que le document inclut le filigrane.  

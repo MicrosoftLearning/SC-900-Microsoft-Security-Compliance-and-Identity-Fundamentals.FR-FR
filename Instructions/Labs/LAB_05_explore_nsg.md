@@ -35,25 +35,19 @@ Dans cette tâche, vous allez explorer certains des paramètres associés à la 
 
 1. Vous êtes à présent dans la page SC900-WinVM.  Notez certaines des informations de base sur la machine virtuelle.
 
-1. En haut de la page, sélectionnez **Connexion**.  Sélectionnez l’option **Vérifier l’accès**, qui est listée sous l’adresse IP.  Cette vérification est effectuée en utilisant le port 3389, qui est le port de la connectivité RDP.  Vous devez voir le message « Vérification impossible ».  Dans la zone Protocole RDP natif, cliquez sur **Sélectionner**.  Dans la fenêtre qui s’ouvre, sous « 1 Configurer les prérequis du protocole RDP natif », vous devez voir « Azure doit configurer certaines fonctionnalités pour se connecter à la machine virtuelle ».  Dans la tâche suivante, vous configurez un NSG pour autoriser explicitement la connexion RDP.
+1. Dans le volet de navigation de gauche, sélectionnez **Paramètres réseau**.  Les principales sections de la fenêtre principale affichent l’interface réseau de la machine virtuelle.  Notez que rien n’est répertorié en regard du groupe de sécurité réseau, car il n’existe aucun groupe de sécurité réseau attribué à l’interface.
 
-
-1. Dans le volet de navigation de gauche, sélectionnez **Réseau**.  
-    1. La vue par défaut affiche les règles de port d’entrée.  Notez que l’interface réseau de cette machine virtuelle n’a aucun groupe de sécurité réseau configuré.  C’est la même chose si vous sélectionnez la vue des règles de port de sortie.
-    1. Sélectionnez **Règles de sécurité effectives** en regard de l’intitulé Interface réseau.  Notez ce message : « Aucun groupe de sécurité réseau ou groupe de sécurité d'application n'est associé à l'interface réseau ».
-
-1. Laissez cet onglet de navigateur ouvert.
-
+1. Laissez cet onglet ouvert.
 
 ### Tâche 2
 
 Dans cette tâche, vous allez créer un groupe de sécurité réseau, affecter l’interface réseau de la machine virtuelle à ce groupe de sécurité réseau et créer une règle de trafic RDP entrant.
 
-1. Sous l’onglet NSG ouvert, *cliquez avec le bouton droit* sur le lien **Accueil** en haut de la page et sélectionnez **Ouvrir le lien dans un nouvel onglet** pour ouvrir une autre page vers les services Azure.
+1. Sous l’onglet Azure ouvert, *cliquez avec le bouton droit* sur le lien **Accueil** en haut de la page, puis sélectionnez **Ouvrir le lien dans un nouvel onglet** pour ouvrir une autre page vers les services Azure.
 
 1. Dans la barre de recherche bleue en haut de la page, entrez **Groupes de sécurité réseau** et, dans les résultats, sélectionnez **Groupes de sécurité réseau**. Ne sélectionnez pas *Groupes de sécurité réseau (classique)* .
 
-1. En haut de la page Groupes de sécurité réseau, sélectionnez **+ Créer**.
+1. Au centre de la page, sélectionnez le bouton bleu intitulé **Créer un groupe de sécurité réseau**.  Vous pouvez également sélectionner **+ Créer** à partir de la page des groupes de sécurité réseau.
 
 1. Sous l’onglet Options de base de la page Créer un groupe de sécurité réseau, spécifiez les paramètres suivants :
     1. Abonnement : conservez la valeur par défaut (il s’agit de l’abonnement Azure fourni par l’hébergeur de labo autorisé)
@@ -64,15 +58,19 @@ Dans cette tâche, vous allez créer un groupe de sécurité réseau, affecter l
 
 1. Une fois le déploiement effectué, sélectionnez **Accéder à la ressource**.
 
-1. En haut de la page, sous la mention Informations de base, vous voyez des informations générales sur le groupe de sécurité réseau que vous avez créé.  Deux points sont à noter : il n’y a pas de règles de sécurité personnalisées et il n’y a pas de sous-réseaux ni d’interfaces réseau associés à ce groupe de sécurité réseau.  Il n’y a aucune règle de sécurité personnalisée, mais il y a des règles de trafic entrant et sortant par défaut qui sont incluses avec chaque groupe de sécurité réseau, comme indiqué sur la page.  Passez en revue les règles entrantes et sortantes. Les règles de trafic entrant par défaut refusent tout le trafic entrant qui ne provient pas d’un réseau virtuel ou d’un équilibreur de charge Azure.  Les règles de trafic sortant refusent tout le trafic sortant, à l’exception du trafic entre les réseaux virtuels et du trafic sortant vers Internet.
+1. Vous devez être sur la page de vue d’ensemble du groupe de sécurité réseau nouvellement créé.  Si ce n’est pas le cas, sélectionnez **Vue d’ensemble** dans le volet de navigation gauche. En haut de la page, sous la mention Informations de base, vous voyez des informations générales sur le groupe de sécurité réseau que vous avez créé.  Deux points sont à noter : il n’y a pas de règles de sécurité personnalisées et il n’y a pas de sous-réseaux ni d’interfaces réseau associés à ce groupe de sécurité réseau.  Il n’y a aucune règle de sécurité personnalisée, mais il y a des règles de trafic entrant et sortant par défaut qui sont incluses avec chaque groupe de sécurité réseau, comme indiqué sur la page.  Passez en revue les règles entrantes et sortantes. Les règles de trafic entrant par défaut refusent tout le trafic entrant qui ne provient pas d’un réseau virtuel ou d’un équilibreur de charge Azure.  Les règles de trafic sortant refusent tout le trafic sortant, à l’exception du trafic entre les réseaux virtuels et du trafic sortant vers Internet.
 
 1. Dans le volet de navigation gauche de la page NSG-SC900, sous Paramètres, sélectionnez **Interfaces réseau**.
     1. Sélectionnez **Associer**.
-    2. Dans le champ des associations d’interface réseau, sélectionnez la **flèche vers le bas**, sélectionnez **sc900-winvmXXX**, puis **OK** en bas de la fenêtre. Une fois que l’interface est associée au NSG, elle apparaît dans la liste.
+    2. Dans le champ des associations d’interface réseau, sélectionnez la **flèche vers le bas**, sélectionnez **sc900-winvmXXX**, puis **OK** en bas de la fenêtre. Une fois que l’interface est associée au NSG, elle apparaît dans la liste.  Le groupe de sécurité réseau est maintenant attribué à l’interface réseau de votre machine virtuelle.
 
-1. Dans le volet de navigation gauche, sélectionnez **Règles de sécurité de trafic entrant**.
+1. Revenez à l’onglet **SC900-WinWM – Microsoft Azure** dans le navigateur.  Actualisez la page. En regard de l’emplacement indiquant groupe de sécurité réseau, vous devez maintenant voir le nom du groupe de sécurité réseau que vous venez de créer.  Si vous ne le voyez toujours pas, patientez une autre minute, puis actualisez la page à nouveau.
 
-1. Les règles de trafic entrant par défaut refusent tout trafic entrant qui ne provient pas d’un réseau virtuel ou d’un équilibreur de charge Azure. Vous devez donc configurer une règle qui autorise le trafic RDP entrant (trafic sur le port 3389). N’oubliez pas que vous ne pouvez pas supprimer les règles par défaut. Toutefois, vous pouvez les remplacer en créant des règles dont la priorité est plus élevée.
+1. Sélectionnez **Connecter** dans le volet de navigation à gauche. Dans la fenêtre principale, à côté de l’emplacement où numéro de port 3389 s’affiche, sélectionnez **Vérifier l’accès**. La fonction de vérification d’accès envoie des signaux (trafic) au port RDP 3389 par défaut de la machine virtuelle pour vérifier s’il est accessible. Cette opération peut prendre une minute et Inaccessible va ensuite s’afficher.  Ce comportement est attendu, car la règle de groupe de sécurité réseau DenyAllInBound refuse l’ensemble du trafic entrant vers la machine virtuelle.
+
+1. Revenez à l’onglet **NSG-SC900 – Microsoft Azure** dans le navigateur.
+
+1. Dans le volet de navigation gauche, sélectionnez **Règles de sécurité de trafic entrant**. Les règles de trafic entrant par défaut refusent tout trafic entrant qui ne provient pas d’un réseau virtuel ou d’un équilibreur de charge Azure. Vous devez donc configurer une règle qui autorise le trafic RDP entrant (trafic sur le port 3389). N’oubliez pas que vous ne pouvez pas supprimer les règles par défaut. Toutefois, vous pouvez les remplacer en créant des règles dont la priorité est plus élevée.
 
 1. En haut de la page, sélectionnez **Ajouter**. Sur la fenêtre Ajouter une règle de sécurité de trafic entrant, spécifiez les paramètres suivants :
     1. Source : **quelconque**
@@ -93,7 +91,7 @@ Dans cette tâche, vous allez créer un groupe de sécurité réseau, affecter l
 
 Dans cette tâche, vous allez tester la nouvelle règle de groupe de sécurité réseau entrante pour vérifier que vous pouvez établir une connexion Bureau à distance (RDP) à la machine virtuelle.  Une fois connecté à la machine virtuelle, vous vérifiez la connectivité sortante vers Internet à partir de la machine virtuelle.
 
-1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur. Si vous aviez fermé l’onglet du navigateur, ouvrez un nouvel onglet de navigateur, entrez **https://portal.azure.com** , puis sélectionnez **Machines virtuelles** et la machine virtuelle **SC900-WinVM**.
+1. Ouvrez l’onglet SC900-WinVM - Microsoft Azure dans votre navigateur.
 
 1. Sélectionnez **Se connecter** dans le volet de navigation de gauche.
 
@@ -145,7 +143,6 @@ Dans la tâche précédente, vous avez vérifié que vous pouviez établir une c
 1. Revenez dans votre machine virtuelle (l’icône RDP de la machine virtuelle doit s’afficher dans la barre des tâches en bas de la page).
 
 1. Ouvrez le navigateur Microsoft Edge dans votre machine virtuelle et entrez **www.bing.com**. La page ne doit pas s’afficher. Si vous pouvez vous connecter à Internet et que vous avez vérifié que tous les paramètres de la règle de trafic sortant ont été correctement définis, c’est probablement parce qu’il faut quelques minutes pour que la règle prenne effet.  Fermez le navigateur, attendez quelques minutes et réessayez. Les abonnements Azure dans l’environnement lab peuvent avoir des délais plus longs que la normale.
-
 
 1. Fermez la connexion bureau à distance en sélectionnant le **X** situé en haut du centre de la page où l’adresse IP est affichée.  Une fenêtre contextuelle s’affiche, indiquant « Votre session à distance sera déconnectée ». Cliquez sur **OK**.
 
