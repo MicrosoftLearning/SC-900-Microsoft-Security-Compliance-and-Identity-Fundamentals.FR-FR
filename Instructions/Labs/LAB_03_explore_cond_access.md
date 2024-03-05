@@ -1,8 +1,8 @@
-<!---
 ---
-Labo : Parcours d’apprentissage : « Décrire les fonctionnalités de Microsoft Entra » Module : « Décrire les fonctionnalités de gestion des accès de Microsoft Entra ID » Unité : « Décrire l’accès conditionnel »
+lab:
+  title: Accès conditionnel Microsoft Entra
+  module: Describe the access management capabilities of Microsoft Entra ID
 ---
---->
 
 # Labo : Accès conditionnel à Microsoft Entra
 

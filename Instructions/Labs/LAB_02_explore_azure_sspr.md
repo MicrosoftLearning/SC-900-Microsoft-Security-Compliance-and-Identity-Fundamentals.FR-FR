@@ -1,3 +1,9 @@
+---
+lab:
+  title: Réinitialisation de mot de passe en libre-service Microsoft Entra
+  module: Describe the authentication capabilities of Microsoft Entra ID
+---
+
 <!---
 ---
 Labo : Titre : « Découvrir Azure AD Authentication avec réinitialisation de mot de passe en libre-service » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités d’Azure Active Directory (Azure AD) - Solution Microsoft Entra ; Module 2 : Décrire les fonctionnalités d’authentification d’Azure AD ; Unité 4 : Décrire le mot de passe en libre-service »

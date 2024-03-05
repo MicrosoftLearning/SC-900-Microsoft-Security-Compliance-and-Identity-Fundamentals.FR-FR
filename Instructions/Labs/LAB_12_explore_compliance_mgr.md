@@ -1,8 +1,8 @@
-<!---
 ---
-Labo : Titre : « Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 2 : Décrire les fonctionnalités de gestion de la conformité dans Microsoft Purview ; Unité 2 : Décrire le portail de conformité Microsoft Purview »
+lab:
+  title: "Explorer le portail de conformité Microsoft\_Purview et le Gestionnaire de conformité"
+  module: Describe the compliance management capabilities in Microsoft Purview
 ---
---->
 
 # Labo : Explorer le portail de conformité Microsoft Purview et le Gestionnaire de conformité
 
