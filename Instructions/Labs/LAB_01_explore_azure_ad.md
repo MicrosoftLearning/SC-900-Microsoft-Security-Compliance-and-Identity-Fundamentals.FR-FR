@@ -1,10 +1,10 @@
-<!---
 ---
-Labo : Titre : « Explorer les paramètres des utilisateurs Microsoft Entra ID » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités de Microsoft Entra ; Module 1 : Décrire la fonction et les types d’identité de Microsoft Entra ID ; Unité 3 : Décrire les types d’identité Microsoft Entra »
+lab:
+  title: "Explorer les paramètres utilisateur de Microsoft Entra\_ID"
+  module: Describe the function and identity types of Microsoft Entra ID
 ---
---->
 
-# Labo : Explorer Microsoft Entra ID
+# Labo : Explorer les paramètres utilisateur de Microsoft Entra ID
 
 Ce labo correspond au contenu Learn suivant :
 

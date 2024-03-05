@@ -1,8 +1,8 @@
-<!---
 ---
-Labo : Titre : « Explorer Privileged Identity Management. » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités de Microsoft Entra ; Module 4 : Module : Décrire les fonctionnalités de protection et de gouvernance des identités de Microsoft Entra ; Unité 4 : Décrire les fonctionnalités de Privileged Identity Management »
+lab:
+  title: Explorer Privileged Identity Management
+  module: Describe the identity protection and governance capabilities of Microsoft Entra
 ---
---->
 
 # Labo : Explorer Privileged Identity Management
 
