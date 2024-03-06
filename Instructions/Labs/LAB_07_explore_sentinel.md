@@ -1,8 +1,8 @@
-<!---
 ---
-Labo : Titre : « Explorer Microsoft Sentinel » Parcours d’apprentissage/Module/Titre : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 3 : Décrire les fonctionnalités de sécurité de Microsoft Sentinel ; Unité 3 : Décrire les fonctionnalités de détection et d’atténuation des menaces dans Microsoft Sentinel »
+lab:
+  title: "Explorer Microsoft\_Sentinel"
+  module: Describe the security capabilities of Microsoft Sentinel
 ---
---->
 
 # Labo : Explorer Microsoft Sentinel
 
@@ -12,9 +12,9 @@ Ce labo correspond au contenu Learn suivant :
 - Module : Décrire les fonctionnalités de sécurité de Microsoft Sentinel
 - Unité : Décrire les fonctionnalités de détection et d’atténuation des menaces dans Microsoft Sentinel
 
-## Scénario du labo
+## Scénario de labo
 
-Vous allez présenter le processus de création d’une instance Microsoft Sentinel.  Vous définirez également les autorisations afin de garantir l’accès aux ressources qui seront déployées pour prendre en charge Microsoft Sentinel.  Une fois cette configuration de base effectuée, vous suivrez les étapes de connexion de Microsoft Sentinel à vos sources de données, configurerez un classeur et présenterez brièvement certaines des fonctionnalités clés disponibles dans Microsoft Sentinel.
+Dans ce laboratoire, vous allez découvrir le processus de création d’une instance Microsoft Sentinel.  Vous définirez également les autorisations afin de garantir l’accès aux ressources qui seront déployées pour prendre en charge Microsoft Sentinel.  Une fois cette configuration de base effectuée, vous suivrez les étapes de connexion de Microsoft Sentinel à vos sources de données, configurerez un classeur et présenterez brièvement certaines des fonctionnalités clés disponibles dans Microsoft Sentinel.
 
 **Durée estimée** : 45 à 60 minutes
 
