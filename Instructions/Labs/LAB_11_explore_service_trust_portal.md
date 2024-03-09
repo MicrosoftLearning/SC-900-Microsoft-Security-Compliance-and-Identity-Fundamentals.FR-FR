@@ -1,8 +1,8 @@
-<!---
 ---
-Labo : Titre : « Découvrir le Portail d’approbation de services » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 1 : Décrire les fonctionnalités de gestion de la conformité de Microsoft ; Unité 2 : Découvrir le Portail d’approbation de services »
+lab:
+  title: Explorer le Portail d’approbation de services
+  module: Describe the compliance management capabilities at Microsoft
 ---
---->
 
 # Labo : explorer le portail d’approbation de services
 

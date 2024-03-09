@@ -1,8 +1,8 @@
-<!---
 ---
-Labo : Titre : « Explorer Microsoft Defender for Cloud Apps » Module : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 4 : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365 ; Unité 5 : Décrire Microsoft Defender for Cloud Apps »
+lab:
+  title: Explorer Microsoft Defender pour les applications cloud
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # Labo : Explorer Microsoft Defender for Cloud Apps
 

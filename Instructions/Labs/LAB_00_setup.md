@@ -1,8 +1,8 @@
-<!---
 ---
-Labo : Titre : « Installation »
+lab:
+  title: Configuration du laboratoire
+  module: Setup your Microsoft 365 lab tenant (not associated with a Learn module)
 ---
---->
 
 # Mise en place du labo
 
