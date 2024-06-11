@@ -43,7 +43,7 @@ Dans cette tâche, en tant qu’administrateur, vous réinitialiserez le mot de 
 
 ### Tâche 2
 
-Dans cette tâche, en tant qu’administrateur, vous allez affecter un rôle Azure AD à Diego dans Privileged Identity Management.
+Dans cette tâche, en tant qu’administrateur, vous affectez un rôle Microsoft Entra ID à Dominic dans Privileged Identity Management.
 
 1. Ouvrez l’onglet du navigateur pour la page d’accueil du centre d’administration Microsoft Entra.
 
@@ -108,9 +108,9 @@ Dans cette tâche, vous adopterez le rôle de Dominic Saucier et vous vous conne
 1. Un message vous demande si vous souhaitez rester connecté.  Sélectionnez **Oui**.
 1. La fenêtre Activer l’Administrateur d’utilisateurs s’affiche.  Vous devez entrer la raison de l’activation.  Dans la boîte qui s’affiche, saisissez le motif de votre choix (500 caractères maximum), puis sélectionnez **Activer**.
 1. L’état (3 étapes de progression) s’affiche au fil du processus d’activation.
-1. Une fois l’activation terminée, vous revenez dans la page Mes rôles | Rôles Azure AD, où vous voyez une notification vous informant que vous avez activé un rôle.  Sélectionnez **Cliquez ici** pour afficher vos rôles actifs.  Si vous remarquez que l’heure de fin est différente de celle qui a été configurée à l’origine, sélectionnez le bouton Actualiser en haut de la page (l’actualisation peut prendre quelques minutes).
+1. Une fois l’activation terminée, vous revenez dans la page Mes rôles | Rôles Microsoft Entra ID, où vous voyez une notification vous informant que vous avez activé un rôle.  Sélectionnez **Cliquez ici** pour afficher vos rôles actifs.  Si vous remarquez que l’heure de fin est différente de celle qui a été configurée à l’origine, sélectionnez le bouton Actualiser en haut de la page (l’actualisation peut prendre quelques minutes).
 1. Retournez à la page d’accueil du centre d’administration Microsoft Entra en sélectionnant **Accueil** depuis le volet de navigation à gauche. 
-1. En tant qu’Administrateur d’utilisateurs Azure AD, vous pouvez créer des utilisateurs et des groupes, gérer des licences, et bien plus encore. Dans le volet de navigation gauche, développez **Identités**, sélectionnez **Utilisateurs**, puis sélectionnez **Tous les utilisateurs**.
+1. En tant qu’administrateur d’utilisateurs Microsoft Entra ID, vous pouvez créer des utilisateurs et des groupes, gérer les licences, et davantage. Dans le volet de navigation gauche, développez **Identités**, sélectionnez **Utilisateurs**, puis sélectionnez **Tous les utilisateurs**.
 1. Dans la liste des utilisateurs, sélectionnez **Bianca Pisani**.
 1. Dans le volet de navigation de gauche, sélectionnez **Licences**.
 1. Notez qu’aucune licence n’est affectée à Bianca.  En haut de la page, sélectionnez **+ Affectations**.
@@ -122,4 +122,4 @@ Dans cette tâche, vous adopterez le rôle de Dominic Saucier et vous vous conne
 
 ### Révision
 
-Dans ce labo, vous avez découvert PIM.  En tant qu’administrateur, vous avez configuré Diego avec des privilèges d’administrateur d’utilisateurs pour une durée déterminée.  Ensuite, en tant que Diego, vous avez suivi le processus d’activation des privilèges Administrateur d’utilisateurs et de configuration des paramètres de utilisateur.  Rappelez-vous que PIM nécessite une licence Azure AD Premium P2.
+Dans ce labo, vous avez découvert PIM.  En tant qu’administrateur, vous avez configuré Diego avec des privilèges d’administrateur d’utilisateurs pour une durée déterminée.  Ensuite, en tant que Diego, vous avez suivi le processus d’activation des privilèges Administrateur d’utilisateurs et de configuration des paramètres de utilisateur.  Rappelez-vous que PIM nécessite une licence Microsoft Entra ID Premium P2.

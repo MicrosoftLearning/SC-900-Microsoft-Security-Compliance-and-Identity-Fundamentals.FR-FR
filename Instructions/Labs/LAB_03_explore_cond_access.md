@@ -43,7 +43,7 @@ Dans cette tâche, en tant qu’administrateur, vous réinitialiserez le mot de 
 
 ### Tâche 2
 
-Dans cette tâche, vous allez suivre le processus de création d’une stratégie d’accès conditionnel dans Azure AD.
+Dans cette tâche, vous allez suivre le processus de création d’une stratégie d’accès conditionnel dans Microsoft Entra ID.
 
 1. Ouvrez l’onglet du navigateur de la page d’accueil du centre d’administration Microsoft Entra.   Si vous avez déjà fermé l’onglet du navigateur, ouvrez Microsoft Edge et, dans la barre d’adresse, saisissez **https://entra.microsoft.com** et connectez-vous avec les informations d’identification d’administrateur Microsoft 365 fournies par l’ALH.
 
