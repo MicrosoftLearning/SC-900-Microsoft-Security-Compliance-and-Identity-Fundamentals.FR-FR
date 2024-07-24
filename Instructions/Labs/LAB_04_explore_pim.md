@@ -114,7 +114,7 @@ Dans cette tâche, vous adopterez le rôle de Dominic Saucier et vous vous conne
 1. Dans la liste des utilisateurs, sélectionnez **Bianca Pisani**.
 1. Dans le volet de navigation de gauche, sélectionnez **Licences**.
 1. Notez qu’aucune licence n’est affectée à Bianca.  En haut de la page, sélectionnez **+ Affectations**.
-1. Dans la liste des licences sélectionnées, sélectionnez **Office 365 E3** et **Windows 10 Enterprise E3**.
+1. Dans la liste Sélectionner Licences, sélectionnez **Microsoft Power Apps pour les développeurs** et **Microsoft Power Automate - Gratuit**.
 1. En haut de la page, sélectionnez **Enregistrer**.  Une brève notification s’affiche dans le coin supérieur droit de la page, indiquant que les licences ont été attribuées.
 1. Quittez la page d’affectation des licences mises à jour en cliquant sur le **X** dans le coin supérieur droit.
 1. Déconnectez-vous en sélectionnant l’icône d’utilisateur à côté de l’adresse e-mail, dans le coin supérieur droit de l’écran, et en sélectionnant **Se déconnecter**. Ensuite, fermez toutes les fenêtres de navigation.
