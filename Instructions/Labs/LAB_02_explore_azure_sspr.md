@@ -77,7 +77,7 @@ Dans cette tâche, en tant qu’administrateur, vous allez ajouter l’utilisate
 
 ### Tâche 3
 
-Dans cette tâche, en tant qu’utilisateur Sara Perez, vous allez suivre le processus d’inscription pour réinitialiser votre mot de passe en libre-service.  Cette tâche nécessite un appareil mobile sur lequel vous pouvez recevoir des SMS ou un compte e-mail personnel auquel vous avez accès.
+Dans cette tâche, en tant qu’utilisateur Sara Perez, vous allez suivre le processus d’inscription pour réinitialiser votre mot de passe en libre-service.  Cette tâche nécessite un appareil mobile sur lequel vous pouvez recevoir des SMS.
 
 1. Ouvrez Microsoft Edge et saisissez **https://login.microsoft.com** dans la barre d’adresses.
 
@@ -85,8 +85,10 @@ Dans cette tâche, en tant qu’utilisateur Sara Perez, vous allez suivre le pr
 
 1. Une fenêtre contextuelle s’affiche indiquant que d’autres informations sont requises.  La configuration demande que les membres du groupe SSPRSecurityGroupUsers s’inscrivent lorsqu’ils se connectent.  Sélectionnez le bouton **Suivant**.  Remarque : au lieu de demander aux utilisateurs de procéder eux-mêmes à l’inscription, les administrateurs peuvent configurer directement les méthodes d’authentification lors de l’ajout d’un utilisateur. Pour ce faire, les administrateurs doivent connaître et définir les numéros de téléphone et les adresses e-mail dont se servent les utilisateurs pour effectuer la réinitialisation de mot de passe en libre-service, et réinitialiser le mot de passe d’un utilisateur.
 
-1. La page « Sécuriser votre compte » s’ouvre.  La fenêtre qui s’affiche concerne la méthode d’authentification par téléphone. Si vous ne disposez pas d’un appareil mobile capable de recevoir des SMS, passez à l’étape suivante.  Vous êtes invité à entrer un numéro de téléphone. Assurez-vous que l’option **M’envoyer un code par SMS** est activée.   Saisissez le numéro de téléphone auquel vous pouvez recevoir un code par SMS et cliquez sur le bouton **Suivant**.  Une nouvelle fenêtre s’ouvre, indiquant qu’un code a été envoyé au numéro de téléphone que vous avez entré.  Entrez le code que vous avez reçu, puis sélectionnez **Suivant**. Une fenêtre s’ouvre pour vous indiquer que le processus a abouti et vous montrer votre méthode de connexion par défaut.  Cliquez sur **Terminé**.  
-    1. Vous pouvez également définir une autre méthode, comme indiqué dans le coin inférieur gauche de la fenêtre.  Si vous choisissez de définir une méthode différente, sélectionnez **Je veux définir une méthode différente**. Ensuite, une fenêtre contextuelle s’affiche et vous demande : Quelle méthode souhaitez-vous utiliser ?  Dans la liste déroulante, sélectionnez votre méthode par défaut, **E-mail**, puis sélectionnez le bouton **Confirmer**.  Saisissez l’adresse e-mail que vous souhaitez utiliser et sélectionnez le bouton **Suivant**.  Une nouvelle fenêtre s’ouvre, indiquant qu’un code a été envoyé à l’adresse e-mail que vous avez entrée.  Accédez à l’adresse e-mail que vous avez saisie pour obtenir le code.  Entrez le code que vous avez reçu, puis sélectionnez **Suivant**. Une fenêtre s’ouvre pour vous indiquer que le processus a abouti et vous montrer votre méthode de connexion par défaut.  Cliquez sur **Terminé**.
+1. La page « Sécuriser votre compte » s’ouvre.  La fenêtre qui s’affiche concerne la méthode Microsoft Authenticator qui nécessite l’application Authenticator.  Pour ce labo, nous allons utiliser une autre méthode pour éviter d’avoir à télécharger l’application.  Sélectionnez **Je veux configurer une autre méthode**.
+    1. Dans la fenêtre contextuelle qui s’affiche, sélectionnez la flèche déroulante, **Téléphone**, puis **Confirmer**.
+    1. Vous êtes invité à entrer un numéro de téléphone. Assurez-vous que l’option **Recevoir un code** est activée.   Saisissez le numéro de téléphone sur lequel vous pouvez recevoir le code et sélectionnez **Suivant**.  
+    1. Une nouvelle fenêtre s’ouvre, indiquant qu’un code a été envoyé au numéro de téléphone que vous avez entré.  Entrez le code que vous avez reçu, puis sélectionnez **Suivant**. Une fenêtre s’ouvre, indiquant que le code a été vérifié. Sélectionnez **Suivant**, puis **Terminé**.  
 
 1. Vous pouvez maintenant terminer votre connexion. Si vous constatez que le délai de connexion a expiré, entrez à nouveau le mot de passe.
 
@@ -108,7 +110,7 @@ Dans cette tâche, vous adopterez le rôle de l’utilisateur, Sara Perez, et v
 
 1. Dans la zone vide, saisissez les caractères affichés dans l’image ou les mots de l’audio. Une fois que vous les avez saisis, sélectionnez **Suivant**.
 
-1. L’écran affiche Revenir à votre compte et indique Étape de vérification 1 > choisir un nouveau mot de passe. Laissez le paramètre par défaut **Envoyer un SMS sur mon téléphone mobile**.  Vous êtes invité à entrer votre numéro de téléphone mobile.  Une fois que vous l’avez entré, sélectionnez le bouton **Suivant**.  Si vous avez sélectionné la méthode par e-mail au moment de l’inscription, la fenêtre Réaccéder à votre compte indique ceci : Vous allez recevoir sur votre adresse de messagerie secondaire un e-mail contenant un code de vérification.  Sélectionnez **E-mail**.
+1. L’écran affiche Revenir à votre compte et indique Étape de vérification 1 > choisir un nouveau mot de passe. Laissez le paramètre par défaut **Envoyer un SMS sur mon téléphone mobile**.  Vous êtes invité à entrer votre numéro de téléphone mobile.  Une fois que vous l’avez entré, sélectionnez le bouton **Suivant**. 
 
 1. Saisissez le code de vérification et appuyez sur **Suivant**.
 
@@ -118,7 +120,7 @@ Dans cette tâche, vous adopterez le rôle de l’utilisateur, Sara Perez, et v
 
 1. Dans la zone d’informations Choisir un compte, sélectionnez **sara@WWLxZZZZZZ.onmicrosoft.com**, saisissez votre nouveau mot de passe, puis appuyez sur le bouton **Se connecter**.  Si vous êtes invité à rester connecté, sélectionnez **Non**.
 
-1. Vous devez maintenant vous trouver dans le portail Office.
+1. Vous devriez maintenant être connecté au compte Microsoft de Sara.
 
 1. Déconnectez-vous en sélectionnant l’icône d’utilisateur à côté de l’adresse e-mail, dans le coin supérieur droit de l’écran, et en sélectionnant **Se déconnecter**. Ensuite, fermez toutes les fenêtres de navigation.
 
