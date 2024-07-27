@@ -79,7 +79,7 @@ En tant qu’abonné à Microsoft 365, vous utilisez déjà Microsoft Entra ID
 
     1. Pour ajouter une licence, sélectionnez **+ Affectations** en haut de la fenêtre principale.
 
-    1. Sous Sélectionner les licences, sélectionnez **Office 365 E3** et **Windows 10/11 Entreprise E3**, puis sélectionnez le bouton **Enregistrer** en bas de l’écran. Une notification dans le coin supérieur droit de l’écran devrait indiquer que les licences sont bien affectées.
+    1. Sous Sélectionner Licences, sélectionnez **Microsoft Power Apps pour les développeurs** et **Microsoft Power Automate - Gratuit**, puis le bouton **Enregistrer** en bas de l’écran. Une notification dans le coin supérieur droit de l’écran devrait indiquer que les licences sont bien affectées.
 
     1. Sélectionnez le **X** en haut à droite de l’écran pour fermer la fenêtre d’affectation des licences.
 
@@ -106,7 +106,7 @@ Lors de cette tâche, vous vous connectez pour la première fois en tant que Sar
 
 6. Dans le champ Nouveau mot de passe, entrez un nouveau mot de passe, confirmez le mot de passe, puis sélectionnez **Se connecter**.  Notez votre nouveau mot de passe, car vous en avez besoin pour l’exercice de labo suivant sur SSPR.
 
-7. Vous devriez maintenant être connecté à Microsoft 365.
+7. Vous devriez maintenant être connecté au compte Microsoft de Sara.  Notez que les licences de Sara que vous avez attribuées dans la tâche précédente étaient limitées uniquement à Power Automate - Gratuit et Power Apps pour les développeurs et n’incluaient pas de licence E5.
 
 8. Déconnectez-vous en sélectionnant l’icône en haut à droite de la fenêtre Microsoft 365 qui représente un cercle avec les lettres SP à l’intérieur (à côté de l’icône de point d’interrogation), puis en sélectionnant **Se déconnecter**. Ensuite, fermez le navigateur.
 

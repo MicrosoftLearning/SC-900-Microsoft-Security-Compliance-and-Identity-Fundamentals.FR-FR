@@ -67,7 +67,7 @@ Dans cette tâche, vous allez suivre le processus de création d’une stratégi
 
 1. Dans le champ situé en dessous de la mention **Sélectionner ce à quoi cette stratégie s’applique**, sélectionnez la flèche vers le bas et notez les options disponibles.  Conservez le paramètre par défaut, **Logiciels cloud**.  Vérifiez que l’onglet **Inclure** est souligné.  Sélectionnez **Sélectionner des applications**, puis sous **Sélectionner**, sélectionnez **Aucune**.  La fenêtre Logiciels cloud s’ouvre.
 
-1. Dans la barre de recherche, entrez **Azure**.  Dans les résultats de recherche qui apparaissent sous la zone de recherche, sélectionnez **Portails Microsoft Admin**, puis appuyez sur **Sélectionner** en bas de la page.  Notez l’avertissement.  
+1. Sélectionnez **Portails d’administration Microsoft**, puis appuyez sur **Sélectionner** en bas de la page.  Notez l’avertissement.  
 
 1. Sous Conditions, sélectionnez **0 condition sélectionnée**.  Remarquez les différentes options configurables.  La stratégie vous permet de contrôler l’accès des utilisateurs sur la base de signaux provenant de conditions, notamment : le risque lié à l’utilisateur, le risque lié à la connexion, la plateforme de l’appareil, l’emplacement, les applications client ou le filtre pour les appareils.  Explorez ces options configurables, mais ne définissez aucune condition.
 
