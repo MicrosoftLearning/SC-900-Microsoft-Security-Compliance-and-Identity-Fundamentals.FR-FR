@@ -41,15 +41,15 @@ Dans cette tâche, en tant qu’administrateur, vous allez parcourir certains de
 
 1. Dans l’option Nombre de méthodes requises pour réinitialiser, sélectionnez **1**. Remarquez l’encadré informatif à l’écran.
 
-1. Remarquez les différentes méthodes disponibles pour les utilisateurs.  Les cases **E-mail** et **Téléphone (SMS uniquement)** devraient déjà être cochées, si ce n’est pas le cas, sélectionnez-les.
+1. Remarquez les différentes méthodes disponibles pour les utilisateurs.  Les cases **E-mail** et **Téléphone mobile** devraient déjà être cochées, si ce n’est pas le cas, sélectionnez-les.
 
 1. Dans le volet de navigation gauche de la page Réinitialisation du mot de passe, sélectionnez **Inscription**.  
 
-1. Assurez-vous que le paramètre Obliger les utilisateurs à s’inscrire durant la connexion est défini sur **Oui**.  Laissez le paramètre « Nombre de jours avant que les utilisateurs ne soient invités à reconfirmer leurs informations d’authentification » sur la valeur par défaut de 180.   Remarquez l’encadré informatif sur la page.
+1. Assurez-vous que le paramètre Obliger les utilisateurs à s’inscrire durant la connexion est défini sur **Oui**.  Laissez le paramètre « Nombre de jours avant que les utilisateurs ne soient invités à reconfirmer leurs informations d’authentification » sur la valeur par défaut de **180**.   Remarquez l’encadré informatif sur la page.
 
 1. Dans le volet de navigation de gauche, sélectionnez **Notifications**.  
 
-1. Assurez-vous que le paramètre Notifier les utilisateurs en cas de réinitialisation de mot de passe est défini sur **Oui**.  Laissez le paramètre Notifier tous les administrateurs quand d’autres administrateurs réinitialisent leur mot de passe sur Non.
+1. Assurez-vous que le paramètre Notifier les utilisateurs en cas de réinitialisation de mot de passe est défini sur **Oui**.  Laissez le paramètre « Notifier tous les administrateurs quand d’autres administrateurs réinitialisent leur mot de passe » sur **Non**.
 
 1. Notez que le volet de navigation Réinitialisation du mot de passe comprend également des options permettant d’afficher les journaux d’audit et les informations sur l’utilisation et les insights.
 
@@ -85,10 +85,10 @@ Dans cette tâche, en tant qu’utilisateur Sara Perez, vous allez suivre le pr
 
 1. Une fenêtre contextuelle s’affiche indiquant que d’autres informations sont requises.  La configuration demande que les membres du groupe SSPRSecurityGroupUsers s’inscrivent lorsqu’ils se connectent.  Sélectionnez le bouton **Suivant**.  Remarque : au lieu de demander aux utilisateurs de procéder eux-mêmes à l’inscription, les administrateurs peuvent configurer directement les méthodes d’authentification lors de l’ajout d’un utilisateur. Pour ce faire, les administrateurs doivent connaître et définir les numéros de téléphone et les adresses e-mail dont se servent les utilisateurs pour effectuer la réinitialisation de mot de passe en libre-service, et réinitialiser le mot de passe d’un utilisateur.
 
-1. La page « Sécuriser votre compte » s’ouvre.  La fenêtre qui s’affiche concerne la méthode Microsoft Authenticator qui nécessite l’application Authenticator.  Pour ce labo, nous allons utiliser une autre méthode pour éviter d’avoir à télécharger l’application.  Sélectionnez **Je veux configurer une autre méthode**.
-    1. Dans la fenêtre contextuelle qui s’affiche, sélectionnez la flèche déroulante, **Téléphone**, puis **Confirmer**.
+1. La page « Sécuriser votre compte » s’ouvre.  La fenêtre qui s’affiche correspond à la méthode Téléphone.
     1. Vous êtes invité à entrer un numéro de téléphone. Assurez-vous que l’option **Recevoir un code** est activée.   Saisissez le numéro de téléphone sur lequel vous pouvez recevoir le code et sélectionnez **Suivant**.  
-    1. Une nouvelle fenêtre s’ouvre, indiquant qu’un code a été envoyé au numéro de téléphone que vous avez entré.  Entrez le code que vous avez reçu, puis sélectionnez **Suivant**. Une fenêtre s’ouvre, indiquant que le code a été vérifié. Sélectionnez **Suivant**, puis **Terminé**.  
+    1. Une nouvelle fenêtre s’ouvre, indiquant qu’un code a été envoyé au numéro de téléphone que vous avez entré.  Entrez le code que vous avez reçu, puis sélectionnez **Suivant**. Une fenêtre s’ouvre indiquant que votre téléphone a été inscrit. Sélectionnez **Suivant**, puis **Terminé**.  
+    1. Si vous souhaitez plutôt utiliser l’e-mail, sélectionnez **Je souhaite configurer une autre méthode** et suivre les étapes. 
 
 1. Vous pouvez maintenant terminer votre connexion. Si vous constatez que le délai de connexion a expiré, entrez à nouveau le mot de passe.
 
