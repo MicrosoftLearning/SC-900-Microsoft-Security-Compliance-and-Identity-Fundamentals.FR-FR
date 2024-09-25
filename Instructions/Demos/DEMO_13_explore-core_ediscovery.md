@@ -1,6 +1,6 @@
 <!---
 ---
-Démo : Titre : « Explorer le workflow eDiscovery (Standard) » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités de conformité Microsoft ; Module 5 : Décrire les fonctionnalités d’eDiscovery et d’audit de Microsoft Purview ; Unité 2 : Décrire les solutions eDiscovery dans Microsoft 365 »
+Démonstration : titre : « Explorer le workflow (standard) eDiscovery » Parcours d’apprentissage/module/unité : « Décrire les fonctionnalités de Microsoft Priva et Microsoft Purview ; Module 3 : décrire les solutions de conformité des données de Microsoft Purview ; Unité 2 : décrire eDiscovery »
 ---
 --->
 
@@ -8,38 +8,34 @@ Démo : Titre : « Explorer le workflow eDiscovery (Standard) » Parcours d�
 
 Cette démonstration correspond au contenu Learn suivant :
 
-- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
-- Module : Décrire les fonctionnalités eDiscovery et d’audit de Microsoft Purview
-- Unité : Décrire les solutions eDiscovery dans Microsoft Purview
+- Parcours d’apprentissage : décrire les fonctionnalités de Microsoft Priva et Microsoft Purview
+- Module : décrire les solutions de conformité des données de Microsoft Purview
+- Unité : décrire eDiscovery
 
 ## Scénario de démonstration
 
-Dans cette démo, vous suivez les étapes nécessaires pour configurer eDiscovery, notamment configurer les autorisations de rôle, créer un cas eDiscovery, créer une conservation eDiscovery et créer une requête de recherche.  Remarque : la gestion des licences pour eDiscovery (Standard) nécessite l’abonnement à l’organisation et les licences par utilisateur appropriés. Si vous ne savez pas quelles licences prennent en charge eDiscovery (Standard), consultez [Bien démarrer avec eDiscovery (Standard) dans Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+Dans cette démo, vous suivez les étapes nécessaires pour configurer eDiscovery, notamment configurer les autorisations de rôle, créer un cas eDiscovery, créer une conservation eDiscovery et créer une requête de recherche.  REMARQUE : dans le portail Microsoft Purview, les mises à jour apportées à l’interface utilisateur sont déployées progressivement. Certains locataires de labo/démonstration peuvent ne pas encore afficher la dernière interface utilisateur. Toutes les étapes de labo sont donc affichées dans l’IU eDiscovery classique.
 
 ### Partie 1 de la démonstration
 
 Pour accéder à eDiscovery (Standard) ou être ajouté en tant que membre d’un cas eDiscovery, les autorisations appropriées doivent être accordées à l’utilisateur. Dans cette partie de la démo, en tant qu’administrateur général, vous allez suivre le processus d’ajout d’utilisateurs spécifiques en tant que membres du groupe de rôles Gestionnaire eDiscovery.
 
-1. Ouvrez l’onglet du navigateur menant sur la page d’accueil de Microsoft Purview.  Si vous l’avez précédemment fermé, ouvrez un onglet du navigateur et entrez **https://admin.microsoft.com** . Connectez-vous avec les identifiants d’administration du tenant (ou « locataire/abonné ») Microsoft 365 fournis par l’hôte de labo autorisé (ALH). Dans le volet de navigation gauche du Centre d’administration Microsoft 365, sélectionnez **Tout afficher**, puis **Conformité**.  Le navigateur ouvre une nouvelle page. Il s’agit de la page d’accueil du portail de conformité Microsoft Purview.  
-
-1. Dans le volet de navigation gauche, développez (sélectionnez la flèche vers le bas) **Rôles et étendues**, puis sélectionnez **Autorisations**.
-
-1. Sous Solutions Microsoft Purview, sélectionnez **Rôles**.
-
-1. Dans le champ de recherche, entrez **eDiscovery**, puis sélectionnez l’icône de recherche (en forme de loupe).  Sélectionnez **Gestionnaire eDiscovery**.  Remarquez les rôles dans le groupe de rôles.
-
-1. Sélectionnez **Modifier**.  Remarquez qu’il y a deux sous-groupes, Gestionnaire eDiscovery et Administrateur eDiscovery.  
-    1. La page « Gérer le Gestionnaire eDiscovery » vous permet d’ajouter des utilisateurs au rôle de Gestionnaire eDiscovery. Pour cette démo, nous ajoutons des membres au sous-groupe Administrateur eDiscovery, sélectionnez donc **Suivant**.
-    1. Sur la page « Gérer le Gestionnaire eDiscovery », sélectionnez **Choisir des utilisateurs**. Recherchez et sélectionnez **Administrateur MOD** et **Megan Bowen**, puis appuyez sur **Sélectionner** en bas de la page, puis sélectionnez **Suivant** et **Enregistrer**.
-    1. Sur la page « Vous avez mis à jour le groupe de rôles », sélectionnez **Terminé**.
+1. Ouvrez l’onglet du navigateur pour accéder à **Microsoft Purview**. Si vous l’avez précédemment fermé, ouvrez un onglet de navigateur et saisissez **https://purview.microsoft.com** dans la barre d’adresses. Pour accéder au nouveau portail Microsoft Purview, sélectionnez la zone en regard du texte **J’accepte les conditions de divulgation de flux de données et les déclarations de confidentialité**, puis sélectionnez **Démarrer**.  
+1. Dans le volet de navigation de gauche, sélectionnez **Paramètres**.
+1. Dans le volet de navigation qui s’ouvre, sélectionnez **Rôles et étendues** pour développer l’option, puis sélectionnez **Groupes de rôles**.
+1. Dans la zone de recherche située à droite de l’écran, recherchez le terme **eDiscovery**.  Sélectionnez **Gestionnaire eDiscovery**.
+    1. Sélectionnez **Modifier**.
+    1. Sélectionnez **Choisir des utilisateurs**.
+    1. Recherchez l’administrateur MOD, sélectionnez la zone à côté de **Administrateur MOD**, puis cliquez sur le bouton **Sélectionner** en bas de la page.
+    1. Sélectionnez **Suivant**, puis **Enregistrer**. Enfin, sélectionnez **Terminé**.
 
 1. Gardez cet onglet de navigateur ouvert.
 
 ### Partie 2 de la démonstration
 
-Dans cette partie, vous allez jouer le rôle d’Administrateur eDiscovery (administrateur MOD est un type d’Administrateur eDiscovery) et créer un dossier pour commencer à utiliser eDiscovery (Standard).
+Dans cette partie, vous allez créer un cas pour commencer à utiliser eDiscovery (standard).
 
-1. Vous devez toujours être dans la page des rôles du portail de conformité. Dans le volet de navigation de gauche, sous Solutions, sélectionnez **eDiscovery**, puis **Standard**.
+1. Dans le volet de navigation de gauche, sélectionnez **Solutions**, **eDiscovery**, puis **Dossiers standard**.
 
 1. En haut de la page eDiscovery (Standard), sélectionnez **+ Créer un dossier**.
 
@@ -83,7 +79,7 @@ Une fois la conservation en place, vous créez une requête de recherche.  Quand
 
 1. Dans le champ Nom, entrez **Conservation test - Recherches ventes**, puis sélectionnez **Suivant** en bas de la page.
 
-1. Dans la page Choisir les emplacements, sélectionnez **Emplacements en attente** et désélectionnez **Ajouter du contenu d’application pour les utilisateurs locaux**, car votre environnement de labo n’a pas d’utilisateurs locaux, puis sélectionnez **Suivant**.
+1. Sur la page Choisir les emplacements, sélectionnez **Emplacements en attente** et désélectionnez **Ajouter du contenu d’application pour les utilisateurs locaux**, car votre environnement de labo n’a pas d’utilisateurs locaux. Sélectionnez ensuite **Suivant**.
 
 1. La page Conditions de requête vous permet de créer une recherche basée sur des mots-clés ou des conditions spécifiques qui sont remplies. Dans le champ Mot-clé, saisissez **Ventes**, puis sélectionnez **Suivant**.
 

@@ -20,7 +20,7 @@ Cette démonstration vous permettra de parcourir les diverses options disponible
 
 1. Dans le volet de navigation gauche, développez **Protection**, puis sélectionnez **Accès conditionnel**.
 
-1. La page de présentation de l’accès conditionnel s’affiche.  Ici, vous verrez des vignettes montrant le résumé de la stratégie et les alertes générales.  Dans le volet de navigation de gauche, sélectionnez **Stratégies**.
+1. La page de présentation de l’accès conditionnel s’affiche.  Ici, vous pouvez voir les informations sur le résumé de la stratégie, les nouveautés et les alertes générales.  Dans le volet de navigation de gauche de la fenêtre Accès conditionnel, sélectionnez **Stratégies**.
 
 1. L’écran Stratégies d’accès conditionnel s’affiche. Toute stratégie d’accès conditionnel existante est répertoriée ici. Pour afficher les paramètres associés à l’accès conditionnel, sélectionnez **+ Nouvelle stratégie**.
 
@@ -32,9 +32,11 @@ Cette démonstration vous permettra de parcourir les diverses options disponible
         1. Sélectionnez **Applications cloud**, puis sous l’onglet Inclure, sélectionnez l’option **Sélectionner des applications**, puis sous l’emplacement où il est indiqué **Sélectionner**, sélectionnez **Aucun**, une fenêtre s’ouvrira pour sélectionner une ou plusieurs des applications pour lesquelles la stratégie s’appliquera.
         1. Fermez la fenêtre Sélectionner des applications cloud en cliquant sur le **X** en haut à droite de la fenêtre.
         1. Si le temps le permet, vous pouvez choisir de passer en revue les autres options (actions de l'utilisateur et contexte d'authentification) pour voir les options de configuration pour chacune d'entre elles.
+    1. **Réseau** - Pointez votre souris sur l’icône d’informations à côté de l’indication « Réseau ».  Soulignez que les emplacements réseau sont déterminés par la plage d’adresses IP ou par les coordonnées GPS à partir desquelles l’utilisateur se connecte.  Sélectionnez **Non configuré** pour afficher les options disponibles.
     1. **Conditions** : survolez l’icône d’information près de l’intitulé « Conditions » avec votre curseur et expliquez qu’il s’agit de conditions qui définissent les modalités d’application de la stratégie. Par exemple, ’emplacement. Sélectionnez **0 condition sélectionnée**. Parlez des différents « signaux » répertoriés.   Sélectionnez quelques-unes des options en sélectionnant d’abord l’icône d’information pour définir de quoi il s’agit, puis en sélectionnant **Non configuré** pour l’élément spécifique afin d’afficher les différentes options.
         1. **Risque de l’utilisateur** - Un risque de l’utilisateur reflète la probabilité qu’une identité ou un compte donné soit compromis. Ces risques sont calculés hors connexion à l’aide de sources d’informations sur les menaces internes et externes de Microsoft.
         1. **Risque de connexion** - Un risque de connexion reflète la probabilité qu’une requête d’authentification donnée soit rejetée par le propriétaire de l’identité. Il peut s’agir, par exemple, d’une connexion à partir d’une adresse IP anonyme, d’un voyage atypique, etc.
+        1. **Risque interne** - Le risque interne, configuré dans la protection adaptative, évalue les risques en fonction des activités à risque d’un utilisateur qui concernent des données.
         1. **Plateforme d’appareil** - La plateforme à partir de laquelle l’utilisateur se connecte. Par exemple « iOS ».
         1. **Emplacement** - L’emplacement (déterminé selon la plage d’adresses IP) à partir duquel l’utilisateur se connecte
         1. **Applications client** - Le logiciel dont se sert l’utilisateur pour accéder à l’application cloud. Par exemple « Navigateur ».
