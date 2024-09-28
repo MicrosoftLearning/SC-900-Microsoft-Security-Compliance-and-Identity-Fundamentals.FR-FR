@@ -4,7 +4,7 @@ lab:
   module: Setup your Microsoft 365 lab tenant (not associated with a Learn module)
 ---
 
-# Mise en place du labo
+# Labo : configuration du locataire Microsoft 365
 
 ## Locataires WWL - Conditions d’utilisation
 Si un locataire vous est fourni dans le cadre d’une formation dispensée par un instructeur, notez qu’il est mis à votre disposition dans le seul but de prendre en charge les labos pratiques de la formation.
@@ -15,33 +15,36 @@ Vous n’êtes pas autorisé à convertir un locataire en abonnement payant. Les
 
 ## Scénario du labo
 
-Ce labo de configuration consiste à activer le journal d’audit Microsoft.
+Ce labo de configuration consiste à activer les fonctionnalités Microsoft de journal d’audit et de surveillance des fichiers dans le locataire Microsoft 365.
 
 **Durée estimée** : 5 à 10 minutes
 
-### Configuration - Activer le journal d’audit de Microsoft 365
+### Configuration - Activer le journal d’audit et la surveillance des fichiers dans Microsoft 365
 
-Lors de cette tâche de configuration, vous allez activer la fonction de journal d’audit dans Microsoft 365.  Bien que la documentation indique que le journal d’audit est activé par défaut, la plupart des locataires de labo n’ont pas cette fonctionnalité activée. Il peut se passer plusieurs heures avant que l’activation ne prenne effet.  Il est conseillé d’activer cette fonctionnalité, car Microsoft 365 utilise les journaux d’audit pour les insights utilisateur, les activités identifiées dans les stratégies et les insights d’analyse.
+Lors de cette tâche de configuration, vous allez activer les fonctionnalités de journal d’audit et de surveillance des fichiers dans Microsoft 365.  
 
-1. Ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **admin.microsoft.com**.
+1. Ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **https://admin.microsoft.com** .
 
-1. Connectez-vous avec vos informations d’identification d’administrateur.
-    1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique communiqué par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
-    1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
-    1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez alors à la page du centre d’administration Microsoft 365.
+1. Connectez-vous avec les informations d’identification d’administrateur du locataire Microsoft 365 fournis par votre hôte de labo autorisé (ALH).
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
 
-1. Sous Centres d’administration, sélectionnez **Conformité**.  Le navigateur ouvre une nouvelle page. Il s’agit de la page d’accueil du portail de conformité Microsoft Purview.  
+1. Sous Centres d’administration, sélectionnez **Sécurité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil de Microsoft Defender.  
 
-1. Dans le volet de navigation de gauche, sous Solutions, sélectionnez **Audit**.  Remarque : la fonctionnalité d’audit est également accessible via la page d’accueil de Microsoft 365 Defender (anciennement Centre de sécurité Microsoft 365).
+1. Dans le volet de navigation situé à gauche du portail de conformité Microsoft Purview, sélectionnez **Tout afficher**.
 
-1. Vérifiez que l’onglet **Nouvelle recherche** est sélectionné (souligné).
+1. Dans le volet de navigation de gauche, faites défiler vers le bas et développez **Système**.  Dans la liste développée, sélectionnez **Audit**.  Remarque : la fonctionnalité d’audit est également accessible via le portail Microsoft Purview.
 
-1. Lorsque vous arrivez sur la page Audit, attendez 2 à 3 minutes.  Si l’audit n’est PAS activé, vous voyez une barre bleue en haut de la page indiquant de commencer à enregistrer les activités des utilisateurs et des administrateurs.  Sélectionnez **Commencer à enregistrer les activités de l’utilisateur et de l’administrateur**.  Si vous êtes invité à confirmer la mise à jour des paramètres de l’organisation, sélectionnez **Oui**. Une fois l’audit activé, la barre bleue disparaît.  S’il n’y a pas de barre bleue, alors l’audit est déjà activé et aucune autre action n’est requise.  Un autre moyen de vérifier si l’audit est activé est via PowerShell, mais cette méthode n’est pas abordée dans ce cours.
+1. Lorsque vous accédez à la page Audit, patientez 1 à 2 minutes.  Si l’audit n’est PAS activé, vous voyez une barre bleue en haut de la page indiquant de commencer à enregistrer les activités des utilisateurs et des administrateurs.  Sélectionnez **Commencer à enregistrer les activités de l’utilisateur et de l’administrateur**.  Une fois l’audit activé, la barre bleue disparaît.  S’il n’y a pas de barre bleue, alors l’audit est déjà activé et aucune autre action n’est requise.
 
-1. Retournez à la page d’accueil du portail de conformité Microsoft Purview en sélectionnant **Accueil** dans le volet de navigation de gauche. Déconnectez-vous de Microsoft 365 en sélectionnant l’icône en haut à droite de la fenêtre Microsoft 365 qui représente un cercle avec les lettres MA à l’intérieur (à côté de l’icône de point d’interrogation), puis en sélectionnant **Se déconnecter**. Fermez le navigateur.
+1. Dans le volet de navigation de gauche, dans Système, sélectionnez **Paramètres**.
+
+1. Dans la page des paramètres, sélectionnez **Applications cloud**.   Faites défiler vers le bas, puis, dans Protection des données, sélectionnez **Fichiers**.
+
+1. Si celle-ci n’est pas déjà cochée, cochez la case située à côté de l’option **Activer la surveillance des fichiers**, puis cliquez sur **Enregistrer**.  
+
+1. Cela conclut le labo de configuration du locataire Microsoft 365.
 
 ### Révision
 
-Dans cette configuration, vous avez activé la fonction de journal d’audit dans Microsoft 365.
+Avec cette configuration, vous avez activé les fonctionnalités de journal d’audit et de surveillance des fichiers dans Microsoft 365.

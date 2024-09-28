@@ -1,6 +1,6 @@
 <!---
 ---
-Démonstration : Titre : « Microsoft Defender for Cloud Apps » Module : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 4 : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365 ; Unité 5 : Décrire Microsoft Defender for Cloud Apps »
+Démonstration : Titre : « Microsoft Defender for Cloud Apps » Module : « Parcours d’apprentissage : décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 4 : décrire les fonctionnalités de protection contre les menaces de Microsoft Defender XDR ; Unité 5 : décrire Microsoft Defender for Cloud Apps »
 ---
 --->
 
@@ -9,7 +9,7 @@ Démonstration : Titre : « Microsoft Defender for Cloud Apps » Module : 
 Cette démonstration correspond au contenu Learn suivant :
 
 - Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft
-- Module : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365
+- Module : décrire les fonctionnalités de protection contre les menaces de Microsoft Defender XDR
 - Unité : Décrire Microsoft Defender for Cloud Apps
 
 ## Scénario de démonstration
@@ -22,9 +22,9 @@ Dans cette démonstration, vous allez présenter les fonctionnalités de Microso
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
 
-1. Sous Centres d’administration, sélectionnez **Sécurité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft 365 Defender.  
+1. Sous Centres d’administration, sélectionnez **Sécurité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Defender.  
 
-1. Si c’est la première fois que vous visitez le portail Microsoft 365 Defender, il se peut qu’une fenêtre contextuelle s’affiche pour vous permettre d’effectuer une visite guidée rapide.
+1. Si c’est la première fois que vous visitez le portail Microsoft Defender, il se peut qu’une fenêtre contextuelle s’affiche vous proposant d’effectuer une visite guidée rapide.
 
 1. Dans le panneau de navigation de gauche, sélectionnez **Applications cloud** pour développer la liste, puis sélectionnez **Cloud Discovery**. Vous accédez alors à la vue Tableau de bord.  Parlez des informations disponibles dans le tableau de bord. À partir de la vue du tableau de bord, vous pouvez sélectionner différents onglets en haut de la page.  Parcourez chaque onglet en haut de la page.
 
@@ -39,7 +39,7 @@ Dans cette démonstration, vous allez présenter les fonctionnalités de Microso
     1. Pour voir l’option pour les rapports continus, sélectionnez **Actions** en haut à droite de la page, puis **Configurer le chargement automatique** dans la liste déroulante.  Aucune source de données n’est connectée, mais c’est ici que vous pouvez en ajouter une. Sélectionnez **Ajouter une source de données**, puis sélectionnez la flèche déroulante dans le champ **Sélectionner une appliance** pour voir les types d’appliances que vous pouvez connecter en tant que source de données.  Sélectionnez **Annuler** pour quitter.
     1. Dans le panneau de navigation de gauche, sélectionnez **Cloud Discovery** pour revenir à la page Cloud Discovery.
 
-1. Avec Microsoft 365 Defender for Cloud Apps, vous pouvez vous connecter directement aux applications en configurant des connecteurs d’application qui vous fourniront plus de visibilité et de contrôle sur vos applications cloud. En haut à droite de l’écran, sélectionnez **Actions**, puis **Paramètres Cloud Discovery**.  Notez les paramètres disponibles.
+1. Avec Microsoft Defender for Cloud Apps, vous pouvez vous connecter directement aux applications en configurant des connecteurs d’application qui vous fourniront plus de visibilité et de contrôle sur vos applications cloud. En haut à droite de l’écran, sélectionnez **Actions**, puis **Paramètres Cloud Discovery**.  Notez les paramètres disponibles.
     1. Dans le volet de navigation gauche de la fenêtre Paramètres des applications cloud, sélectionnez **Connecteurs d’applications** (vous devrez peut-être faire défiler vers le bas).
     1. La page Connecteurs d’applications est l’endroit où vous voyez tous les connecteurs d’applications déjà configurés et où vous pouvez ajouter un connecteur d’applications.
     1. Vous devriez voir Microsoft 365 répertorié. Si une erreur de connexion s’affiche, sélectionnez les trois points verticaux à droite de l’élément de ligne, puis **Modifier les paramètres**.  Pour vous reconnecter, sélectionnez **Connecter Office 365** en bas de la page. La page doit maintenant indiquer qu’Office 365 est connecté. Sélectionnez **Terminé**.  L’état est pour l’instant accompagné d’un signe d’avertissement jaune, ce qui signifie qu’il n’y a pas d’état récent.  La mise à jour de l’état prend un certain temps. En effet, la période d’analyse rétroactive varie d’une application à l’autre et les locataires de labo peuvent rencontrer des délais plus longs qu’à l’accoutumée.
@@ -48,7 +48,7 @@ Dans cette démonstration, vous allez présenter les fonctionnalités de Microso
 
 1. Lorsque vous accédez à la page des paramètres des applications cloud, prenez le temps de vous intéresser aux autres paramètres Cloud Discovery.  
     1. Sélectionnez **Applications de contrôle d’application avec accès conditionnel** et notez la description : « Le contrôle d’application d’accès conditionnel ajoute des fonctionnalités de surveillance et de contrôle en temps réel pour vos applications. »
-    1. Sélectionnez Microsoft Information Protection, puis relevez les paramètres disponibles.
+    1. Sélectionnez **Microsoft Information Protection**, puis examinez les paramètres disponibles.
     1. Explorez les autres comme vous le souhaitez. Remarquez le niveau d’intégration et de flexibilité.
 
 1. Sélectionnez **Cloud Discovery** dans le panneau de navigation le plus à gauche pour revenir au tableau de bord Cloud Discovery.
@@ -67,15 +67,11 @@ Dans cette partie de la démonstration, vous allez présenter les fonctionnalit�
 
 1. Laissez cette page ouverte, car vous en aurez besoin pour la tâche suivante.
 
-### Partie 3 de la démonstration - Explorer le journal d’activité et les fichiers
+### Partie 3 de la démonstration - Explorer le journal d’activité
 
-Explorez les différentes façons d’investiguer les activités enregistrées avec le journal d’activité et les fichiers.
+Explorez les différentes façons d’examiner les activités enregistrées via le journal d’activité.
 
 1. Dans le panneau de navigation de gauche, sélectionnez **Journal d’activité**. Ici, vous avez une visibilité sur toutes les activités de vos applications connectées. Toutefois, étant donné que l’exécution d’analyses rétroactives peut prendre plusieurs heures une fois l’audit activé et que les locataires du labo peuvent rencontrer des délais plus longs qu’à l’accoutumée, il se peut qu’aucune donnée ne soit listée. Notez les options de filtre disponibles et l’option de création d’une stratégie à partir de la recherche.
-
-1. Pour assurer la protection des données, Microsoft Defender for Cloud Apps vous donne une visibilité sur tous les fichiers de vos applications connectées, par exemple tous les fichiers stockés dans SharePoint et Salesforce. Dans le volet de navigation gauche, sélectionnez et explorez l’option **Fichiers**.
-    1. La possibilité d’analyser des fichiers doit être activée dans le cadre des paramètres de protection des informations des applications Microsoft 365 Cloud.  Sélectionnez **Activer la supervision de fichier**, cochez la case en regard de l’option **Activer la supervision de fichier**, puis sélectionnez **Enregistrer**.  
-    1. Revenez aux fichiers en sélectionnant **Fichiers**, répertorié sous Applications cloud, dans le volet de navigation de gauche. Vous ne voyez peut-être rien dans la liste, car cela peut prendre plusieurs jours avant que vous puissiez voir vos fichiers, mais soulignons qu’une fois les fichiers répertoriés, vous pouvez filtrer les données par application, propriétaire, niveau d’accès, type de fichier et stratégie correspondante. Vous créez aussi une stratégie à partir de la recherche et de l’exportation des données.
 
 1. Laissez cette page ouverte, car vous en aurez besoin pour la tâche suivante.
 
@@ -90,7 +86,7 @@ Dans cette partie, vous allez présenter les options disponibles concernant les 
 
 1. Dans le panneau de navigation de gauche, sélectionnez **Modèles de stratégie**. Pour créer une stratégie à partir de l’un des modèles disponibles, sélectionnez le signe **+** à droite de l’élément de ligne de modèle.  Examinez les différentes options de configuration de la stratégie.  Cliquez sur **Annuler** pour quitter la page.
 
-1. Dans le volet de navigation à gauche, sélectionnez **Accueil** pour retourner à la page d’accueil de Microsoft 365 Defender.
+1. Dans le volet de navigation de gauche, sélectionnez **Accueil** pour revenir à la page d’accueil de Microsoft Defender.
 
 1. Gardez l’onglet du navigateur ouvert si vous prévoyez de suivre la démonstration suivante.
 

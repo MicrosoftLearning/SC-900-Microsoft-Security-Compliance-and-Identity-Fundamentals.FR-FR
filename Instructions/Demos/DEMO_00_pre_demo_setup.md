@@ -14,9 +14,9 @@ Vous n’êtes pas autorisé à convertir un locataire en abonnement payant. Les
 
 ## Configuration de la pré-démo du locataire Microsoft 365
 
-### Activer le journal d’audit de Microsoft 365
+### Activer le journal d’audit et la surveillance des fichiers de Microsoft 365
 
-Lors de cette tâche de configuration, vous allez activer la fonction de journal d’audit dans Microsoft 365.  Bien que la documentation indique que le journal d’audit est activé par défaut, la plupart des locataires de labo n’ont pas cette fonctionnalité activée. Il peut se passer plusieurs heures avant que l’activation ne prenne effet.  Il est conseillé d’activer cette fonctionnalité, car Microsoft 365 utilise les journaux d’audit pour les insights utilisateur, les activités identifiées dans les stratégies et les insights d’analyse.
+Lors de cette tâche de configuration, vous allez activer les fonctionnalités de journal d’audit et de surveillance des fichiers dans Microsoft 365.
 
 1. Ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **https://admin.microsoft.com** .
 
@@ -24,31 +24,33 @@ Lors de cette tâche de configuration, vous allez activer la fonction de journal
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
 
-1. Sous Centres d’administration, sélectionnez **Conformité**.  Le navigateur ouvre une nouvelle page. Il s’agit de la page d’accueil du portail de conformité Microsoft Purview.  
+1. Sous Centres d’administration, sélectionnez **Sécurité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil de Microsoft Defender.  
 
 1. Dans le volet de navigation situé à gauche du portail de conformité Microsoft Purview, sélectionnez **Tout afficher**.
 
-1. Dans le volet de navigation de gauche, sous Solutions, sélectionnez **Audit**.  Remarque : la fonctionnalité d’audit est également accessible via la page d’accueil de Microsoft 365 Defender.
+1. Dans le volet de navigation de gauche, faites défiler vers le bas et développez **Système**.  Dans la liste développée, sélectionnez **Audit**.  Remarque : la fonctionnalité d’audit est également accessible via le portail Microsoft Purview.
 
-1. Vérifiez que l’onglet **Recherche** est sélectionné (souligné).
+1. Lorsque vous accédez à la page Audit, patientez 1 à 2 minutes.  Si l’audit n’est PAS activé, vous voyez une barre bleue en haut de la page indiquant de commencer à enregistrer les activités des utilisateurs et des administrateurs.  Sélectionnez **Commencer à enregistrer les activités de l’utilisateur et de l’administrateur**.  Une fois l’audit activé, la barre bleue disparaît.  S’il n’y a pas de barre bleue, alors l’audit est déjà activé et aucune autre action n’est requise.
 
-1. Lorsque vous arrivez sur la page Audit, attendez 2 à 3 minutes.  Si l’audit n’est PAS activé, vous voyez une barre bleue en haut de la page indiquant de commencer à enregistrer les activités des utilisateurs et des administrateurs.  Sélectionnez **Commencer à enregistrer les activités de l’utilisateur et de l’administrateur**.  Une fois l’audit activé, la barre bleue disparaît.  S’il n’y a pas de barre bleue, alors l’audit est déjà activé et aucune autre action n’est requise.
+1. Dans le volet de navigation de gauche, dans Système, sélectionnez **Paramètres**.
 
-1. Retournez à la page d’accueil du portail de conformité Microsoft Purview en sélectionnant **Accueil** dans le volet de navigation de gauche.
+1. Dans la page des paramètres, sélectionnez **Applications cloud**.   Faites défiler vers le bas, puis, dans Protection des données, sélectionnez **Fichiers**.
 
-### Surveillance des fichiers par Microsoft Defender for Cloud Apps
+1. Si celle-ci n’est pas déjà cochée, cochez la case située à côté de l’option **Activer la surveillance des fichiers**, puis cliquez sur **Enregistrer**.  
 
-Dans cette tâche de configuration, vous allez activer la surveillance des fichiers dans Microsoft Defender for Cloud Apps.
+### Configurer le rôle d’administrateur de conformité
 
-1. Ouvrez l’onglet du navigateur du Centre d’administration Microsoft 365.  Si vous l’aviez fermé, ouvrez un nouvel onglet de navigateur et saisissez **https://admin.microsoft.com** dans la barre d’adresse, puis sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
+Lors de cette tâche de configuration, vous allez vous ajouter en tant qu’administrateur MOD au groupe du rôle d’administrateur de conformité.
 
-1. Sous Centres d’administration, sélectionnez **Sécurité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft 365 Defender.  
-
-1. Dans le volet de navigation de gauche, sélectionnez **Fichiers**, sous Logiciels cloud.
-
-1. Si ce n’est pas déjà fait, sélectionnez **Activer la supervision de fichier**, cochez la case en regard de l’option **Activer la supervision de fichier**, puis sélectionnez **Enregistrer**.  
-
-1. Dans le volet de navigation de gauche, sous Logiciels cloud, sélectionnez **Fichiers** pour revenir à la page des fichiers.  Si vous avez bien activé la surveillance des fichiers, vous devriez voir les options de filtrage en haut de la page.  L’affichage des fichiers du locataire du labo préconfiguré peut prendre un certain temps.
+1. Ouvrez un nouvel onglet dans le navigateur Microsoft Edge et saisissez **https://purview.microsoft.com** dans la barre d’adresses. Pour accéder au nouveau portail Microsoft Purview, sélectionnez la zone en regard du texte **J’accepte les conditions de divulgation de flux de données et les déclarations de confidentialité**, puis sélectionnez **Démarrer**.  
+1. Dans le volet de navigation de gauche, sélectionnez **Paramètres**.
+1. Dans le volet de navigation qui s’ouvre, sélectionnez **Rôles et étendues** pour développer l’option, puis sélectionnez **Groupes de rôles**.
+1. Dans la zone de recherche située à droite de l’écran, recherchez le terme **Conformité**.  Sélectionnez **Administrateur de conformité**.
+    1. Sélectionnez **Modifier**.
+    1. Sélectionnez **Choisir des utilisateurs**.
+    1. Recherchez l’administrateur MOD, sélectionnez la zone à côté de **Administrateur MOD**, puis cliquez sur le bouton **Sélectionner** en bas de la page.
+    1. Sélectionnez **Suivant**, puis **Enregistrer**. Enfin, sélectionnez **Terminé**.
+1. Cela conclut la configuration du locataire Microsoft 365, vous pouvez fermer les onglets du navigateur.
 
 ## Configuration de la pré-démo de l’abonnement Azure Cloud Slice
 
@@ -66,6 +68,7 @@ Vérifiez qu’une machine virtuelle a déjà été créée. Si ce n’est pas l
     1. Groupe de ressources : sélectionnez **Créer**, saisissez **LabsSC900**, puis sélectionnez **OK**.
     1. Nom de la machine virtuelle : entrez **SC900-WinVM**.
     1. Options de disponibilité : **sélectionnez Aucune redondance d’infrastructure requise** dans le menu déroulant.
+    1. Type de sécurité : dans le menu déroulant, sélectionnez **Standard**.
     1. Image : dans la liste déroulante, sélectionnez **Windows 11 Pro, version 22H2 (x64 Gen2)** (ou toute image Windows 10 ou Windows 11 répertoriée).
     1. Taille : sélectionnez **Afficher toutes les tailles**, **Standard_B1s**, puis **Sélectionner** en bas de la page.
     1. Nom d’utilisateur : saisissez **SC900-VM-User**.
