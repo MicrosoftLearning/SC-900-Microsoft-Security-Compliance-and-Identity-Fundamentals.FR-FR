@@ -1,6 +1,6 @@
 <!---
 ---
-Démo : Titre : « Portail d’approbation de services » Parcours d’apprentissage/Module/Unité : « Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft ; Module 1 : Décrire le Portail d’approbation de services et les fonctionnalités de confidentialité de Microsoft ; Unité 2 : Découvrir le Portail d’approbation de services »
+Démo : Titre : « Portail d’approbation de services » Parcours d’apprentissage/Module/Unité : « Décrire les fonctionnalités des solutions Microsoft Priva and Microsoft Purview ; Module 1 : décrire le Portail d’approbation de services et les fonctionnalités de confidentialité de Microsoft ; Unité 2 : découvrir le Portail d’approbation de services »
 ---
 --->
 
