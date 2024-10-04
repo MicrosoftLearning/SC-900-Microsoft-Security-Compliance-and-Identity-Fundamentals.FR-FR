@@ -16,7 +16,7 @@ Ce labo correspond au contenu Learn suivant :
 
 Dans ce labo, vous allez explorer les fonctionnalités de Microsoft Defender for Cloud Apps.  Vous présenterez les informations contenues dans le tableau de bord Cloud Discovery, le catalogue d’applications cloud, les fonctionnalités disponibles pour investiguer les résultats ainsi que les façons de contrôler l’impact sur votre organisation au moyen de stratégies. Remarque : Une organisation doit disposer d’une licence pour utiliser Microsoft Defender for Cloud Apps, qui est un service par abonnement basé sur l’utilisateur.
 
-**Durée estimée** : 15 à 20 minutes
+**Durée estimée : 30 minutes**
 
 ### Tâche 1 - Explorer Cloud Discovery
 
@@ -27,6 +27,7 @@ Explorez Cloud Discovery.
 1. Connectez-vous avec vos informations d’identification d’administrateur pour le locataire Microsoft 365.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
+    1. Si vous êtes déjà connecté en tant qu’administrateur, vous êtes invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez alors à la page du centre d’administration Microsoft 365.
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.

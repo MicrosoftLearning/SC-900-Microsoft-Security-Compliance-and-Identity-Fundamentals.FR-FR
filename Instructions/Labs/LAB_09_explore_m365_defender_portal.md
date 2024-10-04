@@ -26,8 +26,8 @@ Explorez la page d’accueil de Microsoft Defender.
 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique communiqué par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
-
     1. Entrez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
+    1. Si vous êtes déjà connecté en tant qu’administrateur, vous êtes invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez alors à la page du centre d’administration Microsoft 365.
 
 1. Sélectionnez **Sécurité** dans le volet de navigation gauche du centre d’administration Microsoft 365, sous Centre d’administration.  Si vous ne voyez pas Sécurité dans la liste, sélectionnez **Afficher tout**, puis **Sécurité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Defender.  

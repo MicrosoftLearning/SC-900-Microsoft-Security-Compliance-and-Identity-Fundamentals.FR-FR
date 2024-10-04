@@ -16,7 +16,7 @@ Ce labo correspond au contenu Learn suivant :
 
 Dans ce labo, vous allez explorer la fonction des groupes de sécurité réseau dans Azure.  Pour cela, vous créerez un groupe de sécurité réseau (NSG), puis vous l’affecterez à l’interface d’une machine virtuelle préexistante.  Une fois la configuration terminée, vous examinerez les règles de trafic entrant et sortant par défaut, puis vous créerez des règles et les testerez.  Dans ce labo, la machine virtuelle que vous utiliserez avec le groupe de sécurité réseau a été créée pour vous. Vous commencerez donc par examiner certaines des informations associées à cette machine virtuelle.
   
-**Durée estimée** : 30 à 45 minutes
+**Durée estimée** : 45 minutes
 
 ### Tâche 1
 
@@ -27,6 +27,7 @@ Dans cette tâche, vous allez explorer certains des paramètres associés à la 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez le nom d’utilisateur fourni par votre fournisseur d’hébergement de labo, puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
+    1. Si vous étiez déjà connecté, vous serez peut-être invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez peut-être invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
     1. Si vous êtes invité à rester connecté, sélectionnez **Oui**.
 
 1. En haut de la page, sous l’intitulé Services Azure, sélectionnez **Machines virtuelles**.  Si vous ne voyez pas cet élément dans la liste, dans la barre de recherche, dans la barre bleue en haut de la page à côté de l’intitulé Microsoft Azure, entrez **Machines virtuelles**, puis sélectionnez **Machines virtuelles** dans les résultats de la recherche.
@@ -35,7 +36,7 @@ Dans cette tâche, vous allez explorer certains des paramètres associés à la 
 
 1. Vous êtes à présent dans la page SC900-WinVM.  Notez certaines des informations de base sur la machine virtuelle.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Paramètres réseau**.  Les principales sections de la fenêtre principale affichent l’interface réseau de la machine virtuelle.  Notez que rien n’est répertorié en regard du groupe de sécurité réseau, car il n’existe aucun groupe de sécurité réseau attribué à l’interface.
+1. Dans le volet de navigation gauche, développez **Mise en réseau**, puis sélectionnez **Paramètres du réseau**.  Les principales sections de la fenêtre principale affichent l’interface réseau de la machine virtuelle.  Notez que rien n’est répertorié en regard du groupe de sécurité réseau, car il n’existe aucun groupe de sécurité réseau attribué à l’interface.
 
 1. Laissez cet onglet ouvert.
 
@@ -60,11 +61,11 @@ Dans cette tâche, vous allez créer un groupe de sécurité réseau, affecter l
 
 1. Vous devez être sur la page de vue d’ensemble du groupe de sécurité réseau nouvellement créé.  Si ce n’est pas le cas, sélectionnez **Vue d’ensemble** dans le volet de navigation gauche. En haut de la page, sous la mention Informations de base, vous voyez des informations générales sur le groupe de sécurité réseau que vous avez créé.  Deux points sont à noter : il n’y a pas de règles de sécurité personnalisées et il n’y a pas de sous-réseaux ni d’interfaces réseau associés à ce groupe de sécurité réseau.  Il n’y a aucune règle de sécurité personnalisée, mais il y a des règles de trafic entrant et sortant par défaut qui sont incluses avec chaque groupe de sécurité réseau, comme indiqué sur la page.  Passez en revue les règles entrantes et sortantes. Les règles de trafic entrant par défaut refusent tout le trafic entrant qui ne provient pas d’un réseau virtuel ou d’un équilibreur de charge Azure.  Les règles de trafic sortant refusent tout le trafic sortant, à l’exception du trafic entre les réseaux virtuels et du trafic sortant vers Internet.
 
-1. Dans le volet de navigation gauche de la page NSG-SC900, sous Paramètres, sélectionnez **Interfaces réseau**.
+1. Dans le volet de navigation gauche de la page NSG-SC900, développez **Paramètres** puis sélectionnez **Interfaces réseau**.
     1. Sélectionnez **Associer**.
     2. Dans le champ des associations d’interface réseau, sélectionnez la **flèche vers le bas**, sélectionnez **sc900-winvmXXX**, puis **OK** en bas de la fenêtre. Une fois que l’interface est associée au NSG, elle apparaît dans la liste.  Le groupe de sécurité réseau est maintenant attribué à l’interface réseau de votre machine virtuelle.
 
-1. Revenez à l’onglet **SC900-WinWM – Microsoft Azure** dans le navigateur.  Actualisez la page. En regard de l’emplacement indiquant groupe de sécurité réseau, vous devez maintenant voir le nom du groupe de sécurité réseau que vous venez de créer.  Si vous ne le voyez toujours pas, patientez une autre minute, puis actualisez la page à nouveau.
+1. Revenez à l’onglet **SC900-WinWM - Microsoft Azure** dans le navigateur.  Actualisez la page. En regard de l’emplacement indiquant groupe de sécurité réseau, vous devez maintenant voir le nom du groupe de sécurité réseau que vous venez de créer.  Si vous ne le voyez toujours pas, patientez une autre minute, puis actualisez la page à nouveau.
 
 1. Sélectionnez **Connecter** dans le volet de navigation à gauche. Dans la fenêtre principale, à côté de l’emplacement où numéro de port 3389 s’affiche, sélectionnez **Vérifier l’accès**. La fonction de vérification d’accès envoie des signaux (trafic) au port RDP 3389 par défaut de la machine virtuelle pour vérifier s’il est accessible. Cette opération peut prendre une minute et Inaccessible va ensuite s’afficher.  Ce comportement est attendu, car la règle de groupe de sécurité réseau DenyAllInBound refuse l’ensemble du trafic entrant vers la machine virtuelle.
 
@@ -95,7 +96,7 @@ Dans cette tâche, vous allez tester la nouvelle règle de groupe de sécurité 
 
 1. Sélectionnez **Se connecter** dans le volet de navigation de gauche.
 
-1. Sélectionnez **vérifier l’accès** (vérifiez que le port est défini sur 3389).  L'état doit être « Accessible ».
+1. Sélectionnez **vérifier l’accès** (vérifiez que le port est défini sur 3389).  L'état doit être « Accessible ».  Si vous voyez toujours « Non accessible », actualisez la page et réessayez. Il peut s'écouler quelques minutes avant que la nouvelle règle de trafic entrant soit vue par l'option de contrôle d'accès.
 
 1. Connectez-vous maintenant directement à la machine virtuelle en cliquant sur **Sélectionner** dans la zone qui indique le protocole RDP natif.
    
@@ -108,7 +109,10 @@ Dans cette tâche, vous allez tester la nouvelle règle de groupe de sécurité 
 1. Vous êtes maintenant connecté à la machine virtuelle. Dans ce cas-ci, vous avez pu vous connecter à la machine virtuelle, car la règle de trafic entrant que vous avez créée autorise le trafic entrant pour la machine virtuelle via RDP.  Au bout de quelques secondes dans l’écran d’accueil, vous pouvez voir une fenêtre vous permettant de choisir les paramètres de confidentialité de votre appareil. Sélectionnez **Accepter**.  Si la fenêtre Réseaux s’affiche, sélectionnez **Non**.
 
 1. Dès que la machine virtuelle est opérationnelle, testez la connectivité sortante vers Internet à partir de cette machine.
-    1. Dans la machine virtuelle ouverte, sélectionnez **Microsoft Edge** pour ouvrir le navigateur.  Étant donné que c’est la première fois que vous ouvrez Microsoft Edge, il est possible qu’une fenêtre contextuelle s’affiche. Sélectionnez **Démarrer sans vos données**, sélectionnez **Continuer sans ces données**, puis sélectionnez **Confirmer et commencer la navigation**.
+    1. Dans la machine virtuelle ouverte, sélectionnez **Microsoft Edge** pour ouvrir le navigateur. Comme c’est la première fois que vous ouvrez la machine virtuelle et le navigateur, vous pouvez être invité à entrer certains paramètres de base.  
+    1. Vous pouvez être invité à choisir les paramètres de confidentialité de votre appareil. Conservez les valeurs par défaut, puis sélectionnez **Accepter**.  
+    1. Un panneau latéral pour Les réseaux peut s’afficher.  Sélectionnez **Non**.
+    1. Une fenêtre peut s’afficher indiquant « Parcourir le web avec le navigateur le plus performant sur Windows ». Sélectionnez **Continuer**, sélectionnez **Démarrer sans vos données**, sélectionnez **Confirmer et continuer**, sélectionnez **Continuer sans ces données**, puis sélectionnez **Confirmer et commencer la navigation**.
     1. Entrez **www.bing.com** dans la barre d’adresse du navigateur et vérifiez que vous pouvez vous connecter au moteur de recherche.
     1. Une fois que vous avez vérifié votre accès à www.bing.com, fermez la fenêtre du navigateur dans la machine virtuelle, mais laissez la machine virtuelle allumée.
 

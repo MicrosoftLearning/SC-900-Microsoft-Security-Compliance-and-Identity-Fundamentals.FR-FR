@@ -1,39 +1,39 @@
 ---
 lab:
-  title: Explorer le flux de travail eDiscovery (Standard)
-  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
+  title: Explorer eDiscovery
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# Lab : Explorer le workflow eDiscovery (Standard)
+# Labo : Explorer eDiscovery
 
 Ce labo correspond au contenu Learn suivant :
 
-- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
-- Module : Décrire les fonctionnalités eDiscovery et d’audit de Microsoft Purview
-- Unité : Décrire les solutions eDiscovery dans Microsoft Purview
+- Parcours d’apprentissage : décrire les fonctionnalités de Microsoft Priva et Microsoft Purview
+- Module : décrire les solutions de conformité des données de Microsoft Purview
+- Unité : décrire eDiscovery
 
 ## Scénario du labo
 
 Dans ce labo, vous suivez les étapes nécessaires pour configurer eDiscovery, notamment configurer les autorisations de rôle, créer un cas eDiscovery, créer une conservation eDiscovery et créer une requête de recherche.  Remarque : la gestion des licences pour eDiscovery (Standard) nécessite l’abonnement à l’organisation et les licences par utilisateur appropriés. Si vous ne savez pas quelles licences prennent en charge eDiscovery (Standard), consultez [Bien démarrer avec eDiscovery (Standard) dans Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
-**Durée estimée** : 25 à 30 minutes
+**Durée estimée** : 45 minutes
 
 ### Tâche 1
 
 Pour accéder à eDiscovery (Standard) ou être ajouté en tant que membre d’un cas eDiscovery, les autorisations appropriées doivent être accordées à l’utilisateur. Dans cette tâche, en tant qu’administrateur général, vous ajouterez des utilisateurs spécifiques en tant que membres du groupe de rôles Gestionnaire eDiscovery.
 
-1. Ouvrez l’onglet du navigateur menant sur la page d’accueil de Microsoft Purview.  Si vous l’avez précédemment fermé, ouvrez un onglet du navigateur et entrez **https://admin.microsoft.com** . Connectez-vous avec les identifiants d’administration du tenant (ou « locataire/abonné ») Microsoft 365 fournis par l’hôte de labo autorisé (ALH). Dans le volet de navigation gauche du Centre d’administration Microsoft 365, sélectionnez **Tout afficher**, puis **Conformité**.  Le navigateur ouvre une nouvelle page. Il s’agit de la page d’accueil du portail de conformité Microsoft Purview.  
+1. Ouvrez l’onglet du navigateur menant sur la page d’accueil de Microsoft Purview.  Si vous l’avez précédemment fermé, ouvrez un onglet du navigateur et entrez **https://admin.microsoft.com** . Connectez-vous avec les identifiants d’administration du tenant (ou « locataire/abonné ») Microsoft 365 fournis par l’hôte de labo autorisé (ALH). Si vous êtes déjà connecté en tant qu’administrateur, vous êtes invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
 
+1. Dans le volet de navigation gauche du Centre d’administration Microsoft 365, sélectionnez **Tout afficher**, puis **Conformité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Purview.  
 
-1. Dans le volet de navigation gauche, développez (sélectionnez la flèche vers le bas) **Rôles et étendues**, puis sélectionnez **Autorisations**.
+1. Dans le volet de navigation de gauche, sélectionnez **Paramètres**, développez **Rôles et étendues**, puis sélectionnez **Groupes de rôles**.
 
-1. Sous Solutions Microsoft Purview, sélectionnez **Rôles**.
+1. Dans le champ de recherche, en haut à droite de la page, saisissez **eDiscovery**, puis appuyez sur Entrée.  Sélectionnez **Gestionnaire eDiscovery**.
 
-1. Dans le champ de recherche, saisissez **eDiscovery**, puis appuyez sur Entrée.  Sélectionnez **Gestionnaire eDiscovery**.
-
-1. Sélectionnez **Modifier**.  Remarquez qu’il y a deux sous-groupes, Gestionnaire eDiscovery et Administrateur eDiscovery.  
-    1. La page « Gérer le Gestionnaire eDiscovery » vous permet d’ajouter des utilisateurs au rôle de Gestionnaire eDiscovery. Pour ce labo, nous ajoutons des membres au sous-groupe Administrateur eDiscovery, sélectionnez donc **Suivant**.
-    1. Sur la page « Gérer le Gestionnaire eDiscovery », sélectionnez **Choisir des utilisateurs**. Recherchez et sélectionnez **Administrateur MOD** et **Megan Bowen**, puis appuyez sur **Sélectionner** en bas de la page, puis sélectionnez **Suivant** et **Enregistrer**.
+1. Sélectionnez **Modifier**. Dans le cadre de ce labo, vous allez vous définir en tant qu’administrateur MOD, en tant qu’administrateur eDiscovery et administrateur.  Dans la pratique, vous devez désigner des utilisateurs spécifiques pour des rôles spécifiques.
+    1. La page « Gérer le Gestionnaire eDiscovery » vous permet d’ajouter des utilisateurs au rôle de Gestionnaire eDiscovery.
+    1. Sélectionnez **Choisir des utilisateurs**. Recherchez et sélectionnez **Administrateur MOD**, appuyez sur **Sélectionner** en bas de la page, puis sélectionnez **Suivant**.
+    1. Sur la page « Gérer le Gestionnaire eDiscovery », sélectionnez **Choisir des utilisateurs**. Recherchez et sélectionnez **Administrateur MOD**, appuyez sur **Sélectionner** en bas de la page, puis sélectionnez **Suivant** et **Enregistrer**.
     1. Sur la page « Vous avez mis à jour le groupe de rôles », sélectionnez **Terminé**.
 
 1. Gardez cet onglet ouvert, car vous l’utilisez dans la prochaine tâche.
@@ -42,9 +42,9 @@ Pour accéder à eDiscovery (Standard) ou être ajouté en tant que membre d’u
 
 Dans cette tâche, vous allez jouer le rôle d’Administrateur eDiscovery (administrateur MOD est un type d’Administrateur eDiscovery) et créer un dossier pour commencer à utiliser eDiscovery (Standard).
 
-1. Vous devez toujours être dans la page des rôles du portail de conformité. Si vous avez fermé l’onglet du navigateur de la tâche précédente, ouvrez un nouvel onglet de navigateur et entrez **compliance.microsoft.com**
+1. Vous devez toujours être dans la page des rôles du portail de conformité. Si vous avez fermé l’onglet du navigateur de la tâche précédente, ouvrez un nouvel onglet de navigateur et entrez **compliance.microsoft.com** pour accéder au portail Microsoft Purview.
 
-1. Dans le volet de navigation de gauche, sous Solutions, développez **eDiscovery**, puis sélectionnez **Standard**.
+1. Dans le volet de navigation de gauche, sous Solutions, développez **eDiscovery**, puis sélectionnez **Dossiers standard**.
 
 1. En haut de la page eDiscovery (Standard), sélectionnez **+ Créer un dossier**.
 

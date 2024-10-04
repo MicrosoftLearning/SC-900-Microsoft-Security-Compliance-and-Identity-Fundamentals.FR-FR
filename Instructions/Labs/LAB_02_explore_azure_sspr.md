@@ -22,7 +22,7 @@ Ce labo correspond au contenu Learn suivant :
 
 Dans ce labo, vous, en tant qu’administrateur, allez suivre le processus d’ajout d’un utilisateur au groupe de sécurité SSPR, qui est déjà configuré dans votre locataire Microsoft 365. Une fois la réinitialisation de mot de passe en libre-service (SSPR) activée, vous adopterez le rôle d’un utilisateur, vous vous inscrirez à SSPR et vous réinitialiserez votre mot de passe.  Enfin, en tant qu’administrateur, vous serez en mesure de voir les journaux d’audit et les insighs d’utilisation pour SSPR.
 
-**Durée estimée** : 15 à 20 minutes
+**Durée estimée** : 30 minutes
 
 ### Tâche 1
 
@@ -31,6 +31,7 @@ Dans cette tâche, en tant qu’administrateur, vous allez parcourir certains de
 1. Ouvrez le navigateur Microsoft Edge. Dans la barre d’adresses, saisissez **https://entra.microsoft.com** et connectez-vous avec les informations d’identification d’admin Microsoft 365 fournies par votre hôte de labo autorisé (ALH).
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ est votre ID de locataire unique communiqué par votre ALH), puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
+    1. Si vous êtes déjà connecté en tant qu’administrateur, vous êtes invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
 
 1. Dans le volet de navigation gauche, développez l’option de **Protection**, puis sélectionnez **Réinitialisation de mot de passe**.  
@@ -77,18 +78,21 @@ Dans cette tâche, en tant qu’administrateur, vous allez ajouter l’utilisate
 
 ### Tâche 3
 
-Dans cette tâche, en tant qu’utilisateur Sara Perez, vous allez suivre le processus d’inscription pour réinitialiser votre mot de passe en libre-service.  Cette tâche nécessite un appareil mobile sur lequel vous pouvez recevoir des SMS.
+Dans cette tâche, en tant qu’utilisateur Sara Perez, vous allez suivre le processus d’inscription pour réinitialiser votre mot de passe en libre-service.
 
 1. Ouvrez Microsoft Edge et saisissez **https://login.microsoft.com** dans la barre d’adresses.
 
-1. Connectez-vous en tant que Sara Perez.
+1. Connectez-vous en tant que Sara Perez. Le processus de connexion peut nécessiter l’authentification multifacteur.
 
 1. Une fenêtre contextuelle s’affiche indiquant que d’autres informations sont requises.  La configuration demande que les membres du groupe SSPRSecurityGroupUsers s’inscrivent lorsqu’ils se connectent.  Sélectionnez le bouton **Suivant**.  Remarque : au lieu de demander aux utilisateurs de procéder eux-mêmes à l’inscription, les administrateurs peuvent configurer directement les méthodes d’authentification lors de l’ajout d’un utilisateur. Pour ce faire, les administrateurs doivent connaître et définir les numéros de téléphone et les adresses e-mail dont se servent les utilisateurs pour effectuer la réinitialisation de mot de passe en libre-service, et réinitialiser le mot de passe d’un utilisateur.
 
-1. La page « Sécuriser votre compte » s’ouvre.  La fenêtre qui s’affiche correspond à la méthode Téléphone.
-    1. Vous êtes invité à entrer un numéro de téléphone. Assurez-vous que l’option **Recevoir un code** est activée.   Saisissez le numéro de téléphone sur lequel vous pouvez recevoir le code et sélectionnez **Suivant**.  
-    1. Une nouvelle fenêtre s’ouvre, indiquant qu’un code a été envoyé au numéro de téléphone que vous avez entré.  Entrez le code que vous avez reçu, puis sélectionnez **Suivant**. Une fenêtre s’ouvre indiquant que votre téléphone a été inscrit. Sélectionnez **Suivant**, puis **Terminé**.  
-    1. Si vous souhaitez plutôt utiliser l’e-mail, sélectionnez **Je souhaite configurer une autre méthode** et suivre les étapes. 
+1. La page « Sécuriser votre compte » s’ouvre.  La fenêtre qui s’affiche et les étapes qui suivent concernent la méthode de l’application Microsoft Authenticator. Si vous souhaitez plutôt utiliser l’e-mail, sélectionnez **Je souhaite configurer une autre méthode** et suivre les étapes.
+    1. Si vous avez déjà installé l’application Microsoft Authenticator sur votre appareil mobile, sélectionnez **Suivant**. Sinon, sélectionnez **Télécharger maintenant** et suivez les étapes.
+    1. Vous commencerez à configurer votre compte.  Cliquez sur **Suivant**.
+    1. À l’aide de l’application Microsoft Authenticator sur votre appareil mobile, sélectionnez **+** pour ajouter un compte, puis sélectionnez **Compte professionnel ou scolaire**.
+    1. Sélectionnez l’option pour **Numériser le code QR** puis, sur votre appareil mobile, numérisez le code QR sur l’écran de votre PC.
+    1. Suivez les étapes sur votre PC et votre appareil mobile, puis sélectionnez **Suivant**.
+    1. Une fois que vous avez configuré vos informations de sécurité, une fenêtre de réussite s’affiche.  Cliquez sur **Terminé**.
 
 1. Vous pouvez maintenant terminer votre connexion. Si vous constatez que le délai de connexion a expiré, entrez à nouveau le mot de passe.
 
@@ -100,7 +104,7 @@ Dans cette tâche, vous adopterez le rôle de l’utilisateur, Sara Perez, et v
 
 1. Ouvrez Microsoft Edge.
 
-1. Dans la barre d’adresse, entrez **https://login.microsoftonline.com** .
+1. Dans la barre d’adresse, entrez **https://login.microsoft.com** .
 
 1. Connectez-vous en tant que Sara Perez en saisissant votre adresse e-mail **sara@WWLxZZZZ.onmicrosoft.com** (où ZZZZZZ est votre ID de locataire unique fourni par le fournisseur d’hébergement de labo) et sélectionnez le bouton **Suivant**. Il se peut que la fenêtre Choisir un compte s’ouvre. Si c’est le cas, sélectionnez le compte de Sara Perez.
 
@@ -110,9 +114,9 @@ Dans cette tâche, vous adopterez le rôle de l’utilisateur, Sara Perez, et v
 
 1. Dans la zone vide, saisissez les caractères affichés dans l’image ou les mots de l’audio. Une fois que vous les avez saisis, sélectionnez **Suivant**.
 
-1. L’écran affiche Revenir à votre compte et indique Étape de vérification 1 > choisir un nouveau mot de passe. Laissez le paramètre par défaut **Envoyer un SMS sur mon téléphone mobile**.  Vous êtes invité à entrer votre numéro de téléphone mobile.  Une fois que vous l’avez entré, sélectionnez le bouton **Suivant**. 
+1. L’écran affiche Revenir à votre compte et indique Étape de vérification 1 > choisir un nouveau mot de passe. Sélectionnez l’option **Approuver une notification sur mon application Authenticator**, puis **Envoyer une notification**.
 
-1. Saisissez le code de vérification et appuyez sur **Suivant**.
+1. Notez le numéro sur votre PC et suivez les instructions pour approuver la connexion à l’aide de l’application Microsoft Authenticator sur votre appareil mobile.
 
 1. Dans l’écran suivant, vous êtes invité à entrer un nouveau mot de passe et à le confirmer.  Saisissez-les maintenant et sélectionnez le bouton **Terminer**.
 
