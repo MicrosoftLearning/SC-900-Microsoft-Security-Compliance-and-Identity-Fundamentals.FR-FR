@@ -14,15 +14,15 @@ Ce labo correspond au contenu Learn suivant :
 
 ## Scénario de labo
 
-Dans ce laboratoire, vous allez découvrir le processus de création d’une instance Microsoft Sentinel.  Vous définirez également les autorisations afin de garantir l’accès aux ressources qui seront déployées pour prendre en charge Microsoft Sentinel.  Une fois cette configuration de base effectuée, vous suivrez les étapes de connexion de Microsoft Sentinel à vos sources de données, configurerez un classeur et présenterez brièvement certaines des fonctionnalités clés disponibles dans Microsoft Sentinel.
+Dans ce labo, vous allez découvrir le processus de création d’une instance Microsoft Sentinel.  Vous définirez également les autorisations afin de garantir l’accès aux ressources qui seront déployées pour prendre en charge Microsoft Sentinel.  Une fois cette configuration de base effectuée, vous suivrez les étapes de connexion de Microsoft Sentinel à vos sources de données, configurerez un classeur et présenterez brièvement certaines des fonctionnalités clés disponibles dans Microsoft Sentinel.
 
-**Durée estimée** : 45 à 60 minutes
+**Durée estimée :** 60 minutes
 
 ### Tâche 1
 
 Créer une instance Microsoft Sentinel
 
-1. Vous devriez être sur la page d’accueil des services Azure.  Si vous avez précédemment fermé le navigateur, ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **portal.azure.com** et connectez-vous avec vos informations d’identification.
+1. Vous devriez être sur la page d’accueil des services Azure.  Si vous avez précédemment fermé le navigateur, ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **portal.azure.com** et connectez-vous avec vos informations d’identification. Si vous étiez déjà connecté, vous devrez peut-être invité à répondre à une seconde forme d'authentification, comme l'authentification multifacteur.  Si vous n’étiez pas déjà connecté, vous serez peut-être invité à installer l’authentification multifacteur.  Suivez les invites à l’écran pour installer l’authentification multifacteur.
 
 1. Dans la barre de recherche bleue en haut de la page, entrez **Microsoft Sentinel**, puis sélectionnez **Microsoft Sentinel** dans les résultats de la recherche.
 

@@ -22,7 +22,7 @@ Dans ce labo, vous allez explorer Microsoft Defender pour le cloud.  REMARQUE : 
 
 Dans cette tâche, vous allez faire une présentation générale de certaines des fonctionnalités de Microsoft Defender pour le cloud.
 
-1. Vous devez être sur la page d’accueil des services Azure.  Si vous avez précédemment fermé le navigateur, ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **portal.azure.com** et connectez-vous avec vos informations d’identification d’administrateur.
+1. Vous devez être sur la page d’accueil des services Azure.  Si vous avez précédemment fermé le navigateur, ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **portal.azure.com** et connectez-vous avec vos informations d’identification. Si vous étiez déjà connecté, vous devrez peut-être invité à répondre à une seconde forme d'authentification, comme l'authentification multifacteur.  Si vous n’étiez pas déjà connecté, vous serez peut-être invité à installer l’authentification multifacteur.  Suivez les invites à l’écran pour installer l’authentification multifacteur.
 
 1. Dans la barre de recherche bleue, entrez **Microsoft Defender pour le cloud**, puis dans la liste des résultats, sélectionnez **Microsoft Defender pour le cloud**.
 
@@ -52,7 +52,7 @@ Dans cette tâche, vous allez faire une présentation générale de certaines de
 
 Rappelons que Microsoft Defender pour le cloud est proposé en deux modes : sans fonctions de sécurité améliorées (gratuit) et avec des fonctions de sécurité améliorées qui sont disponibles dans les plans Microsoft Defender pour le cloud. Dans cette tâche, vous découvrez comment activer ou désactiver les différents plans Microsoft Defender pour le cloud.
 
-1. Dans la page de vue d’ensemble de Microsoft Defender pour le cloud, sélectionnez **Paramètres d’environnement** dans le volet de navigation gauche.
+1. Dans la page de vue d’ensemble de Microsoft Defender pour le cloud, développez **Gestion** et sélectionnez **Paramètres d’environnement** dans le volet de navigation gauche.
 1. Cochez la case **Développer tout**, puis sélectionnez **Abonnement MOC--lodXXXXXXXX** à côté de l’icône de clé jaune.
 1. Sur la page Plans Defender, notez comment vous pouvez sélectionner Activer tout ou sélectionner des plans Defender individuels. 
     1. Vérifiez que l’état CSPM est défini sur **Activé**. Si ce n’est pas le cas, définissez-le maintenant.  

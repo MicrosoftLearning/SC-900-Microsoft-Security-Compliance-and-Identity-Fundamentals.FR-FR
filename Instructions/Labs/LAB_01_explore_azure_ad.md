@@ -16,7 +16,7 @@ Ce labo correspond au contenu Learn suivant :
 
 Dans ce labo, vous accédez à Microsoft Entra ID (anciennement appelé Azure Active Directory).  En plus, vous créerez un utilisateur et vous configurerez les différents paramètres, y compris l’ajout de licences.  
 
-**Durée estimée** : 10 à 15 minutes
+**Durée estimée** : 30 minutes
 
 ### Tâche 1
 
@@ -25,7 +25,8 @@ En tant qu’abonné à Microsoft 365, vous utilisez déjà Microsoft Entra ID
 1. Ouvrez le navigateur Microsoft Edge. Dans la barre d’adresses, entrez **[admin.microsoft.com](https://admin.microsoft.com)** et connectez-vous avec les informations d’identification Microsoft 365 fournies par votre hôte de labo autorisé (ALH).
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ est votre ID de locataire unique communiqué par votre ALH), puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
-    1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
+    1. Comme c’est votre première connexion, il peut vous être demandé d'installer l’authentification multifacteur. Suivez les invites à l’écran pour installer l’authentification multifacteur.
+    1. Si vous êtes invité à rester connecté, sélectionnez **Oui**.
 
 1. Sous Centres d’administration, sélectionnez **Identité** (vous devez peut-être sélectionner **Tout afficher** et faire défiler vers le bas).  Une nouvelle page de navigateur s’ouvre sur la page de présentation du centre d’administration Microsoft Entra.
 
@@ -102,18 +103,20 @@ Lors de cette tâche, vous vous connectez pour la première fois en tant que Sar
 
 1. Ouvrez Microsoft Edge.
 
-2. Dans la barre d’adresse, entrez **https://login.microsoft.com** .
+1. Dans la barre d’adresse, entrez **https://login.microsoft.com** .
 
-3. Connectez-vous avec **sara@WWLxZZZZZ.onmicrosoft.com** , (où ZZZZZZ est votre ID de locataire unique indiqué par votre ALH)
-4. Entrez le mot de passe temporaire que vous avez défini dans la tâche précédente.
+1. Connectez-vous avec **sara@WWLxZZZZZ.onmicrosoft.com** , (où ZZZZZZ est votre ID de locataire unique indiqué par votre ALH)
+1. Entrez le mot de passe temporaire que vous avez défini dans la tâche précédente.
 
-5. Vous êtes maintenant invité à mettre à jour votre mot de passe. Dans le champ Mot de passe actuel, entrez le mot de passe temporaire de la tâche précédente.
+1. Vous êtes maintenant invité à mettre à jour votre mot de passe. Dans le champ Mot de passe actuel, entrez le mot de passe temporaire de la tâche précédente.
 
-6. Dans le champ Nouveau mot de passe, entrez un nouveau mot de passe, confirmez le mot de passe, puis sélectionnez **Se connecter**.  Notez votre nouveau mot de passe, car vous en avez besoin pour l’exercice de labo suivant sur SSPR.
+1. Dans le champ Nouveau mot de passe, entrez un nouveau mot de passe, confirmez le mot de passe, puis sélectionnez **Se connecter**.  Notez votre nouveau mot de passe, car vous en avez besoin pour l’exercice de labo suivant sur SSPR.
 
-7. Vous devriez maintenant être connecté au compte Microsoft de Sara.  Notez que les licences de Sara que vous avez attribuées dans la tâche précédente étaient limitées uniquement à Power Automate - Gratuit et Power Apps pour les développeurs et n’incluaient pas de licence E5.
+1. Comme c’est votre première connexion en tant que Sara Perez, vous serez peut-être invité à installer l’authentification multifacteur. Suivez les invites à l’écran pour installer l’authentification multifacteur.
 
-8. Déconnectez-vous en sélectionnant l’icône en haut à droite de la fenêtre Microsoft 365 qui représente un cercle avec les lettres SP à l’intérieur (à côté de l’icône de point d’interrogation), puis en sélectionnant **Se déconnecter**. Ensuite, fermez le navigateur.
+1. Vous devriez maintenant être connecté au compte Microsoft de Sara.  Notez que les licences de Sara que vous avez attribuées dans la tâche précédente étaient limitées uniquement à Power Automate - Gratuit et Power Apps pour les développeurs et n’incluaient pas de licence E5.
+
+1. Déconnectez-vous en sélectionnant l’icône en haut à droite de la fenêtre Microsoft 365 qui représente un cercle avec les lettres SP à l’intérieur (à côté de l’icône de point d’interrogation), puis en sélectionnant **Se déconnecter**. Ensuite, fermez le navigateur.
 
 ### Révision
 
