@@ -1,15 +1,15 @@
 ---
 lab:
   title: Explorer le Portail d’approbation de services
-  module: Describe the compliance management capabilities at Microsoft
+  module: Describe Microsoft’s Service Trust portal and privacy capabilities
 ---
 
 # Labo : explorer le portail d’approbation de services
 
 Ce labo correspond au contenu Learn suivant :
 
-- Parcours d’apprentissage : Décrire les fonctionnalités des solutions de conformité Microsoft
-- Module : Décrire les fonctionnalités de gestion de la conformité chez Microsoft
+- Parcours d’apprentissage : décrire les fonctionnalités de Microsoft Priva et Microsoft Purview
+- Module : Décrire le portail d’approbation des services et les fonctionnalités de confidentialité de Microsoft
 - Unité : Découvrir le Portail d’approbation de services
 
 ## Scénario du labo

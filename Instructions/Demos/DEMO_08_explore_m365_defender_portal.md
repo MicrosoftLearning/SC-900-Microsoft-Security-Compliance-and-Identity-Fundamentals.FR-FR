@@ -1,6 +1,6 @@
 <!---
 ---
-Démonstration : Titre : « Portail Microsoft Defender » Module : « Parcours d’apprentissage : décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 4 : décrire les fonctionnalités de protection contre les menaces de Microsoft 365 ; Unité 7 : décrire le portail Microsoft Defender »
+Démonstration : Titre : « Portail Microsoft Defender » Module : « Parcours d’apprentissage : décrire les fonctionnalités des solutions de sécurité Microsoft ; Module 4 : décrire les fonctionnalités de protection contre les menaces de Microsoft Defender XDR ; Unité 7 : décrire le portail Microsoft Defender »
 ---
 --->
 
@@ -9,7 +9,7 @@ Démonstration : Titre : « Portail Microsoft Defender » Module : « Parc
 Cette démonstration correspond au contenu Learn suivant :
 
 - Parcours d’apprentissage : Décrire les fonctionnalités des solutions de sécurité Microsoft
-- Module : Décrire les fonctionnalités de protection contre les menaces de Microsoft 365
+- Module : décrire les fonctionnalités de protection contre les menaces de Microsoft Defender XDR
 - Unité : décrire le portail Microsoft Defender
 
 ## Scénario de démonstration
@@ -20,7 +20,7 @@ Dans cette démonstration, vous allez présenter le fonctionnement du portail Mi
 
 Explorez la page d’accueil de Microsoft Defender.
 
-1. Ouvrez l’onglet du navigateur pour la page d’accueil de la sécurité Microsoft 365.  Si vous avez précédemment fermé le navigateur, ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **https://admin.microsoft.com** , puis connectez-vous avec les informations d’identification d’administrateur du locataire Microsoft 365 fournies par votre hôte de laboratoire autorisé (ALH) pour accéder au centre d’administration Microsoft 365. Dans le volet de navigation de gauche du centre d’administration Microsoft 365, sélectionnez **Tout afficher**, puis **Sécurité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Defender.  
+1. Ouvrez l’onglet du navigateur pour la page d’accueil de Microsoft Defender.  Si vous avez précédemment fermé le navigateur, ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **https://admin.microsoft.com** , puis connectez-vous avec les informations d’identification d’administrateur du locataire Microsoft 365 fournies par votre hôte de laboratoire autorisé (ALH) pour accéder au centre d’administration Microsoft 365. Dans le volet de navigation de gauche du centre d’administration Microsoft 365, sélectionnez **Tout afficher**, puis **Sécurité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Defender.  
 
 1. La page d’accueil du portail Microsoft Defender affiche les cartes les plus courantes dont les équipes de sécurité ont besoin. La composition des cartes et des données dépend du rôle de l’utilisateur. Faites défiler la page pour afficher l’ensemble des cartes par défaut pour votre rôle d’administrateur général.
 
@@ -50,7 +50,7 @@ Dans cette partie de la démonstration, vous allez explorer certaines des option
     1. **Recherche de menaces** - Ici, vous pouvez créer des règles de détection personnalisées et rechercher des menaces spécifiques dans votre environnement.
     1. **Actions et requêtes** - Le centre d’actions unifié regroupe les actions de correction de Microsoft Defender for Endpoint et de Microsoft Defender for Office 365. Il liste les actions de correction en cours et terminées pour vos appareils, contenu de collaboration et e-mails et identités dans un seul et même endroit. Dans les organisations Microsoft 365 avec des boîtes aux lettres Exchange Online, les administrateurs peuvent utiliser la page Soumissions du portail Microsoft Defender pour envoyer des messages, des URL et des pièces jointes à Microsoft pour les analyser.
     1. **Catalogue de partenaires** - Le catalogue de partenaires liste les partenaires technologiques et les services professionnels pris en charge qui peuvent aider votre organisation à améliorer ses fonctionnalités de détection, d’investigation et de renseignement sur les menaces de sa plateforme.
-1. **Renseignement sur les menaces** - À partir de l’onglet Renseignement sur les menaces, les utilisateurs peuvent accéder au renseignement sur les menaces Microsoft Defender et aux fonctionnalités prises en charge, notamment l’analyse des menaces, les profils de renseignement, l’explorateur de renseignements et les projets de renseignement.
+1. **Renseignement sur les menaces** - À partir de l’onglet Renseignement sur les menaces, les utilisateurs peuvent accéder au renseignement sur les menaces Microsoft Defender et aux fonctionnalités prises en charge par la solution, notamment l’analyse des menaces, les profils de renseignement, l’explorateur de renseignements et les projets de renseignement.
 1. **Ressources** - L’onglet Ressources vous permet de consulter et de gérer l’inventaire des ressources protégées et découvertes de votre organisation (appareils et identités).
 1. **Microsoft Sentinel** - Certaines fonctionnalités de Microsoft Sentinel sont disponibles dans la section Microsoft Sentinel du portail Defender.  Cela nécessite de configurer l’intégration via la page Paramètres.
 1. **Identités** - Le nœud Identités est mappé aux fonctionnalités associées à Microsoft Defender pour Identity. Le tableau de bord fournit des informations essentielles et des données en temps réel sur la détection et la réponse pour les menaces d’identité. La page Problèmes d’intégrité liste les problèmes d’intégrité actuels de votre déploiement et de vos capteurs Defender pour Identity en vous avertissant de tout problème dans votre déploiement Defender pour Identity. La page Outils liste des informations supplémentaires pour vous aider à gérer votre environnement Microsoft Defender pour Identity.
@@ -68,17 +68,15 @@ Dans cette partie de la démonstration, vous allez explorer certaines des option
     1. Paramètres - Ici, vous configurez les paramètres du portail Defender, de Defender XDR, des solutions qui font partie de Microsoft Defender XDR et de Microsoft Sentinel.  Explorer ceci à volonté.
 1. **Personnaliser la navigation** - Ici, vous pouvez effectuer une sélection pour afficher ou masquer des éléments dans votre volet de navigation. Les autres administrateurs ne verront pas vos modifications.
 
-1. Le volet de navigation à gauche contient des liens et des accès aux informations qui font partie de la solution de détection et de réponse étendues (XDR) de Microsoft. Ce volet comprend les incidents et les alertes, le centre d’actions, l’analytique des menaces, le score de sécurité, etc.  Il inclut aussi un accès rapide à Microsoft Defender for Endpoint (liens sous Points de terminaison), Defender pour Office 365 (liens sous Messagerie et collaboration) et Microsoft Defender for Cloud Apps (liens sous Applications cloud), etc.  Explorez ces options en sélectionnant certains des liens.   Pour revenir à la page d’accueil du portail Microsoft Defender, sélectionnez **Accueil** dans le volet de navigation de gauche.
-
 ### Partie 3 de la démonstration
 
 Dans cette partie de la démonstration, vous présenterez comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Niveau de sécurité Microsoft**.
+1. Dans le volet de navigation gauche, développez **Gestion de l’exposition**, puis sélectionnez **Niveau de sécurité**.
 
 1. La page Niveau de sécurité Microsoft s’ouvre sur l’onglet Présentation. Le niveau de sécurité est une mesure de la posture de sécurité d’une organisation. Le niveau de sécurité de votre organisation est indiqué sous forme de pourcentage, ainsi que le nombre de points obtenus sur le total des points possibles, le tout par catégorie. Sélectionnez **Inclure**, en regard de l’emplacement indiquant Votre degré de sécurisation. Vous pouvez choisir la vue de votre score pour inclure le score réalisable, le score planifié et le score de licence actuel.
 
-1. La page de présentation inclut aussi les meilleures actions recommandées, le score de comparaison, l’historique et les ressources supplémentaires.
+1. La page de présentation inclut aussi les meilleures actions recommandées, le score de comparaison, l’historique et les ressources.
 
 1. Sélectionnez **Actions recommandées** en haut de la page.  Remarquez les informations disponibles pour chaque élément de la table.  
 
@@ -94,4 +92,4 @@ Dans cette partie de la démonstration, vous présenterez comment le Niveau de s
 
 ### Révision
 
-Dans ce labo, vous avez exploré le portail Microsoft Defender en parcourant le contenu affiché sur la page d’accueil. Vous avez également exploré les options du volet de navigation qui fournissent un accès rapide aux fonctionnalités de la solution de détection et de réponse étendues (XDR) Microsoft, de Microsoft Defender for Endpoint et de Microsoft Defender for Office 365 (e-mail et collaboration).  Enfin, vous avez montré comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.
+Dans ce labo, vous avez exploré le portail Microsoft Defender en parcourant le contenu affiché sur la page d’accueil. Vous avez également exploré les options du volet de navigation qui fournissent un accès rapide aux fonctionnalités de Microsoft Defender XDR.  Enfin, vous avez montré comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.
