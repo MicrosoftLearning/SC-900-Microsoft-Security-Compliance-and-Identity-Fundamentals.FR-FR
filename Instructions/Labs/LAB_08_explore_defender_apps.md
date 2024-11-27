@@ -22,25 +22,25 @@ Dans ce labo, vous allez explorer les fonctionnalités de Microsoft Defender for
 
 Explorez Cloud Discovery.
 
-1. Ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **admin.microsoft.com**.
+1. Ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **`https://admin.microsoft.com`** .
 
 1. Connectez-vous avec vos informations d’identification d’administrateur pour le locataire Microsoft 365.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
-    1. Si vous êtes déjà connecté en tant qu’administrateur, vous êtes invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
-    1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez alors à la page du centre d’administration Microsoft 365.
+    1. Selon votre hébergeur de labo et si c’est la première fois que vous vous connectez au locataire, vous serez peut-être invité à terminer le processus d’inscription MFA. Si c’est le cas, suivez les invites à l’écran pour configurer la MFA.
+    1. Une fois connecté, vous êtes redirigé vers la page Centre d’administration Microsoft 365.
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
 
 1. Sous Centres d’administration, sélectionnez **Sécurité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft 365 Defender.  
 
-1. Si c’est la première fois que vous visitez le portail Microsoft 365 Defender, il se peut qu’une fenêtre contextuelle s’affiche pour vous permettre d’effectuer une visite guidée rapide.  Fermez-le.
+1. Si c’est la première fois que vous visitez le portail Microsoft 365 Defender, il se peut qu’une fenêtre contextuelle s’affiche pour vous permettre d’effectuer une visite guidée rapide.  Vous pouvez choisir de faire une brève visite guidée ou de fermer la fenêtre.
 
 1. Dans le panneau de navigation de gauche, sélectionnez **Applications cloud** pour développer la liste, puis sélectionnez **Cloud Discovery**. Vous accédez alors à la vue Tableau de bord.  Notez les informations disponibles dans le tableau de bord. À partir de la vue du tableau de bord, vous pouvez sélectionner différents onglets en haut de la page.  
 
 1. Sélectionnez **Applications découvertes**. La fenêtre des applications découvertes offre une vue plus détaillée, avec notamment le score de risque, le trafic, le nombre d’utilisateurs, et bien plus encore.
     1. À partir de n’importe quel élément de la liste, sélectionnez les **points de suspension** (...) dans la colonne d’actions du tableau.  Notez les différentes options disponibles, notamment la possibilité d’étiqueter une application comme approuvée ou non approuvée.  Sélectionnez à nouveau les **points de suspension** (...) pour fermer la boîte de dialogue.
-    1. La sélection d’un élément spécifique ouvre une page de détails pour l’application en question.  Sélectionnez un élément dans la liste et passez en revue les informations disponibles dans la page de présentation.  Sélectionnez l’onglet **Utilisation de l’application cloud** pour l’élément sélectionné afin d’afficher des informations plus détaillées : **Utilisation**, **Utilisateurs**, **Adresses IP**, **Alertes**, etc. Quand vous avez terminé d’explorer la page des détails, sélectionnez **Cloud Discovery** dans la barre de navigation en haut de la page pour revenir à la page des applications découvertes.  Si vous sélectionnez Cloud Discovery dans le panneau de navigation de gauche, vous revenez à la vue du tableau de bord.
+    1. La sélection d’un élément spécifique ouvre une page de détails pour l’application en question.  Sélectionnez un élément dans la liste et passez en revue les informations disponibles dans la page de présentation.  Sélectionnez l’onglet **Utilisation de l’application cloud** pour l’élément sélectionné afin d’afficher des informations plus détaillées : **Utilisation**, **Utilisateurs**, **Adresses IP**, **Incidents**, etc. Quand vous avez terminé d’explorer la page des détails, sélectionnez **Cloud Discovery** dans la barre de navigation en haut de la page pour revenir à la page des applications découvertes.  Si vous sélectionnez Cloud Discovery dans le panneau de navigation de gauche, vous revenez à la vue du tableau de bord.
     1. En haut de la page, sélectionnez l’onglet **Adresses IP**. Ici, vous trouverez des données comme le nombre de transactions, la quantité de trafic et les quantités de données chargées par adresse IP.  Notez que vous pouvez également filtrer par adresse IP spécifique ou exporter les données pour une analyse plus approfondie.
     1. En haut de la page, sélectionnez **Utilisateurs**.  Il s’agit des mêmes informations que celles obtenues quand vous sélectionnez Adresses IP, mais elles sont cette fois classées par utilisateur.  Ici encore, vous filtrez par utilisateur spécifique et exportez des données pour une analyse plus approfondie.
 

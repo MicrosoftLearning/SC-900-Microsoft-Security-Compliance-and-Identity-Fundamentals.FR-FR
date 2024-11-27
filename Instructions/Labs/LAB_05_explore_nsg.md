@@ -27,8 +27,7 @@ Dans cette tâche, vous allez explorer certains des paramètres associés à la 
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez le nom d’utilisateur fourni par votre fournisseur d’hébergement de labo, puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
-    1. Si vous étiez déjà connecté, vous serez peut-être invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez peut-être invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
-    1. Si vous êtes invité à rester connecté, sélectionnez **Oui**.
+    1. Selon votre hébergeur de labo et si c’est la première fois que vous vous connectez au locataire, vous serez peut-être invité à terminer le processus d’inscription MFA. Si c’est le cas, suivez les invites à l’écran pour configurer la MFA.
 
 1. En haut de la page, sous l’intitulé Services Azure, sélectionnez **Machines virtuelles**.  Si vous ne voyez pas cet élément dans la liste, dans la barre de recherche, dans la barre bleue en haut de la page à côté de l’intitulé Microsoft Azure, entrez **Machines virtuelles**, puis sélectionnez **Machines virtuelles** dans les résultats de la recherche.
 
@@ -126,7 +125,7 @@ Dans la tâche précédente, vous avez vérifié que vous pouviez établir une c
 
 1. Vous êtes normalement dans la page SC900-WinVM \| Connexion. Dans le volet de navigation de gauche, sélectionnez **Réseau**. Si vous avez précédemment fermé l’onglet du navigateur, sélectionnez la barre de recherche bleue en haut de la page, sélectionnez Machines virtuelles, sélectionnez la machine virtuelle appelée **SC900-WinVM**, puis sélectionnez **Réseau**.
 
-1. Sélectionnez l’onglet **Règles de port de trafic sortant**. Les règles de trafic sortant par défaut s’affichent.  Notez la règle par défaut « AllowInternetOutBound ». Cette règle autorise tout le trafic Internet sortant. Vous ne pouvez pas supprimer la règle par défaut, mais vous pouvez la remplacer en créant une règle de priorité plus élevée. À droite de la page, sélectionnez **Ajouter une règle de port de sortie**.
+1. Sélectionnez l’onglet **Règles de port de trafic sortant**. Les règles de trafic sortant par défaut s’affichent.  Notez la règle par défaut « AllowInternetOutBound ». Cette règle autorise tout le trafic Internet sortant. Vous ne pouvez pas supprimer la règle par défaut, mais vous pouvez la remplacer en créant une règle de priorité plus élevée. À droite de la page, sélectionnez **+Créer une règle de port**, puis dans la liste déroulante, sélectionnez **Règle de port sortant**.
 
 1. Sur la page Ajouter une règle de sécurité de sortie, spécifiez les paramètres suivants :
     1. Source : **quelconque**

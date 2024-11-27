@@ -14,30 +14,30 @@ Ce labo correspond au contenu Learn suivant :
 
 ## Scénario de labo
 
-Dans ce labo, vous explorez la page d’accueil du portail Microsoft Purview et comprenez comment les fonctionnalités du Gestionnaire de conformité peuvent aider les organisations à améliorer leur posture de conformité.
+Dans ce labo, vous explorez la page d’accueil du portail Microsoft Purview et comment les fonctionnalités du Gestionnaire de conformité peuvent aider les organisations à améliorer leur posture de conformité.
 
 **Durée estimée** : 30 à 45 minutes
 
 ### Tâche 1
 
-Explorez la page d’accueil du portail de conformité Microsoft Purview, puis apprenez à personnaliser l’apparence de la carte et le volet de navigation.
+Explorez la page d’accueil du portail Microsoft Purview.
 
 1. Ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **admin.microsoft.com**.
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique fourni par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
-    1. Si vous êtes déjà connecté en tant qu’administrateur, vous êtes invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
-    1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez alors à la page du centre d’administration Microsoft 365.
+    1. Selon votre hébergeur de labo et si c’est la première fois que vous vous connectez au locataire, vous serez peut-être invité à terminer le processus d’inscription MFA. Si c’est le cas, suivez les invites à l’écran pour configurer la MFA.
+    1. Une fois connecté, vous êtes redirigé vers la page Centre d’administration Microsoft 365.
 
 1. Sélectionnez **Tout afficher** dans le volet de navigation gauche du centre d’administration Microsoft 365.
 
 1. Sous Centres d’administration, sélectionnez **Conformité**.  Le navigateur ouvre une nouvelle page avec une fenêtre contextuelle vous souhaitant la bienvenue dans le nouveau portail Microsoft Purview. En bas de la page, cochez la case en regard de **J’accepte les conditions de divulgation de flux de données et les déclarations de confidentialité**, puis sélectionnez **Démarrer**.
 
-1. La section des cartes de la page d’accueil vous montre, en un coup d’œil, où en est votre organisation en matière de conformité, les solutions disponibles pour votre organisation, les versions d’évaluation et recommandations disponibles, et bien plus encore.
+1. La section des cartes de la page d’accueil vous montre, en un coup d’œil, où en est votre organisation en matière de conformité, les solutions disponibles pour votre organisation, les version d’évaluation et recommandations disponibles, et bien plus encore.
 
-1. Affichez les informations sur la page d’accueil.  Faites défiler vers le bas pour afficher l’état de votre posture de conformité, les informations relatives à « Connaître vos données », et bien plus encore.
+1. Affichez les informations sur la page de destination.  Faites défiler vers le bas pour afficher l’état de votre posture de conformité, les informations relatives à « Connaître vos données », et bien plus encore.
 
-1. Faites défiler vers le haut et sélectionnez la vignette intitulée **Afficher toutes les solutions**.
+1. Faites défiler vers le haut et sélectionnez la vignette intitulée **Afficher toutes les solutions**
 
 1. Laissez l’onglet de navigateur ouvert.
 
@@ -45,9 +45,9 @@ Explorez la page d’accueil du portail de conformité Microsoft Purview, puis a
 
 Découvrez la situation de votre organisation en matière de conformité grâce au Gestionnaire de conformité.
 
-1. Dans le volet de navigation situé à gauche du portail Microsoft Purview, sélectionnez **Solutions**, puis **Gestionnaire de conformité**.  Vous pouvez également sélectionner la vignette du Gestionnaire de conformité, sous Risque et conformité.
+1. Dans le volet de navigation situé à gauche du portail Microsoft Purview, sélectionnez **Solutions** puis **Gestionnaire de conformité**.  Vous pouvez également sélectionner la vignette du Gestionnaire de conformité, sous Risque et conformité.
 
-1. Vous arrivez alors à la page de présentation. Faites défiler vers le bas pour voir toutes les informations disponibles sur la page.  Les informations de cette page comprennent votre score de conformité. Il est calculé d’après les points que vous avez accumulés et ceux accumulés par la gestion de Microsoft.   Vous voyez les principales actions d’amélioration, les solutions qui influent sur votre score ainsi que le score de conformité réparti par catégorie.
+1. Vous vous trouverez sur la page de présentation. Faites défiler vers le bas pour voir toutes les informations disponibles sur la page.  Les informations de cette page comprennent votre score de conformité. Il est calculé d’après les points que vous avez accumulés et ceux accumulés par la gestion de Microsoft.   Vous voyez les principales actions d’amélioration, les solutions qui influent sur votre score ainsi que le score de conformité réparti par catégorie.
 
 1. Dans le volet de navigation de gauche, sélectionnez **Actions d’amélioration**.  Ce sont des actions qui peuvent améliorer le score de conformité de l’organisation. Notez qu’à mesure que des actions d’amélioration sont effectuées, la mise à jour des points peut prendre jusqu’à 24 heures.  Notez les filtres disponibles.
 
@@ -61,9 +61,9 @@ Découvrez la situation de votre organisation en matière de conformité grâce 
 
 1. Sélectionnez **Base de référence de protection des données**.  Notez les informations disponibles sous l’onglet progression. Vous pouvez également consulter des informations sur les contrôles, vos actions d’amélioration et les actions Microsoft.  
 
-1. Dans le volet de navigation de gauche, sélectionnez **Réglementations**.  Cette page répertorie les réglementations disponibles pour votre organisation. Vous verrez des informations spécifiques sur cette réglementation, notamment les contrôles, vos actions d’amélioration et l’action de Microsoft. Sur cette page, dans le coin supérieur droit, vous avez la possibilité de créer une évaluation basée sur le modèle.
+1. Dans le volet de navigation de gauche, sélectionnez **Réglementations**.  Cette page répertorie les réglementations disponibles pour votre organisation. Vous verrez des informations spécifiques sur cette réglementation, notamment les contrôles, vos actions d’amélioration et l’action de Microsoft. Sur cette page, dans le coin supérieur droit de la page, vous avez la possibilité de créer une évaluation basée sur le modèle.
 
-1. 1. Dans le volet de navigation de gauche, sélectionnez **Stratégies**. C’est là que vous verrez la liste des stratégies pour vous aider à surveiller et à recevoir des notifications sur les événements du Gestionnaire de conformité qui sont importants pour vous. Vous pouvez créer ou modifier des stratégies, modifier leur état d’activation et contrôler la fréquence et la gravité des alertes. Sélectionnez la **stratégie d’alerte par défaut du Gestionnaire de conformité** pour afficher les détails de la stratégie.  Sélectionnez **Actions** pour afficher les options disponibles (explorez à votre gré).
+1. 1. Dans le volet de navigation de gauche, sélectionnez **Stratégies**. C’est là que vous verrez la liste des stratégies pour vous aider à surveiller et à recevoir des notifications sur les événements dans le Gestionnaire de conformité qui sont importants pour vous. Vous pouvez créer ou modifier des stratégies, modifier leur état d’activation et contrôler la fréquence et la gravité des alertes. Sélectionnez la **stratégie d’alerte par défaut du Gestionnaire de conformité** pour afficher les détails de la stratégie.  Sélectionnez **Actions** pour afficher les options disponibles (explorez à votre gré).
 
 1. Dans le volet de navigation de gauche, sélectionnez **Alertes**.   Vous pouvez y consulter et gérer les alertes concernant les événements susceptibles d’affecter le score de conformité de votre organisation. 
 
@@ -73,4 +73,4 @@ Découvrez la situation de votre organisation en matière de conformité grâce 
 
 ### Révision
 
-Dans ce labo, vous avez exploré la page d’accueil du portail de conformité Microsoft Purview et vu comment les fonctionnalités du Gestionnaire de conformité peuvent aider les organisations à améliorer leur posture de conformité.
+Dans ce labo, vous avez exploré la page d’accueil du portail Microsoft Purview et comment les fonctionnalités du Gestionnaire de conformité peuvent aider les organisations à améliorer leur posture de conformité.

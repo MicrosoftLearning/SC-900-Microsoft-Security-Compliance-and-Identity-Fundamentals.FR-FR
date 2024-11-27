@@ -27,8 +27,8 @@ Dans cette tâche, en tant qu’administrateur, vous réinitialiserez le mot de 
 1. Connectez-vous avec les informations d’identification d’administrateur Microsoft 365 fournies par votre ALH.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ est votre ID de locataire unique communiqué par votre ALH), puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
-    1. Si vous étiez déjà connecté en tant qu’administrateur, vous serez peut-être invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez peut-être invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
-    1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
+    1. Selon votre hébergeur de labo et si c’est la première fois que vous vous connectez au locataire, vous serez peut-être invité à terminer le processus d’inscription MFA. Si c’est le cas, suivez les invites à l’écran pour configurer la MFA.
+    1. Une fois connecté, vous êtes redirigé vers la page Centre d’administration Microsoft 365.
 
 1. Dans le volet de navigation gauche, développez **Identités**, développez **Utilisateurs**, puis sélectionnez **Tous les utilisateurs**.
 
@@ -109,7 +109,7 @@ Dans cette tâche, vous adopterez le rôle de Dominic Saucier et vous vous conne
     1. Suivez les étapes sur votre PC et votre appareil mobile, puis sélectionnez **Suivant**.
     1. Une fois que vous avez configuré vos informations de sécurité, une fenêtre de réussite s’affiche.  Cliquez sur **Terminé**.
 
-1. Une fois le processus d’inscription MFA terminé, vous êtes renvoyé à la page Administrateur d’utilisateurs actifs PIM.
+1. Une fois le processus d’inscription MFA terminé, vous êtes ramené vers la page Administrateur d’utilisateurs actifs PIM.
 1. La fenêtre Activer l’Administrateur d’utilisateurs s’affiche.  Vous devez entrer la raison de l’activation.  Dans la boîte qui s’affiche, saisissez le motif de votre choix (500 caractères maximum), puis sélectionnez **Activer**.
 1. L’état (3 étapes de progression) s’affiche au fil du processus d’activation.
 1. Une fois l’activation terminée, vous revenez dans la page Mes rôles | Rôles Microsoft Entra ID, où vous voyez une notification vous informant que vous avez activé un rôle.  Sélectionnez **Cliquez ici** pour afficher vos rôles actifs.  Si vous remarquez que l’heure de fin est différente de celle qui a été configurée à l’origine, sélectionnez le bouton Actualiser en haut de la page (l’actualisation peut prendre quelques minutes).

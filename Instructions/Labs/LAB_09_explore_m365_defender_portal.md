@@ -27,12 +27,12 @@ Explorez la page d’accueil de Microsoft Defender.
 1. Connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique communiqué par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
-    1. Si vous êtes déjà connecté en tant qu’administrateur, vous êtes invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
-    1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**. Vous accédez alors à la page du centre d’administration Microsoft 365.
+    1. Selon votre hébergeur de labo et si c’est la première fois que vous vous connectez au locataire, vous serez peut-être invité à terminer le processus d’inscription MFA. Si c’est le cas, suivez les invites à l’écran pour configurer la MFA.
+    1. Une fois connecté, vous êtes redirigé vers la page Centre d’administration Microsoft 365.
 
 1. Sélectionnez **Sécurité** dans le volet de navigation gauche du centre d’administration Microsoft 365, sous Centre d’administration.  Si vous ne voyez pas Sécurité dans la liste, sélectionnez **Afficher tout**, puis **Sécurité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Defender.  
 
-1. Si c’est la première fois que vous visitez le portail Microsoft Defender, il se peut qu’une fenêtre contextuelle s’affiche vous proposant d’effectuer une visite guidée rapide.  Il est recommandé d’effectuer la visite guidée.  Sélectionnez **Effectuer une visite guidée rapide**.  Lisez la description fournie dans chaque fenêtre contextuelle, puis sélectionnez **Suivant**. Poursuivez la visite jusqu’à la fin, puis sélectionnez **Terminé**.
+1. Si c’est la première fois que vous visitez le portail Microsoft 365 Defender, il se peut qu’une fenêtre contextuelle s’affiche pour vous permettre d’effectuer une visite guidée rapide.  Vous pouvez choisir de faire une brève visite guidée ou de fermer la fenêtre.
 
 1. La page d’accueil du portail Microsoft Defender affiche les cartes les plus courantes dont les équipes de sécurité ont besoin. La composition des cartes et des données dépend du rôle de l’utilisateur. Faites défiler la page pour afficher l’ensemble des cartes par défaut pour votre rôle d’administrateur général.
 
@@ -58,7 +58,7 @@ Dans cette partie du labo, vous allez explorer certaines des options disponibles
 
 Dans cette tâche, vous allez examiner comment le Niveau de sécurité Microsoft permet aux organisations d’améliorer leur posture de sécurité.
 
-1. Sur la page d’accueil du portail Microsoft Defender, sélectionnez **Niveau de sécurité Microsoft** dans la barre de titre de la carte (le texte sera bleu).  Vous pouvez également sélectionner **Niveau de sécurité** dans le volet de navigation de gauche.
+1. Vous devriez encore vous trouver dans le portail Microsoft Defender. Dans le volet de navigation gauche, développez **Gestion de l’exposition**, puis sélectionnez **Niveau de sécurité**.  Si Gestion de l’exposition n’est pas visible dans votre locataire, accédez à la page d’accueil du portail Microsoft Defender, faites défiler l’écran jusqu’à la carte **Niveau de sécurité Microsoft**. Sélectionnez le titre de la carte (le texte devient bleu lorsque vous placez le curseur de la souris sur le titre de la carte).
 
 1. La page Niveau de sécurité Microsoft s’ouvre sur l’onglet Présentation. Le niveau de sécurité est une mesure de la posture de sécurité d’une organisation. Le niveau de sécurité de votre organisation est indiqué sous forme de pourcentage, ainsi que le nombre de points obtenus sur le total des points possibles, le tout par catégorie. Sélectionnez **Inclure**, en regard de l’emplacement indiquant Votre degré de sécurisation.  Une petite fenêtre s’ouvre pour vous permettre d’inclure le score réalisable, le score planifié et le score de licence actuel dans la répartition du score de sécurité de votre organisation.  Sélectionnez à nouveau **Inclure** pour fermer la fenêtre.
 
@@ -66,7 +66,7 @@ Dans cette tâche, vous allez examiner comment le Niveau de sécurité Microsoft
 
 1. Sélectionnez **Actions recommandées** en haut de la page.  Notez les informations disponibles dans la table.  
 
-1. Sélectionnez les premiers éléments de la liste et passez en revue les informations disponibles. Dans la fenêtre qui s’ouvre, notez les options d’état disponibles. Sélectionnez l’onglet **Implémentation** pour afficher les informations relatives à l’implémentation. Sélectionnez le symbole **X** dans le coin supérieur droit pour fermer cette fenêtre.
+1. Sélectionnez le premier élément de la liste et passez en revue les informations disponibles. Dans la fenêtre qui s’ouvre, notez les options d’état disponibles. Sélectionnez l’onglet **Implémentation** pour afficher les informations relatives à l’implémentation. Sélectionnez le symbole **X** dans le coin supérieur droit pour fermer cette fenêtre.
 
 1. Sélectionnez l’onglet **Historique** en haut de la page.  Pour chaque activité répertoriée, il existe une brève instruction qui fournit un contexte.  Sélectionnez un élément à partir du tableau d’historique.  En haut à droite de la page de détails, sous Historique, sélectionnez **X événements** (où X est un nombre).  La fenêtre d’historiques des actions s’ouvre et fournit plus d’informations.  Sélectionnez **Fermer** en bas de la page, puis sélectionnez le **X** dans le coin supérieur droit de la page des détails pour revenir à la page Historique.
 
