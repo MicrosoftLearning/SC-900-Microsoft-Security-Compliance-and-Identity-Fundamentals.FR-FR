@@ -22,7 +22,7 @@ Dans ce labo, vous suivez les étapes nécessaires pour configurer eDiscovery, n
 
 Pour accéder à eDiscovery (Standard) ou être ajouté en tant que membre d’un cas eDiscovery, les autorisations appropriées doivent être accordées à l’utilisateur. Dans cette tâche, en tant qu’administrateur général, vous ajouterez des utilisateurs spécifiques en tant que membres du groupe de rôles Gestionnaire eDiscovery.
 
-1. Ouvrez l’onglet du navigateur menant sur la page d’accueil de Microsoft Purview.  Si vous l’avez précédemment fermé, ouvrez un onglet du navigateur et entrez **https://admin.microsoft.com** . Connectez-vous avec les identifiants d’administration du tenant (ou « locataire/abonné ») Microsoft 365 fournis par l’hôte de labo autorisé (ALH). Si vous êtes déjà connecté en tant qu’administrateur, vous êtes invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
+1. Ouvrez l’onglet du navigateur menant sur la page d’accueil de Microsoft Purview.  Si vous l’avez précédemment fermé, ouvrez un onglet du navigateur et entrez **https://admin.microsoft.com** . Connectez-vous avec les identifiants d’administration du tenant (ou « locataire/abonné ») Microsoft 365 fournis par l’hôte de labo autorisé (ALH).
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft 365, sélectionnez **Tout afficher**, puis **Conformité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Purview.  
 
@@ -30,7 +30,7 @@ Pour accéder à eDiscovery (Standard) ou être ajouté en tant que membre d’u
 
 1. Dans le champ de recherche, en haut à droite de la page, saisissez **eDiscovery**, puis appuyez sur Entrée.  Sélectionnez **Gestionnaire eDiscovery**.
 
-1. Sélectionnez **Modifier**. Dans le cadre de ce labo, vous allez vous définir en tant qu’administrateur MOD, en tant qu’administrateur eDiscovery et administrateur.  Dans la pratique, vous devez désigner des utilisateurs spécifiques pour des rôles spécifiques.
+1. Sélectionnez **Modifier**. Dans le cadre de ce labo, vous allez vous définir en tant qu’administrateur MOD en tant que gestionnaire et administrateur eDiscovery.  Dans la pratique, vous devez désigner des utilisateurs spécifiques pour des rôles spécifiques.
     1. La page « Gérer le Gestionnaire eDiscovery » vous permet d’ajouter des utilisateurs au rôle de Gestionnaire eDiscovery.
     1. Sélectionnez **Choisir des utilisateurs**. Recherchez et sélectionnez **Administrateur MOD**, appuyez sur **Sélectionner** en bas de la page, puis sélectionnez **Suivant**.
     1. Sur la page « Gérer le Gestionnaire eDiscovery », sélectionnez **Choisir des utilisateurs**. Recherchez et sélectionnez **Administrateur MOD**, appuyez sur **Sélectionner** en bas de la page, puis sélectionnez **Suivant** et **Enregistrer**.
@@ -74,7 +74,7 @@ Maintenant que vous avez créé un cas eDiscovery (Standard), vous pouvez commen
 
 1. Sur la page Choisir les emplacements, sélectionnez **Suivant**.  Pour des raisons de commodité avec le labo, aucun autre lieu ne sera inclus dans cette conservation.
 
-1. La page Conditions de requête vous permet de créer une conservation à partir de mots clés ou de conditions spécifiques. Sélectionnez **+ Ajouter une condition** pour voir les options disponibles.  Cliquez sur **Suivant**. Sans aucune condition, la conservation préserve tout le contenu de l’emplacement spécifié.
+1. La page Conditions de requête vous permet de créer une conservation pour les éléments en fonction d’une requête que vous pouvez créer.  Vous pouvez choisir d’utiliser le générateur de requêtes pour créer une requête, ou l’éditeur KQL si vous êtes un utilisateur avancé. Pour cet exercice, la conservation doit préserver tout le contenu à l’emplacement spécifié pour l’utilisateur spécifié. Vous ne créez donc pas de requête.
 
 1. Vérifiez vos paramètres et sélectionnez **Envoyer**, cela peut prendre une minute, puis sélectionnez **Terminé**.  La Conservation test devrait apparaître dans la liste.  Si ce n’est pas le cas, sélectionnez **Actualiser**.
 
@@ -82,7 +82,7 @@ Maintenant que vous avez créé un cas eDiscovery (Standard), vous pouvez commen
 
 ### Tâche 4
 
-Une fois la conservation en place, vous créez une requête de recherche.  Quand votre recherche est terminée, eDiscovery prend en charge des actions, comme l’exportation et le téléchargement des résultats pour investigation ultérieure.   Remarque : les recherches associées à un dossier eDiscovery (Standard) ne sont pas listées sur la page de recherche de contenu du portail de conformité Microsoft Purview. Elles apparaissent seulement dans la page des recherches du dossier eDiscovery (Standard) associé.
+Une fois la conservation en place, vous créez une requête de recherche.  Quand votre recherche est terminée, eDiscovery prend en charge des actions, comme l’exportation et le téléchargement des résultats pour investigation ultérieure.   Remarque : les recherches associées à un dossier eDiscovery (Standard) ne sont pas listées sur la page de recherche de contenu du portail Microsoft Purview. Elles apparaissent seulement dans la page des recherches du dossier eDiscovery (Standard) associé.
 
 1. Ouvrez l’onglet du Cas de test SC900 dans votre navigateur.
 

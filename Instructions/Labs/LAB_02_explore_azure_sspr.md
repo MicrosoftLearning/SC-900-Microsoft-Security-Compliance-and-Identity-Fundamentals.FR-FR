@@ -31,8 +31,8 @@ Dans cette tâche, en tant qu’administrateur, vous allez parcourir certains de
 1. Ouvrez le navigateur Microsoft Edge. Dans la barre d’adresses, saisissez **https://entra.microsoft.com** et connectez-vous avec les informations d’identification d’admin Microsoft 365 fournies par votre hôte de labo autorisé (ALH).
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ est votre ID de locataire unique communiqué par votre ALH), puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
-    1. Si vous êtes déjà connecté en tant qu’administrateur, vous êtes invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
-    1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
+    1. Selon votre hébergeur de labo et si c’est la première fois que vous vous connectez au locataire, vous serez peut-être invité à terminer le processus d’inscription MFA. Si c’est le cas, suivez les invites à l’écran pour configurer la MFA.
+    1. Une fois connecté, vous êtes redirigé vers la page Centre d’administration Microsoft 365.
 
 1. Dans le volet de navigation gauche, développez l’option de **Protection**, puis sélectionnez **Réinitialisation de mot de passe**.  
 

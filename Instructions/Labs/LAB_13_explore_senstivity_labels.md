@@ -22,13 +22,14 @@ Dans ce labo, vous explorez les fonctionnalités des étiquettes de confidential
 
 Dans cette tâche, vous comprendrez le rôle des étiquettes de confidentialité en créant une étiquette et en élaborant une stratégie pour la publier.
 
-1. Ouvrez l’onglet du navigateur menant sur la page d’accueil de Microsoft Purview.  Si vous l’avez précédemment fermé, ouvrez un onglet du navigateur et entrez **https://admin.microsoft.com** . Connectez-vous avec les identifiants d’administration du tenant (ou « locataire/abonné ») Microsoft 365 fournis par l’hôte de labo autorisé (ALH). Si vous êtes déjà connecté en tant qu’administrateur, vous êtes invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
+1. Ouvrez l’onglet du navigateur menant sur la page d’accueil de Microsoft Purview.  Si vous l’avez précédemment fermé, ouvrez un onglet du navigateur et entrez **`https://admin.microsoft.com`** . Connectez-vous avec les identifiants d’administration du tenant (ou « locataire/abonné ») Microsoft 365 fournis par l’hôte de labo autorisé (ALH).
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft 365, sélectionnez **Tout afficher**, puis **Conformité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Purview.
 
 1. Dans le volet de navigation de gauche, sélectionnez **Solutions**, puis sélectionnez **Protection des données**.  Vous arrivez alors à la page de présentation. Faites défiler vers le bas pour afficher les informations disponibles.
 
 1. Dans le volet de navigation de gauche, sélectionnez **Étiquettes de confidentialité**.
+1. Vous voyez une bannière jaune indiquant que votre organisation n’a pas activé la capacité à traiter du contenu dans des fichiers Office en ligne qui disposent d’étiquettes de confidentialité chiffrées appliquées et qui sont enregistrées dans OneDrive et SharePoint.  Sélectionnez **Activer maintenant**.
 
 1. Certaines étiquettes ont été préconfigurées dans votre locataire de labo Microsoft 365, pour votre commodité. Sélectionnez l’étiquette nommée **Confidentiel - Finance**.  Une fenêtre s’ouvre et fournit des informations sur cette étiquette.  Notez les paramètres de cette étiquette.  Sélectionnez **Modifier l’étiquette**. Si vous ne voyez pas cette option, sélectionnez les points de suspension.
     1. La configuration commence par des détails de base pour l’étiquette.  Ne changez rien.  Sélectionnez **Suivant** au bas de la page.
@@ -65,7 +66,7 @@ Dans cette tâche, vous comprendrez le rôle des étiquettes de confidentialité
     1. Vous pouvez décider de tester la stratégie maintenant ou ultérieurement.  Sélectionnez **Laisser la stratégie désactivée**, puis sélectionnez **Suivant**.
     1. Passez en revue les paramètres et sélectionnez **Créer une stratégie**, puis sélectionnez **Terminé**.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Accueil** pour revenir au portail de conformité Microsoft Purview.
+1. Dans le volet de navigation de gauche, sélectionnez **Accueil** pour revenir au portail Microsoft Purview.
 
 1. Laissez cette page ouverte, vous en avez besoin pour la tâche suivante.
 
@@ -73,9 +74,10 @@ Dans cette tâche, vous comprendrez le rôle des étiquettes de confidentialité
 
 Dans cette tâche, vous allez suivre le processus d’application d’une étiquette de confidentialité à un document Microsoft Word, puis afficher le marquage du contenu (filigrane) généré par l’étiquette. REMARQUE : Lorsque vous utilisez Microsoft Word en ligne, il se peut que vous rencontriez un délai avant que l’option de sélection des étiquettes de confidentialité n’apparaisse sur le ruban supérieur.  Il est recommandé d’effectuer tous les labos restants, puis de revenir à cette tâche.
 
-1. Dans la page d’accueil du portail de conformité Microsoft Purview, sélectionnez l’icône **Lanceur d’application**, à côté de l’indication Contoso Electronics. Sélectionnez l’**icône Word**.  
+1. Vous devriez encore être sur la page d’accueil du portail Microsoft Purview. 
+1. Dans le portail Microsoft Purview, sélectionnez **l’icône du lanceur d’applications**, à côté du texte Microsoft Purview. Sélectionnez l’**icône Word**.  
 
-1. Sous Créer, sélectionnez **Document vide**, puis entrez du texte sur la page.  En haut de la page, dans la barre bleue, sélectionnez la flèche vers le bas à côté de Document - Enregistré et, dans la zone du nom du fichier, entrez **Test-label** et appuyez sur **Entrer** sur votre clavier.
+1. Sous Créer, sélectionnez **Document vide**, puis entrez du texte sur la page.  En haut de la page, en regard de l’icône Word, sélectionnez **Document** et attribuez le nom **Test-label** au fichier, puis appuyez sur **Entrer** sur votre clavier.
 
 1. À l’extrême droite de la barre de menus supérieure (également appelée ruban), vous trouverez une flèche vers le bas. Sélectionnez-la, puis **Ruban classique**.  Cela facilite l’identification de l’icône de confidentialité. Sélectionnez **Sensibilité** en regard de l’icône du micro. À partir du menu déroulant, sélectionnez **Confidentiel – Finance**.  
 

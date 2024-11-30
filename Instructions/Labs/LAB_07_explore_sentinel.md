@@ -22,7 +22,7 @@ Dans ce labo, vous allez découvrir le processus de création d’une instance M
 
 Créer une instance Microsoft Sentinel
 
-1. Vous devriez être sur la page d’accueil des services Azure.  Si vous avez précédemment fermé le navigateur, ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **portal.azure.com** et connectez-vous avec vos informations d’identification. Si vous étiez déjà connecté, vous devrez peut-être invité à répondre à une seconde forme d'authentification, comme l'authentification multifacteur.  Si vous n’étiez pas déjà connecté, vous serez peut-être invité à installer l’authentification multifacteur.  Suivez les invites à l’écran pour installer l’authentification multifacteur.
+1. Vous devriez être sur la page d’accueil des services Azure.  Si vous avez précédemment fermé le navigateur, ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **portal.azure.com** et connectez-vous avec vos informations d’identification.
 
 1. Dans la barre de recherche bleue en haut de la page, entrez **Microsoft Sentinel**, puis sélectionnez **Microsoft Sentinel** dans les résultats de la recherche.
 
@@ -39,7 +39,7 @@ Créer une instance Microsoft Sentinel
     1. Vérifiez les informations saisies, puis sélectionnez **Créer**.
     1. Il peut s’écouler une minute ou deux avant que le nouvel espace de travail ne soit affiché. Si vous ne le voyez toujours pas, sélectionnez **Actualiser**, puis **Ajouter**.
 
-1. Une fois le nouvel espace de travail ajouté, la page Microsoft Sentinel | Actualités et guides s’affiche, indiquant que l’essai gratuit de Microsoft Sentinel est activé.  Cliquez sur **OK**.  Notez les trois étapes répertoriées sur la page Mise en route.
+1. Une fois le nouvel espace de travail ajouté, la page Microsoft Sentinel | Actualités et guides s’affiche, indiquant que l’essai gratuit de Microsoft Sentinel est activé.  Cliquez sur **OK**.
 
 1. Laissez cette page ouverte, car vous en aurez besoin pour la tâche suivante.
 
@@ -72,7 +72,7 @@ L’objectif de cette tâche est de vous guider tout au long des étapes de la c
 
 1. Dans la page d’accueil des services Azure, sélectionnez Microsoft Sentinel, puis l’instance que vous avez créée, **SC900-LogAnalytics-workspace**.
 
-1. Dans le volet de navigation situé à gauche, sélectionnez **Hub de contenu**.
+1. Dans le volet de navigation gauche, développez **Gestion de contenu**, puis sélectionnez **Hub de contenu**.
 
 1. Prenez le temps de faire défiler les pages pour découvrir la longue liste des solutions disponibles et les options permettant de filtrer la liste.  Pour cette tâche, vous recherchez **Microsoft Defender pour le cloud**.  Sélectionnez-le dans la liste.  Dans la fenêtre latérale qui s’ouvre, lisez la description, puis sélectionnez **Installer**.  Une fois l’installation terminée, la colonne d’état dans la fenêtre principale s’affiche comme étant installée.
 
@@ -95,21 +95,23 @@ L’objectif de cette tâche est de vous guider tout au long des étapes de la c
 
 Dans cette tâche, vous allez parcourir certaines des options disponibles dans Sentinel.
 
-1. Dans le volet de navigation gauche, sélectionnez **Hunting** (Repérage).  En haut de la page, sélectionnez l’onglet **Requêtes**. Lisez la description de ce qu’est une requête de repérage. Les requêtes de repérage peuvent être ajoutées via le hub de contenu. Toutes les requêtes précédemment installées sont répertoriées ici. Sélectionnez **Accéder au hub de contenu**.  Le hub de contenu répertorie le contenu qui inclut des requêtes dans le cadre d’une solution ou en tant que requête autonome.  Faites défiler vers le bas pour afficher les options disponibles. Fermez le hub de contenu en sélectionnant le **X** en haut à droite de la fenêtre.
+1. Dans le volet de navigation gauche, développez **Gestion des menaces** et explorez les options répertoriées dans la gestion des menaces.
+    1. Sélectionnez **Incidents**.  Bien qu’aucun incident ne soit trouvé, consultez la section **Qu’est-ce que c’est ?**.
+    1. Sélectionnez **Repérage**, puis passez en revue les informations fournies dans l’onglet **Repérages (préversion)**.
+    1. Sélectionnez **Notebooks** et passez en revue la section **Qu’est-ce que c’est ?**.
+    1. Sélectionnez **Veille des menaces** et passez en revue les informations de la page.
+    1. Sélectionnez **MITRE ATT&CK**.  MITRE ATT&CK est un base de connaissances accessible publiquement regroupant les tactiques et les techniques couramment utilisées par les attaquants. Avec Microsoft Sentinel vous pouvez afficher les détections déjà actives dans votre espace de travail, et celles que vous pouvez configurer, afin de comprendre la couverture de sécurité de votre organisation, en fonction des tactiques et des techniques issues du framework MITRE ATT&CK®.  Sélectionnez une cellule dans la matrice et notez les informations disponibles sur le côté droit de l’écran. **Remarque** : Vous devrez peut-être sélectionner le bouton « **<<**  » à l’extrême droite de la fenêtre pour afficher le panneau d’informations.
 
-1. Dans le volet de navigation de gauche, sélectionnez **MITRE ATT&CK**.  MITRE ATT&CK est un base de connaissances accessible publiquement regroupant les tactiques et les techniques couramment utilisées par les attaquants. Avec Microsoft Sentinel vous pouvez afficher les détections déjà actives dans votre espace de travail, et celles que vous pouvez configurer, afin de comprendre la couverture de sécurité de votre organisation, en fonction des tactiques et des techniques issues du framework MITRE ATT&CK®.  Sélectionnez une cellule dans la matrice et notez les informations disponibles sur le côté droit de l’écran. **Remarque** : Vous devrez peut-être sélectionner le bouton « **<<**  » à l’extrême droite de la fenêtre pour afficher le panneau d’informations.
+1. Dans le volet de navigation gauche, développez **Gestion de contenu**, puis sélectionnez **Communauté**. La page de la communauté comprend des insights et des mises à jour de cybersécurité de Microsoft Research, un lien vers une liste de blogs Microsoft Sentinel, un lien vers les forums Microsoft Sentinel, des liens vers les dernières éditions du Hub Microsoft Sentinel et bien plus encore. Explorer ceci à volonté.
 
-1. Dans le volet de navigation situé à gauche, sélectionnez **Communauté**. La page de la communauté comprend des insights et des mises à jour de cybersécurité de Microsoft Research, un lien vers une liste de blogs Microsoft Sentinel, un lien vers les forums Microsoft Sentinel, des liens vers les dernières éditions du Hub Microsoft Sentinel et bien plus encore. Explorer ceci à volonté.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Analyse**.  Il devrait y avoir deux règles actives, une qui est disponible par défaut et la règle que vous avez créée dans la tâche précédente. Sélectionnez la règle par défaut **Détection avancée des attaques en plusieurs étapes**.  Notez les informations détaillées.  Microsoft Sentinel utilise Fusion, un moteur de corrélation basé sur des algorithmes évolutifs d’apprentissage automatique pour détecter automatiquement des attaques multiphases (également appelées menaces persistantes avancées) en identifiant des combinaisons de comportements anormaux et d’activités suspectes observés à différents stades de la chaîne de destruction. Sur la base de ces découvertes, Microsoft Sentinel génère des incidents qui seraient autrement difficiles à intercepter. **Remarque** : Vous devrez peut-être sélectionner le bouton « **<<**  » à l’extrême droite de la fenêtre pour afficher le panneau d’informations.
-
-1. Dans le volet de navigation de gauche, sélectionnez **Automation**.  Ici, vous pouvez créer des règles d’automatisation simples, intégrer des playbooks existants ou créer des playbooks.  Sélectionnez **+ Créer**, puis **Règle d’automatisation**.  Notez la fenêtre qui s’ouvre sur le côté droit de l’écran et les options disponibles pour créer des conditions et des actions.  Sélectionnez **Annuler** en bas de l’écran.
-
-1. Dans le volet de navigation de gauche, sélectionnez **Classeur**. Lisez la description du classeur Microsoft Sentinel.  Les classeurs peuvent être ajoutés via le hub de contenu. Tous les classeurs précédemment installés sont répertoriés ici. Sélectionnez **Accéder au hub de contenu**.  Le hub de contenu répertorie le contenu qui inclut des classeurs, soit en tant que partie d’une solution, soit en tant que classeur autonome. Faites défiler vers le bas pour afficher les options disponibles.
+1. Dans le volet de navigation gauche, développez **Configuration** et explorez les options répertoriées :
+    1. Sélectionnez **Analyse**.  Il devrait y avoir deux règles actives, une qui est disponible par défaut et la règle que vous avez créée dans la tâche précédente. Sélectionnez la règle par défaut **Détection avancée des attaques en plusieurs étapes**.  Passez en revue les informations détaillées. **Remarque** : Vous devrez peut-être sélectionner le bouton « **<<**  » à l’extrême droite de la fenêtre pour afficher le panneau d’informations.
+    1. Dans le volet de navigation de gauche, sélectionnez **Automation**.  Ici, vous pouvez créer des règles d’automatisation simples, intégrer des playbooks existants ou créer des playbooks.  Sélectionnez **+ Créer**, puis **Règle d’automatisation**.  Notez la fenêtre qui s’ouvre sur le côté droit de l’écran et les options disponibles pour créer des conditions et des actions.  Sélectionnez **Annuler** en bas de l’écran.
 
 1. Fermez la fenêtre en sélectionnant le **X** en haut à droite de la fenêtre.
 
-1. Dans le coin supérieur gauche de la fenêtre, juste en dessous de la barre bleue, sélectionnez **Accueil** pour revenir à la page d’accueil du portail Azure.
+1. Dans le coin supérieur gauche de la fenêtre, dans la bannière bleue, sélectionnez **Mircosoft Azure** pour revenir à la page d’accueil du portail Azure.
 
 1. Déconnectez-vous et fermez tous les onglets ouverts du navigateur.
 

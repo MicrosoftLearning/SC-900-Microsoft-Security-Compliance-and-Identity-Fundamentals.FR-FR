@@ -25,8 +25,8 @@ Dans cette tâche, en tant qu’administrateur, vous réinitialiserez le mot de 
 1. Ouvrez Microsoft Edge.  Dans la barre d’adresse, saisissez **https://entra.microsoft.com** et connectez-vous avec vos informations d’identification d’administrateur.
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ représente votre ID de locataire unique communiqué par votre fournisseur d’hébergement de labo), puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
-    1. Si vous étiez déjà connecté en tant qu’administrateur, vous serez peut-être invité à effectuer une seconde authentification, dans le cadre de l’authentification multifacteur. SI vous n’étiez pas déjà connecté en tant qu’administrateur, vous serez peut-être invité à terminer le processus d’inscription MFA. Suivez les invites à l’écran pour installer l’authentification multifacteur.
-    1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
+    1. Selon votre hébergeur de labo et si c’est la première fois que vous vous connectez au locataire, vous serez peut-être invité à terminer le processus d’inscription MFA. Si c’est le cas, suivez les invites à l’écran pour configurer la MFA.
+    1. Une fois connecté, vous êtes redirigé vers la page Centre d’administration Microsoft 365.
 
 1. Dans le volet de navigation gauche, développez **Identités**, développez **Utilisateurs**, puis sélectionnez **Tous les utilisateurs**.
 
@@ -46,11 +46,11 @@ Dans cette tâche, en tant qu’administrateur, vous réinitialiserez le mot de 
 
 Dans cette tâche, vous allez suivre le processus de création d’une stratégie d’accès conditionnel dans Microsoft Entra ID.
 
-1. Ouvrez l’onglet du navigateur de la page d’accueil du centre d’administration Microsoft Entra.   Si vous avez déjà fermé l’onglet du navigateur, ouvrez Microsoft Edge et, dans la barre d’adresse, saisissez **https://entra.microsoft.com** et connectez-vous avec les informations d’identification d’administrateur Microsoft 365 fournies par l’ALH.
+1. Ouvrez l’onglet du navigateur de la page d’accueil du centre d’administration Microsoft Entra.   Si vous avez déjà fermé l’onglet du navigateur, ouvrez Microsoft Edge et, dans la barre d’adresse, saisissez **`https://entra.microsoft.com`** et connectez-vous avec les informations d’identification d’administrateur Microsoft 365 fournies par l’ALH.
 
 1. Dans le volet de navigation gauche, développez **Protection**, puis sélectionnez **Accès conditionnel**.
 
-1. La page de présentation de l’accès conditionnel s’affiche.  Ici, vous verrez des vignettes montrant le résumé de la stratégie et les alertes générales.  Dans le volet de navigation de gauche, sélectionnez **Stratégies**.
+1. La page de présentation de l’accès conditionnel s’affiche. Lorsque vous accédez à la page de présentation, l’onglet **Prise en main** est sélectionné (souligné). Sélectionnez l’onglet **Présentation**. Ici, vous verrez des vignettes montrant le résumé de la stratégie et les alertes générales.  Dans le volet de navigation de gauche, sélectionnez **Stratégies**.
 
 1. Dans le volet de navigation de gauche, sélectionnez **Stratégies**. Toute stratégie d’accès conditionnel existante est répertoriée ici. Sélectionnez **+ Nouvelle stratégie**.
 
@@ -70,7 +70,7 @@ Dans cette tâche, vous allez suivre le processus de création d’une stratégi
 
 1. Sélectionnez **Portails d’administration Microsoft**, puis appuyez sur **Sélectionner** en bas de la page.  Notez l’avertissement.  
 
-1. Sous Réseau, sélectionnez **N’importe quel réseau ou emplacement**.  Passez en revue les options, mais n'en sélectionnez aucune.
+1. Sous Réseau, sélectionnez **N’importe quel réseau ou emplacement**.  Passez en revue les options, mais n’en sélectionnez aucune.
 
 1. Sous Conditions, sélectionnez **0 condition sélectionnée**.  Remarquez les différentes options configurables.  La stratégie vous permet de contrôler l’accès des utilisateurs sur la base de signaux provenant de conditions, notamment : le risque lié à l’utilisateur, le risque lié à la connexion, la plateforme de l’appareil, l’emplacement, les applications client ou le filtre pour les appareils.  Explorez ces options configurables, mais ne définissez aucune condition.
 
@@ -80,7 +80,7 @@ Dans cette tâche, vous allez suivre le processus de création d’une stratégi
 
 1. Au bas de la page, sous Activer la stratégie, sélectionnez **Activé**, puis sélectionnez **Créer**.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Stratégies**. La stratégie pilote MFA doit apparaître dans la liste des stratégies d’accès conditionnel. (Si nécessaire, sélectionnez l’icône **Actualiser** dans la barre de commandes en haut de la page).
+1. Dans le volet de navigation de gauche, sélectionnez **Stratégies**. La stratégie **Bloquer les portails d’administrateur** que vous venez de créer doit apparaître dans la liste des stratégies d’accès conditionnel (Si nécessaire, sélectionnez l’**icône Actualiser** dans la barre de commandes en haut de la page).
 
 1. Déconnectez-vous en sélectionnant l’icône d’utilisateur à côté de l’adresse e-mail, dans le coin supérieur droit de l’écran, et en sélectionnant **Se déconnecter**. Ensuite, fermez toutes les fenêtres de navigation.
 
