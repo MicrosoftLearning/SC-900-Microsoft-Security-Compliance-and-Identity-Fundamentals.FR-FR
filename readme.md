@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 # SC-900 : Principes de base de la sécurité, de la conformité et des identités Microsoft
 
 Ce référentiel comprend des scripts de démo et des instructions de labo pour **SC-900T00 : Principes de base de la sécurité, de la conformité et des identités Microsoft**.  L’utilisation des scripts de démonstration et des labos suppose un accès au locataire WWL M365 Enterprise 2019 SPE_E5 disponible par l’intermédiaire d’un hébergeur de labo autorisé (HLA) et l’utilisation d’un abonnement Azure fourni par l’ALH. Les scripts de démo et les instructions de labo peuvent être exécutés sur le propre locataire Microsoft 365 et le propre abonnement Azure d’un utilisateur, mais ce n’est pas garanti, car certaines fonctionnalités peuvent ne pas être activées avec l’abonnement personnel d’un utilisateur.
