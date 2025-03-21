@@ -49,7 +49,7 @@ Comme pour toutes les ressources Azure, vous voulez vous assurer que les utilisa
 
 1. Sur la page SC900-Sentinel-RG, sélectionnez **Contrôle d’accès (IAM)** dans le volet de navigation de gauche.
 
-1. Sur la page contrôle d’accès, sélectionnez **Afficher mon accès**.  Si vous utilisez l’abonnement Skillable Cloud Slice, l’attribution de rôle est définie sur Propriétaire LOD, qui est une attribution de rôle personnalisée configurée pour cet abonnement Cloud Slice et qui vous accordera les autorisations nécessaires. Toutefois, à des fins de démonstration, il est recommandé d’afficher les rôles spécifiques à Sentinel.  Fermez la fenêtre des attributions en sélectionnant le **X** en haut à droite de l’écran.
+1. Sur la page contrôle d’accès, sélectionnez **Afficher mon accès**.  Vous verrez probablement une attribution de rôle personnalisé déjà configurée pour cet abonnement et les autorisations nécessaires vous seront accordées.  Ce rôle personnalisé aurait été configuré par l’hébergeur de labo autorisé (HLA) fournissant l’environnement de labo. Toutefois, à des fins de démonstration, il est recommandé d’afficher les rôles spécifiques à Sentinel.  Fermez la fenêtre des attributions en sélectionnant le **X** en haut à droite de l’écran.
 
     1. Sélectionnez **+ Ajouter**, puis **Ajouter une affectation de rôle** sur la page Contrôle d’accès.
 
