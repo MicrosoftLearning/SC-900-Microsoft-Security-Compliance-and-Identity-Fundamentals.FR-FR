@@ -34,15 +34,15 @@ Dans cette tâche, en tant qu’administrateur, vous allez parcourir certains de
     1. Selon votre hébergeur de labo et si c’est la première fois que vous vous connectez au locataire, vous serez peut-être invité à terminer le processus d’inscription MFA. Si c’est le cas, suivez les invites à l’écran pour configurer la MFA.
     1. Une fois connecté, vous êtes redirigé vers la page Centre d’administration Microsoft 365.
 
-1. Dans le volet de navigation gauche, développez l’option de **Protection**, puis sélectionnez **Réinitialisation de mot de passe**.  
+1. Dans le volet de navigation gauche, vérifiez que **Entra ID** est développé, puis faites défiler vers le bas et sélectionnez **Réinitialisation de mot de passe**.  
 
 1. Les propriétés de la réinitialisation du mot de passe en libre-service sont affichées. Sélectionnez l’icône d’information à côté de **Activer la réinitialisation de mot de passe en libre-service** pour voir la description. Vérifiez que **Sélectionné** est surligné en bleu. Passez maintenant le curseur de la souris sur l’icône d’information à côté de l’indication **Sélectionner un groupe** et notez la description : « Définit le groupe d’utilisateurs qui sont autorisés à réinitialiser leurs propres mots de passe ». Vous devez inclure des utilisateurs dans le groupe, vous ne pouvez pas les sélectionner individuellement. Notez qu’un groupe est déjà répertorié : SSPRSecurityGroupUsers. (Ce groupe a été préconfiguré dans le cadre de votre locataire Microsoft 365). Enfin, remarquez l’encadré bleu : « Ces paramètres ne s’appliquent qu’aux utilisateurs finaux de votre organisation. Les administrateurs bénéficient toujours du libre-service pour la réinitialisation de leur mot de passe, et doivent utiliser deux méthodes d’authentification pour réinitialiser leur mot de passe. »
 
 1. Dans le volet de navigation gauche de la page Réinitialisation du mot de passe, sélectionnez **Méthodes d’authentification**.
 
-1. Dans l’option Nombre de méthodes requises pour réinitialiser, sélectionnez **1**. Remarquez l’encadré informatif à l’écran.
-
-1. Remarquez les différentes méthodes disponibles pour les utilisateurs.  Les cases **E-mail** et **Téléphone mobile** devraient déjà être cochées, si ce n’est pas le cas, sélectionnez-les.
+1. Dans l’option Nombre de méthodes requises pour réinitialiser, sélectionnez **1**. Il n’existe qu’une seule méthode répertoriée, qui est Questions de sécurité. Mais, en dessous de cette option, il est possible **d’utiliser la stratégie de méthodes d’authentification pour gérer d’autres méthodes d’authentification**.  
+    1. Sélectionnez **stratégie de méthodes d’authentification** pour afficher les stratégies de méthode d’authentification disponibles.
+    1. Sélectionnez **X** en haut à droite de la page pour revenir à la page précédente.
 
 1. Dans le volet de navigation gauche de la page Réinitialisation du mot de passe, sélectionnez **Inscription**.  
 

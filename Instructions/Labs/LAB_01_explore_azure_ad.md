@@ -16,21 +16,23 @@ Ce labo correspond au contenu Learn suivant :
 
 Dans ce labo, vous accédez à Microsoft Entra ID (anciennement appelé Azure Active Directory).  En plus, vous créerez un utilisateur et vous configurerez les différents paramètres, y compris l’ajout de licences.  
 
-**Durée estimée** : 30 minutes
+**Durée estimée** : 45 minutes
 
 ### Tâche 1
 
 En tant qu’abonné à Microsoft 365, vous utilisez déjà Microsoft Entra ID.  Dans cette tâche, vous apprenez à créer un utilisateur dans Microsoft Entra ID et découvrez certains services qui peuvent être gérés au niveau de l’utilisateur.
 
-1. Ouvrez le navigateur Microsoft Edge. Dans la barre d’adresses, saisissez **`https://admin.microsoft.com`** et connectez-vous avec les informations d’identification Microsoft 365 fournies par votre hébergeur de labo autorisé (HLA).
+1. Si l’onglet Centre d’administration Microsoft 365 est ouvert, à partir de l’exercice précédent, sous Centres d’administration, sélectionnez **Identité**
+1. Si le Centre d’administration Microsoft 365 est déjà ouvert sur votre navigateur, à partir de l’exercice précédent, passez à l’étape suivante, sinon accédez au Centre d’administration Microsoft comme suit :
+    1. Dans la barre d’adresses, saisissez **`https://admin.microsoft.com`** et connectez-vous avec les informations d’identification Microsoft 365 fournies par votre hébergeur de labo autorisé (HLA).
     1. Dans la fenêtre de connexion, entrez **admin@WWLxZZZZZZ.onmicrosoft.com** (où ZZZZZZ est votre ID de locataire unique communiqué par votre ALH), puis sélectionnez **Suivant**.
     1. Entrez le mot de passe d’administrateur qui vous a été communiqué par votre fournisseur d’hébergement de labo. Cliquez sur **Connexion**.
     1. Selon votre hébergeur de labo et si c’est la première fois que vous vous connectez au locataire, vous serez peut-être invité à terminer le processus d’inscription MFA. Si c’est le cas, suivez les invites à l’écran pour configurer la MFA.
     1. Une fois connecté, vous êtes redirigé vers la page Centre d’administration Microsoft 365.
 
-1. Sous Centres d’administration, sélectionnez **Identité** (vous devez peut-être sélectionner **Tout afficher** et faire défiler vers le bas).  Une nouvelle page de navigateur s’ouvre sur la page de présentation du centre d’administration Microsoft Entra.
+1. Sous Centres d’administration, sélectionnez **Identité** (vous devez peut-être sélectionner **Tout afficher** et faire défiler vers le bas).  Une nouvelle page de navigateur s’ouvre sur la page de présentation du centre d’administration Microsoft Entra.  Si vous êtes invité à configurer l’authentification multifacteur, suivez les étapes à l’écran.
 
-1. Dans le volet de navigation gauche, développez **Utilisateurs**, puis sélectionnez **Tous les utilisateurs**. Notez que votre locataire est déjà configuré avec des utilisateurs.
+1. Dans le volet de navigation de gauche, sélectionnez **Utilisateurs**.  Vous accédez à la page utilisateurs. **Tous les utilisateurs** doivent déjà être sélectionnés. Notez que votre locataire est déjà configuré avec des utilisateurs.
 
 1. En haut de la page, sélectionnez **+ Nouvel utilisateur** et, dans la zone déroulante, sélectionnez **Créer un utilisateur**.
 
@@ -87,23 +89,21 @@ Dans cette tâche, vous allez attribuer une licence à l’utilisateur que vous 
 1. Dans le volet de navigation de gauche, dans Utilisateurs, sélectionnez **Utilisateurs actifs**.  Dans la liste des utilisateurs, sélectionnez **Sara Perez**.  Une fenêtre s’ouvre et affiche des informations sur l’utilisateur.  
 
     1. Sélectionnez l’onglet **Licences et applications**.
-    1. Pour chacune des licences répertoriées, vous pouvez voir le nombre de licences disponibles.  Étant donné qu’il n’y a pas de licences Microsoft 365 E5 disponibles (elles ont déjà été attribuées à d’autres utilisateurs), attribuez les licences **Microsoft Power Apps - Développeur** et **Microsoft Power Automate - Gratuit** en cochant les cases situées à côté de celles-ci.
+    1. Pour chacune des licences répertoriées, vous pouvez voir le nombre de licences disponibles.  Étant donné qu’il n’existe pas de licences Microsoft 365 E5 disponibles (elles ont déjà été affectées à d’autres utilisateurs), affectez la licence **Développeur Microsoft Power Apps** en cochant la case à cocher voisine.
     1. Sélectionnez **Enregistrer les modifications**. Une notification dans le coin supérieur droit de l’écran devrait indiquer que les licences sont bien affectées.
     1. Fermez la page en cliquant sur le **X** dans le coin supérieur droit de la page.
 
-1. Revenez au centre d’administration Microsoft Entra en sélectionnant **Accueil** dans le volet de navigation gauche ou en haut à gauche de l’écran (barre de navigation), au-dessus de Sara Perez | Licences.
-
-1. Vous avez ainsi attribué des licences à l’utilisateur.
+1. Vous avez attribué une licence à l’utilisateur.
 
 1. Déconnectez-vous de tous les onglets du navigateur ouverts. Déconnectez-vous en sélectionnant l’icône d’utilisateur à côté de l’adresse e-mail, en haut à droite de l’écran, et sélectionnez **Se déconnecter**. Fermez toutes les fenêtres de navigateur.
 
-### Tâche 3
+### Tâche 3
 
 Lors de cette tâche, vous vous connectez pour la première fois en tant que Sara Perez.
 
 1. Ouvrez Microsoft Edge.
 
-1. Dans la barre d’adresse, entrez **https://login.microsoft.com** .
+1. Dans la barre d’adresse, entrez **`https://login.microsoft.com`** .
 
 1. Connectez-vous avec **sara@WWLxZZZZZ.onmicrosoft.com** , (où ZZZZZZ est votre ID de locataire unique indiqué par votre ALH)
 1. Entrez le mot de passe temporaire que vous avez défini dans la tâche précédente.
@@ -114,9 +114,9 @@ Lors de cette tâche, vous vous connectez pour la première fois en tant que Sar
 
 1. Comme c’est votre première connexion en tant que Sara Perez, vous serez peut-être invité à installer l’authentification multifacteur. Suivez les invites à l’écran pour installer l’authentification multifacteur.
 
-1. Vous devriez maintenant être connecté au compte Microsoft de Sara.  Notez que les licences de Sara que vous avez attribuées dans la tâche précédente étaient limitées uniquement à Power Automate - Gratuit et Power Apps pour les développeurs et n’incluaient pas de licence E5.
+1. Vous devriez maintenant être connecté au compte Microsoft de Sara.  Notez que les licences de Sara que vous avez attribuées dans la tâche précédente étaient limitées uniquement à Power Apps pour les développeurs et n’incluaient pas de licence E5.
 
-1. Déconnectez-vous en sélectionnant l’icône en haut à droite de la fenêtre Microsoft 365 qui représente un cercle avec les lettres SP à l’intérieur (à côté de l’icône de point d’interrogation), puis en sélectionnant **Se déconnecter**. Ensuite, fermez le navigateur.
+1. Pour vous déconnecter, sélectionnez l’e-mail de Sara en bas du volet de navigation gauche, puis sélectionnez **Se déconnecter** et fermez le navigateur.
 
 ### Révision
 
