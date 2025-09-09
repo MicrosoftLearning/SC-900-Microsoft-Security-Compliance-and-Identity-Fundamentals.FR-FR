@@ -61,11 +61,11 @@ Découvrez la situation de votre organisation en matière de conformité grâce 
 
 1. Sélectionnez **Ligne de base de la protection des données pour Microsoft 365**.  Notez les informations disponibles sous l’onglet progression. Vous pouvez également consulter des informations sur les contrôles, vos actions d’amélioration et les actions Microsoft.  
 
-1. Dans le volet de navigation de gauche, sélectionnez **Réglementations**.  Cette page répertorie les réglementations disponibles pour votre organisation. Vous verrez des informations spécifiques sur cette réglementation, notamment les contrôles, vos actions d’amélioration et l’action de Microsoft. Sur cette page, dans le coin supérieur droit de la page, vous avez la possibilité de créer une évaluation basée sur le modèle.
+1. Dans le volet de navigation de gauche, sélectionnez **Réglementations**.  Cette page répertorie les réglementations disponibles pour votre organisation. Sélectionnez n'importe quelle réglementation répertoriée. Vous verrez des informations spécifiques sur cette réglementation, notamment les contrôles, vos actions d’amélioration et l’action de Microsoft.
 
 1. 1. Dans le volet de navigation de gauche, sélectionnez **Stratégies**. C’est là que vous verrez la liste des stratégies pour vous aider à surveiller et à recevoir des notifications sur les événements dans le Gestionnaire de conformité qui sont importants pour vous. Vous pouvez créer ou modifier des stratégies, modifier leur état d’activation et contrôler la fréquence et la gravité des alertes. Sélectionnez la **stratégie d’alerte par défaut du Gestionnaire de conformité** pour afficher les détails de la stratégie.  Sélectionnez **Actions** pour afficher les options disponibles (explorez à votre gré).
 
-1. Dans le volet de navigation de gauche, sélectionnez **Alertes**.   Vous pouvez y consulter et gérer les alertes concernant les événements susceptibles d’affecter le score de conformité de votre organisation.
+1. Dans le volet de navigation de gauche, sélectionnez **Alertes**.   Vous pouvez y consulter et gérer les alertes concernant les événements susceptibles d’affecter le score de conformité de votre organisation. Comme il s'agit d'un nouveau locataire du laboratoire, vous ne devriez voir aucune alerte.
 
 1. Dans le volet de navigation de gauche, sélectionnez **Accueil** pour revenir à la page de destination du portail Microsoft Purview.
 
