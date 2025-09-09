@@ -24,7 +24,7 @@ Dans cette tâche, vous comprendrez le rôle des étiquettes de confidentialité
 
 1. Ouvrez l’onglet du navigateur menant sur la page d’accueil de Microsoft Purview.  Si vous l’avez précédemment fermé, ouvrez un onglet du navigateur et entrez **`https://admin.microsoft.com`** . Connectez-vous avec les identifiants d’administration du tenant (ou « locataire/abonné ») Microsoft 365 fournis par l’hôte de labo autorisé (ALH).
 
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft 365, sélectionnez **Tout afficher**, puis **Conformité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Purview.
+1. Dans le volet de navigation de gauche du centre d’administration Microsoft 365, sélectionnez **Tout afficher**, puis **Microsoft Purview**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Purview.
 
 1. Dans le volet de navigation de gauche, sélectionnez **Solutions**, puis sélectionnez **Protection des données**.  Vous arrivez alors à la page de présentation. Faites défiler vers le bas pour afficher les informations disponibles.
 
@@ -38,9 +38,9 @@ Dans cette tâche, vous comprendrez le rôle des étiquettes de confidentialité
         1. Sur la page de marquage du contenu, prenez note de l’encadré d’information situé en haut.  Ne modifiez pas les paramètres.  Sélectionnez **Suivant** au bas de la page.
     1. Vous êtes à présent dans la fenêtre d’étiquetage automatique des fichiers et des e-mails.  Lisez la description de l’étiquetage automatique en haut de la page et l’encadré d’information en dessous.  Notez également que cette étiquette est configurée pour l’étiquetage automatique pour des conditions spécifiques. Ne modifiez pas les paramètres.  Sélectionnez **Suivant** au bas de la page.
     1. Cette fenêtre définit les paramètres de protection des groupes et des sites qui ont cette étiquette. Si cette option n’est pas activée, sélectionnez **Suivant** en bas de la page.
-    1. Cette fenêtre est une fonctionnalité d’évaluation qui permet d’appliquer automatiquement cette étiquette aux ressources de données schématisées dans Mappage de données Microsoft Purview (telles que SQL, Synapse, etc.) qui contiennent les types d’informations sensibles que vous avez choisis.  La fonctionnalité n’est pas activée. Sélectionnez **Annuler** en bas de la page pour quitter l’assistant Configuration de l’étiquette et revenir à la page Protection des données.
+    1. Cette dernière fenêtre est l’endroit où vous pouvez passer en revue vos paramètres et terminer. Sélectionnez **Annuler** en bas de la page pour quitter l’assistant Configuration de l’étiquette et revenir à la page Protection des données.
 
-1. Dans le panneau de navigation de gauche, développez **Stratégies**, puis **Publication de stratégies**.  C’est par le biais des stratégies des étiquettes que les étiquettes de confidentialité peuvent être publiées.  Le tenant Microsoft 365 a été configuré avec certaines stratégies d’étiquette, pour votre commodité.
+1. Dans le panneau de navigation de gauche, développez **Stratégies**, puis **Publication de stratégies des étiquettes**.  C’est par le biais des stratégies des étiquettes que les étiquettes de confidentialité peuvent être publiées.  Le tenant Microsoft 365 a été configuré avec certaines stratégies d’étiquette, pour votre commodité.
 
 1. Sélectionnez **Stratégie Confidentiel - Finance**.  Une fenêtre s’ouvre et fournit des informations sur la stratégie. Sélectionnez **Modifier la stratégie** la stratégie en haut de la fenêtre.  Ici, parcourez les paramètres sans rien changer.
     1. Passez en revue la description de « Choisir les étiquettes de confidentialité à publier ».  Notez l’étiquette répertoriée.  Ne modifiez pas les paramètres.  Sélectionnez **Suivant** au bas de la page.
@@ -50,21 +50,21 @@ Dans cette tâche, vous comprendrez le rôle des étiquettes de confidentialité
     1. Passez en revue la description de « Appliquer une étiquette par défaut aux documents ». Ne modifiez pas les paramètres.  Sélectionnez **Suivant** au bas de la page.
     1. Passez en revue la description de « Appliquer une étiquette par défaut aux e-mails » et de « Hériter de l’étiquette des pièces jointes ». Ne modifiez pas les paramètres.  Sélectionnez **Suivant** au bas de la page.
     1. Passez en revue la description de « Appliquer une étiquette par défaut aux réunions et aux événements du calendrier ». Ne modifiez pas les paramètres.  Sélectionnez **Suivant** au bas de la page.
-    1. Passez en revue la description de « Appliquer une étiquette par défaut au contenu de Power BI ». Ne modifiez pas les paramètres.  Sélectionnez **Suivant** au bas de la page.
+    1. Passez en revue la description de « Appliquer une étiquette par défaut au contenu de Fabric et Power BI ». Ne modifiez pas les paramètres.  Sélectionnez **Suivant** au bas de la page.
     1. La dernière option de configuration consiste à nommer votre stratégie.  Comme vous modifiez la stratégie, le champ de nom est grisé. Sélectionnez **Suivant** en bas de la page.
     1. Vérifiez les paramètres de stratégie. Sélectionnez **Annuler** pour abandonner les modifications et revenir à la page Stratégies d’étiquette.
 
-1. Depuis le volet de navigation à gauche, dans Protection des données, sélectionnez Étiquetage automatique. Passez en revue la description. Notez que vous créez des stratégies d’étiquette automatique pour appliquer automatiquement des étiquettes de confidentialité aux messages électroniques ou aux fichiers OneDrive et SharePoint qui contiennent des informations confidentielles. Aucune stratégie d’étiquette automatique n’a été préconfigurée dans notre locataire. Pour créer une nouvelle stratégie d’étiquette automatique, sélectionnez **Créer une stratégie d’étiquette automatique**.  Ici, vous allez suivre les étapes de création d’une nouvelle stratégie.
-    1. Vous commencez par choisir les informations auxquelles vous souhaitez appliquer cette étiquette.  Notez les options disponibles.  Sélectionnez **Médical et santé**, puis sélectionnez l’un des modèles disponibles.  Cliquez sur **Suivant**.
+1. Depuis le volet de navigation de gauche, dans Protection des données, sélectionnez **Stratégies d’étiquetage automatique**. Passez en revue la description. Notez que vous créez des stratégies d’étiquette automatique pour appliquer automatiquement des étiquettes de confidentialité aux messages électroniques ou aux fichiers OneDrive et SharePoint qui contiennent des informations confidentielles. Aucune stratégie d’étiquette automatique n’a été préconfigurée dans notre locataire. Pour créer une nouvelle stratégie d’étiquette automatique, sélectionnez **Créer une stratégie d’étiquette automatique**.  Ici, vous allez suivre les étapes de création d’une nouvelle stratégie.
+    1. Vous commencez par choisir les informations auxquelles vous souhaitez appliquer cette étiquette.  Notez les options disponibles.  Sélectionnez **Médical et Santé**, puis sélectionnez l’une des réglementations disponibles qui serviront de modèle.  Cliquez sur **Suivant**.
     1. Vous pouvez nommer votre stratégie d’étiquette automatique ou utiliser le nom par défaut.  Cliquez sur **Suivant**.
+    1. Ensuite, vous choisissez une étiquette à appliquer automatiquement.  Sélectionnez **+ Choisir une étiquette**.  Sélectionnez une étiquette dans la liste, puis sélectionnez **Ajouter**.
     1. Vous pouvez attribuer les unités d’administration auxquelles cette stratégie s’applique.  Laissez la valeur par défaut sur Répertoire complet et sélectionnez **Suivant**.
-    1. Notez les emplacements disponibles où vous souhaitez appliquer l’étiquette.  Conservez les valeurs par défaut, puis sélectionnez **Suivant**.
+    1. Notez les emplacements disponibles où vous souhaitez appliquer l’étiquette. Sélectionnez la zone en regard de **E-mail d’échange**, puis sélectionnez **Suivant**.
     1. Vous pouvez configurer des règles communes ou avancées qui définissent le contenu auquel l’étiquette s’applique.  Laissez la valeur par défaut sur Règles communes et sélectionnez **Suivant**.
     1. Vous pouvez définir des règles pour le contenu dans tous les emplacements.  L’étiquette sera appliquée au contenu qui correspond aux règles définies sur cette page.  Pour le modèle que vous avez sélectionné, vous devriez voir un élément de ligne. Développez-le pour afficher les conditions qui s’appliquent.  Laissez tous les paramètres par défaut et sélectionnez **Suivant**.
-    1. Choisissez une étiquette à appliquer automatiquement en sélectionnant **Choisir une étiquette**.  Choisissez une étiquette, puis sélectionnez **Ajouter**. Cliquez sur **Suivant**.
     1. Des paramètres supplémentaires peuvent être configurés pour la messagerie. Conservez les valeurs par défaut, puis sélectionnez **Suivant**.
     1. Vous pouvez décider de tester la stratégie maintenant ou ultérieurement.  Sélectionnez **Laisser la stratégie désactivée**, puis sélectionnez **Suivant**.
-    1. Passez en revue les paramètres et sélectionnez **Créer une stratégie**, puis sélectionnez **Terminé**.
+    1. Passez en revue les paramètres. Dans le cadre de cet exercice, vous pouvez annuler sans créer la stratégie. Sélectionnez **Annuler**.
 
 1. Dans le volet de navigation de gauche, sélectionnez **Accueil** pour revenir au portail Microsoft Purview.
 

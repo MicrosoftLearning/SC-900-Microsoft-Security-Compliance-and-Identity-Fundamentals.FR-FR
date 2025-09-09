@@ -14,7 +14,7 @@ Ce labo correspond au contenu Learn suivant :
 
 ## Scénario du labo
 
-Dans ce labo, vous suivez les étapes nécessaires pour configurer eDiscovery, notamment configurer les autorisations de rôle, créer un cas eDiscovery, créer une conservation eDiscovery et créer une requête de recherche.  Remarque : la gestion des licences pour eDiscovery (Standard) nécessite l’abonnement à l’organisation et les licences par utilisateur appropriés. Si vous ne savez pas quelles licences prennent en charge eDiscovery (Standard), consultez [Bien démarrer avec eDiscovery (Standard) dans Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+Dans ce labo, vous suivez les étapes nécessaires pour configurer eDiscovery, notamment configurer les autorisations de rôle, créer un cas eDiscovery, créer une conservation eDiscovery et créer une requête de recherche.  Note :  pour obtenir une licence eDiscovery, l’organisation doit disposer de l’abonnement approprié et d’une licence par utilisateur. Si vous ne savez pas quelles licences prennent en charge eDiscovery, consultez [Prise en main d’eDiscovery dans Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
 **Durée estimée** : 45 minutes
 
@@ -22,9 +22,7 @@ Dans ce labo, vous suivez les étapes nécessaires pour configurer eDiscovery, n
 
 Pour accéder à eDiscovery (Standard) ou être ajouté en tant que membre d’un cas eDiscovery, les autorisations appropriées doivent être accordées à l’utilisateur. Dans cette tâche, en tant qu’administrateur général, vous ajouterez des utilisateurs spécifiques en tant que membres du groupe de rôles Gestionnaire eDiscovery.
 
-1. Ouvrez l’onglet du navigateur menant sur la page d’accueil de Microsoft Purview.  Si vous l’avez précédemment fermé, ouvrez un onglet du navigateur et entrez **https://admin.microsoft.com** . Connectez-vous avec les identifiants d’administration du tenant (ou « locataire/abonné ») Microsoft 365 fournis par l’hôte de labo autorisé (ALH).
-
-1. Dans le volet de navigation gauche du Centre d’administration Microsoft 365, sélectionnez **Tout afficher**, puis **Conformité**.  Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Purview.  
+1. Vous devriez être sur la page d’accueil du portail Microsoft Purview.  Si vous l’avez précédemment fermé, ouvrez un onglet du navigateur et entrez **https://purivew.microsoft.com** .
 
 1. Dans le volet de navigation de gauche, sélectionnez **Paramètres**, développez **Rôles et étendues**, puis sélectionnez **Groupes de rôles**.
 
@@ -36,19 +34,21 @@ Pour accéder à eDiscovery (Standard) ou être ajouté en tant que membre d’u
     1. Sur la page « Gérer le Gestionnaire eDiscovery », sélectionnez **Choisir des utilisateurs**. Recherchez et sélectionnez **Administrateur MOD**, appuyez sur **Sélectionner** en bas de la page, puis sélectionnez **Suivant** et **Enregistrer**.
     1. Sur la page « Vous avez mis à jour le groupe de rôles », sélectionnez **Terminé**.
 
+1. Revenez à la page d’accueil de Microsoft Purview en sélectionnant **Accueil** dans le volet de navigation gauche.
+
 1. Gardez cet onglet ouvert, car vous l’utilisez dans la prochaine tâche.
 
 ### Tâche 2
 
-Dans cette tâche, vous allez jouer le rôle d’Administrateur eDiscovery (administrateur MOD est un type d’Administrateur eDiscovery) et créer un dossier pour commencer à utiliser eDiscovery (Standard).
+Dans cette tâche, vous allez jouer le rôle d’administrateur eDiscovery (administrateur MOD est un type d’administrateur eDiscovery) et créer un ticket pour commencer à utiliser eDiscovery.
 
-1. Vous devez toujours être dans la page des rôles du portail de conformité. Si vous avez fermé l’onglet du navigateur de la tâche précédente, ouvrez un nouvel onglet de navigateur et entrez **compliance.microsoft.com** pour accéder au portail Microsoft Purview.
+1. Vous devriez être sur la page d’accueil du portail Microsoft Purview.
 
-1. Dans le volet de navigation de gauche, sous Solutions, développez **eDiscovery**, puis sélectionnez **Dossiers standard**.
+1. Dans le volet de navigation de gauche, sous Solutions, développez **eDiscovery**, puis sélectionnez **Cas**.
 
-1. En haut de la page eDiscovery (Standard), sélectionnez **+ Créer un dossier**.
+1. Dans la page Cas, sélectionnez **Créer un cas**.
 
-1. Dans la fenêtre Nouveau cas, entrez un nom de cas, **Cas test SC900**, puis sélectionnez **Enregistrer** en bas de la page.
+1. Dans la fenêtre Nouveau cas, saisissez un nom de cas, **Cas test SC900**, puis sélectionnez **Créer**.
 
 1. Le cas devrait maintenant apparaître dans la liste.
 
@@ -58,52 +58,24 @@ Dans cette tâche, vous allez jouer le rôle d’Administrateur eDiscovery (admi
 
 ### Tâche 3
 
-Maintenant que vous avez créé un cas eDiscovery (Standard), vous pouvez commencer à l’utiliser.  Dans cette tâche, vous créez une conservation eDiscovery pour le cas que vous avez créé.  En particulier, vous créez une conservation pour la boîte aux lettres Exchange d’Adele Vance.
-
-1. Ouvrez l’onglet eDiscovery (Standard) dans votre navigateur.
-
-1. Dans la page eDiscovery (Standard), sélectionnez le dossier créé dans l’onglet précédent, **SC900 Dossier test**.
-
-1. À partir de la page d’accueil du cas, sélectionnez l’onglet **Conservation** puis **+Créer**.
-
-1. Dans le champ Nom, entrez **Conservation test** et sélectionnez **Suivant**.
-
-1. Dans la page Choisir les emplacements, sélectionnez le bouton bascule à côté de **Boîtes aux lettres Exchange** pour définir l’état sur **Activé**.  
-
-1. Sélectionnez maintenant **Choisir des utilisateurs, des groupes ou des équipes**.  Dans la zone de recherche, saisissez **Adele**, puis appuyez sur Entrée. Dans les résultats de recherche, sélectionnez **Adele Vance**, puis **Terminé**.
-
-1. Sur la page Choisir les emplacements, sélectionnez **Suivant**.  Pour des raisons de commodité avec le labo, aucun autre lieu ne sera inclus dans cette conservation.
-
-1. La page Conditions de requête vous permet de créer une conservation pour les éléments en fonction d’une requête que vous pouvez créer.  Vous pouvez choisir d’utiliser le générateur de requêtes pour créer une requête, ou l’éditeur KQL si vous êtes un utilisateur avancé. Pour cet exercice, la conservation doit préserver tout le contenu à l’emplacement spécifié pour l’utilisateur spécifié. Vous ne créez donc pas de requête.
-
-1. Vérifiez vos paramètres et sélectionnez **Envoyer**, cela peut prendre une minute, puis sélectionnez **Terminé**.  La Conservation test devrait apparaître dans la liste.  Si ce n’est pas le cas, sélectionnez **Actualiser**.
-
-1. Gardez cet onglet ouvert, car vous l’utilisez dans la tâche suivante.
-
-### Tâche 4
-
-Une fois la conservation en place, vous créez une requête de recherche.  Quand votre recherche est terminée, eDiscovery prend en charge des actions, comme l’exportation et le téléchargement des résultats pour investigation ultérieure.   Remarque : les recherches associées à un dossier eDiscovery (Standard) ne sont pas listées sur la page de recherche de contenu du portail Microsoft Purview. Elles apparaissent seulement dans la page des recherches du dossier eDiscovery (Standard) associé.
+Une fois un cas créé, vous pouvez commencer à travailler avec lui.  Vous pouvez notamment créer une requête de recherche pour rechercher des données et du contenu pertinents pour votre cas, appliquer une stratégie de mise en attente, créer un jeu de révisions et exporter des données. Dans cette tâche, vous allez explorer certaines de ces options.
 
 1. Ouvrez l’onglet du Cas de test SC900 dans votre navigateur.
 
-1. Dans la page Cas de test SC900, sélectionnez **Recherches**.
+1. Dans la page Cas test SC900, sélectionnez **Créer une recherche**.
 
-1. Sur la page Recherche, sélectionnez **+ Nouvelle recherche**.
+1. Dans le champ nom, saisissez **recherche de cas SC900**, puis sélectionnez **Créer**.
 
-1. Dans le champ Nom, entrez **Conservation test - Recherches ventes**, puis sélectionnez **Suivant** en bas de la page.
+1. Sélectionnez **Ajouter des sources**. Notez les options de filtre et les paramètres par défaut. Dans la zone de recherche, saisissez **Pradeep**, puis appuyez sur Entrée. Dans les résultats de recherche, sélectionnez **Pradeep Gupta**, puis sélectionnez **Enregistrer et fermer**. Le générateur de conditions vous permet de générer une requête de recherche basée sur des mots clés ou des conditions spécifiques satisfaites. Dans la zone de mot clé, saisissez **Ventes**. À partir de là, vous pouvez sélectionner **Exécuter la requête**.  Cette opération peut prendre quelques minutes.
 
-1. Dans la page Choisir les emplacements, sélectionnez **Emplacements en attente** et désélectionnez **Ajouter du contenu d’application pour les utilisateurs locaux**, car votre environnement de labo n’a pas d’utilisateurs locaux, puis sélectionnez **Suivant**.
+1. Comme les résultats de requête sont retournés sous la forme de statistiques, vous pouvez exporter les résultats.  Sélectionnez **Exporter** pour activer les options disponibles, puis sélectionnez **Annuler** (les options d’exportation ne peuvent pas être sélectionnées à partir de la plateforme d’activité fournie par l’hôte de l’activité autorisée, mais sont disponibles dans un environnement de production et font partie du flux de travail).
 
-1. La page Conditions de requête vous permet de créer une recherche basée sur des mots-clés ou des conditions spécifiques qui sont remplies. Dans le champ Mot-clé, saisissez **Ventes**, puis sélectionnez **Suivant**.
+1. Vous pouvez les ajouter à un jeu à réviser pour un traitement ultérieur.  Sélectionnez **Ajouter au jeu à réviser**. Saisissez un nom pour le nouveau jeu à réviser, **`SC900-review-set`** laissez les paramètres par défaut, puis sélectionnez **Ajouter au jeu à réviser**.  Cette opération peut prendre plusieurs minutes.  Vous pouvez désormais passer en revue et prendre des mesures à partir du jeu à réviser, notamment l’étiquetage des éléments, l’interrogation du jeu à réviser, l’exécution d’analyses et bien plus encore.  Explorons à présent les différentes options.
 
-1. Vérifiez vos paramètres et sélectionnez **Envoyer**, cela peut prendre une minute, puis sélectionnez **Terminé**.  La recherche devrait apparaître dans la liste.  Si ce n’est pas le cas, sélectionnez **Actualiser**.
-
-1. Dans la fenêtre Recherches, sélectionnez celle que vous avez créée, **Conservation test - Recherches ventes**.  Une fenêtre qui s’ouvre avec l’onglet Résumé sélectionné.  Une fois la recherche terminée, l’état indique que celle-ci est terminée.  Vous voyez un onglet Statistiques de recherche (sinon, la recherche est peut-être encore en cours et peut prendre encore quelques minutes).  Sélectionnez l’onglet **Statistiques de recherche** et sélectionnez la liste déroulante située à côté de contenu de recherche.  Vous pouvez également obtenir plus d’informations sur le rapport de condition et les principaux emplacements.  
-
-1. En bas de la page, sélectionnez **Actions**.  Notez les options disponibles qui comprennent des options d’exportation (les options d’exportation ne peuvent pas être sélectionnées à partir de la plateforme lab fournie par l’hébergeur de labo autorisé, mais sont disponibles dans un environnement de production et considérées comme faisant partie du workflow standard). Sélectionnez **Fermer**.
+1. Vous pouvez également créer des stratégies de mise en attente pour conserver le contenu pertinent pour votre cas. Sélectionnez **Stratégies de mise en attente**, puis **Nouvelle stratégie**.  Saisissez un nom de stratégie, **`SC900-hold`** puis sélectionnez **Créer.**  Comme dans la recherche, vous devez ajouter des sources de données pour la conservation et ajouter des mots clés et des conditions à utiliser dans la stratégie de mise en attente, puis vous pouvez sélectionner **Appliquer la conservation**.  Les actions que vous pouvez effectuer sur une stratégie de mise en attente incluent une nouvelle tentative, la désactivation et la suppression.
 
 1. Déconnectez-vous et fermez toutes les fenêtres ouvertes du navigateur.
 
 ### Révision
 
-Dans ce labo, vous avez suivi les étapes nécessaires pour bien démarrer avec eDiscovery (Standard), notamment la configuration des autorisations de rôle pour eDiscovery et la création d’un cas eDiscovery.  Ce dernier vous a permis de suivre les éléments du workflow eDiscovery (Standard) en créant une conservation eDiscovery et une requête de recherche.
+Dans cette activité, vous avez appris les bases d’eDiscovery, notamment la configuration des autorisations pour chaque rôle et la création d’un cas eDiscovery.  Avec le cas, vous avez créé des options explorées disponibles dans le cadre du flux de travail eDiscovery, y compris une recherche eDiscovery, une stratégie de mise en attente, l’ajout des résultats de recherche à un jeu à réviser et l’exportation des résultats.

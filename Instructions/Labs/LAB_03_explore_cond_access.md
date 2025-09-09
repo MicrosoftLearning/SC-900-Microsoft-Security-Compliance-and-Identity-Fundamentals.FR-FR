@@ -16,7 +16,7 @@ Ce labo correspond au contenu Learn suivant :
 
 Dans ce labo, vous découvrirez l’authentification multifacteur (MFA) à accès conditionnel du point de vue d’un administrateur et d’un utilisateur.  En tant qu’administrateur, vous allez créer une stratégie qui exigera qu’un utilisateur passe par l’authentification multifacteur lorsqu’il accède à l’un des portails Microsoft Admin.  Du point de vue de l’utilisateur, vous verrez l’impact de la stratégie d’accès conditionnel, y compris le processus d’inscription à la MFA.
 
-**Durée estimée** : 30 minutes
+**Durée estimée** : 45 minutes
 
 ### Tâche 1
 
@@ -48,11 +48,11 @@ Dans cette tâche, vous allez suivre le processus de création d’une stratégi
 
 1. Ouvrez l’onglet du navigateur de la page d’accueil du centre d’administration Microsoft Entra.   Si vous avez déjà fermé l’onglet du navigateur, ouvrez Microsoft Edge et, dans la barre d’adresse, saisissez **`https://entra.microsoft.com`** et connectez-vous avec les informations d’identification d’administrateur Microsoft 365 fournies par l’ALH.
 
-1. Dans le volet de navigation gauche, développez **Protection**, puis sélectionnez **Accès conditionnel**.
+1. Dans le volet de navigation gauche, vérifiez que **Entra ID** est développé, faites défiler vers le bas et sélectionnez **Accès conditionnel**.
 
-1. La page de présentation de l’accès conditionnel s’affiche. Lorsque vous accédez à la page de présentation, l’onglet **Prise en main** est sélectionné (souligné). Sélectionnez l’onglet **Présentation**. Ici, vous verrez des vignettes montrant le résumé de la stratégie et les alertes générales.  Dans le volet de navigation de gauche, sélectionnez **Stratégies**.
+1. La page de présentation de l’accès conditionnel s’affiche. Lorsque vous accédez à la page de présentation, l’onglet **Prise en main** est sélectionné (souligné). Sélectionnez l’onglet **Présentation**. Ici, vous verrez des vignettes montrant le résumé de la stratégie et les alertes générales.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Stratégies**. Toute stratégie d’accès conditionnel existante est répertoriée ici. Sélectionnez **+ Nouvelle stratégie**.
+1. Dans le panneau de navigation de gauche, sélectionnez **Stratégies**, puis **+ Nouvelle stratégie**.
 
 1. Dans le champ Nom, entrez **Bloquer les portails d’administratio**n.
 
@@ -62,11 +62,11 @@ Dans cette tâche, vous allez suivre le processus de création d’une stratégi
 
 1. Sélectionnez l’option **Sélectionner les utilisateurs et les groupes** et sélectionnez **Utilisateurs et groupes**.  La fenêtre Sélectionner les utilisateurs ou les groupes s’ouvre.  
 
-1. Dans la barre de recherche, entrez **Debra**.  Sélectionnez **Debra Berger** sous la barre de recherche, puis appuyez sur le bouton **Sélectionner** en bas de la page.  Notez qu’il est courant d’affecter la stratégie aux utilisateurs d’un groupe.  Dans ce labo, nous attribuons la stratégie à un utilisateur spécifique afin de gagner du temps.
+1. Dans la barre de recherche, entrez **Debra**.  Sélectionnez **Debra Berger** sous la barre de recherche, puis appuyez sur le bouton **Sélectionner** en bas de la page.  Notez qu’il est courant d’affecter la stratégie aux utilisateurs d’un groupe.  Dans cette activité, nous attribuons la stratégie à un utilisateur spécifique afin de gagner du temps.
 
 1. Sous Ressources cibles, sélectionnez **Aucune ressource cible sélectionnée**.
 
-1. Dans le champ situé en dessous de la mention **Sélectionner ce à quoi cette stratégie s’applique**, sélectionnez la flèche vers le bas et notez les options disponibles.  Conservez le paramètre par défaut, **Logiciels cloud**.  Vérifiez que l’onglet **Inclure** est souligné.  Sélectionnez **Sélectionner des applications**, puis sous **Sélectionner**, sélectionnez **Aucune**.  La fenêtre Logiciels cloud s’ouvre.
+1. Dans le champ situé en dessous de la mention **Sélectionner ce à quoi cette stratégie s’applique**, sélectionnez la flèche vers le bas et notez les options disponibles.  Conservez le paramètre par défaut, **Ressources (anciennement applications cloud)**.  Vérifiez que l’onglet **Inclure** est souligné.  Sélectionnez **Sélectionner les ressources**, puis, sous la mention **Sélectionner**, sélectionnez **Aucune**.  La fenêtre Logiciels cloud s’ouvre.
 
 1. Sélectionnez **Portails d’administration Microsoft**, puis appuyez sur **Sélectionner** en bas de la page.  Notez l’avertissement.  
 

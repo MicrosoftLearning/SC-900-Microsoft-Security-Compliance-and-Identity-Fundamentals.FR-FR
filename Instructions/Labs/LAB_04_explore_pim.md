@@ -48,7 +48,7 @@ Dans cette tâche, en tant qu’administrateur, vous affectez un rôle Microsoft
 
 1. Ouvrez l’onglet du navigateur pour la page d’accueil du centre d’administration Microsoft Entra.
 
-1. Dans le volet de navigation gauche, sous « Identité », développez **Gouvernance des identités**, puis sélectionnez **Privileged Identity Management**.
+1. Dans le volet de navigation gauche, développez **Gouvernance IF**, puis sélectionnez **Privileged Identity Management**.
 
 1. Vous vous trouvez maintenant sur la page de démarrage rapide de Privileged Identity Management. Passez en revue les informations de la page Démarrage. Dans la fenêtre principale, sous l’emplacement intitulé Gérer l’accès, sélectionnez **Gérer**.
 
@@ -96,7 +96,7 @@ Dans cette tâche, vous adopterez le rôle de Dominic Saucier et vous vous conne
     1. Lorsque vous êtes invité à rester connecté, sélectionnez **Oui**.
 
 1. Vous devez être connecté au centre d’administration Microsoft Entra.
-1. Dans le volet de navigation gauche, développez **Gouvernance des identités**, puis sélectionnez **Privileged Identity Management**.
+1. Dans le volet de navigation gauche, développez **Gouvernance ID**, puis sélectionnez **Privileged Identity Management**.
 1. Dans le volet de navigation de gauche, sélectionnez **Mes rôles**.  Vous voyez maintenant des informations sur vos affectations éligibles.  Vous constatez que vous, Dominic, avez le rôle Administrateur d’utilisateurs.  
 1. Dans la dernière colonne de la table, Action étiquetée, sélectionnez **Activer**.
 1. Vous voyez une icône d’avertissement indiquant qu’une vérification supplémentaire est requise.  Sélectionnez **Cliquez pour continuer**.  Rappelez-vous que les paramètres PIM pour le rôle Administrateur d’utilisateurs exigent une authentification multifacteur.  De plus, comme les informations de contact de Diego à utiliser pour la MFA (méthode d’authentification) n’ont pas été configurées auparavant, il doit enregistrer ses informations, pour pouvoir utiliser la MFA.  Bien qu’il doive utiliser la MFA à chaque fois qu’il se connecte en tant qu’Administrateur d’utilisateurs, le processus d’enregistrement de la MFA n’est nécessaire qu’une seule fois au cours de la période d’affectation.
