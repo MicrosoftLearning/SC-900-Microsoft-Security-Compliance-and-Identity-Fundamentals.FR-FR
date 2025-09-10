@@ -48,7 +48,7 @@ Dans cette tâche, en tant qu’administrateur, vous affectez un rôle Microsoft
 
 1. Ouvrez l’onglet du navigateur pour la page d’accueil du centre d’administration Microsoft Entra.
 
-1. Dans le volet de navigation gauche, développez **Gouvernance IF**, puis sélectionnez **Privileged Identity Management**.
+1. Dans le panneau de navigation de gauche, développez **Gouvernance des identités**, puis sélectionnez **Gestion des identités privilégiées**.
 
 1. Vous vous trouvez maintenant sur la page de démarrage rapide de Privileged Identity Management. Passez en revue les informations de la page Démarrage. Dans la fenêtre principale, sous l’emplacement intitulé Gérer l’accès, sélectionnez **Gérer**.
 
