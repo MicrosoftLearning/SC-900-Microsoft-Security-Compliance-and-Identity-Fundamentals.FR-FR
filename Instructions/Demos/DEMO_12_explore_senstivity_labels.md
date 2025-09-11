@@ -14,13 +14,32 @@ Cette démonstration correspond au contenu Learn suivant :
 
 ## Scénario de démonstration
 
-Dans cette démo, vous présentez les fonctionnalités des étiquettes de confidentialité.  Vous passez en revue les paramètres des étiquettes de confidentialité existantes et la stratégie correspondante pour publier l’étiquette.   Ensuite, vous voyez comment appliquer une étiquette et observez son impact du point de vue de l’utilisateur.  **REMARQUE** : la première fois que vous utilisez Word en ligne avec votre locataire Microsoft 365, l’option Sensibilité peut apparaître sur le ruban au bout de 15 minutes.  Les présentateurs doivent exécuter la partie 2 de la démonstration avant la classe afin que le délai soit suffisant pour que l’option s’affiche.
+Cette démonstration a pour objet de présenter les fonctionnalités des étiquettes de confidentialité.  Vous passez en revue les paramètres des étiquettes de confidentialité existantes et la stratégie correspondante pour publier l’étiquette.   Ensuite, vous voyez comment appliquer une étiquette et observez son impact du point de vue de l’utilisateur.
 
-### Partie 1 de la démonstration
+**REMARQUE** : lors de votre première utilisation de Word en ligne avec votre locataire Microsoft 365, l’icône Confidentialité peut prendre jusqu’à 15 minutes pour apparaître sur le ruban. Il est recommandé aux présentateurs d’ouvrir Word en ligne (comme indiqué dans la partie 3 de la démonstration) avant de commencer la démonstration complète afin de s’assurer que le délai nécessaire à l’apparition de l’option est respecté.
+
+### Partie 1 de la démonstration (facultative)
+
+Si c’est la première fois que vous présentez une solution Microsoft Purview, il est recommandé de consacrer quelques minutes à présenter le portail Microsoft Purview, avant d’aborder les étiquettes de confidentialité.
+
+1. Ouvrez Microsoft Edge et entrez **https://purview.microsoft.com** dans la barre d’adresse. Connectez-vous avec les informations d’identification fournies par l’hôte de l’activité autorisé, puis sélectionnez **Prise en main**.  
+
+1. Accordez-vous un moment afin de découvrir le portail Microsoft Purview avant d’aborder les étiquettes de confidentialité.
+
+1. Sélectionnez la vignette **Afficher toutes les solutions** pour afficher un regroupement des solutions Microsoft Purview.
+
+1. Dans le volet de navigation de gauche, vous pouvez voir les options Solutions, Learn, Paramètres, ainsi que les solutions récemment sélectionnées.
+    1. **Solutions.** Cette option ouvre un nouveau panneau affichant toutes les solutions et les portails associés.
+    1. **Apprenez** à afficher les liens vers les documents, les vidéos et les blogs.
+    1. **Paramètres**. Explorez ces options à votre gré. À partir de là, vous pouvez configurer des rôles et des étendues, un connecteur de données et tous les paramètres des solutions.
+
+1. Revenez à la page d’accueil en sélectionnant **Accueil** dans le volet de navigation de gauche.
+
+### Partie 2 de la démonstration
 
 Dans cette démonstration, vous présentez les paramètres d’une étiquette de confidentialité existante et la stratégie correspondante pour la publier.
 
-1. Normalement, vous vous trouvez toujours sur la page d’accueil du portail Microsoft Purview. Dans le cas contraire, ouvrez un nouvel onglet dans le navigateur Microsoft Edge. Dans la barre d’adresse, saisissez **https://purview.microsoft.com**, puis cliquez sur **Prise en main**.  
+1. Normalement, vous vous trouvez sur la page de destination du portail Microsoft Purview.  Dans le cas contraire, ouvrez un onglet dans Microsoft Edge, entrez **`https://puriview.microsoft.com`** et connectez-vous avec les informations d’identification fournies par l’hôte de l’activité autorisé.
 
 1. Depuis la page d’arrivée du nouveau portail Microsoft Purview, sélectionnez la vignette **Afficher toutes les solutions**, puis la vignette **Protection des données**. Vous pouvez également sélectionner **Solutions** dans le volet de navigation de gauche, puis **Information Protection**.
 
@@ -30,7 +49,7 @@ Dans cette démonstration, vous présentez les paramètres d’une étiquette de
     1. La configuration commence par des détails de base pour l’étiquette.  Ne changez rien.  Sélectionnez **Suivant** au bas de la page.
     1. Vérifiez l’étendue de cette étiquette. Ne changez rien.  Sélectionnez **Suivant** au bas de la page.
     1. L’écran suivant vous permet de choisir les paramètres de protection des éléments étiquetés. Cette étiquette définit qui peut accéder aux éléments étiquetés et les consulter, et applique également un marquage de contenu.  Sélectionnez **Suivant** pour afficher les détails.
-        1. Contrôle d’accès : passez en revue les paramètres, sans rien modifier.  Cliquez sur **Suivant**.
+        1. Contrôle d’accès : Passez en revue les paramètres, sans rien modifier.  Cliquez sur **Suivant**.
         1. Marquage du contenu : Notez que l’étiquette applique un pied de page.  Sélectionnez ensuite **Suivant**.
         1. Étiquetage automatique pour les fichiers et les e-mails : Lisez la description de l’étiquetage automatique en haut de la page ainsi que la zone d’informations en dessous.  Notez également que cette étiquette est définie pour l’étiquetage automatique lorsque des numéros de carte de crédit sont détectés. Ne modifiez pas les paramètres.  Sélectionnez **Suivant** au bas de la page.
     1. Définition des paramètres de protection pour les groupes et les sites : Passez en revue les options pour les paramètres de protection et les paramètres d’application automatique.  Aucune configuration n’est présente dans cette fenêtre.  Ne changez rien. Sélectionnez **Suivant** au bas de la page.
@@ -54,7 +73,7 @@ Dans cette démonstration, vous présentez les paramètres d’une étiquette de
 
 1. Gardez cet onglet de navigateur ouvert.
 
-### Partie 2 de la démonstration
+### Partie 3 de la démonstration
 
 Dans cette étape, vous allez appliquer une étiquette de confidentialité à un document Microsoft Word, puis visualiser le marquage de contenu (pied de page) généré par cette étiquette. REMARQUE : Lorsque vous utilisez Microsoft Word en ligne, il se peut que vous rencontriez un délai avant que l’option de sélection des étiquettes de confidentialité n’apparaisse sur le ruban supérieur.  Il est recommandé d’effectuer tous les labos restants, puis de revenir à cette tâche.
 

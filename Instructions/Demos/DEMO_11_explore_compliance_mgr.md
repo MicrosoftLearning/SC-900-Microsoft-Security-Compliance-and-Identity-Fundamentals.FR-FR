@@ -1,10 +1,10 @@
 <!---
 ---
-Démonstration : titre : « Explorer le portail Microsoft Purview et le Gestionnaire de conformité » Parcours d’apprentissage/Module/Unité : « Décrire les fonctionnalités de Microsoft Priva et Microsoft Purview ; Module 2 : Décrire les solutions de conformité des données de Microsoft Purview ; Unité 4 : Décrire le Gestionnaire de conformité »
+Démonstration : Title (Titre) : « Explorer le Gestionnaire de conformité Microsoft Purview » ; parcours d’apprentissage/module/unité : « Décrire les fonctionnalités de Microsoft Priva et de Microsoft Purview ; module 2 : Décrire les solutions de conformité des données de Microsoft Purview ; unité 4 : Décrire le Gestionnaire de conformité »
 ---
 --->
 
-# Démo : explorer le portail Microsoft Purview et le Gestionnaire de conformité
+# Démonstration : Explorer le Gestionnaire de conformité de Microsoft Purview
 
 Cette démonstration correspond au contenu Learn suivant :
 
@@ -22,7 +22,7 @@ Affichez la page d’accueil du portail Microsoft Purview.
 
 1. Ouvrez Microsoft Edge. Dans la barre d’adresse, entrez **https://purview.microsoft.com** . Vous devriez déjà être connecté en tant qu’administrateur.  Si ce n’est pas le cas, connectez-vous avec les informations d’identification d’administrateur du locataire Microsoft 365 fournies par l’hôte de labo autorisé (ALH).
 
-Une nouvelle page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Purview.  Pour accéder au nouveau portail Microsoft Purview, sélectionnez la zone en regard du texte **J’accepte les conditions de divulgation de flux de données et les déclarations de confidentialité**, puis sélectionnez **Démarrer**.  
+Une page de navigateur s’ouvre sur la page d’accueil du portail Microsoft Purview, sélectionnez **Prise en main**.  
 
 1. Avant de passer au Gestionnaire de conformité, prenez quelques instants pour explorer le nouveau portail.
 
