@@ -24,18 +24,23 @@ Une instance de Microsoft Sentinel doit déjà avoir été créée dans le cadre
 
 1. Dans la barre de recherche, dans la barre bleue en haut de la page à côté de là où il est indiqué Microsoft Azure, saisissez **Sentinel** puis sélectionnez **Microsoft Sentinel** à partir des résultats de la recherche.  
 
-1. Dans la page Microsoft Sentinel, vous devriez voir votre instance Sentinel dans la liste. Sélectionnez-la.  Si elle n’est pas répertoriée, créez-la maintenant.
-    1. Dans la page Microsoft Sentinel, sélectionnez **Créer Microsoft Sentinel**.
+1. Sur la page Microsoft Sentinel, vous devriez voir un espace de travail Log Analytics répertorié.  Cela indique qu’une instance de Microsoft Sentinel a été créée et qu’un espace de travail Log Analytics y a été ajouté. Si ce n’est pas le cas, suivez les étapes ci-dessous.
+    1. Dans la zone de recherche bleue en haut de la page, entrez **Log Analytics** et sélectionnez-le dans les résultats de recherche.
+1. Sélectionnez **+ Créer**.
+1. Dans l’onglet Informations de base de la création d’espace de travail Log Analytics, saisissez les informations suivantes :
+    1. Abonnement : conservez la valeur par défaut. Il s’agit de l’abonnement Azure fourni par l’hébergeur de labo autorisé (ALH).
+    1. Groupe de ressources : sélectionnez **SC900-Sentinel-RG**. Si ce groupe de ressources n’est pas répertorié, créez-le en sélectionnant **En créer un nouveau**, entrez **SC900-Sentinel-RG**, puis sélectionnez **Ok**.
+    1. Nom : **SC900-Sentinel-workspace**.
+    1. Région : **USA Est** (une autre région par défaut peut être sélectionnée en fonction de votre emplacement)
+    1. Sélectionnez **Vérifier + Créer** (aucune étiquette n’est configurée).
+    1. Vérifiez les informations saisies, puis sélectionnez **Créer**.
+    1. La création du nouvel espace de travail peut prendre une à deux minutes.
+    1. Une fois créé, sélectionnez **Accéder à la ressource** pour afficher les informations relatives à l’espace de travail.
+1. À ce stade, l’instance de Microsoft Sentinel n’a pas encore été créée. Pour créer une instance de Sentinel, vous devez vous rendre sur la page Microsoft Sentinel. Utilisez la barre de recherche bleue en haut de la page pour rechercher **Microsoft Sentinel** et sélectionnez-le dans les résultats de recherche.
+1. Pour ajouter l’espace de travail à Microsoft Sentinel, vous devez vous rendre sur la page Microsoft Sentinel. Utilisez la barre de recherche bleue en haut de la page pour rechercher **Microsoft Sentinel**
+    1. Depuis la page Microsoft Sentinel, sélectionnez **+ Créer**.
+    1. Vous pouvez maintenant ajouter l’espace de travail que vous venez de créer. Sélectionnez **SC900-Sentinel-workspace**, puis sélectionnez **Ajouter**.  Cela peut prendre quelques minutes, le temps que l’essai gratuit de Microsoft Sentinel s’active.  Une fois l’activation terminée, sélectionnez **Ok**.
 
-    1. Dans la page Ajouter Microsoft Sentinel à un espace de travail, sélectionnez **Créer un espace de travail**. Dans l’onglet Informations de base de la création d’espace de travail Log Analytics, saisissez les informations suivantes :
-        1. Abonnement : conservez la valeur par défaut.
-        1. Groupe de ressources : sélectionnez **Créer**, saisissez le nom **SC900-Sentinel-RG**, puis sélectionnez **OK**.
-        1. Non : **SC900-LogAnalytics-workspace**.
-        1. Région : **USA Est** (une autre région par défaut peut être sélectionnée en fonction de votre emplacement)
-        1. Sélectionnez **Vérifier + Créer** (aucune étiquette n’est configurée).
-        1. Vérifiez les informations saisies, puis sélectionnez **Créer**.
-        1. Il peut s’écouler une minute ou deux avant que le nouvel espace de travail ne soit affiché. Si vous ne le voyez toujours pas, sélectionnez **Actualiser**, puis **Ajouter**.
-        1. Une fois le nouvel espace de travail ajouté, la page Microsoft Sentinel | Actualités et guides s’affiche, indiquant que l’essai gratuit de Microsoft Sentinel est activé.  Cliquez sur **OK**.
 
 1. Laissez cette page ouverte, car vous en aurez besoin pour la prochaine tâche.
 
@@ -60,13 +65,17 @@ Comme pour toutes les ressources Azure, vous voulez vous assurer que les utilisa
 
 1. Dans la page de contrôle d’accès, fermez la fenêtre en sélectionnant le **X** en haut à droite de la fenêtre.
 
+1. En haut à gauche de la fenêtre, juste en dessous de la barre bleue qui indique Microsoft Azure, sélectionnez **Accueil** pour revenir à la page d’accueil des services Azure.
+
+1. Gardez l’onglet Azure ouvert dans votre navigateur.
+
 ### Partie 3 de la démonstration
 
 Dans cette partie de la démonstration, vous allez examiner les étapes de la connexion à une source de données. De nombreux connecteurs de données sont déployés dans le cadre d’une solution Microsoft Sentinel avec du contenu associé comme des règles d’analyse, des classeurs et des guides opérationnels. Le hub de contenu Microsoft Sentinel est l’emplacement centralisé pour découvrir et gérer du contenu prêt à l’emploi (intégré). Cette étape consiste à utiliser le hub de contenu pour déployer la solution Microsoft Defender pour le cloud pour Microsoft Sentinel.  Cette solution vous permet d’ingérer des Alertes de sécurité signalées dans Microsoft Defender pour le cloud.
 
-1. Ouvrez l’onglet du navigateur de Microsoft Sentinel.
+1. Depuis la page d’accueil des services Azure, sélectionnez Microsoft Sentinel, puis sélectionnez l’instance que vous avez créée, **SC900-Sentinel-workspace**.
 
-1. Dans le volet de navigation situé à gauche, sélectionnez **Hub de contenu**.
+1. Dans le volet de navigation gauche, développez **Gestion de contenu**, puis sélectionnez **Hub de contenu**.
 
 1. Prenez le temps de faire défiler les pages pour découvrir la longue liste des solutions disponibles et les options permettant de filtrer la liste.  Pour cette tâche, vous recherchez **Microsoft Defender pour le cloud**.  Sélectionnez-le dans la liste.  Dans la fenêtre latérale qui s’ouvre, lisez la description, puis sélectionnez **Installer**.  Une fois l’installation terminée, la colonne d’état dans la fenêtre principale s’affiche comme étant installée.
 

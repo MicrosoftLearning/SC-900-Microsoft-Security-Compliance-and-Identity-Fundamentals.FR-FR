@@ -118,26 +118,25 @@ L’objectif ici est simplement d’accéder à Microsoft Defender pour le cloud
 
 ### Microsoft Sentinel
 
-Vérifiez qu’une instance de Microsoft Sentinel a déjà été créée. Si ce n’est pas le cas, configurez-la maintenant, car vous en aurez besoin dans le cadre de la démo sur Microsoft Sentinel.
+Configurez un espace de travail Log Analytics et, une fois celui-ci créé, créez une instance de Microsoft Sentinel et ajoutez-y l’espace de travail Log Analytics.
 
 1. Ouvrez l’onglet Accueil - Microsoft Azure dans votre navigateur.
 
-1. Dans la barre de recherche, dans la barre bleue en haut de la page à côté de là où il est indiqué Microsoft Azure, saisissez **Sentinel** puis sélectionnez **Microsoft Sentinel** à partir des résultats de la recherche.
-
-1. Dans la page Microsoft Sentinel, sélectionnez **Créer Microsoft Sentinel**.
-
-1. Dans la page Ajouter Microsoft Sentinel à un espace de travail, sélectionnez **Créer un espace de travail**.
-
+1. Dans la zone de recherche bleue en haut de la page, entrez **Log Analytics** et sélectionnez-le dans les résultats de recherche.
+1. Sélectionnez **+ Créer**.
 1. Dans l’onglet Informations de base de la création d’espace de travail Log Analytics, saisissez les informations suivantes :
-    1. Abonnement : conservez la valeur par défaut.
-    1. Groupe de ressources : sélectionnez **Créer**, saisissez le nom **SC900-Sentinel-RG**, puis sélectionnez **OK**.
-    1. Non : **SC900-LogAnalytics-workspace**.
-    1. Région : **USA Est** (une autre région par défaut peut être sélectionnée en fonction de votre emplacement).
+    1. Abonnement : conservez la valeur par défaut. Il s’agit de l’abonnement Azure fourni par l’hébergeur de labo autorisé (ALH).
+    1. Groupe de ressources : sélectionnez **SC900-Sentinel-RG**. Si ce groupe de ressources n’est pas répertorié, créez-le en sélectionnant **En créer un nouveau**, entrez **SC900-Sentinel-RG**, puis sélectionnez **Ok**.
+    1. Nom : **SC900-Sentinel-workspace**.
+    1. Région : **USA Est** (une autre région par défaut peut être sélectionnée en fonction de votre emplacement)
     1. Sélectionnez **Vérifier + Créer** (aucune étiquette n’est configurée).
     1. Vérifiez les informations saisies, puis sélectionnez **Créer**.
-    1. Il peut s’écouler une minute ou deux avant que le nouvel espace de travail ne soit affiché. Si vous ne le voyez toujours pas, sélectionnez **Actualiser**, puis **Ajouter**.
-
-1. Une fois le nouvel espace de travail ajouté, la page Microsoft Sentinel | Actualités et guides s’affiche, indiquant que l’essai gratuit de Microsoft Sentinel est activé.  Cliquez sur **OK**.
+    1. La création du nouvel espace de travail peut prendre une à deux minutes.
+    1. Une fois créé, sélectionnez **Accéder à la ressource** pour afficher les informations relatives à l’espace de travail.
+1. À ce stade, l’instance de Microsoft Sentinel n’a pas encore été créée. Pour créer une instance de Sentinel, vous devez vous rendre sur la page Microsoft Sentinel. Utilisez la barre de recherche bleue en haut de la page pour rechercher **Microsoft Sentinel** et sélectionnez-le dans les résultats de recherche.
+1. Pour ajouter l’espace de travail à Microsoft Sentinel, vous devez vous rendre sur la page Microsoft Sentinel. Utilisez la barre de recherche bleue en haut de la page pour rechercher **Microsoft Sentinel**
+    1. Depuis la page Microsoft Sentinel, sélectionnez **+ Créer**.
+    1. Vous pouvez maintenant ajouter l’espace de travail que vous venez de créer. Sélectionnez **SC900-Sentinel-workspace**, puis sélectionnez **Ajouter**.  Cela peut prendre quelques minutes, le temps que l’essai gratuit de Microsoft Sentinel s’active.  Une fois l’activation terminée, sélectionnez **Ok**.
 
 ### Révision
 
